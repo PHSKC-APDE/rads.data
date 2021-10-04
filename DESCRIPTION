@@ -1,0 +1,17 @@
+Package: rads.data
+Type: Package
+Title: Data for rads package and other public health uses
+Version: 0.1.0
+Author: PHSKC-APDE
+Maintainer: Danny Colombara <Data.Request@kingcounty.gov>
+Description: Provides reference datasets that are intelligently formatted and ready for analysis.  
+    Some data are used within rads functions (e.g., icd_nchs113causes) whereas others are simply
+    made available for other public health analyses (e.g., occupation_soc_structure_2018).
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Imports: 
+    data.table (>= 1.13.1)
+Depends: 
+    R (>= 3.5.0)
