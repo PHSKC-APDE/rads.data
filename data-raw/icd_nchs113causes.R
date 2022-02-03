@@ -5,35 +5,31 @@ library(data.table)
 # Function to clean / prep imported data to fix random white spaces (sql_clean) ----
   sql_clean <- function (dat = NULL, stringsAsFactors = FALSE)
       {
-        if (!is.null(dat)) {
-          if (!is.data.frame(dat)) {
+        # check date.frame
+        if(!is.null(dat)){
+          if(!is.data.frame(dat)){
             stop("'dat' must be the name of a data.frame or data.table")
           }
-          if (is.data.frame(dat) && !data.table::is.data.table(dat)) {
+          if(is.data.frame(dat) && !data.table::is.data.table(dat)){
             data.table::setDT(dat)
           }
-        }
-        else {
-          stop("'dat' (the name of a data.frame or data.table) must be specified")
-        }
+        } else {stop("'dat' (the name of a data.frame or data.table) must be specified")}
+
         original.order <- names(dat)
-        factor.columns <- which(vapply(dat, is.factor, FUN.VALUE = logical(1)))
-        if (length(factor.columns) > 0) {
-          dat[, `:=`((factor.columns), lapply(.SD, as.character)),
-              .SDcols = factor.columns]
+        factor.columns <- which(vapply(dat,is.factor, FUN.VALUE=logical(1) )) # identify factor columns
+        if(length(factor.columns)>0) {
+          dat[, (factor.columns) := lapply(.SD, as.character), .SDcols = factor.columns] # convert factor to string
         }
-        string.columns <- which(vapply(dat, is.character, FUN.VALUE = logical(1)))
-        if (length(string.columns) > 0) {
-          dat[, `:=`((string.columns), lapply(.SD, trimws, which = "both")),
-              .SDcols = string.columns]
-          dat[, `:=`((string.columns), lapply(.SD, function(x) {
-            gsub("^$|^ $", NA, x)
-          })), .SDcols = string.columns]
-          if (stringsAsFactors == TRUE) {
-            dat <- dat[, `:=`((string.columns), lapply(.SD,
-                                                       factor)), .SDcols = string.columns]
+        string.columns <- which(vapply(dat,is.character, FUN.VALUE=logical(1) )) # identify string columns
+        if(length(string.columns)>0) {
+          dat[, (string.columns) := lapply(.SD, trimws, which="both"), .SDcols = string.columns] # trim white space to right or left
+          dat[, (string.columns) := lapply(.SD, function(x){gsub("^ *|(?<= ) | *$", "", x, perl = TRUE)}), .SDcols = string.columns] # collapse multiple consecutive white spaces into one
+          dat[, (string.columns) := lapply(.SD, function(x){gsub("^$|^ $", NA, x)}), .SDcols = string.columns] # replace blanks with NA
+          if(stringsAsFactors==TRUE){
+            dat <- dat[, (string.columns) := lapply(.SD, factor), .SDcols = string.columns] # convert strings to factors
           }
         }
+        # reorder table
         data.table::setcolorder(dat, original.order)
       }
 

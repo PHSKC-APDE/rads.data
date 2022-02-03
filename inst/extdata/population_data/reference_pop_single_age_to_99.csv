@@ -1,203 +1,203 @@
-"standard","agecat","age_start","age_end","pop","source"
-"World (WHO 2000-2025) Std Million (single ages to 99)","0 years",0,0,17917,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","0 years",0,0,3794901,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","1 years",1,1,17802,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","1 years",1,1,3758562,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","2 years",2,2,17701,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","2 years",2,2,3773025,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","3 years",3,3,17613,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","3 years",3,3,3791001,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","4 years",4,4,17536,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","4 years",4,4,3869031,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","5 years",5,5,17470,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","5 years",5,5,3896081,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","6 years",6,6,17414,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","6 years",6,6,3917855,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","7 years",7,7,17366,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","7 years",7,7,3978143,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","8 years",8,8,17327,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","8 years",8,8,3903983,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","9 years",9,9,17293,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","9 years",9,9,4223778,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","10 years",10,10,17263,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","10 years",10,10,4230322,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","11 years",11,11,17233,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","11 years",11,11,4027959,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","12 years",12,12,17199,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","12 years",12,12,3941299,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","13 years",13,13,17160,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","13 years",13,13,3923270,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","14 years",14,14,17115,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","14 years",14,14,3933929,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","15 years",15,15,17069,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","15 years",15,15,3952423,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","16 years",16,16,17018,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","16 years",16,16,3853629,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","17 years",17,17,16952,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","17 years",17,17,4012263,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","18 years",18,18,16866,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","18 years",18,18,3936904,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","19 years",19,19,16765,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","19 years",19,19,4064299,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","20 years",20,20,16656,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","20 years",20,20,4037599,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","21 years",21,21,16546,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","21 years",21,21,3764802,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","22 years",22,22,16434,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","22 years",22,22,3555718,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","23 years",23,23,16323,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","23 years",23,23,3489233,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","24 years",24,24,16212,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","24 years",24,24,3409873,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","25 years",25,25,16094,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","25 years",25,25,3421099,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","26 years",26,26,15971,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","26 years",26,26,3328203,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","27 years",27,27,15851,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","27 years",27,27,3434987,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","28 years",28,28,15735,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","28 years",28,28,3450602,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","29 years",29,29,15621,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","29 years",29,29,4087176,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","30 years",30,30,15504,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","30 years",30,30,3999004,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","31 years",31,31,15376,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","31 years",31,31,3810183,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","32 years",32,32,15233,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","32 years",32,32,3774385,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","33 years",33,33,15070,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","33 years",33,33,3840938,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","34 years",34,34,14890,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","34 years",34,34,4086860,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","35 years",35,35,14702,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","35 years",35,35,4288078,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","36 years",36,36,14510,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","36 years",36,36,4349620,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","37 years",37,37,14307,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","37 years",37,37,4469476,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","38 years",38,38,14091,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","38 years",38,38,4290207,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","39 years",39,39,13865,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","39 years",39,39,4782575,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","40 years",40,40,13629,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","40 years",40,40,4666685,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","41 years",41,41,13391,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","41 years",41,41,4493582,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","42 years",42,42,13163,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","42 years",42,42,4487560,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","43 years",43,43,12949,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","43 years",43,43,4424004,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","44 years",44,44,12745,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","44 years",44,44,4407398,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","45 years",45,45,12538,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","45 years",45,45,4268017,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","46 years",46,46,12320,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","46 years",46,46,4033859,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","47 years",47,47,12091,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","47 years",47,47,3958468,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","48 years",48,48,11845,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","48 years",48,48,3681489,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","49 years",49,49,11585,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","49 years",49,49,3863960,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","50 years",50,50,11320,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","50 years",50,50,3720935,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","51 years",51,51,11048,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","51 years",51,51,3504329,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","52 years",52,52,10757,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","52 years",52,52,3475657,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","53 years",53,53,10443,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","53 years",53,53,3754218,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","54 years",54,54,10113,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","54 years",54,54,2769220,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","55 years",55,55,9774,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","55 years",55,55,2749739,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","56 years",56,56,9435,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","56 years",56,56,2786795,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","57 years",57,57,9095,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","57 years",57,57,2947472,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","58 years",58,58,8757,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","58 years",58,58,2404462,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","59 years",59,59,8423,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","59 years",59,59,2418766,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","60 years",60,60,8087,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","60 years",60,60,2259141,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","61 years",61,61,7750,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","61 years",61,61,2179759,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","62 years",62,62,7425,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","62 years",62,62,2132873,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","63 years",63,63,7113,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","63 years",63,63,2030730,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","64 years",64,64,6812,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","64 years",64,64,2051769,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","65 years",65,65,6517,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","65 years",65,65,2033933,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","66 years",66,66,6221,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","66 years",66,66,1862107,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","67 years",67,67,5923,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","67 years",67,67,1849893,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","68 years",68,68,5618,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","68 years",68,68,1788769,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","69 years",69,69,5311,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","69 years",69,69,1875238,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","70 years",70,70,5005,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","70 years",70,70,1843087,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","71 years",71,71,4706,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","71 years",71,71,1784744,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","72 years",72,72,4412,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","72 years",72,72,1802080,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","73 years",73,73,4125,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","73 years",73,73,1674285,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","74 years",74,74,3844,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","74 years",74,74,1621378,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","75 years",75,75,3569,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","75 years",75,75,1610943,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","76 years",76,76,3300,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","76 years",76,76,1530137,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","77 years",77,77,3035,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","77 years",77,77,1450062,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","78 years",78,78,2773,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","78 years",78,78,1456186,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","79 years",79,79,2518,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","79 years",79,79,1367231,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","80 years",80,80,2271,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","80 years",80,80,1172978,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","81 years",81,81,2033,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","81 years",81,81,1065672,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","82 years",82,82,1807,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","82 years",82,82,963587,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","83 years",83,83,1594,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","83 years",83,83,890893,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","84 years",84,84,1392,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","84 years",84,84,807104,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","85 years",85,85,1203,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","85 years",85,85,693158,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","86 years",86,86,1025,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","86 years",86,86,607940,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","87 years",87,87,863,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","87 years",87,87,536762,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","88 years",88,88,718,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","88 years",88,88,452814,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","89 years",89,89,589,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","89 years",89,89,387893,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","90 years",90,90,475,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","90 years",90,90,327827,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","91 years",91,91,374,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","91 years",91,91,273709,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","92 years",92,92,287,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","92 years",92,92,226917,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","93 years",93,93,212,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","93 years",93,93,180330,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","94 years",94,94,152,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","94 years",94,94,143772,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","95 years",95,95,106,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","95 years",95,95,118131,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","96 years",96,96,76,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","96 years",96,96,88924,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","97 years",97,97,62,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","97 years",97,97,65909,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","98 years",98,98,66,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","98 years",98,98,46278,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","99 years",99,99,90,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","99 years",99,99,37194,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (single ages to 99)","100+ years",100,120,50,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","100+ years",100,120,71615,"2019-11-14; https://seer.cancer.gov/stdpopulations"
+"standard","agecat","age_start","age_end","pop","source","uploaded"
+"World (WHO 2000-2025) Std Million (single ages to 99)","0 years",0,0,17917,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","0 years",0,0,3794901,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","1 years",1,1,17802,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","1 years",1,1,3758562,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","2 years",2,2,17701,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","2 years",2,2,3773025,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","3 years",3,3,17613,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","3 years",3,3,3791001,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","4 years",4,4,17536,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","4 years",4,4,3869031,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","5 years",5,5,17470,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","5 years",5,5,3896081,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","6 years",6,6,17414,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","6 years",6,6,3917855,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","7 years",7,7,17366,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","7 years",7,7,3978143,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","8 years",8,8,17327,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","8 years",8,8,3903983,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","9 years",9,9,17293,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","9 years",9,9,4223778,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","10 years",10,10,17263,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","10 years",10,10,4230322,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","11 years",11,11,17233,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","11 years",11,11,4027959,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","12 years",12,12,17199,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","12 years",12,12,3941299,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","13 years",13,13,17160,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","13 years",13,13,3923270,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","14 years",14,14,17115,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","14 years",14,14,3933929,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","15 years",15,15,17069,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","15 years",15,15,3952423,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","16 years",16,16,17018,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","16 years",16,16,3853629,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","17 years",17,17,16952,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","17 years",17,17,4012263,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","18 years",18,18,16866,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","18 years",18,18,3936904,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","19 years",19,19,16765,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","19 years",19,19,4064299,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","20 years",20,20,16656,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","20 years",20,20,4037599,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","21 years",21,21,16546,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","21 years",21,21,3764802,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","22 years",22,22,16434,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","22 years",22,22,3555718,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","23 years",23,23,16323,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","23 years",23,23,3489233,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","24 years",24,24,16212,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","24 years",24,24,3409873,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","25 years",25,25,16094,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","25 years",25,25,3421099,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","26 years",26,26,15971,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","26 years",26,26,3328203,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","27 years",27,27,15851,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","27 years",27,27,3434987,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","28 years",28,28,15735,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","28 years",28,28,3450602,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","29 years",29,29,15621,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","29 years",29,29,4087176,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","30 years",30,30,15504,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","30 years",30,30,3999004,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","31 years",31,31,15376,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","31 years",31,31,3810183,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","32 years",32,32,15233,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","32 years",32,32,3774385,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","33 years",33,33,15070,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","33 years",33,33,3840938,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","34 years",34,34,14890,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","34 years",34,34,4086860,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","35 years",35,35,14702,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","35 years",35,35,4288078,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","36 years",36,36,14510,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","36 years",36,36,4349620,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","37 years",37,37,14307,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","37 years",37,37,4469476,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","38 years",38,38,14091,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","38 years",38,38,4290207,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","39 years",39,39,13865,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","39 years",39,39,4782575,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","40 years",40,40,13629,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","40 years",40,40,4666685,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","41 years",41,41,13391,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","41 years",41,41,4493582,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","42 years",42,42,13163,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","42 years",42,42,4487560,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","43 years",43,43,12949,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","43 years",43,43,4424004,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","44 years",44,44,12745,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","44 years",44,44,4407398,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","45 years",45,45,12538,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","45 years",45,45,4268017,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","46 years",46,46,12320,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","46 years",46,46,4033859,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","47 years",47,47,12091,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","47 years",47,47,3958468,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","48 years",48,48,11845,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","48 years",48,48,3681489,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","49 years",49,49,11585,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","49 years",49,49,3863960,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","50 years",50,50,11320,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","50 years",50,50,3720935,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","51 years",51,51,11048,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","51 years",51,51,3504329,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","52 years",52,52,10757,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","52 years",52,52,3475657,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","53 years",53,53,10443,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","53 years",53,53,3754218,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","54 years",54,54,10113,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","54 years",54,54,2769220,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","55 years",55,55,9774,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","55 years",55,55,2749739,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","56 years",56,56,9435,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","56 years",56,56,2786795,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","57 years",57,57,9095,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","57 years",57,57,2947472,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","58 years",58,58,8757,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","58 years",58,58,2404462,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","59 years",59,59,8423,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","59 years",59,59,2418766,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","60 years",60,60,8087,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","60 years",60,60,2259141,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","61 years",61,61,7750,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","61 years",61,61,2179759,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","62 years",62,62,7425,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","62 years",62,62,2132873,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","63 years",63,63,7113,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","63 years",63,63,2030730,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","64 years",64,64,6812,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","64 years",64,64,2051769,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","65 years",65,65,6517,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","65 years",65,65,2033933,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","66 years",66,66,6221,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","66 years",66,66,1862107,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","67 years",67,67,5923,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","67 years",67,67,1849893,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","68 years",68,68,5618,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","68 years",68,68,1788769,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","69 years",69,69,5311,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","69 years",69,69,1875238,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","70 years",70,70,5005,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","70 years",70,70,1843087,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","71 years",71,71,4706,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","71 years",71,71,1784744,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","72 years",72,72,4412,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","72 years",72,72,1802080,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","73 years",73,73,4125,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","73 years",73,73,1674285,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","74 years",74,74,3844,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","74 years",74,74,1621378,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","75 years",75,75,3569,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","75 years",75,75,1610943,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","76 years",76,76,3300,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","76 years",76,76,1530137,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","77 years",77,77,3035,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","77 years",77,77,1450062,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","78 years",78,78,2773,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","78 years",78,78,1456186,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","79 years",79,79,2518,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","79 years",79,79,1367231,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","80 years",80,80,2271,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","80 years",80,80,1172978,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","81 years",81,81,2033,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","81 years",81,81,1065672,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","82 years",82,82,1807,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","82 years",82,82,963587,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","83 years",83,83,1594,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","83 years",83,83,890893,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","84 years",84,84,1392,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","84 years",84,84,807104,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","85 years",85,85,1203,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","85 years",85,85,693158,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","86 years",86,86,1025,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","86 years",86,86,607940,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","87 years",87,87,863,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","87 years",87,87,536762,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","88 years",88,88,718,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","88 years",88,88,452814,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","89 years",89,89,589,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","89 years",89,89,387893,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","90 years",90,90,475,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","90 years",90,90,327827,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","91 years",91,91,374,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","91 years",91,91,273709,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","92 years",92,92,287,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","92 years",92,92,226917,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","93 years",93,93,212,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","93 years",93,93,180330,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","94 years",94,94,152,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","94 years",94,94,143772,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","95 years",95,95,106,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","95 years",95,95,118131,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","96 years",96,96,76,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","96 years",96,96,88924,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","97 years",97,97,62,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","97 years",97,97,65909,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","98 years",98,98,66,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","98 years",98,98,46278,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","99 years",99,99,90,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","99 years",99,99,37194,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (single ages to 99)","100+ years",100,120,50,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (single ages to 99 - Census P25-1130)","100+ years",100,120,71615,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02

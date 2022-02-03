@@ -15,6 +15,9 @@ A data.table with 840 rows and three variables: \code{'SOC Code'}, \code{'SOC Ti
 occupation_soc_2010_definitions
 }
 \description{
+2010 BLS Standard Occupational Classification (SOC) definitions.
+}
+\details{
 Detailed definitions for each 2010 BLS SOC code / title
 }
 \keyword{datasets}

@@ -20,7 +20,7 @@ If you haven’t yet installed [`rads.data`](https://github.com/PHSKC-APDE/rads.
 5. Confirm `rads.data` installed properly by typing `library(rads.data)` in the console.
 
 ## Getting started
-As of October 4, 2021, this package contains data.tables from the following thematic areas:
+As of February 3, 2022, this package contains data.tables from the following thematic areas:
 
 1. **icd** << reference tables of ICD 10 codes for causes of death and hospitalizations.
 
@@ -33,7 +33,7 @@ As of October 4, 2021, this package contains data.tables from the following them
 
 All of the data.tables are prefixed by their thematic area, i.e., every table begins with `spatial_`, or `population_`, or `occupation_`, or `icd_`.
 
-Once the package has been loaded, you can import the data.table of interest into memory by simply typing `data(data.table.name)`. For example, typing `data(spatial_zip_hca)` will import the 'spatial_zip_hca' data.table. If you want to know which tables are available, it easiest to type the thematic area prefix (i.e, `icd_`) into the console and scroll through the available options. If you scroll slowly, descriptions should pop up on in a small window. If you want to see the full documentation for the data.table, type `?data.table.name`. For example, `?icd_nchs113causes`.
+Once the package has been loaded, you can import the table of interest into memory by simply typing `data(table.name)`. For example, typing `data(spatial_zip_hca)` will import the 'spatial_zip_hca' data.table. If you want to know which tables are available, it easiest to type `rads.data::` and then the thematic area prefix (i.e, `rads.data::icd_`) into the console and scroll through the available options. If you scroll slowly, descriptions should pop up on in a small window. If you want to see the full documentation for a specific table, type `?table.name`. For example, `?icd_nchs113causes`.
 
 Finally, if you need a CSV to share the data with non-R users, you can point them to [`inst/extdata`](https://github.com/PHSKC-APDE/rads.data/inst/extdata). This folder contains CSV copies of the R data files. When updating this package, all updates should be performed on the R data files followed by running the [copying code](https://github.com/PHSKC-APDE/rads.data/blob/main/data-raw/copy_rda_to_csv.R).
 

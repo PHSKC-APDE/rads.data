@@ -15,14 +15,16 @@ A data.table with 2975 rows and three variables: \code{causeid}, \code{cause.of.
 icd_nchs113causes
 }
 \description{
-NCHS 113 Selected Causes of Death (long). Cause id 95 (“All other diseases (Residual)”) uses codings discovered on a PHSKC
+NCHS 113 Selected Causes of Death (long). Cause id 95 ("All other diseases (Residual)") uses codings discovered on a PHSKC
     network drive. They were propbably created by Mike Smyzer, who has retired. These
     are being used instead of the CDC codes due to better alignment with WA DOH. The
-    official CDC coding is now saved as cause id 114 “CDC version of cause id 95 (Residual)”
-    Per CDC guidance, contains •	COVID-19 (U07.1) in cause id 17 (“Other and unspecified
-    infectious and parasitic diseases and their sequelae”)
+    official CDC coding is now saved as cause id 114 "CDC version of cause id 95 (Residual)".
 }
-\details{
-See also https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/CodeSetDefinitions/NCHS113CausesOfDeath.pdf
+\note{
+Per CDC guidance, our cause list contains COVID-19 (U07.1) in cause id 17 ("Other and unspecified
+    infectious and parasitic diseases and their sequelae")
+}
+\references{
+https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/CodeSetDefinitions/NCHS113CausesOfDeath.pdf
 }
 \keyword{datasets}

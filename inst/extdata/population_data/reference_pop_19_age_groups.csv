@@ -1,286 +1,286 @@
-"standard","agecat","age_start","age_end","pop","source"
-"European (Scandinavian 1960) Std Million (19 age groups)","0 years",0,0,16000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (Segi 1960) Std Million (19 age groups)","0 years",0,0,24000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1991 Canadian Std Million (19 age groups)","0 years",0,0,14334,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1996 Canadian Std Million (19 age groups)","0 years",0,0,12342,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (19 age groups)","0 years",0,0,17917,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","0 years",0,0,10000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2011 Canadian Standard Population (19 age groups)","0 years",0,0,376321,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1940 U.S. Std Million (19 age groups)","0 years",0,0,15343,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1950 U.S. Std Million (19 age groups)","0 years",0,0,20882,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1960 U.S. Std Million (19 age groups)","0 years",0,0,22930,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1970 U.S. Std Million (19 age groups)","0 years",0,0,17151,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1980 U.S. Std Million (19 age groups)","0 years",0,0,15598,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1990 U.S. Std Million (19 age groups)","0 years",0,0,12936,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Million (19 age groups)","0 years",0,0,13818,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (19 age groups - Census P25-1130)","0 years",0,0,3794901,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (Scandinavian 1960) Std Million (19 age groups)","1-4 years",1,4,64000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (Segi 1960) Std Million (19 age groups)","1-4 years",1,4,96000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1991 Canadian Std Million (19 age groups)","1-4 years",1,4,55131,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1996 Canadian Std Million (19 age groups)","1-4 years",1,4,53893,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (19 age groups)","1-4 years",1,4,70652,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","1-4 years",1,4,40000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2011 Canadian Standard Population (19 age groups)","1-4 years",1,4,1522743,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1940 U.S. Std Million (19 age groups)","1-4 years",1,4,64718,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1950 U.S. Std Million (19 age groups)","1-4 years",1,4,86376,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1960 U.S. Std Million (19 age groups)","1-4 years",1,4,90390,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1970 U.S. Std Million (19 age groups)","1-4 years",1,4,67265,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1980 U.S. Std Million (19 age groups)","1-4 years",1,4,56565,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1990 U.S. Std Million (19 age groups)","1-4 years",1,4,60863,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Million (19 age groups)","1-4 years",1,4,55317,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (19 age groups - Census P25-1130)","1-4 years",1,4,15191619,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (Scandinavian 1960) Std Million (19 age groups)","5-9 years",5,9,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (Segi 1960) Std Million (19 age groups)","5-9 years",5,9,100000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1991 Canadian Std Million (19 age groups)","5-9 years",5,9,69454,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1996 Canadian Std Million (19 age groups)","5-9 years",5,9,67985,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (19 age groups)","5-9 years",5,9,86870,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","5-9 years",5,9,55000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2011 Canadian Standard Population (19 age groups)","5-9 years",5,9,1810433,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1940 U.S. Std Million (19 age groups)","5-9 years",5,9,81147,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1950 U.S. Std Million (19 age groups)","5-9 years",5,9,87591,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1960 U.S. Std Million (19 age groups)","5-9 years",5,9,104235,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1970 U.S. Std Million (19 age groups)","5-9 years",5,9,98204,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1980 U.S. Std Million (19 age groups)","5-9 years",5,9,73716,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1990 U.S. Std Million (19 age groups)","5-9 years",5,9,72772,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Million (19 age groups)","5-9 years",5,9,72533,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (19 age groups - Census P25-1130)","5-9 years",5,9,19919840,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (Scandinavian 1960) Std Million (19 age groups)","10-14 years",10,14,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (Segi 1960) Std Million (19 age groups)","10-14 years",10,14,90000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1991 Canadian Std Million (19 age groups)","10-14 years",10,14,68034,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1996 Canadian Std Million (19 age groups)","10-14 years",10,14,67716,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (19 age groups)","10-14 years",10,14,85970,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","10-14 years",10,14,55000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2011 Canadian Standard Population (19 age groups)","10-14 years",10,14,1918164,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1940 U.S. Std Million (19 age groups)","10-14 years",10,14,89208,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1950 U.S. Std Million (19 age groups)","10-14 years",10,14,73785,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1960 U.S. Std Million (19 age groups)","10-14 years",10,14,93538,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1970 U.S. Std Million (19 age groups)","10-14 years",10,14,102304,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1980 U.S. Std Million (19 age groups)","10-14 years",10,14,80523,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1990 U.S. Std Million (19 age groups)","10-14 years",10,14,68812,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Million (19 age groups)","10-14 years",10,14,73032,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (19 age groups - Census P25-1130)","10-14 years",10,14,20056779,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (Scandinavian 1960) Std Million (19 age groups)","15-19 years",15,19,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (Segi 1960) Std Million (19 age groups)","15-19 years",15,19,90000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1991 Canadian Std Million (19 age groups)","15-19 years",15,19,68495,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1996 Canadian Std Million (19 age groups)","15-19 years",15,19,67841,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (19 age groups)","15-19 years",15,19,84670,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","15-19 years",15,19,55000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2011 Canadian Standard Population (19 age groups)","15-19 years",15,19,2238952,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1940 U.S. Std Million (19 age groups)","15-19 years",15,19,93670,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1950 U.S. Std Million (19 age groups)","15-19 years",15,19,70450,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1960 U.S. Std Million (19 age groups)","15-19 years",15,19,73717,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1970 U.S. Std Million (19 age groups)","15-19 years",15,19,93845,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1980 U.S. Std Million (19 age groups)","15-19 years",15,19,93439,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1990 U.S. Std Million (19 age groups)","15-19 years",15,19,71384,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Million (19 age groups)","15-19 years",15,19,72169,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (19 age groups - Census P25-1130)","15-19 years",15,19,19819518,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (Scandinavian 1960) Std Million (19 age groups)","20-24 years",20,24,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (Segi 1960) Std Million (19 age groups)","20-24 years",20,24,80000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1991 Canadian Std Million (19 age groups)","20-24 years",20,24,75016,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1996 Canadian Std Million (19 age groups)","20-24 years",20,24,67761,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (19 age groups)","20-24 years",20,24,82171,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","20-24 years",20,24,60000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2011 Canadian Standard Population (19 age groups)","20-24 years",20,24,2354354,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1940 U.S. Std Million (19 age groups)","20-24 years",20,24,88007,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1950 U.S. Std Million (19 age groups)","20-24 years",20,24,76191,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1960 U.S. Std Million (19 age groups)","20-24 years",20,24,60231,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1970 U.S. Std Million (19 age groups)","20-24 years",20,24,80561,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1980 U.S. Std Million (19 age groups)","20-24 years",20,24,94103,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1990 U.S. Std Million (19 age groups)","20-24 years",20,24,76476,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Million (19 age groups)","20-24 years",20,24,66478,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (19 age groups - Census P25-1130)","20-24 years",20,24,18257225,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (Scandinavian 1960) Std Million (19 age groups)","25-29 years",25,29,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (Segi 1960) Std Million (19 age groups)","25-29 years",25,29,80000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1991 Canadian Std Million (19 age groups)","25-29 years",25,29,89944,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1996 Canadian Std Million (19 age groups)","25-29 years",25,29,72914,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (19 age groups)","25-29 years",25,29,79272,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","25-29 years",25,29,60000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2011 Canadian Standard Population (19 age groups)","25-29 years",25,29,2369841,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1940 U.S. Std Million (19 age groups)","25-29 years",25,29,84277,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1950 U.S. Std Million (19 age groups)","25-29 years",25,29,81237,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1960 U.S. Std Million (19 age groups)","25-29 years",25,29,60612,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1970 U.S. Std Million (19 age groups)","25-29 years",25,29,66320,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1980 U.S. Std Million (19 age groups)","25-29 years",25,29,86168,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1990 U.S. Std Million (19 age groups)","25-29 years",25,29,85694,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Million (19 age groups)","25-29 years",25,29,64529,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (19 age groups - Census P25-1130)","25-29 years",25,29,17722067,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (Scandinavian 1960) Std Million (19 age groups)","30-34 years",30,34,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (Segi 1960) Std Million (19 age groups)","30-34 years",30,34,60000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1991 Canadian Std Million (19 age groups)","30-34 years",30,34,92400,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1996 Canadian Std Million (19 age groups)","30-34 years",30,34,87030,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (19 age groups)","30-34 years",30,34,76073,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","30-34 years",30,34,65000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2011 Canadian Standard Population (19 age groups)","30-34 years",30,34,2327955,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1940 U.S. Std Million (19 age groups)","30-34 years",30,34,77789,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1950 U.S. Std Million (19 age groups)","30-34 years",30,34,76425,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1960 U.S. Std Million (19 age groups)","30-34 years",30,34,66635,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1970 U.S. Std Million (19 age groups)","30-34 years",30,34,56249,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1980 U.S. Std Million (19 age groups)","30-34 years",30,34,77516,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1990 U.S. Std Million (19 age groups)","30-34 years",30,34,87905,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Million (19 age groups)","30-34 years",30,34,71044,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (19 age groups - Census P25-1130)","30-34 years",30,34,19511370,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (Scandinavian 1960) Std Million (19 age groups)","35-39 years",35,39,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (Segi 1960) Std Million (19 age groups)","35-39 years",35,39,60000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1991 Canadian Std Million (19 age groups)","35-39 years",35,39,83388,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1996 Canadian Std Million (19 age groups)","35-39 years",35,39,88510,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (19 age groups)","35-39 years",35,39,71475,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","35-39 years",35,39,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2011 Canadian Standard Population (19 age groups)","35-39 years",35,39,2273087,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1940 U.S. Std Million (19 age groups)","35-39 years",35,39,72495,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1950 U.S. Std Million (19 age groups)","35-39 years",35,39,74629,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1960 U.S. Std Million (19 age groups)","35-39 years",35,39,69601,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1970 U.S. Std Million (19 age groups)","35-39 years",35,39,54656,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1980 U.S. Std Million (19 age groups)","35-39 years",35,39,61644,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1990 U.S. Std Million (19 age groups)","35-39 years",35,39,80267,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Million (19 age groups)","35-39 years",35,39,80762,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (19 age groups - Census P25-1130)","35-39 years",35,39,22179956,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (Scandinavian 1960) Std Million (19 age groups)","40-44 years",40,44,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (Segi 1960) Std Million (19 age groups)","40-44 years",40,44,60000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1991 Canadian Std Million (19 age groups)","40-44 years",40,44,76063,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1996 Canadian Std Million (19 age groups)","40-44 years",40,44,80055,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (19 age groups)","40-44 years",40,44,65877,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","40-44 years",40,44,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2011 Canadian Standard Population (19 age groups)","40-44 years",40,44,2385918,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1940 U.S. Std Million (19 age groups)","40-44 years",40,44,66742,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1950 U.S. Std Million (19 age groups)","40-44 years",40,44,67712,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1960 U.S. Std Million (19 age groups)","40-44 years",40,44,64689,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1970 U.S. Std Million (19 age groups)","40-44 years",40,44,58958,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1980 U.S. Std Million (19 age groups)","40-44 years",40,44,51510,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1990 U.S. Std Million (19 age groups)","40-44 years",40,44,70829,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Million (19 age groups)","40-44 years",40,44,81851,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (19 age groups - Census P25-1130)","40-44 years",40,44,22479229,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (Scandinavian 1960) Std Million (19 age groups)","45-49 years",45,49,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (Segi 1960) Std Million (19 age groups)","45-49 years",45,49,60000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1991 Canadian Std Million (19 age groups)","45-49 years",45,49,59536,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1996 Canadian Std Million (19 age groups)","45-49 years",45,49,71847,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (19 age groups)","45-49 years",45,49,60379,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","45-49 years",45,49,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2011 Canadian Standard Population (19 age groups)","45-49 years",45,49,2719909,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1940 U.S. Std Million (19 age groups)","45-49 years",45,49,62697,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1950 U.S. Std Million (19 age groups)","45-49 years",45,49,60190,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1960 U.S. Std Million (19 age groups)","45-49 years",45,49,60670,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1970 U.S. Std Million (19 age groups)","45-49 years",45,49,59622,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1980 U.S. Std Million (19 age groups)","45-49 years",45,49,48951,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1990 U.S. Std Million (19 age groups)","45-49 years",45,49,55778,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Million (19 age groups)","45-49 years",45,49,72118,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (19 age groups - Census P25-1130)","45-49 years",45,49,19805793,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (Scandinavian 1960) Std Million (19 age groups)","50-54 years",50,54,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (Segi 1960) Std Million (19 age groups)","50-54 years",50,54,50000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1991 Canadian Std Million (19 age groups)","50-54 years",50,54,47649,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1996 Canadian Std Million (19 age groups)","50-54 years",50,54,55812,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (19 age groups)","50-54 years",50,54,53681,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","50-54 years",50,54,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2011 Canadian Standard Population (19 age groups)","50-54 years",50,54,2691260,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1940 U.S. Std Million (19 age groups)","50-54 years",50,54,55114,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1950 U.S. Std Million (19 age groups)","50-54 years",50,54,54893,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1960 U.S. Std Million (19 age groups)","50-54 years",50,54,53568,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1970 U.S. Std Million (19 age groups)","50-54 years",50,54,54643,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1980 U.S. Std Million (19 age groups)","50-54 years",50,54,51689,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1990 U.S. Std Million (19 age groups)","50-54 years",50,54,45638,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Million (19 age groups)","50-54 years",50,54,62716,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (19 age groups - Census P25-1130)","50-54 years",50,54,17224359,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (Scandinavian 1960) Std Million (19 age groups)","55-59 years",55,59,60000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (Segi 1960) Std Million (19 age groups)","55-59 years",55,59,40000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1991 Canadian Std Million (19 age groups)","55-59 years",55,59,44041,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1996 Canadian Std Million (19 age groups)","55-59 years",55,59,44869,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (19 age groups)","55-59 years",55,59,45484,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","55-59 years",55,59,65000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2011 Canadian Standard Population (19 age groups)","55-59 years",55,59,2353090,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1940 U.S. Std Million (19 age groups)","55-59 years",55,59,44383,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1950 U.S. Std Million (19 age groups)","55-59 years",55,59,48011,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1960 U.S. Std Million (19 age groups)","55-59 years",55,59,47009,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1970 U.S. Std Million (19 age groups)","55-59 years",55,59,49077,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1980 U.S. Std Million (19 age groups)","55-59 years",55,59,51271,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1990 U.S. Std Million (19 age groups)","55-59 years",55,59,42345,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Million (19 age groups)","55-59 years",55,59,48454,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (19 age groups - Census P25-1130)","55-59 years",55,59,13307234,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (Scandinavian 1960) Std Million (19 age groups)","60-64 years",60,64,50000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (Segi 1960) Std Million (19 age groups)","60-64 years",60,64,40000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1991 Canadian Std Million (19 age groups)","60-64 years",60,64,42326,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1996 Canadian Std Million (19 age groups)","60-64 years",60,64,40705,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (19 age groups)","60-64 years",60,64,37187,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","60-64 years",60,64,60000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2011 Canadian Standard Population (19 age groups)","60-64 years",60,64,2050443,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1940 U.S. Std Million (19 age groups)","60-64 years",60,64,35911,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1950 U.S. Std Million (19 age groups)","60-64 years",60,64,40210,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1960 U.S. Std Million (19 age groups)","60-64 years",60,64,39830,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1970 U.S. Std Million (19 age groups)","60-64 years",60,64,42403,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1980 U.S. Std Million (19 age groups)","60-64 years",60,64,44528,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1990 U.S. Std Million (19 age groups)","60-64 years",60,64,42685,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Million (19 age groups)","60-64 years",60,64,38793,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (19 age groups - Census P25-1130)","60-64 years",60,64,10654272,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (Scandinavian 1960) Std Million (19 age groups)","65-69 years",65,69,40000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (Segi 1960) Std Million (19 age groups)","65-69 years",65,69,30000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1991 Canadian Std Million (19 age groups)","65-69 years",65,69,38570,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1996 Canadian Std Million (19 age groups)","65-69 years",65,69,37858,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (19 age groups)","65-69 years",65,69,29590,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","65-69 years",65,69,55000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2011 Canadian Standard Population (19 age groups)","65-69 years",65,69,1532940,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1940 U.S. Std Million (19 age groups)","65-69 years",65,69,28911,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1950 U.S. Std Million (19 age groups)","65-69 years",65,69,33199,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1960 U.S. Std Million (19 age groups)","65-69 years",65,69,34897,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1970 U.S. Std Million (19 age groups)","65-69 years",65,69,34406,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1980 U.S. Std Million (19 age groups)","65-69 years",65,69,38767,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1990 U.S. Std Million (19 age groups)","65-69 years",65,69,40657,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Million (19 age groups)","65-69 years",65,69,34264,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (19 age groups - Census P25-1130)","65-69 years",65,69,9409940,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (Scandinavian 1960) Std Million (19 age groups)","70-74 years",70,74,30000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (Segi 1960) Std Million (19 age groups)","70-74 years",70,74,20000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1991 Canadian Std Million (19 age groups)","70-74 years",70,74,29660,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1996 Canadian Std Million (19 age groups)","70-74 years",70,74,32589,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (19 age groups)","70-74 years",70,74,22092,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","70-74 years",70,74,50000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2011 Canadian Standard Population (19 age groups)","70-74 years",70,74,1153822,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1940 U.S. Std Million (19 age groups)","70-74 years",70,74,19515,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1950 U.S. Std Million (19 age groups)","70-74 years",70,74,22641,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1960 U.S. Std Million (19 age groups)","70-74 years",70,74,26427,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1970 U.S. Std Million (19 age groups)","70-74 years",70,74,26789,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1980 U.S. Std Million (19 age groups)","70-74 years",70,74,30008,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1990 U.S. Std Million (19 age groups)","70-74 years",70,74,32145,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Million (19 age groups)","70-74 years",70,74,31773,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (19 age groups - Census P25-1130)","70-74 years",70,74,8725574,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (Scandinavian 1960) Std Million (19 age groups)","75-79 years",75,79,20000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (Segi 1960) Std Million (19 age groups)","75-79 years",75,79,10000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1991 Canadian Std Million (19 age groups)","75-79 years",75,79,22127,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1996 Canadian Std Million (19 age groups)","75-79 years",75,79,23232,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (19 age groups)","75-79 years",75,79,15195,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","75-79 years",75,79,40000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2011 Canadian Standard Population (19 age groups)","75-79 years",75,79,919338,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1940 U.S. Std Million (19 age groups)","75-79 years",75,79,11422,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1950 U.S. Std Million (19 age groups)","75-79 years",75,79,14283,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1960 U.S. Std Million (19 age groups)","75-79 years",75,79,17028,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1970 U.S. Std Million (19 age groups)","75-79 years",75,79,18871,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1980 U.S. Std Million (19 age groups)","75-79 years",75,79,21160,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1990 U.S. Std Million (19 age groups)","75-79 years",75,79,24612,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Million (19 age groups)","75-79 years",75,79,26999,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (19 age groups - Census P25-1130)","75-79 years",75,79,7414559,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (Scandinavian 1960) Std Million (19 age groups)","80-84 years",80,84,10000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (Segi 1960) Std Million (19 age groups)","80-84 years",80,84,5000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1991 Canadian Std Million (19 age groups)","80-84 years",80,84,13595,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1996 Canadian Std Million (19 age groups)","80-84 years",80,84,15424,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (19 age groups)","80-84 years",80,84,9097,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","80-84 years",80,84,25000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2011 Canadian Standard Population (19 age groups)","80-84 years",80,84,701140,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1940 U.S. Std Million (19 age groups)","80-84 years",80,84,5881,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1950 U.S. Std Million (19 age groups)","80-84 years",80,84,7467,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1960 U.S. Std Million (19 age groups)","80-84 years",80,84,8811,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1970 U.S. Std Million (19 age groups)","80-84 years",80,84,11241,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1980 U.S. Std Million (19 age groups)","80-84 years",80,84,12956,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1990 U.S. Std Million (19 age groups)","80-84 years",80,84,15817,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Million (19 age groups)","80-84 years",80,84,17842,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (19 age groups - Census P25-1130)","80-84 years",80,84,4900234,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (Scandinavian 1960) Std Million (19 age groups)","85+ years",85,120,10000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (Segi 1960) Std Million (19 age groups)","85+ years",85,120,5000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1991 Canadian Std Million (19 age groups)","85+ years",85,120,10237,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1996 Canadian Std Million (19 age groups)","85+ years",85,120,11617,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"World (WHO 2000-2025) Std Million (19 age groups)","85+ years",85,120,6348,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","85+ years",85,120,25000,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2011 Canadian Standard Population (19 age groups)","85+ years",85,120,643070,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1940 U.S. Std Million (19 age groups)","85+ years",85,120,2770,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1950 U.S. Std Million (19 age groups)","85+ years",85,120,3828,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1960 U.S. Std Million (19 age groups)","85+ years",85,120,5182,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1970 U.S. Std Million (19 age groups)","85+ years",85,120,7435,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1980 U.S. Std Million (19 age groups)","85+ years",85,120,9888,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"1990 U.S. Std Million (19 age groups)","85+ years",85,120,12385,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Million (19 age groups)","85+ years",85,120,15508,"2019-11-14; https://seer.cancer.gov/stdpopulations"
-"2000 U.S. Std Population (19 age groups - Census P25-1130)","85+ years",85,120,4259173,"2019-11-14; https://seer.cancer.gov/stdpopulations"
+"standard","agecat","age_start","age_end","pop","source","uploaded"
+"European (Scandinavian 1960) Std Million (19 age groups)","0 years",0,0,16000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (Segi 1960) Std Million (19 age groups)","0 years",0,0,24000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1991 Canadian Std Million (19 age groups)","0 years",0,0,14334,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1996 Canadian Std Million (19 age groups)","0 years",0,0,12342,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (19 age groups)","0 years",0,0,17917,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","0 years",0,0,10000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2011 Canadian Standard Population (19 age groups)","0 years",0,0,376321,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1940 U.S. Std Million (19 age groups)","0 years",0,0,15343,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1950 U.S. Std Million (19 age groups)","0 years",0,0,20882,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1960 U.S. Std Million (19 age groups)","0 years",0,0,22930,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1970 U.S. Std Million (19 age groups)","0 years",0,0,17151,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1980 U.S. Std Million (19 age groups)","0 years",0,0,15598,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1990 U.S. Std Million (19 age groups)","0 years",0,0,12936,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Million (19 age groups)","0 years",0,0,13818,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (19 age groups - Census P25-1130)","0 years",0,0,3794901,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (Scandinavian 1960) Std Million (19 age groups)","1-4 years",1,4,64000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (Segi 1960) Std Million (19 age groups)","1-4 years",1,4,96000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1991 Canadian Std Million (19 age groups)","1-4 years",1,4,55131,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1996 Canadian Std Million (19 age groups)","1-4 years",1,4,53893,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (19 age groups)","1-4 years",1,4,70652,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","1-4 years",1,4,40000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2011 Canadian Standard Population (19 age groups)","1-4 years",1,4,1522743,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1940 U.S. Std Million (19 age groups)","1-4 years",1,4,64718,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1950 U.S. Std Million (19 age groups)","1-4 years",1,4,86376,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1960 U.S. Std Million (19 age groups)","1-4 years",1,4,90390,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1970 U.S. Std Million (19 age groups)","1-4 years",1,4,67265,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1980 U.S. Std Million (19 age groups)","1-4 years",1,4,56565,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1990 U.S. Std Million (19 age groups)","1-4 years",1,4,60863,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Million (19 age groups)","1-4 years",1,4,55317,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (19 age groups - Census P25-1130)","1-4 years",1,4,15191619,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (Scandinavian 1960) Std Million (19 age groups)","5-9 years",5,9,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (Segi 1960) Std Million (19 age groups)","5-9 years",5,9,100000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1991 Canadian Std Million (19 age groups)","5-9 years",5,9,69454,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1996 Canadian Std Million (19 age groups)","5-9 years",5,9,67985,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (19 age groups)","5-9 years",5,9,86870,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","5-9 years",5,9,55000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2011 Canadian Standard Population (19 age groups)","5-9 years",5,9,1810433,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1940 U.S. Std Million (19 age groups)","5-9 years",5,9,81147,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1950 U.S. Std Million (19 age groups)","5-9 years",5,9,87591,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1960 U.S. Std Million (19 age groups)","5-9 years",5,9,104235,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1970 U.S. Std Million (19 age groups)","5-9 years",5,9,98204,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1980 U.S. Std Million (19 age groups)","5-9 years",5,9,73716,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1990 U.S. Std Million (19 age groups)","5-9 years",5,9,72772,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Million (19 age groups)","5-9 years",5,9,72533,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (19 age groups - Census P25-1130)","5-9 years",5,9,19919840,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (Scandinavian 1960) Std Million (19 age groups)","10-14 years",10,14,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (Segi 1960) Std Million (19 age groups)","10-14 years",10,14,90000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1991 Canadian Std Million (19 age groups)","10-14 years",10,14,68034,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1996 Canadian Std Million (19 age groups)","10-14 years",10,14,67716,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (19 age groups)","10-14 years",10,14,85970,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","10-14 years",10,14,55000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2011 Canadian Standard Population (19 age groups)","10-14 years",10,14,1918164,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1940 U.S. Std Million (19 age groups)","10-14 years",10,14,89208,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1950 U.S. Std Million (19 age groups)","10-14 years",10,14,73785,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1960 U.S. Std Million (19 age groups)","10-14 years",10,14,93538,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1970 U.S. Std Million (19 age groups)","10-14 years",10,14,102304,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1980 U.S. Std Million (19 age groups)","10-14 years",10,14,80523,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1990 U.S. Std Million (19 age groups)","10-14 years",10,14,68812,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Million (19 age groups)","10-14 years",10,14,73032,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (19 age groups - Census P25-1130)","10-14 years",10,14,20056779,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (Scandinavian 1960) Std Million (19 age groups)","15-19 years",15,19,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (Segi 1960) Std Million (19 age groups)","15-19 years",15,19,90000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1991 Canadian Std Million (19 age groups)","15-19 years",15,19,68495,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1996 Canadian Std Million (19 age groups)","15-19 years",15,19,67841,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (19 age groups)","15-19 years",15,19,84670,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","15-19 years",15,19,55000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2011 Canadian Standard Population (19 age groups)","15-19 years",15,19,2238952,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1940 U.S. Std Million (19 age groups)","15-19 years",15,19,93670,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1950 U.S. Std Million (19 age groups)","15-19 years",15,19,70450,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1960 U.S. Std Million (19 age groups)","15-19 years",15,19,73717,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1970 U.S. Std Million (19 age groups)","15-19 years",15,19,93845,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1980 U.S. Std Million (19 age groups)","15-19 years",15,19,93439,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1990 U.S. Std Million (19 age groups)","15-19 years",15,19,71384,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Million (19 age groups)","15-19 years",15,19,72169,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (19 age groups - Census P25-1130)","15-19 years",15,19,19819518,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (Scandinavian 1960) Std Million (19 age groups)","20-24 years",20,24,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (Segi 1960) Std Million (19 age groups)","20-24 years",20,24,80000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1991 Canadian Std Million (19 age groups)","20-24 years",20,24,75016,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1996 Canadian Std Million (19 age groups)","20-24 years",20,24,67761,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (19 age groups)","20-24 years",20,24,82171,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","20-24 years",20,24,60000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2011 Canadian Standard Population (19 age groups)","20-24 years",20,24,2354354,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1940 U.S. Std Million (19 age groups)","20-24 years",20,24,88007,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1950 U.S. Std Million (19 age groups)","20-24 years",20,24,76191,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1960 U.S. Std Million (19 age groups)","20-24 years",20,24,60231,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1970 U.S. Std Million (19 age groups)","20-24 years",20,24,80561,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1980 U.S. Std Million (19 age groups)","20-24 years",20,24,94103,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1990 U.S. Std Million (19 age groups)","20-24 years",20,24,76476,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Million (19 age groups)","20-24 years",20,24,66478,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (19 age groups - Census P25-1130)","20-24 years",20,24,18257225,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (Scandinavian 1960) Std Million (19 age groups)","25-29 years",25,29,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (Segi 1960) Std Million (19 age groups)","25-29 years",25,29,80000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1991 Canadian Std Million (19 age groups)","25-29 years",25,29,89944,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1996 Canadian Std Million (19 age groups)","25-29 years",25,29,72914,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (19 age groups)","25-29 years",25,29,79272,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","25-29 years",25,29,60000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2011 Canadian Standard Population (19 age groups)","25-29 years",25,29,2369841,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1940 U.S. Std Million (19 age groups)","25-29 years",25,29,84277,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1950 U.S. Std Million (19 age groups)","25-29 years",25,29,81237,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1960 U.S. Std Million (19 age groups)","25-29 years",25,29,60612,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1970 U.S. Std Million (19 age groups)","25-29 years",25,29,66320,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1980 U.S. Std Million (19 age groups)","25-29 years",25,29,86168,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1990 U.S. Std Million (19 age groups)","25-29 years",25,29,85694,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Million (19 age groups)","25-29 years",25,29,64529,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (19 age groups - Census P25-1130)","25-29 years",25,29,17722067,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (Scandinavian 1960) Std Million (19 age groups)","30-34 years",30,34,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (Segi 1960) Std Million (19 age groups)","30-34 years",30,34,60000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1991 Canadian Std Million (19 age groups)","30-34 years",30,34,92400,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1996 Canadian Std Million (19 age groups)","30-34 years",30,34,87030,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (19 age groups)","30-34 years",30,34,76073,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","30-34 years",30,34,65000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2011 Canadian Standard Population (19 age groups)","30-34 years",30,34,2327955,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1940 U.S. Std Million (19 age groups)","30-34 years",30,34,77789,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1950 U.S. Std Million (19 age groups)","30-34 years",30,34,76425,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1960 U.S. Std Million (19 age groups)","30-34 years",30,34,66635,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1970 U.S. Std Million (19 age groups)","30-34 years",30,34,56249,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1980 U.S. Std Million (19 age groups)","30-34 years",30,34,77516,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1990 U.S. Std Million (19 age groups)","30-34 years",30,34,87905,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Million (19 age groups)","30-34 years",30,34,71044,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (19 age groups - Census P25-1130)","30-34 years",30,34,19511370,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (Scandinavian 1960) Std Million (19 age groups)","35-39 years",35,39,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (Segi 1960) Std Million (19 age groups)","35-39 years",35,39,60000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1991 Canadian Std Million (19 age groups)","35-39 years",35,39,83388,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1996 Canadian Std Million (19 age groups)","35-39 years",35,39,88510,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (19 age groups)","35-39 years",35,39,71475,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","35-39 years",35,39,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2011 Canadian Standard Population (19 age groups)","35-39 years",35,39,2273087,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1940 U.S. Std Million (19 age groups)","35-39 years",35,39,72495,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1950 U.S. Std Million (19 age groups)","35-39 years",35,39,74629,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1960 U.S. Std Million (19 age groups)","35-39 years",35,39,69601,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1970 U.S. Std Million (19 age groups)","35-39 years",35,39,54656,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1980 U.S. Std Million (19 age groups)","35-39 years",35,39,61644,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1990 U.S. Std Million (19 age groups)","35-39 years",35,39,80267,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Million (19 age groups)","35-39 years",35,39,80762,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (19 age groups - Census P25-1130)","35-39 years",35,39,22179956,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (Scandinavian 1960) Std Million (19 age groups)","40-44 years",40,44,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (Segi 1960) Std Million (19 age groups)","40-44 years",40,44,60000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1991 Canadian Std Million (19 age groups)","40-44 years",40,44,76063,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1996 Canadian Std Million (19 age groups)","40-44 years",40,44,80055,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (19 age groups)","40-44 years",40,44,65877,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","40-44 years",40,44,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2011 Canadian Standard Population (19 age groups)","40-44 years",40,44,2385918,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1940 U.S. Std Million (19 age groups)","40-44 years",40,44,66742,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1950 U.S. Std Million (19 age groups)","40-44 years",40,44,67712,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1960 U.S. Std Million (19 age groups)","40-44 years",40,44,64689,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1970 U.S. Std Million (19 age groups)","40-44 years",40,44,58958,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1980 U.S. Std Million (19 age groups)","40-44 years",40,44,51510,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1990 U.S. Std Million (19 age groups)","40-44 years",40,44,70829,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Million (19 age groups)","40-44 years",40,44,81851,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (19 age groups - Census P25-1130)","40-44 years",40,44,22479229,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (Scandinavian 1960) Std Million (19 age groups)","45-49 years",45,49,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (Segi 1960) Std Million (19 age groups)","45-49 years",45,49,60000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1991 Canadian Std Million (19 age groups)","45-49 years",45,49,59536,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1996 Canadian Std Million (19 age groups)","45-49 years",45,49,71847,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (19 age groups)","45-49 years",45,49,60379,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","45-49 years",45,49,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2011 Canadian Standard Population (19 age groups)","45-49 years",45,49,2719909,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1940 U.S. Std Million (19 age groups)","45-49 years",45,49,62697,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1950 U.S. Std Million (19 age groups)","45-49 years",45,49,60190,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1960 U.S. Std Million (19 age groups)","45-49 years",45,49,60670,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1970 U.S. Std Million (19 age groups)","45-49 years",45,49,59622,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1980 U.S. Std Million (19 age groups)","45-49 years",45,49,48951,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1990 U.S. Std Million (19 age groups)","45-49 years",45,49,55778,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Million (19 age groups)","45-49 years",45,49,72118,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (19 age groups - Census P25-1130)","45-49 years",45,49,19805793,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (Scandinavian 1960) Std Million (19 age groups)","50-54 years",50,54,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (Segi 1960) Std Million (19 age groups)","50-54 years",50,54,50000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1991 Canadian Std Million (19 age groups)","50-54 years",50,54,47649,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1996 Canadian Std Million (19 age groups)","50-54 years",50,54,55812,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (19 age groups)","50-54 years",50,54,53681,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","50-54 years",50,54,70000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2011 Canadian Standard Population (19 age groups)","50-54 years",50,54,2691260,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1940 U.S. Std Million (19 age groups)","50-54 years",50,54,55114,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1950 U.S. Std Million (19 age groups)","50-54 years",50,54,54893,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1960 U.S. Std Million (19 age groups)","50-54 years",50,54,53568,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1970 U.S. Std Million (19 age groups)","50-54 years",50,54,54643,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1980 U.S. Std Million (19 age groups)","50-54 years",50,54,51689,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1990 U.S. Std Million (19 age groups)","50-54 years",50,54,45638,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Million (19 age groups)","50-54 years",50,54,62716,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (19 age groups - Census P25-1130)","50-54 years",50,54,17224359,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (Scandinavian 1960) Std Million (19 age groups)","55-59 years",55,59,60000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (Segi 1960) Std Million (19 age groups)","55-59 years",55,59,40000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1991 Canadian Std Million (19 age groups)","55-59 years",55,59,44041,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1996 Canadian Std Million (19 age groups)","55-59 years",55,59,44869,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (19 age groups)","55-59 years",55,59,45484,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","55-59 years",55,59,65000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2011 Canadian Standard Population (19 age groups)","55-59 years",55,59,2353090,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1940 U.S. Std Million (19 age groups)","55-59 years",55,59,44383,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1950 U.S. Std Million (19 age groups)","55-59 years",55,59,48011,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1960 U.S. Std Million (19 age groups)","55-59 years",55,59,47009,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1970 U.S. Std Million (19 age groups)","55-59 years",55,59,49077,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1980 U.S. Std Million (19 age groups)","55-59 years",55,59,51271,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1990 U.S. Std Million (19 age groups)","55-59 years",55,59,42345,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Million (19 age groups)","55-59 years",55,59,48454,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (19 age groups - Census P25-1130)","55-59 years",55,59,13307234,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (Scandinavian 1960) Std Million (19 age groups)","60-64 years",60,64,50000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (Segi 1960) Std Million (19 age groups)","60-64 years",60,64,40000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1991 Canadian Std Million (19 age groups)","60-64 years",60,64,42326,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1996 Canadian Std Million (19 age groups)","60-64 years",60,64,40705,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (19 age groups)","60-64 years",60,64,37187,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","60-64 years",60,64,60000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2011 Canadian Standard Population (19 age groups)","60-64 years",60,64,2050443,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1940 U.S. Std Million (19 age groups)","60-64 years",60,64,35911,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1950 U.S. Std Million (19 age groups)","60-64 years",60,64,40210,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1960 U.S. Std Million (19 age groups)","60-64 years",60,64,39830,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1970 U.S. Std Million (19 age groups)","60-64 years",60,64,42403,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1980 U.S. Std Million (19 age groups)","60-64 years",60,64,44528,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1990 U.S. Std Million (19 age groups)","60-64 years",60,64,42685,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Million (19 age groups)","60-64 years",60,64,38793,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (19 age groups - Census P25-1130)","60-64 years",60,64,10654272,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (Scandinavian 1960) Std Million (19 age groups)","65-69 years",65,69,40000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (Segi 1960) Std Million (19 age groups)","65-69 years",65,69,30000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1991 Canadian Std Million (19 age groups)","65-69 years",65,69,38570,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1996 Canadian Std Million (19 age groups)","65-69 years",65,69,37858,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (19 age groups)","65-69 years",65,69,29590,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","65-69 years",65,69,55000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2011 Canadian Standard Population (19 age groups)","65-69 years",65,69,1532940,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1940 U.S. Std Million (19 age groups)","65-69 years",65,69,28911,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1950 U.S. Std Million (19 age groups)","65-69 years",65,69,33199,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1960 U.S. Std Million (19 age groups)","65-69 years",65,69,34897,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1970 U.S. Std Million (19 age groups)","65-69 years",65,69,34406,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1980 U.S. Std Million (19 age groups)","65-69 years",65,69,38767,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1990 U.S. Std Million (19 age groups)","65-69 years",65,69,40657,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Million (19 age groups)","65-69 years",65,69,34264,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (19 age groups - Census P25-1130)","65-69 years",65,69,9409940,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (Scandinavian 1960) Std Million (19 age groups)","70-74 years",70,74,30000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (Segi 1960) Std Million (19 age groups)","70-74 years",70,74,20000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1991 Canadian Std Million (19 age groups)","70-74 years",70,74,29660,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1996 Canadian Std Million (19 age groups)","70-74 years",70,74,32589,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (19 age groups)","70-74 years",70,74,22092,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","70-74 years",70,74,50000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2011 Canadian Standard Population (19 age groups)","70-74 years",70,74,1153822,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1940 U.S. Std Million (19 age groups)","70-74 years",70,74,19515,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1950 U.S. Std Million (19 age groups)","70-74 years",70,74,22641,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1960 U.S. Std Million (19 age groups)","70-74 years",70,74,26427,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1970 U.S. Std Million (19 age groups)","70-74 years",70,74,26789,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1980 U.S. Std Million (19 age groups)","70-74 years",70,74,30008,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1990 U.S. Std Million (19 age groups)","70-74 years",70,74,32145,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Million (19 age groups)","70-74 years",70,74,31773,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (19 age groups - Census P25-1130)","70-74 years",70,74,8725574,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (Scandinavian 1960) Std Million (19 age groups)","75-79 years",75,79,20000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (Segi 1960) Std Million (19 age groups)","75-79 years",75,79,10000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1991 Canadian Std Million (19 age groups)","75-79 years",75,79,22127,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1996 Canadian Std Million (19 age groups)","75-79 years",75,79,23232,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (19 age groups)","75-79 years",75,79,15195,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","75-79 years",75,79,40000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2011 Canadian Standard Population (19 age groups)","75-79 years",75,79,919338,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1940 U.S. Std Million (19 age groups)","75-79 years",75,79,11422,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1950 U.S. Std Million (19 age groups)","75-79 years",75,79,14283,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1960 U.S. Std Million (19 age groups)","75-79 years",75,79,17028,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1970 U.S. Std Million (19 age groups)","75-79 years",75,79,18871,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1980 U.S. Std Million (19 age groups)","75-79 years",75,79,21160,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1990 U.S. Std Million (19 age groups)","75-79 years",75,79,24612,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Million (19 age groups)","75-79 years",75,79,26999,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (19 age groups - Census P25-1130)","75-79 years",75,79,7414559,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (Scandinavian 1960) Std Million (19 age groups)","80-84 years",80,84,10000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (Segi 1960) Std Million (19 age groups)","80-84 years",80,84,5000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1991 Canadian Std Million (19 age groups)","80-84 years",80,84,13595,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1996 Canadian Std Million (19 age groups)","80-84 years",80,84,15424,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (19 age groups)","80-84 years",80,84,9097,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","80-84 years",80,84,25000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2011 Canadian Standard Population (19 age groups)","80-84 years",80,84,701140,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1940 U.S. Std Million (19 age groups)","80-84 years",80,84,5881,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1950 U.S. Std Million (19 age groups)","80-84 years",80,84,7467,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1960 U.S. Std Million (19 age groups)","80-84 years",80,84,8811,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1970 U.S. Std Million (19 age groups)","80-84 years",80,84,11241,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1980 U.S. Std Million (19 age groups)","80-84 years",80,84,12956,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1990 U.S. Std Million (19 age groups)","80-84 years",80,84,15817,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Million (19 age groups)","80-84 years",80,84,17842,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (19 age groups - Census P25-1130)","80-84 years",80,84,4900234,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (Scandinavian 1960) Std Million (19 age groups)","85+ years",85,120,10000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (Segi 1960) Std Million (19 age groups)","85+ years",85,120,5000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1991 Canadian Std Million (19 age groups)","85+ years",85,120,10237,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1996 Canadian Std Million (19 age groups)","85+ years",85,120,11617,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"World (WHO 2000-2025) Std Million (19 age groups)","85+ years",85,120,6348,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"European (EU-27 plus EFTA 2011-2030) Std Million (19 age groups)","85+ years",85,120,25000,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2011 Canadian Standard Population (19 age groups)","85+ years",85,120,643070,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1940 U.S. Std Million (19 age groups)","85+ years",85,120,2770,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1950 U.S. Std Million (19 age groups)","85+ years",85,120,3828,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1960 U.S. Std Million (19 age groups)","85+ years",85,120,5182,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1970 U.S. Std Million (19 age groups)","85+ years",85,120,7435,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1980 U.S. Std Million (19 age groups)","85+ years",85,120,9888,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"1990 U.S. Std Million (19 age groups)","85+ years",85,120,12385,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Million (19 age groups)","85+ years",85,120,15508,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02
+"2000 U.S. Std Population (19 age groups - Census P25-1130)","85+ years",85,120,4259173,"2019-11-14; https://seer.cancer.gov/stdpopulations",2022-02-02

@@ -1,49 +1,49 @@
-"hra","vid","region","region_id"
-"Auburn-North",1000,"South",41154
-"Auburn-South",1100,"South",41154
-"Ballard",2000,"Seattle",31152
-"Beacon/Gtown/S.Park",2100,"Seattle",31152
-"Capitol Hill/E.lake",2200,"Seattle",31152
-"Central Seattle",2300,"Seattle",31152
-"Delridge",2400,"Seattle",31152
-"Downtown",2500,"Seattle",31152
-"Fremont/Greenlake",2550,"Seattle",31152
-"NE Seattle",2600,"Seattle",31152
-"North Seattle",2700,"Seattle",31152
-"NW Seattle",2800,"Seattle",31152
-"QA/Magnolia",2900,"Seattle",31152
-"SE Seattle",2950,"Seattle",31152
-"West Seattle",2960,"Seattle",31152
-"Bear Creek/Carnation/Duvall",3000,"East",11153
-"Bellevue-Central",4000,"East",11153
-"Bellevue-NE",4100,"East",11153
-"Bellevue-South",4200,"East",11153
-"Bellevue-West",4300,"East",11153
-"Black Diamond/Enumclaw/SE County",5000,"South",41154
-"Bothell/Woodinville",6000,"North",21151
-"Burien",7000,"South",41154
-"Covington/Maple Valley",8000,"South",41154
-"Des Moines/Normandy Park",9000,"South",41154
-"East Federal Way",10000,"South",41154
-"Fed Way-Central/Military Rd",10100,"South",41154
-"Fed Way-Dash Pt",10200,"South",41154
-"Fairwood",11000,"South",41154
-"Issaquah",12000,"East",11153
-"Kenmore/LFP",13000,"North",21151
-"Kent-East",14000,"South",41154
-"Kent-SE",14100,"South",41154
-"Kent-West",14200,"South",41154
-"Kirkland",15000,"East",11153
-"Kirkland North",15100,"East",11153
-"Mercer Isle/Pt Cities",16000,"East",11153
-"Newcastle/Four Creeks",17000,"East",11153
-"North Highline",18000,"South",41154
-"Redmond",19000,"East",11153
-"Renton-East",20000,"South",41154
-"Renton-North",20100,"South",41154
-"Renton-South",20200,"South",41154
-"Sammamish",21000,"East",11153
-"SeaTac/Tukwila",22000,"South",41154
-"Shoreline",23000,"North",21151
-"Snoqualmie/N.Bend/Skykomish",24000,"East",11153
-"Vashon Island",25000,"South",41154
+"hra","vid","region","region_id","uploaded"
+"Auburn-North",1000,"South",41154,2022-02-02
+"Auburn-South",1100,"South",41154,2022-02-02
+"Ballard",2000,"Seattle",31152,2022-02-02
+"Beacon/Gtown/S.Park",2100,"Seattle",31152,2022-02-02
+"Capitol Hill/E.lake",2200,"Seattle",31152,2022-02-02
+"Central Seattle",2300,"Seattle",31152,2022-02-02
+"Delridge",2400,"Seattle",31152,2022-02-02
+"Downtown",2500,"Seattle",31152,2022-02-02
+"Fremont/Greenlake",2550,"Seattle",31152,2022-02-02
+"NE Seattle",2600,"Seattle",31152,2022-02-02
+"North Seattle",2700,"Seattle",31152,2022-02-02
+"NW Seattle",2800,"Seattle",31152,2022-02-02
+"QA/Magnolia",2900,"Seattle",31152,2022-02-02
+"SE Seattle",2950,"Seattle",31152,2022-02-02
+"West Seattle",2960,"Seattle",31152,2022-02-02
+"Bear Creek/Carnation/Duvall",3000,"East",11153,2022-02-02
+"Bellevue-Central",4000,"East",11153,2022-02-02
+"Bellevue-NE",4100,"East",11153,2022-02-02
+"Bellevue-South",4200,"East",11153,2022-02-02
+"Bellevue-West",4300,"East",11153,2022-02-02
+"Black Diamond/Enumclaw/SE County",5000,"South",41154,2022-02-02
+"Bothell/Woodinville",6000,"North",21151,2022-02-02
+"Burien",7000,"South",41154,2022-02-02
+"Covington/Maple Valley",8000,"South",41154,2022-02-02
+"Des Moines/Normandy Park",9000,"South",41154,2022-02-02
+"East Federal Way",10000,"South",41154,2022-02-02
+"Fed Way-Central/Military Rd",10100,"South",41154,2022-02-02
+"Fed Way-Dash Pt",10200,"South",41154,2022-02-02
+"Fairwood",11000,"South",41154,2022-02-02
+"Issaquah",12000,"East",11153,2022-02-02
+"Kenmore/LFP",13000,"North",21151,2022-02-02
+"Kent-East",14000,"South",41154,2022-02-02
+"Kent-SE",14100,"South",41154,2022-02-02
+"Kent-West",14200,"South",41154,2022-02-02
+"Kirkland",15000,"East",11153,2022-02-02
+"Kirkland North",15100,"East",11153,2022-02-02
+"Mercer Isle/Pt Cities",16000,"East",11153,2022-02-02
+"Newcastle/Four Creeks",17000,"East",11153,2022-02-02
+"North Highline",18000,"South",41154,2022-02-02
+"Redmond",19000,"East",11153,2022-02-02
+"Renton-East",20000,"South",41154,2022-02-02
+"Renton-North",20100,"South",41154,2022-02-02
+"Renton-South",20200,"South",41154,2022-02-02
+"Sammamish",21000,"East",11153,2022-02-02
+"SeaTac/Tukwila",22000,"South",41154,2022-02-02
+"Shoreline",23000,"North",21151,2022-02-02
+"Snoqualmie/N.Bend/Skykomish",24000,"East",11153,2022-02-02
+"Vashon Island",25000,"South",41154,2022-02-02

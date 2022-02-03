@@ -1,13 +1,14 @@
 #' NCHS 113 Selected Causes of Death (long).
 #'
-#' NCHS 113 Selected Causes of Death (long). Cause id 95 (“All other diseases (Residual)”) uses codings discovered on a PHSKC
+#' NCHS 113 Selected Causes of Death (long). Cause id 95 ("All other diseases (Residual)") uses codings discovered on a PHSKC
 #'     network drive. They were propbably created by Mike Smyzer, who has retired. These
 #'     are being used instead of the CDC codes due to better alignment with WA DOH. The
-#'     official CDC coding is now saved as cause id 114 “CDC version of cause id 95 (Residual)”
-#'     Per CDC guidance, contains •	COVID-19 (U07.1) in cause id 17 (“Other and unspecified
-#'     infectious and parasitic diseases and their sequelae”)
+#'     official CDC coding is now saved as cause id 114 "CDC version of cause id 95 (Residual)".
 #'
-#' See also https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/CodeSetDefinitions/NCHS113CausesOfDeath.pdf
+#' @note Per CDC guidance, our cause list contains COVID-19 (U07.1) in cause id 17 ("Other and unspecified
+#'     infectious and parasitic diseases and their sequelae")
+#'
+#' @references https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/CodeSetDefinitions/NCHS113CausesOfDeath.pdf
 #'
 #' @format A data.table with 2975 rows and three variables: \code{causeid}, \code{cause.of.deaths},
 #'   \code{icd10}. Each row maps one ICD 10 code to one of the 113 causes of death.
@@ -18,6 +19,8 @@
 
 #' 2010 BLS Standard Occupational Classification (SOC) definitions.
 #'
+#' 2010 BLS Standard Occupational Classification (SOC) definitions.
+#'
 #' Detailed definitions for each 2010 BLS SOC code / title
 #'
 #' @format A data.table with 840 rows and three variables: \code{'SOC Code'}, \code{'SOC Title'},
@@ -25,18 +28,6 @@
 #'
 #' @source \url{https://www.bls.gov/soc/soc_2010_definitions.xls}
 "occupation_soc_2010_definitions"
-
-#' 'Essential Worker' definitions using 2018 BLS Standard Occupational Classification (SOC) codes.
-#'
-#' 'Essential Worker' definitions using 2018 BLS Standard Occupational Classification (SOC) codes.
-#'     One of many essential worker definitions circulating early in the COVID-19 pandemic.
-#'
-#' @format A data.table with 1447 rows and five variables: \code{essential}, \code{group},
-#'   \code{code}, \code{title}, \code{notes}.
-#'
-#' @source \url{https://www.lmiontheweb.org/more-than-half-of-u-s-workers-in-critical-occupations-in-the-fight-against-covid-19/}
-"occupation_soc_2018_essential_workers_key"
-
 
 #' 2010 BLS Standard Occupational Classification (SOC) structure.
 #'
@@ -49,8 +40,22 @@
 #'   \code{detailed.title}, \code{notes}.
 #'
 #' @source \url{https://www.bls.gov/soc/2010/2010_major_groups.htm}
-"occupation_soc_structure_2010"
+"occupation_soc_2010_structure"
 
+#' 2018 BLS Standard Occupational Classification (SOC) definitions.
+#'
+#' 2018 BLS Standard Occupational Classification (SOC) definitions.
+#'
+#' Detailed definitions for each 2018 BLS SOC code / title
+#'
+#' @format A data.table with 1447 rows and four variables: \code{'SOC Group'}, \code{'SOC Code'}, \code{'SOC Title'},
+#'   \code{'SOC Definition'}.
+#'
+#' @source \url{https://www.bls.gov/soc/soc_2018_definitions.xls}
+"occupation_soc_2018_definitions"
+
+#' 2018 BLS Standard Occupational Classification (SOC) structure.
+#'
 #' 2018 BLS Standard Occupational Classification (SOC) structure.
 #'
 #' Detailed definitions for each 2018 BLS SOC code / title
@@ -60,7 +65,19 @@
 #'   \code{major.title}, \code{minor.title}, \code{broad.title}, \code{detailed.title}.
 #'
 #' @source \url{https://www.bls.gov/soc/2018/2018_major_groups.htm}
-"occupation_soc_structure_2018"
+"occupation_soc_2018_structure"
+
+#' 'Essential Worker' definitions using 2018 BLS Standard Occupational Classification (SOC) codes.
+#'
+#' 'Essential Worker' definitions using 2018 BLS Standard Occupational Classification (SOC) codes.
+#'     One of many essential worker definitions circulating early in the COVID-19 pandemic.
+#'
+#' @format A data.table with 1447 rows and five variables: \code{essential}, \code{group},
+#'   \code{code}, \code{title}, \code{notes}.
+#'
+#' @source \url{https://www.lmiontheweb.org/more-than-half-of-u-s-workers-in-critical-occupations-in-the-fight-against-covid-19/}
+"occupation_soc_2018_essential_workers_key"
+
 
 #' 2018 Population by HRA.
 #'

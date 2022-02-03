@@ -1,277 +1,277 @@
-"hraname","region","coo.place","geoid","name","place","tract","blkgrp","notes"
-"Auburn-North","South","Balance of King County","16000US5303180","Auburn city",3180,NA,NA,NA
-"Auburn-South","South","Balance of King County","16000US5303180","Auburn city",3180,NA,NA,NA
-"Ballard","Seattle","Balance of King County","14000US53033001500","Census Tract 15, King County",NA,1500,NA,NA
-"Ballard","Seattle","Balance of King County","14000US53033001600","Census Tract 16, King County",NA,1600,NA,NA
-"Ballard","Seattle","Balance of King County","14000US53033002900","Census Tract 29, King County",NA,2900,NA,NA
-"Ballard","Seattle","Balance of King County","14000US53033003000","Census Tract 30, King County",NA,3000,NA,NA
-"Ballard","Seattle","Balance of King County","14000US53033003100","Census Tract 31, King County",NA,3100,NA,NA
-"Ballard","Seattle","Balance of King County","14000US53033003200","Census Tract 32, King County",NA,3200,NA,NA
-"Ballard","Seattle","Balance of King County","14000US53033003300","Census Tract 33, King County",NA,3300,NA,NA
-"Ballard","Seattle","Balance of King County","14000US53033003400","Census Tract 34, King County",NA,3400,NA,NA
-"Ballard","Seattle","Balance of King County","14000US53033004700","Census Tract 47, King County",NA,4700,NA,NA
-"Ballard","Seattle","Balance of King County","14000US53033004800","Census Tract 48, King County",NA,4800,NA,NA
-"Beacon/Gtown/S.Park","Seattle","Rainier Valley","14000US53033009300","Census Tract 93, King County",NA,9300,NA,NA
-"Beacon/Gtown/S.Park","Seattle","Rainier Valley","14000US53033010001","Census Tract 100.01, King County",NA,10001,NA,NA
-"Beacon/Gtown/S.Park","Seattle","Rainier Valley","14000US53033010002","Census Tract 100.02, King County",NA,10002,NA,NA
-"Beacon/Gtown/S.Park","Seattle","Rainier Valley","14000US53033010401","Census Tract 104.01, King County",NA,10401,NA,NA
-"Beacon/Gtown/S.Park","Seattle","Rainier Valley","14000US53033010402","Census Tract 104.02, King County",NA,10402,NA,NA
-"Beacon/Gtown/S.Park","Seattle","Rainier Valley","14000US53033010900","Census Tract 109, King County",NA,10900,NA,NA
-"Beacon/Gtown/S.Park","Seattle","Rainier Valley","14000US53033011001","Census Tract 110.01, King County",NA,11001,NA,NA
-"Beacon/Gtown/S.Park","Seattle","Rainier Valley","14000US53033011002","Census Tract 110.02, King County",NA,11002,NA,NA
-"Beacon/Gtown/S.Park","Seattle","Rainier Valley","14000US53033011200","Census Tract 112, King County",NA,11200,NA,NA
-"Beacon/Gtown/S.Park","Seattle","Rainier Valley","14000US53033011700","Census Tract 117, King County",NA,11700,NA,NA
-"Bear Creek/Carnation/Duvall","East","Balance of King County","14000US53033032307","Census Tract 323.07, King County",NA,32307,NA,NA
-"Bear Creek/Carnation/Duvall","East","Balance of King County","14000US53033032311","Census Tract 323.11, King County",NA,32311,NA,NA
-"Bear Creek/Carnation/Duvall","East","Balance of King County","14000US53033032313","Census Tract 323.13, King County",NA,32313,NA,NA
-"Bear Creek/Carnation/Duvall","East","Balance of King County","14000US53033032315","Census Tract 323.15, King County",NA,32315,NA,NA
-"Bear Creek/Carnation/Duvall","East","Balance of King County","14000US53033032322","Census Tract 323.22, King County",NA,32322,NA,NA
-"Bear Creek/Carnation/Duvall","East","Balance of King County","14000US53033032326","Census Tract 323.26, King County",NA,32326,NA,NA
-"Bear Creek/Carnation/Duvall","East","Balance of King County","14000US53033032327","Census Tract 323.27, King County",NA,32327,NA,NA
-"Bear Creek/Carnation/Duvall","East","Balance of King County","14000US53033032328","Census Tract 323.28, King County",NA,32328,NA,NA
-"Bear Creek/Carnation/Duvall","East","Balance of King County","14000US53033032329","Census Tract 323.29, King County",NA,32329,NA,NA
-"Bear Creek/Carnation/Duvall","East","Balance of King County","14000US53033032401","Census Tract 324.01, King County",NA,32401,NA,NA
-"Bear Creek/Carnation/Duvall","East","Balance of King County","14000US53033032402","Census Tract 324.02, King County",NA,32402,NA,NA
-"Bear Creek/Carnation/Duvall","East","Balance of King County","14000US53033032500","Census Tract 325, King County",NA,32500,NA,NA
-"Bear Creek/Carnation/Duvall","East","Balance of King County","14000US53033032601","Census Tract 326.01, King County",NA,32601,NA,NA
-"Bear Creek/Carnation/Duvall","East","Balance of King County","15000US530330322152","Block Group 2, Census Tract 322.15, King County",NA,32215,2,NA
-"Bear Creek/Carnation/Duvall","East","Balance of King County","15000US530330323202","Block Group 2, Census Tract 323.20, King County",NA,32320,2,NA
-"Bear Creek/Carnation/Duvall","East","Balance of King County","15000US530330323203","Block Group 3, Census Tract 323.20, King County",NA,32320,3,NA
-"Bear Creek/Carnation/Duvall","East","Balance of King County","15000US530330323211","Block Group 1, Census Tract 323.21, King County",NA,32321,1,NA
-"Bear Creek/Carnation/Duvall","East","Balance of King County","15000US530330323212","Block Group 2, Census Tract 323.21, King County",NA,32321,2,NA
-"Bellevue-Central","East","Balance of King County","14000US53033023201","Census Tract 232.01, King County",NA,23201,NA,NA
-"Bellevue-Central","East","Balance of King County","14000US53033023202","Census Tract 232.02, King County",NA,23202,NA,NA
-"Bellevue-Central","East","Balance of King County","14000US53033023401","Census Tract 234.01, King County",NA,23401,NA,NA
-"Bellevue-Central","East","Balance of King County","14000US53033023601","Census Tract 236.01, King County",NA,23601,NA,NA
-"Bellevue-Central","East","Balance of King County","14000US53033023603","Census Tract 236.03, King County",NA,23603,NA,NA
-"Bellevue-Central","East","Balance of King County","14000US53033023604","Census Tract 236.04, King County",NA,23604,NA,NA
-"Bellevue-Central","East","Balance of King County","14000US53033024800","Census Tract 248, King County",NA,24800,NA,NA
-"Bellevue-NE","East","Balance of King County","14000US53033022801","Census Tract 228.01, King County",NA,22801,NA,NA
-"Bellevue-NE","East","Balance of King County","14000US53033022901","Census Tract 229.01, King County",NA,22901,NA,NA
-"Bellevue-NE","East","Balance of King County","14000US53033023000","Census Tract 230, King County",NA,23000,NA,NA
-"Bellevue-NE","East","Balance of King County","14000US53033023100","Census Tract 231, King County",NA,23100,NA,NA
-"Bellevue-NE","East","Balance of King County","14000US53033023300","Census Tract 233, King County",NA,23300,NA,NA
-"Bellevue-NE","East","Balance of King County","14000US53033023403","Census Tract 234.03, King County",NA,23403,NA,NA
-"Bellevue-NE","East","Balance of King County","14000US53033023700","Census Tract 237, King County",NA,23700,NA,NA
-"Bellevue-South","East","Balance of King County","14000US53033024701","Census Tract 247.01, King County",NA,24701,NA,NA
-"Bellevue-South","East","Balance of King County","14000US53033024901","Census Tract 249.01, King County",NA,24901,NA,NA
-"Bellevue-South","East","Balance of King County","14000US53033024902","Census Tract 249.02, King County",NA,24902,NA,NA
-"Bellevue-South","East","Balance of King County","14000US53033024903","Census Tract 249.03, King County",NA,24903,NA,NA
-"Bellevue-South","East","Balance of King County","14000US53033025003","Census Tract 250.03, King County",NA,25003,NA,NA
-"Bellevue-South","East","Balance of King County","15000US530330247022","Block Group 2, Census Tract 247.02, King County",NA,24702,2,NA
-"Bellevue-South","East","Balance of King County","15000US530330247024","Block Group 4, Census Tract 247.02, King County",NA,24702,4,NA
-"Bellevue-South","East","Balance of King County","15000US530330250013","Block Group 3, Census Tract 250.01, King County",NA,25001,3,NA
-"Bellevue-South","East","Balance of King County","15000US530330250014","Block Group 4, Census Tract 250.01, King County",NA,25001,4,NA
-"Bellevue-South","East","Balance of King County","15000US530330250061","Block Group 1, Census Tract 250.06, King County",NA,25006,1,NA
-"Bellevue-West","East","Balance of King County","14000US53033023500","Census Tract 235, King County",NA,23500,NA,NA
-"Bellevue-West","East","Balance of King County","14000US53033023801","Census Tract 238.01, King County",NA,23801,NA,NA
-"Bellevue-West","East","Balance of King County","14000US53033023803","Census Tract 238.03, King County",NA,23803,NA,NA
-"Bellevue-West","East","Balance of King County","14000US53033023804","Census Tract 238.04, King County",NA,23804,NA,NA
-"Bellevue-West","East","Balance of King County","14000US53033023900","Census Tract 239, King County",NA,23900,NA,NA
-"Bellevue-West","East","Balance of King County","14000US53033024000","Census Tract 240, King County",NA,24000,NA,NA
-"Black Diamond/Enumclaw/SE County","South","Balance of King County","14000US53033031202","Census Tract 312.02, King County",NA,31202,NA,NA
-"Black Diamond/Enumclaw/SE County","South","Balance of King County","14000US53033031204","Census Tract 312.04, King County",NA,31204,NA,NA
-"Black Diamond/Enumclaw/SE County","South","Balance of King County","14000US53033031301","Census Tract 313.01, King County",NA,31301,NA,NA
-"Black Diamond/Enumclaw/SE County","South","Balance of King County","14000US53033031302","Census Tract 313.02, King County",NA,31302,NA,NA
-"Black Diamond/Enumclaw/SE County","South","Balance of King County","14000US53033031400","Census Tract 314, King County",NA,31400,NA,NA
-"Black Diamond/Enumclaw/SE County","South","Balance of King County","14000US53033031501","Census Tract 315.01, King County",NA,31501,NA,NA
-"Black Diamond/Enumclaw/SE County","South","Balance of King County","14000US53033031502","Census Tract 315.02, King County",NA,31502,NA,NA
-"Black Diamond/Enumclaw/SE County","South","Balance of King County","14000US53033031601","Census Tract 316.01, King County",NA,31601,NA,NA
-"Black Diamond/Enumclaw/SE County","South","Balance of King County","14000US53033031605","Census Tract 316.05, King County",NA,31605,NA,NA
-"Black Diamond/Enumclaw/SE County","South","Balance of King County","14000US53033032006","Census Tract 320.06, King County",NA,32006,NA,NA
-"Black Diamond/Enumclaw/SE County","South","Balance of King County","15000US530330316032","Block Group 2, Census Tract 316.03, King County",NA,31603,2,NA
-"Bothell/Woodinville","North","Balance of King County","16000US5307380","Bothell city",7380,NA,NA,NA
-"Bothell/Woodinville","North","Balance of King County","16000US5379590","Woodinville city",79590,NA,NA,NA
-"Burien","South","Balance of King County","16000US5308850","Burien city",8850,NA,NA,NA
-"Burien","South","Balance of King County","14000US53033026802","Census Tract 268.02, King County",NA,26802,NA,NA
-"Capitol Hill/E.lake","Seattle","Balance of King County","14000US53033006100","Census Tract 61, King County",NA,6100,NA,NA
-"Capitol Hill/E.lake","Seattle","Balance of King County","14000US53033006200","Census Tract 62, King County",NA,6200,NA,NA
-"Capitol Hill/E.lake","Seattle","Balance of King County","14000US53033006300","Census Tract 63, King County",NA,6300,NA,NA
-"Capitol Hill/E.lake","Seattle","Balance of King County","14000US53033006400","Census Tract 64, King County",NA,6400,NA,NA
-"Capitol Hill/E.lake","Seattle","Balance of King County","14000US53033006500","Census Tract 65, King County",NA,6500,NA,NA
-"Capitol Hill/E.lake","Seattle","Balance of King County","14000US53033007401","Census Tract 74.01, King County",NA,7401,NA,NA
-"Capitol Hill/E.lake","Seattle","Balance of King County","14000US53033007402","Census Tract 74.02, King County",NA,7402,NA,NA
-"Capitol Hill/E.lake","Seattle","Balance of King County","14000US53033007500","Census Tract 75, King County",NA,7500,NA,NA
-"Capitol Hill/E.lake","Seattle","Balance of King County","14000US53033007600","Census Tract 76, King County",NA,7600,NA,NA
-"Central Seattle","Seattle","Balance of King County","14000US53033007700","Census Tract 77, King County",NA,7700,NA,NA
-"Central Seattle","Seattle","Balance of King County","14000US53033007800","Census Tract 78, King County",NA,7800,NA,NA
-"Central Seattle","Seattle","Balance of King County","14000US53033007900","Census Tract 79, King County",NA,7900,NA,NA
-"Central Seattle","Seattle","Balance of King County","14000US53033008600","Census Tract 86, King County",NA,8600,NA,NA
-"Central Seattle","Seattle","Balance of King County","14000US53033008700","Census Tract 87, King County",NA,8700,NA,NA
-"Central Seattle","Seattle","Balance of King County","14000US53033008800","Census Tract 88, King County",NA,8800,NA,NA
-"Central Seattle","Seattle","Balance of King County","14000US53033008900","Census Tract 89, King County",NA,8900,NA,NA
-"Central Seattle","Seattle","Balance of King County","14000US53033009000","Census Tract 90, King County",NA,9000,NA,NA
-"Central Seattle","Seattle","Balance of King County","14000US53033009400","Census Tract 94, King County",NA,9400,NA,NA
-"Central Seattle","Seattle","Balance of King County","14000US53033009500","Census Tract 95, King County",NA,9500,NA,NA
-"Covington/Maple Valley","South","Balance of King County","16000US5315290","Covington city",15290,NA,NA,NA
-"Covington/Maple Valley","South","Balance of King County","16000US5331495","Hobart CDP",31495,NA,NA,NA
-"Covington/Maple Valley","South","Balance of King County","16000US5343150","Maple Valley city",43150,NA,NA,NA
-"Covington/Maple Valley","South","Balance of King County","16000US5357395","Ravensdale CDP",57395,NA,NA,NA
-"Covington/Maple Valley","South","Balance of King County","16000US5363545","Shadow Lake CDP",63545,NA,NA,NA
-"Delridge","Seattle","Balance of King County","14000US53033010701","Census Tract 107.01, King County",NA,10701,NA,NA
-"Delridge","Seattle","Balance of King County","14000US53033010702","Census Tract 107.02, King County",NA,10702,NA,NA
-"Delridge","Seattle","Balance of King County","14000US53033010800","Census Tract 108, King County",NA,10800,NA,NA
-"Delridge","Seattle","Balance of King County","14000US53033011300","Census Tract 113, King County",NA,11300,NA,NA
-"Delridge","Seattle","Balance of King County","14000US53033011401","Census Tract 114.01, King County",NA,11401,NA,NA
-"Delridge","Seattle","Balance of King County","14000US53033011402","Census Tract 114.02, King County",NA,11402,NA,NA
-"Delridge","Seattle","Balance of King County","14000US53033011500","Census Tract 115, King County",NA,11500,NA,NA
-"Des Moines/Normandy Park","South","Balance of King County","16000US5317635","Des Moines city",17635,NA,NA,NA
-"Des Moines/Normandy Park","South","Balance of King County","16000US5349415","Normandy Park city",49415,NA,NA,NA
-"Downtown","Seattle","Balance of King County","14000US53033006600","Census Tract 66, King County",NA,6600,NA,NA
-"Downtown","Seattle","Balance of King County","14000US53033007200","Census Tract 72, King County",NA,7200,NA,NA
-"Downtown","Seattle","Balance of King County","14000US53033007300","Census Tract 73, King County",NA,7300,NA,NA
-"Downtown","Seattle","Balance of King County","14000US53033008001","Census Tract 80.01, King County",NA,8001,NA,NA
-"Downtown","Seattle","Balance of King County","14000US53033008002","Census Tract 80.02, King County",NA,8002,NA,NA
-"Downtown","Seattle","Balance of King County","14000US53033008100","Census Tract 81, King County",NA,8100,NA,NA
-"Downtown","Seattle","Balance of King County","14000US53033008200","Census Tract 82, King County",NA,8200,NA,NA
-"Downtown","Seattle","Balance of King County","14000US53033008300","Census Tract 83, King County",NA,8300,NA,NA
-"Downtown","Seattle","Balance of King County","14000US53033008400","Census Tract 84, King County",NA,8400,NA,NA
-"Downtown","Seattle","Balance of King County","14000US53033008500","Census Tract 85, King County",NA,8500,NA,NA
-"Downtown","Seattle","Balance of King County","14000US53033009100","Census Tract 91, King County",NA,9100,NA,NA
-"Downtown","Seattle","Balance of King County","14000US53033009200","Census Tract 92, King County",NA,9200,NA,NA
-"East Federal Way","South","Balance of King County","16000US5301290","Algona city",1290,NA,NA,NA
-"East Federal Way","South","Balance of King County","16000US5337420","Lakeland North CDP",37420,NA,NA,NA
-"East Federal Way","South","Balance of King County","16000US5337430","Lakeland South CDP",37430,NA,NA,NA
-"East Federal Way","South","Balance of King County","16000US5352495","Pacific city",52495,NA,NA,NA
-"Fairwood","South","Balance of King County","16000US5323160","Fairwood CDP (King County)",23160,NA,NA,NA
-"Fairwood","South","Balance of King County","16000US5343062","Maple Heights-Lake Desire CDP",43062,NA,NA,NA
-"Fed Way-Central/Military Rd","South","Balance of King County","16000US5323515","Federal Way city",23515,NA,NA,NA
-"Fed Way-Dash Pt","South","Balance of King County","16000US5323515","Federal Way city",23515,NA,NA,"Previously """"Fed Way-Dash Point/Woodmont"""". Changed 4/19/2019 to match with shapefile"
-"Fremont/Greenlake","Seattle","Balance of King County","14000US53033002700","Census Tract 27, King County",NA,2700,NA,NA
-"Fremont/Greenlake","Seattle","Balance of King County","14000US53033002800","Census Tract 28, King County",NA,2800,NA,NA
-"Fremont/Greenlake","Seattle","Balance of King County","14000US53033003500","Census Tract 35, King County",NA,3500,NA,NA
-"Fremont/Greenlake","Seattle","Balance of King County","14000US53033003600","Census Tract 36, King County",NA,3600,NA,NA
-"Fremont/Greenlake","Seattle","Balance of King County","14000US53033004500","Census Tract 45, King County",NA,4500,NA,NA
-"Fremont/Greenlake","Seattle","Balance of King County","14000US53033004600","Census Tract 46, King County",NA,4600,NA,NA
-"Fremont/Greenlake","Seattle","Balance of King County","14000US53033004900","Census Tract 49, King County",NA,4900,NA,NA
-"Fremont/Greenlake","Seattle","Balance of King County","14000US53033005000","Census Tract 50, King County",NA,5000,NA,NA
-"Fremont/Greenlake","Seattle","Balance of King County","14000US53033005100","Census Tract 51, King County",NA,5100,NA,NA
-"Fremont/Greenlake","Seattle","Balance of King County","14000US53033005200","Census Tract 52, King County",NA,5200,NA,NA
-"Fremont/Greenlake","Seattle","Balance of King County","14000US53033005400","Census Tract 54, King County",NA,5400,NA,NA
-"Issaquah","East","Balance of King County","16000US5333805","Issaquah city",33805,NA,NA,NA
-"Kenmore/LFP","North","Balance of King County","16000US5335170","Kenmore city",35170,NA,NA,NA
-"Kenmore/LFP","North","Balance of King County","16000US5337270","Lake Forest Park city",37270,NA,NA,NA
-"Kent-East","South","Balance of King County","16000US5335415","Kent city",35415,NA,NA,NA
-"Kent-SE","South","Balance of King County","16000US5335415","Kent city",35415,NA,NA,NA
-"Kent-West","South","Balance of King County","16000US5335415","Kent city",35415,NA,NA,NA
-"Kirkland","East","Balance of King County","16000US5335940","Kirkland city",35940,NA,NA,NA
-"Kirkland North","East","Balance of King County","16000US5335940","Kirkland city",35940,NA,NA,"Duplicate of Kirkland. Was annexed on to Kirkland, but needed for HRA maps. "
-"Mercer Isle/Pt Cities","East","Balance of King County","16000US5313365","Clyde Hill city",13365,NA,NA,NA
-"Mercer Isle/Pt Cities","East","Balance of King County","16000US5332755","Hunts Point town",32755,NA,NA,NA
-"Mercer Isle/Pt Cities","East","Balance of King County","16000US5344725","Medina city",44725,NA,NA,NA
-"Mercer Isle/Pt Cities","East","Balance of King County","16000US5345005","Mercer Island city",45005,NA,NA,NA
-"Mercer Isle/Pt Cities","East","Balance of King County","16000US5380150","Yarrow Point town",80150,NA,NA,NA
-"NE Seattle","Seattle","Balance of King County","14000US53033002100","Census Tract 21, King County",NA,2100,NA,NA
-"NE Seattle","Seattle","Balance of King County","14000US53033002200","Census Tract 22, King County",NA,2200,NA,NA
-"NE Seattle","Seattle","Balance of King County","14000US53033002400","Census Tract 24, King County",NA,2400,NA,NA
-"NE Seattle","Seattle","Balance of King County","14000US53033002500","Census Tract 25, King County",NA,2500,NA,NA
-"NE Seattle","Seattle","Balance of King County","14000US53033002600","Census Tract 26, King County",NA,2600,NA,NA
-"NE Seattle","Seattle","Balance of King County","14000US53033003800","Census Tract 38, King County",NA,3800,NA,NA
-"NE Seattle","Seattle","Balance of King County","14000US53033003900","Census Tract 39, King County",NA,3900,NA,NA
-"NE Seattle","Seattle","Balance of King County","14000US53033004000","Census Tract 40, King County",NA,4000,NA,NA
-"NE Seattle","Seattle","Balance of King County","14000US53033004100","Census Tract 41, King County",NA,4100,NA,NA
-"NE Seattle","Seattle","Balance of King County","14000US53033004200","Census Tract 42, King County",NA,4200,NA,NA
-"NE Seattle","Seattle","Balance of King County","14000US53033004301","Census Tract 43.01, King County",NA,4301,NA,NA
-"NE Seattle","Seattle","Balance of King County","14000US53033004302","Census Tract 43.02, King County",NA,4302,NA,NA
-"NE Seattle","Seattle","Balance of King County","14000US53033004400","Census Tract 44, King County",NA,4400,NA,NA
-"NE Seattle","Seattle","Balance of King County","14000US53033005301","Census Tract 53.01, King County",NA,5301,NA,NA
-"NE Seattle","Seattle","Balance of King County","14000US53033005302","Census Tract 53.02, King County",NA,5302,NA,NA
-"NW Seattle","Seattle","Balance of King County","14000US53033000300","Census Tract 3, King County",NA,300,NA,NA
-"NW Seattle","Seattle","Balance of King County","14000US53033000401","Census Tract 4.01, King County",NA,401,NA,NA
-"NW Seattle","Seattle","Balance of King County","14000US53033000402","Census Tract 4.02, King County",NA,402,NA,NA
-"NW Seattle","Seattle","Balance of King County","14000US53033000500","Census Tract 5, King County",NA,500,NA,NA
-"NW Seattle","Seattle","Balance of King County","14000US53033000600","Census Tract 6, King County",NA,600,NA,NA
-"NW Seattle","Seattle","Balance of King County","14000US53033001300","Census Tract 13, King County",NA,1300,NA,NA
-"NW Seattle","Seattle","Balance of King County","14000US53033001400","Census Tract 14, King County",NA,1400,NA,NA
-"NW Seattle","Seattle","Balance of King County","14000US53033001701","Census Tract 17.01, King County",NA,1701,NA,NA
-"NW Seattle","Seattle","Balance of King County","14000US53033001702","Census Tract 17.02, King County",NA,1702,NA,NA
-"NW Seattle","Seattle","Balance of King County","14000US53033001800","Census Tract 18, King County",NA,1800,NA,NA
-"Newcastle/Four Creeks","East","Balance of King County","16000US5319857","East Renton Highlands CDP",19857,NA,NA,NA
-"Newcastle/Four Creeks","East","Balance of King County","16000US5348645","Newcastle city",48645,NA,NA,NA
-"Newcastle/Four Creeks","East","Balance of King County","14000US53033025005","Census Tract 250.05, King County",NA,25005,NA,NA
-"Newcastle/Four Creeks","East","Balance of King County","15000US530330247023","Block Group 3, Census Tract 247.02, King County",NA,24702,3,NA
-"Newcastle/Four Creeks","East","Balance of King County","15000US530330247025","Block Group 5, Census Tract 247.02, King County",NA,24702,5,NA
-"Newcastle/Four Creeks","East","Balance of King County","15000US530330250011","Block Group 1, Census Tract 250.01, King County",NA,25001,1,NA
-"Newcastle/Four Creeks","East","Balance of King County","15000US530330250012","Block Group 2, Census Tract 250.01, King County",NA,25001,2,NA
-"Newcastle/Four Creeks","East","Balance of King County","15000US530330250063","Block Group 3, Census Tract 250.06, King County",NA,25006,3,NA
-"North Highline","South","White Center","16000US5307397","Boulevard Park CDP",7397,NA,NA,NA
-"North Highline","South","White Center","16000US5378225","White Center CDP",78225,NA,NA,NA
-"North Seattle","Seattle","Balance of King County","14000US53033000100","Census Tract 1, King County",NA,100,NA,NA
-"North Seattle","Seattle","Balance of King County","14000US53033000200","Census Tract 2, King County",NA,200,NA,NA
-"North Seattle","Seattle","Balance of King County","14000US53033000700","Census Tract 7, King County",NA,700,NA,NA
-"North Seattle","Seattle","Balance of King County","14000US53033000800","Census Tract 8, King County",NA,800,NA,NA
-"North Seattle","Seattle","Balance of King County","14000US53033000900","Census Tract 9, King County",NA,900,NA,NA
-"North Seattle","Seattle","Balance of King County","14000US53033001000","Census Tract 10, King County",NA,1000,NA,NA
-"North Seattle","Seattle","Balance of King County","14000US53033001100","Census Tract 11, King County",NA,1100,NA,NA
-"North Seattle","Seattle","Balance of King County","14000US53033001200","Census Tract 12, King County",NA,1200,NA,NA
-"North Seattle","Seattle","Balance of King County","14000US53033001900","Census Tract 19, King County",NA,1900,NA,NA
-"North Seattle","Seattle","Balance of King County","14000US53033002000","Census Tract 20, King County",NA,2000,NA,NA
-"QA/Magnolia","Seattle","Balance of King County","14000US53033005600","Census Tract 56, King County",NA,5600,NA,NA
-"QA/Magnolia","Seattle","Balance of King County","14000US53033005700","Census Tract 57, King County",NA,5700,NA,NA
-"QA/Magnolia","Seattle","Balance of King County","14000US53033005801","Census Tract 58.01, King County",NA,5801,NA,NA
-"QA/Magnolia","Seattle","Balance of King County","14000US53033005802","Census Tract 58.02, King County",NA,5802,NA,NA
-"QA/Magnolia","Seattle","Balance of King County","14000US53033005900","Census Tract 59, King County",NA,5900,NA,NA
-"QA/Magnolia","Seattle","Balance of King County","14000US53033006000","Census Tract 60, King County",NA,6000,NA,NA
-"QA/Magnolia","Seattle","Balance of King County","14000US53033006700","Census Tract 67, King County",NA,6700,NA,NA
-"QA/Magnolia","Seattle","Balance of King County","14000US53033006800","Census Tract 68, King County",NA,6800,NA,NA
-"QA/Magnolia","Seattle","Balance of King County","14000US53033006900","Census Tract 69, King County",NA,6900,NA,NA
-"QA/Magnolia","Seattle","Balance of King County","14000US53033007000","Census Tract 70, King County",NA,7000,NA,NA
-"QA/Magnolia","Seattle","Balance of King County","14000US53033007100","Census Tract 71, King County",NA,7100,NA,NA
-"Redmond","East","Balance of King County","16000US5357535","Redmond city",57535,NA,NA,NA
-"Renton-East","South","Balance of King County","16000US5357745","Renton city",57745,NA,NA,NA
-"Renton-North","South","Balance of King County","15000US530330247021","Block Group 1, Census Tract 247.02, King County",NA,24702,1,NA
-"Renton-North","South","Balance of King County","16000US5357745","Renton city",57745,NA,NA,NA
-"Renton-South","South","Balance of King County","16000US5308552","Bryn Mawr-Skyway CDP",8552,NA,NA,NA
-"Renton-South","South","Balance of King County","16000US5357745","Renton city",57745,NA,NA,NA
-"SE Seattle","Seattle","Rainier Valley","14000US53033010100","Census Tract 101, King County",NA,10100,NA,NA
-"SE Seattle","Seattle","Rainier Valley","14000US53033010200","Census Tract 102, King County",NA,10200,NA,NA
-"SE Seattle","Seattle","Rainier Valley","14000US53033010300","Census Tract 103, King County",NA,10300,NA,NA
-"SE Seattle","Seattle","Rainier Valley","14000US53033011101","Census Tract 111.01, King County",NA,11101,NA,NA
-"SE Seattle","Seattle","Rainier Valley","14000US53033011102","Census Tract 111.02, King County",NA,11102,NA,NA
-"SE Seattle","Seattle","Rainier Valley","14000US53033011800","Census Tract 118, King County",NA,11800,NA,NA
-"SE Seattle","Seattle","Rainier Valley","14000US53033011900","Census Tract 119, King County",NA,11900,NA,NA
-"Sammamish","East","Balance of King County","16000US5361115","Sammamish city",61115,NA,NA,NA
-"SeaTac/Tukwila","South","SeaTac/Tukwila","16000US5362288","SeaTac city",62288,NA,NA,NA
-"SeaTac/Tukwila","South","SeaTac/Tukwila","16000US5372625","Tukwila city",72625,NA,NA,NA
-"Shoreline","North","Balance of King County","16000US5363960","Shoreline city",63960,NA,NA,NA
-"Snoqualmie/North Bend/Skykomish","East","Balance of King County","14000US53033032102","Census Tract 321.02, King County",NA,32102,NA,NA
-"Snoqualmie/North Bend/Skykomish","East","Balance of King County","14000US53033032602","Census Tract 326.02, King County",NA,32602,NA,NA
-"Snoqualmie/North Bend/Skykomish","East","Balance of King County","14000US53033032702","Census Tract 327.02, King County",NA,32702,NA,NA
-"Snoqualmie/North Bend/Skykomish","East","Balance of King County","14000US53033032703","Census Tract 327.03, King County",NA,32703,NA,NA
-"Snoqualmie/North Bend/Skykomish","East","Balance of King County","14000US53033032704","Census Tract 327.04, King County",NA,32704,NA,NA
-"Snoqualmie/North Bend/Skykomish","East","Balance of King County","14000US53033032800","Census Tract 328, King County",NA,32800,NA,NA
-"Snoqualmie/North Bend/Skykomish","East","Balance of King County","15000US530330322101","Block Group 1, Census Tract 322.10, King County",NA,32210,1,NA
-"Snoqualmie/North Bend/Skykomish","East","Balance of King County","15000US530330322102","Block Group 2, Census Tract 322.10, King County",NA,32210,2,NA
-"Vashon Island","South","Balance of King County","16000US5374305","Vashon CDP",74305,NA,NA,NA
-"West Seattle","Seattle","Balance of King County","14000US53033009600","Census Tract 96, King County",NA,9600,NA,NA
-"West Seattle","Seattle","Balance of King County","14000US53033009701","Census Tract 97.01, King County",NA,9701,NA,NA
-"West Seattle","Seattle","Balance of King County","14000US53033009702","Census Tract 97.02, King County",NA,9702,NA,NA
-"West Seattle","Seattle","Balance of King County","14000US53033009800","Census Tract 98, King County",NA,9800,NA,NA
-"West Seattle","Seattle","Balance of King County","14000US53033009900","Census Tract 99, King County",NA,9900,NA,NA
-"West Seattle","Seattle","Balance of King County","14000US53033010500","Census Tract 105, King County",NA,10500,NA,NA
-"West Seattle","Seattle","Balance of King County","14000US53033010600","Census Tract 106, King County",NA,10600,NA,NA
-"West Seattle","Seattle","Balance of King County","14000US53033011600","Census Tract 116, King County",NA,11600,NA,NA
-"West Seattle","Seattle","Balance of King County","14000US53033012000","Census Tract 120, King County",NA,12000,NA,NA
-"West Seattle","Seattle","Balance of King County","14000US53033012100","Census Tract 121, King County",NA,12100,NA,NA
-NA,NA,"Balance of King County","16000US5305210","Bellevue city",5210,NA,NA,"Seattle & Bellevue HRA: use city level place data rather than summing up the blockgroup and tract data which inflates standard errors"
-NA,NA,"Balance of King County","16000US5363000","Seattle city",63000,NA,NA,"Seattle & Bellevue HRA: use city level place data rather than summing up the blockgroup and tract data which inflates standard errors"
-"","","","","",NA,NA,NA,""
-"","","","","",NA,NA,NA,""
-"","","","","",NA,NA,NA,""
-"","","","","",NA,NA,NA,""
-"","","","","",NA,NA,NA,""
-"","","","","",NA,NA,NA,""
-"","","","","",NA,NA,NA,""
-"","","","","",NA,NA,NA,""
-"","","","","",NA,NA,NA,""
-"","","","","",NA,NA,NA,""
-"","","","","",NA,NA,NA,""
-"","","","","",NA,NA,NA,""
-"","","","","",NA,NA,NA,""
-"","","","","",NA,NA,NA,""
-"","","","","",NA,NA,NA,""
-"","","","","",NA,NA,NA,""
-"","","","","",NA,NA,NA,""
-"","","","","",NA,NA,NA,""
-"","","","","",NA,NA,NA,""
-"","","","","",NA,NA,NA,""
+"hraname","region","coo.place","geoid","name","place","tract","blkgrp","notes","uploaded"
+"Auburn-North","South","Balance of King County","16000US5303180","Auburn city",3180,NA,NA,NA,2022-02-02
+"Auburn-South","South","Balance of King County","16000US5303180","Auburn city",3180,NA,NA,NA,2022-02-02
+"Ballard","Seattle","Balance of King County","14000US53033001500","Census Tract 15, King County",NA,1500,NA,NA,2022-02-02
+"Ballard","Seattle","Balance of King County","14000US53033001600","Census Tract 16, King County",NA,1600,NA,NA,2022-02-02
+"Ballard","Seattle","Balance of King County","14000US53033002900","Census Tract 29, King County",NA,2900,NA,NA,2022-02-02
+"Ballard","Seattle","Balance of King County","14000US53033003000","Census Tract 30, King County",NA,3000,NA,NA,2022-02-02
+"Ballard","Seattle","Balance of King County","14000US53033003100","Census Tract 31, King County",NA,3100,NA,NA,2022-02-02
+"Ballard","Seattle","Balance of King County","14000US53033003200","Census Tract 32, King County",NA,3200,NA,NA,2022-02-02
+"Ballard","Seattle","Balance of King County","14000US53033003300","Census Tract 33, King County",NA,3300,NA,NA,2022-02-02
+"Ballard","Seattle","Balance of King County","14000US53033003400","Census Tract 34, King County",NA,3400,NA,NA,2022-02-02
+"Ballard","Seattle","Balance of King County","14000US53033004700","Census Tract 47, King County",NA,4700,NA,NA,2022-02-02
+"Ballard","Seattle","Balance of King County","14000US53033004800","Census Tract 48, King County",NA,4800,NA,NA,2022-02-02
+"Beacon/Gtown/S.Park","Seattle","Rainier Valley","14000US53033009300","Census Tract 93, King County",NA,9300,NA,NA,2022-02-02
+"Beacon/Gtown/S.Park","Seattle","Rainier Valley","14000US53033010001","Census Tract 100.01, King County",NA,10001,NA,NA,2022-02-02
+"Beacon/Gtown/S.Park","Seattle","Rainier Valley","14000US53033010002","Census Tract 100.02, King County",NA,10002,NA,NA,2022-02-02
+"Beacon/Gtown/S.Park","Seattle","Rainier Valley","14000US53033010401","Census Tract 104.01, King County",NA,10401,NA,NA,2022-02-02
+"Beacon/Gtown/S.Park","Seattle","Rainier Valley","14000US53033010402","Census Tract 104.02, King County",NA,10402,NA,NA,2022-02-02
+"Beacon/Gtown/S.Park","Seattle","Rainier Valley","14000US53033010900","Census Tract 109, King County",NA,10900,NA,NA,2022-02-02
+"Beacon/Gtown/S.Park","Seattle","Rainier Valley","14000US53033011001","Census Tract 110.01, King County",NA,11001,NA,NA,2022-02-02
+"Beacon/Gtown/S.Park","Seattle","Rainier Valley","14000US53033011002","Census Tract 110.02, King County",NA,11002,NA,NA,2022-02-02
+"Beacon/Gtown/S.Park","Seattle","Rainier Valley","14000US53033011200","Census Tract 112, King County",NA,11200,NA,NA,2022-02-02
+"Beacon/Gtown/S.Park","Seattle","Rainier Valley","14000US53033011700","Census Tract 117, King County",NA,11700,NA,NA,2022-02-02
+"Bear Creek/Carnation/Duvall","East","Balance of King County","14000US53033032307","Census Tract 323.07, King County",NA,32307,NA,NA,2022-02-02
+"Bear Creek/Carnation/Duvall","East","Balance of King County","14000US53033032311","Census Tract 323.11, King County",NA,32311,NA,NA,2022-02-02
+"Bear Creek/Carnation/Duvall","East","Balance of King County","14000US53033032313","Census Tract 323.13, King County",NA,32313,NA,NA,2022-02-02
+"Bear Creek/Carnation/Duvall","East","Balance of King County","14000US53033032315","Census Tract 323.15, King County",NA,32315,NA,NA,2022-02-02
+"Bear Creek/Carnation/Duvall","East","Balance of King County","14000US53033032322","Census Tract 323.22, King County",NA,32322,NA,NA,2022-02-02
+"Bear Creek/Carnation/Duvall","East","Balance of King County","14000US53033032326","Census Tract 323.26, King County",NA,32326,NA,NA,2022-02-02
+"Bear Creek/Carnation/Duvall","East","Balance of King County","14000US53033032327","Census Tract 323.27, King County",NA,32327,NA,NA,2022-02-02
+"Bear Creek/Carnation/Duvall","East","Balance of King County","14000US53033032328","Census Tract 323.28, King County",NA,32328,NA,NA,2022-02-02
+"Bear Creek/Carnation/Duvall","East","Balance of King County","14000US53033032329","Census Tract 323.29, King County",NA,32329,NA,NA,2022-02-02
+"Bear Creek/Carnation/Duvall","East","Balance of King County","14000US53033032401","Census Tract 324.01, King County",NA,32401,NA,NA,2022-02-02
+"Bear Creek/Carnation/Duvall","East","Balance of King County","14000US53033032402","Census Tract 324.02, King County",NA,32402,NA,NA,2022-02-02
+"Bear Creek/Carnation/Duvall","East","Balance of King County","14000US53033032500","Census Tract 325, King County",NA,32500,NA,NA,2022-02-02
+"Bear Creek/Carnation/Duvall","East","Balance of King County","14000US53033032601","Census Tract 326.01, King County",NA,32601,NA,NA,2022-02-02
+"Bear Creek/Carnation/Duvall","East","Balance of King County","15000US530330322152","Block Group 2, Census Tract 322.15, King County",NA,32215,2,NA,2022-02-02
+"Bear Creek/Carnation/Duvall","East","Balance of King County","15000US530330323202","Block Group 2, Census Tract 323.20, King County",NA,32320,2,NA,2022-02-02
+"Bear Creek/Carnation/Duvall","East","Balance of King County","15000US530330323203","Block Group 3, Census Tract 323.20, King County",NA,32320,3,NA,2022-02-02
+"Bear Creek/Carnation/Duvall","East","Balance of King County","15000US530330323211","Block Group 1, Census Tract 323.21, King County",NA,32321,1,NA,2022-02-02
+"Bear Creek/Carnation/Duvall","East","Balance of King County","15000US530330323212","Block Group 2, Census Tract 323.21, King County",NA,32321,2,NA,2022-02-02
+"Bellevue-Central","East","Balance of King County","14000US53033023201","Census Tract 232.01, King County",NA,23201,NA,NA,2022-02-02
+"Bellevue-Central","East","Balance of King County","14000US53033023202","Census Tract 232.02, King County",NA,23202,NA,NA,2022-02-02
+"Bellevue-Central","East","Balance of King County","14000US53033023401","Census Tract 234.01, King County",NA,23401,NA,NA,2022-02-02
+"Bellevue-Central","East","Balance of King County","14000US53033023601","Census Tract 236.01, King County",NA,23601,NA,NA,2022-02-02
+"Bellevue-Central","East","Balance of King County","14000US53033023603","Census Tract 236.03, King County",NA,23603,NA,NA,2022-02-02
+"Bellevue-Central","East","Balance of King County","14000US53033023604","Census Tract 236.04, King County",NA,23604,NA,NA,2022-02-02
+"Bellevue-Central","East","Balance of King County","14000US53033024800","Census Tract 248, King County",NA,24800,NA,NA,2022-02-02
+"Bellevue-NE","East","Balance of King County","14000US53033022801","Census Tract 228.01, King County",NA,22801,NA,NA,2022-02-02
+"Bellevue-NE","East","Balance of King County","14000US53033022901","Census Tract 229.01, King County",NA,22901,NA,NA,2022-02-02
+"Bellevue-NE","East","Balance of King County","14000US53033023000","Census Tract 230, King County",NA,23000,NA,NA,2022-02-02
+"Bellevue-NE","East","Balance of King County","14000US53033023100","Census Tract 231, King County",NA,23100,NA,NA,2022-02-02
+"Bellevue-NE","East","Balance of King County","14000US53033023300","Census Tract 233, King County",NA,23300,NA,NA,2022-02-02
+"Bellevue-NE","East","Balance of King County","14000US53033023403","Census Tract 234.03, King County",NA,23403,NA,NA,2022-02-02
+"Bellevue-NE","East","Balance of King County","14000US53033023700","Census Tract 237, King County",NA,23700,NA,NA,2022-02-02
+"Bellevue-South","East","Balance of King County","14000US53033024701","Census Tract 247.01, King County",NA,24701,NA,NA,2022-02-02
+"Bellevue-South","East","Balance of King County","14000US53033024901","Census Tract 249.01, King County",NA,24901,NA,NA,2022-02-02
+"Bellevue-South","East","Balance of King County","14000US53033024902","Census Tract 249.02, King County",NA,24902,NA,NA,2022-02-02
+"Bellevue-South","East","Balance of King County","14000US53033024903","Census Tract 249.03, King County",NA,24903,NA,NA,2022-02-02
+"Bellevue-South","East","Balance of King County","14000US53033025003","Census Tract 250.03, King County",NA,25003,NA,NA,2022-02-02
+"Bellevue-South","East","Balance of King County","15000US530330247022","Block Group 2, Census Tract 247.02, King County",NA,24702,2,NA,2022-02-02
+"Bellevue-South","East","Balance of King County","15000US530330247024","Block Group 4, Census Tract 247.02, King County",NA,24702,4,NA,2022-02-02
+"Bellevue-South","East","Balance of King County","15000US530330250013","Block Group 3, Census Tract 250.01, King County",NA,25001,3,NA,2022-02-02
+"Bellevue-South","East","Balance of King County","15000US530330250014","Block Group 4, Census Tract 250.01, King County",NA,25001,4,NA,2022-02-02
+"Bellevue-South","East","Balance of King County","15000US530330250061","Block Group 1, Census Tract 250.06, King County",NA,25006,1,NA,2022-02-02
+"Bellevue-West","East","Balance of King County","14000US53033023500","Census Tract 235, King County",NA,23500,NA,NA,2022-02-02
+"Bellevue-West","East","Balance of King County","14000US53033023801","Census Tract 238.01, King County",NA,23801,NA,NA,2022-02-02
+"Bellevue-West","East","Balance of King County","14000US53033023803","Census Tract 238.03, King County",NA,23803,NA,NA,2022-02-02
+"Bellevue-West","East","Balance of King County","14000US53033023804","Census Tract 238.04, King County",NA,23804,NA,NA,2022-02-02
+"Bellevue-West","East","Balance of King County","14000US53033023900","Census Tract 239, King County",NA,23900,NA,NA,2022-02-02
+"Bellevue-West","East","Balance of King County","14000US53033024000","Census Tract 240, King County",NA,24000,NA,NA,2022-02-02
+"Black Diamond/Enumclaw/SE County","South","Balance of King County","14000US53033031202","Census Tract 312.02, King County",NA,31202,NA,NA,2022-02-02
+"Black Diamond/Enumclaw/SE County","South","Balance of King County","14000US53033031204","Census Tract 312.04, King County",NA,31204,NA,NA,2022-02-02
+"Black Diamond/Enumclaw/SE County","South","Balance of King County","14000US53033031301","Census Tract 313.01, King County",NA,31301,NA,NA,2022-02-02
+"Black Diamond/Enumclaw/SE County","South","Balance of King County","14000US53033031302","Census Tract 313.02, King County",NA,31302,NA,NA,2022-02-02
+"Black Diamond/Enumclaw/SE County","South","Balance of King County","14000US53033031400","Census Tract 314, King County",NA,31400,NA,NA,2022-02-02
+"Black Diamond/Enumclaw/SE County","South","Balance of King County","14000US53033031501","Census Tract 315.01, King County",NA,31501,NA,NA,2022-02-02
+"Black Diamond/Enumclaw/SE County","South","Balance of King County","14000US53033031502","Census Tract 315.02, King County",NA,31502,NA,NA,2022-02-02
+"Black Diamond/Enumclaw/SE County","South","Balance of King County","14000US53033031601","Census Tract 316.01, King County",NA,31601,NA,NA,2022-02-02
+"Black Diamond/Enumclaw/SE County","South","Balance of King County","14000US53033031605","Census Tract 316.05, King County",NA,31605,NA,NA,2022-02-02
+"Black Diamond/Enumclaw/SE County","South","Balance of King County","14000US53033032006","Census Tract 320.06, King County",NA,32006,NA,NA,2022-02-02
+"Black Diamond/Enumclaw/SE County","South","Balance of King County","15000US530330316032","Block Group 2, Census Tract 316.03, King County",NA,31603,2,NA,2022-02-02
+"Bothell/Woodinville","North","Balance of King County","16000US5307380","Bothell city",7380,NA,NA,NA,2022-02-02
+"Bothell/Woodinville","North","Balance of King County","16000US5379590","Woodinville city",79590,NA,NA,NA,2022-02-02
+"Burien","South","Balance of King County","16000US5308850","Burien city",8850,NA,NA,NA,2022-02-02
+"Burien","South","Balance of King County","14000US53033026802","Census Tract 268.02, King County",NA,26802,NA,NA,2022-02-02
+"Capitol Hill/E.lake","Seattle","Balance of King County","14000US53033006100","Census Tract 61, King County",NA,6100,NA,NA,2022-02-02
+"Capitol Hill/E.lake","Seattle","Balance of King County","14000US53033006200","Census Tract 62, King County",NA,6200,NA,NA,2022-02-02
+"Capitol Hill/E.lake","Seattle","Balance of King County","14000US53033006300","Census Tract 63, King County",NA,6300,NA,NA,2022-02-02
+"Capitol Hill/E.lake","Seattle","Balance of King County","14000US53033006400","Census Tract 64, King County",NA,6400,NA,NA,2022-02-02
+"Capitol Hill/E.lake","Seattle","Balance of King County","14000US53033006500","Census Tract 65, King County",NA,6500,NA,NA,2022-02-02
+"Capitol Hill/E.lake","Seattle","Balance of King County","14000US53033007401","Census Tract 74.01, King County",NA,7401,NA,NA,2022-02-02
+"Capitol Hill/E.lake","Seattle","Balance of King County","14000US53033007402","Census Tract 74.02, King County",NA,7402,NA,NA,2022-02-02
+"Capitol Hill/E.lake","Seattle","Balance of King County","14000US53033007500","Census Tract 75, King County",NA,7500,NA,NA,2022-02-02
+"Capitol Hill/E.lake","Seattle","Balance of King County","14000US53033007600","Census Tract 76, King County",NA,7600,NA,NA,2022-02-02
+"Central Seattle","Seattle","Balance of King County","14000US53033007700","Census Tract 77, King County",NA,7700,NA,NA,2022-02-02
+"Central Seattle","Seattle","Balance of King County","14000US53033007800","Census Tract 78, King County",NA,7800,NA,NA,2022-02-02
+"Central Seattle","Seattle","Balance of King County","14000US53033007900","Census Tract 79, King County",NA,7900,NA,NA,2022-02-02
+"Central Seattle","Seattle","Balance of King County","14000US53033008600","Census Tract 86, King County",NA,8600,NA,NA,2022-02-02
+"Central Seattle","Seattle","Balance of King County","14000US53033008700","Census Tract 87, King County",NA,8700,NA,NA,2022-02-02
+"Central Seattle","Seattle","Balance of King County","14000US53033008800","Census Tract 88, King County",NA,8800,NA,NA,2022-02-02
+"Central Seattle","Seattle","Balance of King County","14000US53033008900","Census Tract 89, King County",NA,8900,NA,NA,2022-02-02
+"Central Seattle","Seattle","Balance of King County","14000US53033009000","Census Tract 90, King County",NA,9000,NA,NA,2022-02-02
+"Central Seattle","Seattle","Balance of King County","14000US53033009400","Census Tract 94, King County",NA,9400,NA,NA,2022-02-02
+"Central Seattle","Seattle","Balance of King County","14000US53033009500","Census Tract 95, King County",NA,9500,NA,NA,2022-02-02
+"Covington/Maple Valley","South","Balance of King County","16000US5315290","Covington city",15290,NA,NA,NA,2022-02-02
+"Covington/Maple Valley","South","Balance of King County","16000US5331495","Hobart CDP",31495,NA,NA,NA,2022-02-02
+"Covington/Maple Valley","South","Balance of King County","16000US5343150","Maple Valley city",43150,NA,NA,NA,2022-02-02
+"Covington/Maple Valley","South","Balance of King County","16000US5357395","Ravensdale CDP",57395,NA,NA,NA,2022-02-02
+"Covington/Maple Valley","South","Balance of King County","16000US5363545","Shadow Lake CDP",63545,NA,NA,NA,2022-02-02
+"Delridge","Seattle","Balance of King County","14000US53033010701","Census Tract 107.01, King County",NA,10701,NA,NA,2022-02-02
+"Delridge","Seattle","Balance of King County","14000US53033010702","Census Tract 107.02, King County",NA,10702,NA,NA,2022-02-02
+"Delridge","Seattle","Balance of King County","14000US53033010800","Census Tract 108, King County",NA,10800,NA,NA,2022-02-02
+"Delridge","Seattle","Balance of King County","14000US53033011300","Census Tract 113, King County",NA,11300,NA,NA,2022-02-02
+"Delridge","Seattle","Balance of King County","14000US53033011401","Census Tract 114.01, King County",NA,11401,NA,NA,2022-02-02
+"Delridge","Seattle","Balance of King County","14000US53033011402","Census Tract 114.02, King County",NA,11402,NA,NA,2022-02-02
+"Delridge","Seattle","Balance of King County","14000US53033011500","Census Tract 115, King County",NA,11500,NA,NA,2022-02-02
+"Des Moines/Normandy Park","South","Balance of King County","16000US5317635","Des Moines city",17635,NA,NA,NA,2022-02-02
+"Des Moines/Normandy Park","South","Balance of King County","16000US5349415","Normandy Park city",49415,NA,NA,NA,2022-02-02
+"Downtown","Seattle","Balance of King County","14000US53033006600","Census Tract 66, King County",NA,6600,NA,NA,2022-02-02
+"Downtown","Seattle","Balance of King County","14000US53033007200","Census Tract 72, King County",NA,7200,NA,NA,2022-02-02
+"Downtown","Seattle","Balance of King County","14000US53033007300","Census Tract 73, King County",NA,7300,NA,NA,2022-02-02
+"Downtown","Seattle","Balance of King County","14000US53033008001","Census Tract 80.01, King County",NA,8001,NA,NA,2022-02-02
+"Downtown","Seattle","Balance of King County","14000US53033008002","Census Tract 80.02, King County",NA,8002,NA,NA,2022-02-02
+"Downtown","Seattle","Balance of King County","14000US53033008100","Census Tract 81, King County",NA,8100,NA,NA,2022-02-02
+"Downtown","Seattle","Balance of King County","14000US53033008200","Census Tract 82, King County",NA,8200,NA,NA,2022-02-02
+"Downtown","Seattle","Balance of King County","14000US53033008300","Census Tract 83, King County",NA,8300,NA,NA,2022-02-02
+"Downtown","Seattle","Balance of King County","14000US53033008400","Census Tract 84, King County",NA,8400,NA,NA,2022-02-02
+"Downtown","Seattle","Balance of King County","14000US53033008500","Census Tract 85, King County",NA,8500,NA,NA,2022-02-02
+"Downtown","Seattle","Balance of King County","14000US53033009100","Census Tract 91, King County",NA,9100,NA,NA,2022-02-02
+"Downtown","Seattle","Balance of King County","14000US53033009200","Census Tract 92, King County",NA,9200,NA,NA,2022-02-02
+"East Federal Way","South","Balance of King County","16000US5301290","Algona city",1290,NA,NA,NA,2022-02-02
+"East Federal Way","South","Balance of King County","16000US5337420","Lakeland North CDP",37420,NA,NA,NA,2022-02-02
+"East Federal Way","South","Balance of King County","16000US5337430","Lakeland South CDP",37430,NA,NA,NA,2022-02-02
+"East Federal Way","South","Balance of King County","16000US5352495","Pacific city",52495,NA,NA,NA,2022-02-02
+"Fairwood","South","Balance of King County","16000US5323160","Fairwood CDP (King County)",23160,NA,NA,NA,2022-02-02
+"Fairwood","South","Balance of King County","16000US5343062","Maple Heights-Lake Desire CDP",43062,NA,NA,NA,2022-02-02
+"Fed Way-Central/Military Rd","South","Balance of King County","16000US5323515","Federal Way city",23515,NA,NA,NA,2022-02-02
+"Fed Way-Dash Pt","South","Balance of King County","16000US5323515","Federal Way city",23515,NA,NA,"Previously """"Fed Way-Dash Point/Woodmont"""". Changed 4/19/2019 to match with shapefile",2022-02-02
+"Fremont/Greenlake","Seattle","Balance of King County","14000US53033002700","Census Tract 27, King County",NA,2700,NA,NA,2022-02-02
+"Fremont/Greenlake","Seattle","Balance of King County","14000US53033002800","Census Tract 28, King County",NA,2800,NA,NA,2022-02-02
+"Fremont/Greenlake","Seattle","Balance of King County","14000US53033003500","Census Tract 35, King County",NA,3500,NA,NA,2022-02-02
+"Fremont/Greenlake","Seattle","Balance of King County","14000US53033003600","Census Tract 36, King County",NA,3600,NA,NA,2022-02-02
+"Fremont/Greenlake","Seattle","Balance of King County","14000US53033004500","Census Tract 45, King County",NA,4500,NA,NA,2022-02-02
+"Fremont/Greenlake","Seattle","Balance of King County","14000US53033004600","Census Tract 46, King County",NA,4600,NA,NA,2022-02-02
+"Fremont/Greenlake","Seattle","Balance of King County","14000US53033004900","Census Tract 49, King County",NA,4900,NA,NA,2022-02-02
+"Fremont/Greenlake","Seattle","Balance of King County","14000US53033005000","Census Tract 50, King County",NA,5000,NA,NA,2022-02-02
+"Fremont/Greenlake","Seattle","Balance of King County","14000US53033005100","Census Tract 51, King County",NA,5100,NA,NA,2022-02-02
+"Fremont/Greenlake","Seattle","Balance of King County","14000US53033005200","Census Tract 52, King County",NA,5200,NA,NA,2022-02-02
+"Fremont/Greenlake","Seattle","Balance of King County","14000US53033005400","Census Tract 54, King County",NA,5400,NA,NA,2022-02-02
+"Issaquah","East","Balance of King County","16000US5333805","Issaquah city",33805,NA,NA,NA,2022-02-02
+"Kenmore/LFP","North","Balance of King County","16000US5335170","Kenmore city",35170,NA,NA,NA,2022-02-02
+"Kenmore/LFP","North","Balance of King County","16000US5337270","Lake Forest Park city",37270,NA,NA,NA,2022-02-02
+"Kent-East","South","Balance of King County","16000US5335415","Kent city",35415,NA,NA,NA,2022-02-02
+"Kent-SE","South","Balance of King County","16000US5335415","Kent city",35415,NA,NA,NA,2022-02-02
+"Kent-West","South","Balance of King County","16000US5335415","Kent city",35415,NA,NA,NA,2022-02-02
+"Kirkland","East","Balance of King County","16000US5335940","Kirkland city",35940,NA,NA,NA,2022-02-02
+"Kirkland North","East","Balance of King County","16000US5335940","Kirkland city",35940,NA,NA,"Duplicate of Kirkland. Was annexed on to Kirkland, but needed for HRA maps. ",2022-02-02
+"Mercer Isle/Pt Cities","East","Balance of King County","16000US5313365","Clyde Hill city",13365,NA,NA,NA,2022-02-02
+"Mercer Isle/Pt Cities","East","Balance of King County","16000US5332755","Hunts Point town",32755,NA,NA,NA,2022-02-02
+"Mercer Isle/Pt Cities","East","Balance of King County","16000US5344725","Medina city",44725,NA,NA,NA,2022-02-02
+"Mercer Isle/Pt Cities","East","Balance of King County","16000US5345005","Mercer Island city",45005,NA,NA,NA,2022-02-02
+"Mercer Isle/Pt Cities","East","Balance of King County","16000US5380150","Yarrow Point town",80150,NA,NA,NA,2022-02-02
+"NE Seattle","Seattle","Balance of King County","14000US53033002100","Census Tract 21, King County",NA,2100,NA,NA,2022-02-02
+"NE Seattle","Seattle","Balance of King County","14000US53033002200","Census Tract 22, King County",NA,2200,NA,NA,2022-02-02
+"NE Seattle","Seattle","Balance of King County","14000US53033002400","Census Tract 24, King County",NA,2400,NA,NA,2022-02-02
+"NE Seattle","Seattle","Balance of King County","14000US53033002500","Census Tract 25, King County",NA,2500,NA,NA,2022-02-02
+"NE Seattle","Seattle","Balance of King County","14000US53033002600","Census Tract 26, King County",NA,2600,NA,NA,2022-02-02
+"NE Seattle","Seattle","Balance of King County","14000US53033003800","Census Tract 38, King County",NA,3800,NA,NA,2022-02-02
+"NE Seattle","Seattle","Balance of King County","14000US53033003900","Census Tract 39, King County",NA,3900,NA,NA,2022-02-02
+"NE Seattle","Seattle","Balance of King County","14000US53033004000","Census Tract 40, King County",NA,4000,NA,NA,2022-02-02
+"NE Seattle","Seattle","Balance of King County","14000US53033004100","Census Tract 41, King County",NA,4100,NA,NA,2022-02-02
+"NE Seattle","Seattle","Balance of King County","14000US53033004200","Census Tract 42, King County",NA,4200,NA,NA,2022-02-02
+"NE Seattle","Seattle","Balance of King County","14000US53033004301","Census Tract 43.01, King County",NA,4301,NA,NA,2022-02-02
+"NE Seattle","Seattle","Balance of King County","14000US53033004302","Census Tract 43.02, King County",NA,4302,NA,NA,2022-02-02
+"NE Seattle","Seattle","Balance of King County","14000US53033004400","Census Tract 44, King County",NA,4400,NA,NA,2022-02-02
+"NE Seattle","Seattle","Balance of King County","14000US53033005301","Census Tract 53.01, King County",NA,5301,NA,NA,2022-02-02
+"NE Seattle","Seattle","Balance of King County","14000US53033005302","Census Tract 53.02, King County",NA,5302,NA,NA,2022-02-02
+"NW Seattle","Seattle","Balance of King County","14000US53033000300","Census Tract 3, King County",NA,300,NA,NA,2022-02-02
+"NW Seattle","Seattle","Balance of King County","14000US53033000401","Census Tract 4.01, King County",NA,401,NA,NA,2022-02-02
+"NW Seattle","Seattle","Balance of King County","14000US53033000402","Census Tract 4.02, King County",NA,402,NA,NA,2022-02-02
+"NW Seattle","Seattle","Balance of King County","14000US53033000500","Census Tract 5, King County",NA,500,NA,NA,2022-02-02
+"NW Seattle","Seattle","Balance of King County","14000US53033000600","Census Tract 6, King County",NA,600,NA,NA,2022-02-02
+"NW Seattle","Seattle","Balance of King County","14000US53033001300","Census Tract 13, King County",NA,1300,NA,NA,2022-02-02
+"NW Seattle","Seattle","Balance of King County","14000US53033001400","Census Tract 14, King County",NA,1400,NA,NA,2022-02-02
+"NW Seattle","Seattle","Balance of King County","14000US53033001701","Census Tract 17.01, King County",NA,1701,NA,NA,2022-02-02
+"NW Seattle","Seattle","Balance of King County","14000US53033001702","Census Tract 17.02, King County",NA,1702,NA,NA,2022-02-02
+"NW Seattle","Seattle","Balance of King County","14000US53033001800","Census Tract 18, King County",NA,1800,NA,NA,2022-02-02
+"Newcastle/Four Creeks","East","Balance of King County","16000US5319857","East Renton Highlands CDP",19857,NA,NA,NA,2022-02-02
+"Newcastle/Four Creeks","East","Balance of King County","16000US5348645","Newcastle city",48645,NA,NA,NA,2022-02-02
+"Newcastle/Four Creeks","East","Balance of King County","14000US53033025005","Census Tract 250.05, King County",NA,25005,NA,NA,2022-02-02
+"Newcastle/Four Creeks","East","Balance of King County","15000US530330247023","Block Group 3, Census Tract 247.02, King County",NA,24702,3,NA,2022-02-02
+"Newcastle/Four Creeks","East","Balance of King County","15000US530330247025","Block Group 5, Census Tract 247.02, King County",NA,24702,5,NA,2022-02-02
+"Newcastle/Four Creeks","East","Balance of King County","15000US530330250011","Block Group 1, Census Tract 250.01, King County",NA,25001,1,NA,2022-02-02
+"Newcastle/Four Creeks","East","Balance of King County","15000US530330250012","Block Group 2, Census Tract 250.01, King County",NA,25001,2,NA,2022-02-02
+"Newcastle/Four Creeks","East","Balance of King County","15000US530330250063","Block Group 3, Census Tract 250.06, King County",NA,25006,3,NA,2022-02-02
+"North Highline","South","White Center","16000US5307397","Boulevard Park CDP",7397,NA,NA,NA,2022-02-02
+"North Highline","South","White Center","16000US5378225","White Center CDP",78225,NA,NA,NA,2022-02-02
+"North Seattle","Seattle","Balance of King County","14000US53033000100","Census Tract 1, King County",NA,100,NA,NA,2022-02-02
+"North Seattle","Seattle","Balance of King County","14000US53033000200","Census Tract 2, King County",NA,200,NA,NA,2022-02-02
+"North Seattle","Seattle","Balance of King County","14000US53033000700","Census Tract 7, King County",NA,700,NA,NA,2022-02-02
+"North Seattle","Seattle","Balance of King County","14000US53033000800","Census Tract 8, King County",NA,800,NA,NA,2022-02-02
+"North Seattle","Seattle","Balance of King County","14000US53033000900","Census Tract 9, King County",NA,900,NA,NA,2022-02-02
+"North Seattle","Seattle","Balance of King County","14000US53033001000","Census Tract 10, King County",NA,1000,NA,NA,2022-02-02
+"North Seattle","Seattle","Balance of King County","14000US53033001100","Census Tract 11, King County",NA,1100,NA,NA,2022-02-02
+"North Seattle","Seattle","Balance of King County","14000US53033001200","Census Tract 12, King County",NA,1200,NA,NA,2022-02-02
+"North Seattle","Seattle","Balance of King County","14000US53033001900","Census Tract 19, King County",NA,1900,NA,NA,2022-02-02
+"North Seattle","Seattle","Balance of King County","14000US53033002000","Census Tract 20, King County",NA,2000,NA,NA,2022-02-02
+"QA/Magnolia","Seattle","Balance of King County","14000US53033005600","Census Tract 56, King County",NA,5600,NA,NA,2022-02-02
+"QA/Magnolia","Seattle","Balance of King County","14000US53033005700","Census Tract 57, King County",NA,5700,NA,NA,2022-02-02
+"QA/Magnolia","Seattle","Balance of King County","14000US53033005801","Census Tract 58.01, King County",NA,5801,NA,NA,2022-02-02
+"QA/Magnolia","Seattle","Balance of King County","14000US53033005802","Census Tract 58.02, King County",NA,5802,NA,NA,2022-02-02
+"QA/Magnolia","Seattle","Balance of King County","14000US53033005900","Census Tract 59, King County",NA,5900,NA,NA,2022-02-02
+"QA/Magnolia","Seattle","Balance of King County","14000US53033006000","Census Tract 60, King County",NA,6000,NA,NA,2022-02-02
+"QA/Magnolia","Seattle","Balance of King County","14000US53033006700","Census Tract 67, King County",NA,6700,NA,NA,2022-02-02
+"QA/Magnolia","Seattle","Balance of King County","14000US53033006800","Census Tract 68, King County",NA,6800,NA,NA,2022-02-02
+"QA/Magnolia","Seattle","Balance of King County","14000US53033006900","Census Tract 69, King County",NA,6900,NA,NA,2022-02-02
+"QA/Magnolia","Seattle","Balance of King County","14000US53033007000","Census Tract 70, King County",NA,7000,NA,NA,2022-02-02
+"QA/Magnolia","Seattle","Balance of King County","14000US53033007100","Census Tract 71, King County",NA,7100,NA,NA,2022-02-02
+"Redmond","East","Balance of King County","16000US5357535","Redmond city",57535,NA,NA,NA,2022-02-02
+"Renton-East","South","Balance of King County","16000US5357745","Renton city",57745,NA,NA,NA,2022-02-02
+"Renton-North","South","Balance of King County","15000US530330247021","Block Group 1, Census Tract 247.02, King County",NA,24702,1,NA,2022-02-02
+"Renton-North","South","Balance of King County","16000US5357745","Renton city",57745,NA,NA,NA,2022-02-02
+"Renton-South","South","Balance of King County","16000US5308552","Bryn Mawr-Skyway CDP",8552,NA,NA,NA,2022-02-02
+"Renton-South","South","Balance of King County","16000US5357745","Renton city",57745,NA,NA,NA,2022-02-02
+"SE Seattle","Seattle","Rainier Valley","14000US53033010100","Census Tract 101, King County",NA,10100,NA,NA,2022-02-02
+"SE Seattle","Seattle","Rainier Valley","14000US53033010200","Census Tract 102, King County",NA,10200,NA,NA,2022-02-02
+"SE Seattle","Seattle","Rainier Valley","14000US53033010300","Census Tract 103, King County",NA,10300,NA,NA,2022-02-02
+"SE Seattle","Seattle","Rainier Valley","14000US53033011101","Census Tract 111.01, King County",NA,11101,NA,NA,2022-02-02
+"SE Seattle","Seattle","Rainier Valley","14000US53033011102","Census Tract 111.02, King County",NA,11102,NA,NA,2022-02-02
+"SE Seattle","Seattle","Rainier Valley","14000US53033011800","Census Tract 118, King County",NA,11800,NA,NA,2022-02-02
+"SE Seattle","Seattle","Rainier Valley","14000US53033011900","Census Tract 119, King County",NA,11900,NA,NA,2022-02-02
+"Sammamish","East","Balance of King County","16000US5361115","Sammamish city",61115,NA,NA,NA,2022-02-02
+"SeaTac/Tukwila","South","SeaTac/Tukwila","16000US5362288","SeaTac city",62288,NA,NA,NA,2022-02-02
+"SeaTac/Tukwila","South","SeaTac/Tukwila","16000US5372625","Tukwila city",72625,NA,NA,NA,2022-02-02
+"Shoreline","North","Balance of King County","16000US5363960","Shoreline city",63960,NA,NA,NA,2022-02-02
+"Snoqualmie/North Bend/Skykomish","East","Balance of King County","14000US53033032102","Census Tract 321.02, King County",NA,32102,NA,NA,2022-02-02
+"Snoqualmie/North Bend/Skykomish","East","Balance of King County","14000US53033032602","Census Tract 326.02, King County",NA,32602,NA,NA,2022-02-02
+"Snoqualmie/North Bend/Skykomish","East","Balance of King County","14000US53033032702","Census Tract 327.02, King County",NA,32702,NA,NA,2022-02-02
+"Snoqualmie/North Bend/Skykomish","East","Balance of King County","14000US53033032703","Census Tract 327.03, King County",NA,32703,NA,NA,2022-02-02
+"Snoqualmie/North Bend/Skykomish","East","Balance of King County","14000US53033032704","Census Tract 327.04, King County",NA,32704,NA,NA,2022-02-02
+"Snoqualmie/North Bend/Skykomish","East","Balance of King County","14000US53033032800","Census Tract 328, King County",NA,32800,NA,NA,2022-02-02
+"Snoqualmie/North Bend/Skykomish","East","Balance of King County","15000US530330322101","Block Group 1, Census Tract 322.10, King County",NA,32210,1,NA,2022-02-02
+"Snoqualmie/North Bend/Skykomish","East","Balance of King County","15000US530330322102","Block Group 2, Census Tract 322.10, King County",NA,32210,2,NA,2022-02-02
+"Vashon Island","South","Balance of King County","16000US5374305","Vashon CDP",74305,NA,NA,NA,2022-02-02
+"West Seattle","Seattle","Balance of King County","14000US53033009600","Census Tract 96, King County",NA,9600,NA,NA,2022-02-02
+"West Seattle","Seattle","Balance of King County","14000US53033009701","Census Tract 97.01, King County",NA,9701,NA,NA,2022-02-02
+"West Seattle","Seattle","Balance of King County","14000US53033009702","Census Tract 97.02, King County",NA,9702,NA,NA,2022-02-02
+"West Seattle","Seattle","Balance of King County","14000US53033009800","Census Tract 98, King County",NA,9800,NA,NA,2022-02-02
+"West Seattle","Seattle","Balance of King County","14000US53033009900","Census Tract 99, King County",NA,9900,NA,NA,2022-02-02
+"West Seattle","Seattle","Balance of King County","14000US53033010500","Census Tract 105, King County",NA,10500,NA,NA,2022-02-02
+"West Seattle","Seattle","Balance of King County","14000US53033010600","Census Tract 106, King County",NA,10600,NA,NA,2022-02-02
+"West Seattle","Seattle","Balance of King County","14000US53033011600","Census Tract 116, King County",NA,11600,NA,NA,2022-02-02
+"West Seattle","Seattle","Balance of King County","14000US53033012000","Census Tract 120, King County",NA,12000,NA,NA,2022-02-02
+"West Seattle","Seattle","Balance of King County","14000US53033012100","Census Tract 121, King County",NA,12100,NA,NA,2022-02-02
+NA,NA,"Balance of King County","16000US5305210","Bellevue city",5210,NA,NA,"Seattle & Bellevue HRA: use city level place data rather than summing up the blockgroup and tract data which inflates standard errors",2022-02-02
+NA,NA,"Balance of King County","16000US5363000","Seattle city",63000,NA,NA,"Seattle & Bellevue HRA: use city level place data rather than summing up the blockgroup and tract data which inflates standard errors",2022-02-02
+"","","","","",NA,NA,NA,"",2022-02-02
+"","","","","",NA,NA,NA,"",2022-02-02
+"","","","","",NA,NA,NA,"",2022-02-02
+"","","","","",NA,NA,NA,"",2022-02-02
+"","","","","",NA,NA,NA,"",2022-02-02
+"","","","","",NA,NA,NA,"",2022-02-02
+"","","","","",NA,NA,NA,"",2022-02-02
+"","","","","",NA,NA,NA,"",2022-02-02
+"","","","","",NA,NA,NA,"",2022-02-02
+"","","","","",NA,NA,NA,"",2022-02-02
+"","","","","",NA,NA,NA,"",2022-02-02
+"","","","","",NA,NA,NA,"",2022-02-02
+"","","","","",NA,NA,NA,"",2022-02-02
+"","","","","",NA,NA,NA,"",2022-02-02
+"","","","","",NA,NA,NA,"",2022-02-02
+"","","","","",NA,NA,NA,"",2022-02-02
+"","","","","",NA,NA,NA,"",2022-02-02
+"","","","","",NA,NA,NA,"",2022-02-02
+"","","","","",NA,NA,NA,"",2022-02-02
+"","","","","",NA,NA,NA,"",2022-02-02
