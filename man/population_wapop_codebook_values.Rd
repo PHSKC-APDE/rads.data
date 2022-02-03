@@ -5,11 +5,8 @@
 \alias{population_wapop_codebook_values}
 \title{Codebook for WA OFM population demographics.}
 \format{
-A data.table with 117 rows and 5 variables: \code{varname}, \code{code},
+A data.table with 117 rows and 7 variables: \code{varname}, \code{code},
   \code{code_label}, \code{code_label_long}, \code{code_label_long2}.
-}
-\source{
-\url{https://www.mysterydata.com}
 }
 \usage{
 population_wapop_codebook_values
@@ -18,5 +15,8 @@ population_wapop_codebook_values
 Codebook for WA OFM population demographics.
    Translation of OFM population variables into standard demographic terms.
    Most likely to be used with raw data in SQL.
+}
+\references{
+[hhs_analytics_workspace].[ref].[pop_labels]
 }
 \keyword{datasets}

@@ -1,118 +1,118 @@
-"varname","code","code_label","code_label_long","code_label_long2","uploaded"
-"s","1","M","Male","",2022-02-02
-"s","2","F","Female","",2022-02-02
-"r3","1","W","White","",2022-02-02
-"r3","2","B","Black or African American","",2022-02-02
-"r3","3","I","Native American/Alaska Native","",2022-02-02
-"r3","5","M","Multiple","",2022-02-02
-"r3","6","H","Hispanic ethnicity","",2022-02-02
-"r3","7","A","Asian","",2022-02-02
-"r3","8","P","Native Hawaiian/Pacific Islander","",2022-02-02
-"h","0","NH","Non-Hispanic","",2022-02-02
-"h","1","H","Hispanic ethnicity","",2022-02-02
-"racemars97","10000","Wht alone","White alone","White alone",2022-02-02
-"racemars97","01000","Blk alone","Black or African American alone","Black alone",2022-02-02
-"racemars97","00100","AI alone","American Indian and Alaska Native alone","AIAN alone",2022-02-02
-"racemars97","00010","As alone","Asian alone","Asian alone",2022-02-02
-"racemars97","00001","NH alone","Native Hawaiian and Other Pacific Islander alone","NHOPI alone",2022-02-02
-"racemars97","11000","Wht,Blk","White; Black or African American","White,Black ",2022-02-02
-"racemars97","10100","Wht,AI","White; American Indian and Alaska Native","White,AIAN ",2022-02-02
-"racemars97","10010","Wht,As","White; Asian","White,Asian ",2022-02-02
-"racemars97","10001","Wht,NH","White; Native Hawaiian and Other Pacific Islander","White,NHOPI ",2022-02-02
-"racemars97","01100","Blk,AI","Black or African American; American Indian and Alaska Native","Black,AIAN ",2022-02-02
-"racemars97","01010","Blk,As","Black or African American; Asian","Black,Asian ",2022-02-02
-"racemars97","01001","Blk,NH","Black or African American; Native Hawaiian and Other Pacific Islander","Black,NHOPI ",2022-02-02
-"racemars97","00110","AI,As","American Indian and Alaska Native; Asian","AIAN,Asian ",2022-02-02
-"racemars97","00101","AI,NH","American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander","AIAN,NHOPI ",2022-02-02
-"racemars97","00011","As,NH","Asian; Native Hawaiian and Other Pacific Islander","Asian,NHOPI ",2022-02-02
-"racemars97","11100","Wht,Blk,AI","White; Black or African American; American Indian and Alaska Native","White,Black,AIAN ",2022-02-02
-"racemars97","11010","Wht,Blk,As","White; Black or African American; Asian","White,Black,Asian ",2022-02-02
-"racemars97","11001","Wht,Blk,NH","White; Black or African American; Native Hawaiian and Other Pacific Islander","White,Black,NHOPI ",2022-02-02
-"racemars97","10110","Wht,AI,As","White; American Indian and Alaska Native; Asian","White,AIAN,Asian ",2022-02-02
-"racemars97","10101","Wht,AI,NH","White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander","White,AIAN,NHOPI ",2022-02-02
-"racemars97","10011","Wht,As,NH","White; Asian; Native Hawaiian and Other Pacific Islander","White,Asian,NHOPI ",2022-02-02
-"racemars97","01110","Blk,AI,As","Black or African American; American Indian and Alaska Native; Asian","Black,AIAN,Asian ",2022-02-02
-"racemars97","01101","Blk,AI,NH","Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander","Black,AIAN,NHOPI ",2022-02-02
-"racemars97","01011","Blk,As,NH","Black or African American; Asian; Native Hawaiian and Other Pacific Islander","Black,Asian,NHOPI ",2022-02-02
-"racemars97","00111","AI,As,NH","American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander","AIAN,Asian,NHOPI ",2022-02-02
-"racemars97","11110","Wht,Blk,AI,As","White; Black or African American; American Indian and Alaska Native; Asian","White,Black,AIAN,Asian ",2022-02-02
-"racemars97","11101","Wht,Blk,AI,NH","White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander","White,Black,AIAN,NHOPI ",2022-02-02
-"racemars97","11011","Wht,Blk,As,NH","White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander","White,Black,Asian,NHOPI ",2022-02-02
-"racemars97","10111","Wht,AI,As,NH","White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander","White,AIAN,Asian,NHOPI ",2022-02-02
-"racemars97","01111","Blk,AI,As,NH","Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander","Black,AIAN,Asian,NHOPI ",2022-02-02
-"racemars97","11111","Wht,Blk,AI,As,NH","White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander","White,Black,AIAN,Asian,NHOPI ",2022-02-02
-"rcode","1","Wht alone","White alone","White alone",2022-02-02
-"rcode","2","Blk alone","Black or African American alone","Black alone",2022-02-02
-"rcode","3","AI alone","American Indian and Alaska Native alone","AIAN alone",2022-02-02
-"rcode","4","As alone","Asian alone","Asian alone",2022-02-02
-"rcode","5","NH alone","Native Hawaiian and Other Pacific Islander alone","NHOPI alone",2022-02-02
-"rcode","6","Wht,Blk","White; Black or African American","White,Black ",2022-02-02
-"rcode","7","Wht,AI","White; American Indian and Alaska Native","White,AIAN ",2022-02-02
-"rcode","8","Wht,As","White; Asian","White,Asian ",2022-02-02
-"rcode","9","Wht,NH","White; Native Hawaiian and Other Pacific Islander","White,NHOPI ",2022-02-02
-"rcode","10","Blk,AI","Black or African American; American Indian and Alaska Native","Black,AIAN ",2022-02-02
-"rcode","11","Blk,As","Black or African American; Asian","Black,Asian ",2022-02-02
-"rcode","12","Blk,NH","Black or African American; Native Hawaiian and Other Pacific Islander","Black,NHOPI ",2022-02-02
-"rcode","13","AI,As","American Indian and Alaska Native; Asian","AIAN,Asian ",2022-02-02
-"rcode","14","AI,NH","American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander","AIAN,NHOPI ",2022-02-02
-"rcode","15","As,NH","Asian; Native Hawaiian and Other Pacific Islander","Asian,NHOPI ",2022-02-02
-"rcode","16","Wht,Blk,AI","White; Black or African American; American Indian and Alaska Native","White,Black,AIAN ",2022-02-02
-"rcode","17","Wht,Blk,As","White; Black or African American; Asian","White,Black,Asian ",2022-02-02
-"rcode","18","Wht,Blk,NH","White; Black or African American; Native Hawaiian and Other Pacific Islander","White,Black,NHOPI ",2022-02-02
-"rcode","19","Wht,AI,As","White; American Indian and Alaska Native; Asian","White,AIAN,Asian ",2022-02-02
-"rcode","20","Wht,AI,NH","White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander","White,AIAN,NHOPI ",2022-02-02
-"rcode","21","Wht,As,NH","White; Asian; Native Hawaiian and Other Pacific Islander","White,Asian,NHOPI ",2022-02-02
-"rcode","22","Blk,AI,As","Black or African American; American Indian and Alaska Native; Asian","Black,AIAN,Asian ",2022-02-02
-"rcode","23","Blk,AI,NH","Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander","Black,AIAN,NHOPI ",2022-02-02
-"rcode","24","Blk,As,NH","Black or African American; Asian; Native Hawaiian and Other Pacific Islander","Black,Asian,NHOPI ",2022-02-02
-"rcode","25","AI,As,NH","American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander","AIAN,Asian,NHOPI ",2022-02-02
-"rcode","26","Wht,Blk,AI,As","White; Black or African American; American Indian and Alaska Native; Asian","White,Black,AIAN,Asian ",2022-02-02
-"rcode","27","Wht,Blk,AI,NH","White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander","White,Black,AIAN,NHOPI ",2022-02-02
-"rcode","28","Wht,Blk,As,NH","White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander","White,Black,Asian,NHOPI ",2022-02-02
-"rcode","29","Wht,AI,As,NH","White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander","White,AIAN,Asian,NHOPI ",2022-02-02
-"rcode","30","Blk,AI,As,NH","Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander","Black,AIAN,Asian,NHOPI ",2022-02-02
-"rcode","31","Wht,Blk,AI,As,NH","White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander","White,Black,AIAN,Asian,NHOPI ",2022-02-02
-"gender","M","M","Male","",2022-02-02
-"gender","F","F","Female","",2022-02-02
-"hispanic","0","NH","Non-Hispanic","",2022-02-02
-"hispanic","1","H","Hispanic ethnicity","",2022-02-02
-"h","0","NH","Non-Hispanic","",2022-02-02
-"h","1","H","Hispanic ethnicity","",2022-02-02
-"r4","1","Wnh","White, non-Hispanic","",2022-02-02
-"r4","2","Bnh","Black, non-Hispanic","",2022-02-02
-"r4","3","Inh","American Indian/Alaska Native, non-Hispanic","",2022-02-02
-"r4","5","Mnh","Multiple, non-Hispanic","",2022-02-02
-"r4","6","H","Hispanic ethnicity","",2022-02-02
-"r4","7","Anh","Asian, non-Hispanic","",2022-02-02
-"r4","8","Pnh","Native Hawaiian/Pacific Islander, non-Hispanic","",2022-02-02
-"age11","0","0","Less than 1 year","",2022-02-02
-"age11","1","1","1 to 4 years","",2022-02-02
-"age11","5","5","5 to 14 years","",2022-02-02
-"age11","15","15","15 to 24 years","",2022-02-02
-"age11","25","25","25 to 34 years","",2022-02-02
-"age11","35","35","35 to 44 years","",2022-02-02
-"age11","45","45","45 to 54 years","",2022-02-02
-"age11","55","55","55 to 64 years","",2022-02-02
-"age11","65","65","65 to 74 years","",2022-02-02
-"age11","75","75","75 to 84 years","",2022-02-02
-"age11","85","85","85 and older","",2022-02-02
-"age20","0","0","Less than 1 year","",2022-02-02
-"age20","1","1","1 to 4 years","",2022-02-02
-"age20","5","5","5 to 9 years","",2022-02-02
-"age20","10","10","10 to 14 years","",2022-02-02
-"age20","15","15","15 to 17 years","",2022-02-02
-"age20","18","18","18 to 19 years","",2022-02-02
-"age20","20","20","20 to 24 years","",2022-02-02
-"age20","25","25","25 to 29 years","",2022-02-02
-"age20","30","30","30 to 34 years","",2022-02-02
-"age20","35","35","35 to 39  years","",2022-02-02
-"age20","40","40","40 to 44 years","",2022-02-02
-"age20","45","45","45 to 49 years","",2022-02-02
-"age20","50","50","50 to 54 years","",2022-02-02
-"age20","55","55","55 to 59 years","",2022-02-02
-"age20","60","60","60 to 64 years","",2022-02-02
-"age20","65","65","65 to 69 years","",2022-02-02
-"age20","70","70","70 to 74 years","",2022-02-02
-"age20","75","75","75 to 79 years","",2022-02-02
-"age20","80","80","80 to 84 years","",2022-02-02
-"age20","85","85","85 and older","",2022-02-02
+varname,code,label,short,code_label,code_label_long,code_label_long2,uploaded
+age11,0,,,0,Less than 1 year,,2/2/2022
+age11,1,,,1,1 to 4 years,,2/2/2022
+age11,5,,,5,5 to 14 years,,2/2/2022
+age11,15,,,15,15 to 24 years,,2/2/2022
+age11,25,,,25,25 to 34 years,,2/2/2022
+age11,35,,,35,35 to 44 years,,2/2/2022
+age11,45,,,45,45 to 54 years,,2/2/2022
+age11,55,,,55,55 to 64 years,,2/2/2022
+age11,65,,,65,65 to 74 years,,2/2/2022
+age11,75,,,75,75 to 84 years,,2/2/2022
+age11,85,,,85,85 and older,,2/2/2022
+age20,0,,,0,Less than 1 year,,2/2/2022
+age20,1,,,1,1 to 4 years,,2/2/2022
+age20,5,,,5,5 to 9 years,,2/2/2022
+age20,10,,,10,10 to 14 years,,2/2/2022
+age20,15,,,15,15 to 17 years,,2/2/2022
+age20,18,,,18,18 to 19 years,,2/2/2022
+age20,20,,,20,20 to 24 years,,2/2/2022
+age20,25,,,25,25 to 29 years,,2/2/2022
+age20,30,,,30,30 to 34 years,,2/2/2022
+age20,35,,,35,35 to 39  years,,2/2/2022
+age20,40,,,40,40 to 44 years,,2/2/2022
+age20,45,,,45,45 to 49 years,,2/2/2022
+age20,50,,,50,50 to 54 years,,2/2/2022
+age20,55,,,55,55 to 59 years,,2/2/2022
+age20,60,,,60,60 to 64 years,,2/2/2022
+age20,65,,,65,65 to 69 years,,2/2/2022
+age20,70,,,70,70 to 74 years,,2/2/2022
+age20,75,,,75,75 to 79 years,,2/2/2022
+age20,80,,,80,80 to 84 years,,2/2/2022
+age20,85,,,85,85 and older,,2/2/2022
+gender,M,,,M,Male,,2/2/2022
+gender,F,,,F,Female,,2/2/2022
+h,0,,,NH,Non-Hispanic,,2/2/2022
+h,1,,,H,Hispanic ethnicity,,2/2/2022
+h,0,,,NH,Non-Hispanic,,2/2/2022
+h,1,,,H,Hispanic ethnicity,,2/2/2022
+hispanic,0,,,NH,Non-Hispanic,,2/2/2022
+hispanic,1,,,H,Hispanic ethnicity,,2/2/2022
+r1r3,1,White,white,W,White,,2/2/2022
+r1r3,2,Black,black,B,Black or African American,,2/2/2022
+r1r3,3,AIAN,aian,I,Native American/Alaska Native,,2/2/2022
+r1r3,7,Asian,asian,A,Asian,,2/2/2022
+r1r3,8,NHPI,nhpi,P,Native Hawaiian/Pacific Islander,,2/2/2022
+r1r3,5,Multiple race,multiple,M,Multiple,,2/2/2022
+r1r3,6,Hispanic,hispanic,H,Hispanic race,,2/2/2022
+r2r4,1,White,white,Wnh,"White, non-Hispanic",,2/2/2022
+r2r4,2,Black,black,Bnh,"Black, non-Hispanic",,2/2/2022
+r2r4,3,AIAN,aian,Inh,"American Indian/Alaska Native, non-Hispanic",,2/2/2022
+r2r4,7,Asian,asian,Anh,"Asian, non-Hispanic",,2/2/2022
+r2r4,8,NHPI,nhpi,Pnh,"Native Hawaiian/Pacific Islander, non-Hispanic",,2/2/2022
+r2r4,5,Multiple race,multiple,Mnh,"Multiple, non-Hispanic",,2/2/2022
+r2r4,6,Hispanic,hispanic,H,Hispanic ethnicity,,2/2/2022
+racemars97,10000,,,Wht alone,White alone,White alone,2/2/2022
+racemars97,1000,,,Blk alone,Black or African American alone,Black alone,2/2/2022
+racemars97,100,,,AI alone,American Indian and Alaska Native alone,AIAN alone,2/2/2022
+racemars97,10,,,As alone,Asian alone,Asian alone,2/2/2022
+racemars97,1,,,NH alone,Native Hawaiian and Other Pacific Islander alone,NHOPI alone,2/2/2022
+racemars97,11000,,,"Wht,Blk",White; Black or African American,"White,Black ",2/2/2022
+racemars97,10100,,,"Wht,AI",White; American Indian and Alaska Native,"White,AIAN ",2/2/2022
+racemars97,10010,,,"Wht,As",White; Asian,"White,Asian ",2/2/2022
+racemars97,10001,,,"Wht,NH",White; Native Hawaiian and Other Pacific Islander,"White,NHOPI ",2/2/2022
+racemars97,1100,,,"Blk,AI",Black or African American; American Indian and Alaska Native,"Black,AIAN ",2/2/2022
+racemars97,1010,,,"Blk,As",Black or African American; Asian,"Black,Asian ",2/2/2022
+racemars97,1001,,,"Blk,NH",Black or African American; Native Hawaiian and Other Pacific Islander,"Black,NHOPI ",2/2/2022
+racemars97,110,,,"AI,As",American Indian and Alaska Native; Asian,"AIAN,Asian ",2/2/2022
+racemars97,101,,,"AI,NH",American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander,"AIAN,NHOPI ",2/2/2022
+racemars97,11,,,"As,NH",Asian; Native Hawaiian and Other Pacific Islander,"Asian,NHOPI ",2/2/2022
+racemars97,11100,,,"Wht,Blk,AI",White; Black or African American; American Indian and Alaska Native,"White,Black,AIAN ",2/2/2022
+racemars97,11010,,,"Wht,Blk,As",White; Black or African American; Asian,"White,Black,Asian ",2/2/2022
+racemars97,11001,,,"Wht,Blk,NH",White; Black or African American; Native Hawaiian and Other Pacific Islander,"White,Black,NHOPI ",2/2/2022
+racemars97,10110,,,"Wht,AI,As",White; American Indian and Alaska Native; Asian,"White,AIAN,Asian ",2/2/2022
+racemars97,10101,,,"Wht,AI,NH",White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander,"White,AIAN,NHOPI ",2/2/2022
+racemars97,10011,,,"Wht,As,NH",White; Asian; Native Hawaiian and Other Pacific Islander,"White,Asian,NHOPI ",2/2/2022
+racemars97,1110,,,"Blk,AI,As",Black or African American; American Indian and Alaska Native; Asian,"Black,AIAN,Asian ",2/2/2022
+racemars97,1101,,,"Blk,AI,NH",Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander,"Black,AIAN,NHOPI ",2/2/2022
+racemars97,1011,,,"Blk,As,NH",Black or African American; Asian; Native Hawaiian and Other Pacific Islander,"Black,Asian,NHOPI ",2/2/2022
+racemars97,111,,,"AI,As,NH",American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander,"AIAN,Asian,NHOPI ",2/2/2022
+racemars97,11110,,,"Wht,Blk,AI,As",White; Black or African American; American Indian and Alaska Native; Asian,"White,Black,AIAN,Asian ",2/2/2022
+racemars97,11101,,,"Wht,Blk,AI,NH",White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander,"White,Black,AIAN,NHOPI ",2/2/2022
+racemars97,11011,,,"Wht,Blk,As,NH",White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander,"White,Black,Asian,NHOPI ",2/2/2022
+racemars97,10111,,,"Wht,AI,As,NH",White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander,"White,AIAN,Asian,NHOPI ",2/2/2022
+racemars97,1111,,,"Blk,AI,As,NH",Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander,"Black,AIAN,Asian,NHOPI ",2/2/2022
+racemars97,11111,,,"Wht,Blk,AI,As,NH",White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander,"White,Black,AIAN,Asian,NHOPI ",2/2/2022
+rcode,1,,,Wht alone,White alone,White alone,2/2/2022
+rcode,2,,,Blk alone,Black or African American alone,Black alone,2/2/2022
+rcode,3,,,AI alone,American Indian and Alaska Native alone,AIAN alone,2/2/2022
+rcode,4,,,As alone,Asian alone,Asian alone,2/2/2022
+rcode,5,,,NH alone,Native Hawaiian and Other Pacific Islander alone,NHOPI alone,2/2/2022
+rcode,6,,,"Wht,Blk",White; Black or African American,"White,Black ",2/2/2022
+rcode,7,,,"Wht,AI",White; American Indian and Alaska Native,"White,AIAN ",2/2/2022
+rcode,8,,,"Wht,As",White; Asian,"White,Asian ",2/2/2022
+rcode,9,,,"Wht,NH",White; Native Hawaiian and Other Pacific Islander,"White,NHOPI ",2/2/2022
+rcode,10,,,"Blk,AI",Black or African American; American Indian and Alaska Native,"Black,AIAN ",2/2/2022
+rcode,11,,,"Blk,As",Black or African American; Asian,"Black,Asian ",2/2/2022
+rcode,12,,,"Blk,NH",Black or African American; Native Hawaiian and Other Pacific Islander,"Black,NHOPI ",2/2/2022
+rcode,13,,,"AI,As",American Indian and Alaska Native; Asian,"AIAN,Asian ",2/2/2022
+rcode,14,,,"AI,NH",American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander,"AIAN,NHOPI ",2/2/2022
+rcode,15,,,"As,NH",Asian; Native Hawaiian and Other Pacific Islander,"Asian,NHOPI ",2/2/2022
+rcode,16,,,"Wht,Blk,AI",White; Black or African American; American Indian and Alaska Native,"White,Black,AIAN ",2/2/2022
+rcode,17,,,"Wht,Blk,As",White; Black or African American; Asian,"White,Black,Asian ",2/2/2022
+rcode,18,,,"Wht,Blk,NH",White; Black or African American; Native Hawaiian and Other Pacific Islander,"White,Black,NHOPI ",2/2/2022
+rcode,19,,,"Wht,AI,As",White; American Indian and Alaska Native; Asian,"White,AIAN,Asian ",2/2/2022
+rcode,20,,,"Wht,AI,NH",White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander,"White,AIAN,NHOPI ",2/2/2022
+rcode,21,,,"Wht,As,NH",White; Asian; Native Hawaiian and Other Pacific Islander,"White,Asian,NHOPI ",2/2/2022
+rcode,22,,,"Blk,AI,As",Black or African American; American Indian and Alaska Native; Asian,"Black,AIAN,Asian ",2/2/2022
+rcode,23,,,"Blk,AI,NH",Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander,"Black,AIAN,NHOPI ",2/2/2022
+rcode,24,,,"Blk,As,NH",Black or African American; Asian; Native Hawaiian and Other Pacific Islander,"Black,Asian,NHOPI ",2/2/2022
+rcode,25,,,"AI,As,NH",American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander,"AIAN,Asian,NHOPI ",2/2/2022
+rcode,26,,,"Wht,Blk,AI,As",White; Black or African American; American Indian and Alaska Native; Asian,"White,Black,AIAN,Asian ",2/2/2022
+rcode,27,,,"Wht,Blk,AI,NH",White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander,"White,Black,AIAN,NHOPI ",2/2/2022
+rcode,28,,,"Wht,Blk,As,NH",White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander,"White,Black,Asian,NHOPI ",2/2/2022
+rcode,29,,,"Wht,AI,As,NH",White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander,"White,AIAN,Asian,NHOPI ",2/2/2022
+rcode,30,,,"Blk,AI,As,NH",Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander,"Black,AIAN,Asian,NHOPI ",2/2/2022
+rcode,31,,,"Wht,Blk,AI,As,NH",White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander,"White,Black,AIAN,Asian,NHOPI ",2/2/2022
+s,1,,,M,Male,,2/2/2022
+s,2,,,F,Female,,2/2/2022
