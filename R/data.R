@@ -220,6 +220,16 @@
 #' @source \url{https://www.mysterydata.com}
 "spatial_chi_blocks10_xwalk"
 
+#' Crosswalk between 2010 county id, code, fips code and name
+#'
+#' Crosswalk between 2010 county id, code, fips code and name
+#'
+#' @format A data.table with 39 rows and 5 variables: \code{cou_id}, \code{geo_year},
+#'   \code{cou_name}, \code{cou_code}, \code{fips_co}.
+#'
+#' @source kcitazrhpasqlprp16.azds.kingcounty.gov [ref].[pop_cou_crosswalk]
+"spatial_county_codes_to_names"
+
 #' Census 2010 ... most extensive crosswalk file ... the best
 #'
 #' Census 2010 ... APDE's most extensive crosswalk file.
@@ -266,6 +276,27 @@
 #'
 #' @source \url{https://www.mysterydata.com}
 "spatial_hra_vid_region"
+
+#' Crosswalk between 2010 legislative district id, name, county, and url
+#'
+#' Crosswalk between 2010 legislative district id, name, county, and url
+#'
+#' @format A data.table with 49 rows and 5 variables: \code{lgd_id}, \code{geo_year},
+#'   \code{lgd_name}, \code{lgd_counties}, \code{lgd_url}.
+#'
+#' @source kcitazrhpasqlprp16.azds.kingcounty.gov [ref].[pop_lgd_crosswalk]
+"spatial_legislative_codes_to_names"
+
+#' Crosswalk between 2010 school district id, name, state id, county code, and esd name
+#'
+#' Crosswalk between 2010 school district id, name, state id, county code, and esd name
+#'
+#' @format A data.table with 336 rows and 7 variables: \code{scd_id}, \code{geo_year},
+#'   \code{scd_name}, \code{scd_state_id}, \code{scd_cou_code}, \code{scd_lea_code},
+#'   \code{scd_esd_name}.
+#'
+#' @source kcitazrhpasqlprp16.azds.kingcounty.gov [ref].[pop_scd_crosswalk]
+"spatial_school_codes_to_names"
 
 #' Crosswalk between King County school districts and KC regions
 #'
