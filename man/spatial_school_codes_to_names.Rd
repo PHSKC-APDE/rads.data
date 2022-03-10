@@ -5,12 +5,11 @@
 \alias{spatial_school_codes_to_names}
 \title{Crosswalk between 2010 school district id, name, state id, county code, and esd name}
 \format{
-A data.table with 336 rows and 7 variables: \code{scd_id}, \code{geo_year},
-  \code{scd_name}, \code{scd_state_id}, \code{scd_cou_code}, \code{scd_lea_code},
-  \code{scd_esd_name}.
+A data.table with 295 rows and 3 variables: \code{geo_year}, \code{scd_id},
+ and  \code{scd_name}.
 }
 \source{
-kcitazrhpasqlprp16.azds.kingcounty.gov [ref].[pop_scd_crosswalk]
+\url{https://secureaccess.wa.gov/doh/chat/Entry.mvc}
 }
 \usage{
 spatial_school_codes_to_names
