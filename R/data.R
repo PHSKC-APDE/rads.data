@@ -20,6 +20,8 @@
 #' \url{https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/CodeSetDefinitions/NCHS113CausesOfDeath.pdf}
 #'
 #' @references \url{https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}
+#' @export
+#' @name icd_nchs113causes_raw
 "icd_nchs113causes_raw"
 
 #' NCHS 113 Selected Causes of Death (long)
@@ -44,6 +46,8 @@
 #' \url{https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/CodeSetDefinitions/NCHS113CausesOfDeath.pdf}
 #'
 #' @references \url{https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}
+#' @export
+#' @name icd_nchs113causes
 "icd_nchs113causes"
 
 #' CMS 2022 ICD-10-CM
@@ -60,6 +64,8 @@
 #' \url{https://www.cms.gov/medicare/icd-10/2022-icd-10-cm}
 #'
 #' @references \code{icd10-Order-Files-2022.pdf} in \url{https://www.cms.gov/files/zip/2022-code-descriptions-tabular-order-updated-02012022.zip}
+#' @export
+#' @name icd_icd10cm_codes_2022
 "icd_icd10cm_codes_2022"
 
 #' CMS 2022 ICD-10-PCS
@@ -75,6 +81,8 @@
 #' @source \code{icd10pcs_order_2022.txt} in \url{https://www.cms.gov/files/zip/errata-january-12-2022.zip}
 #'
 #' @references \code{icd10pcsOrderFile.pdf} in \url{https://www.cms.gov/files/zip/2022-icd-10-pcs-codes-file-updated-december-1-2021.zip}
+#' @export
+#' @name icd_icd10pcs_codes_2022
 "icd_icd10pcs_codes_2022"
 
 #' 2010 BLS Standard Occupational Classification (SOC) definitions.
@@ -87,6 +95,8 @@
 #'   \code{'SOC Definition'}.
 #'
 #' @source \url{https://www.bls.gov/soc/soc_2010_definitions.xls}
+#' @name occupation_soc_2010_definitions
+#' @export
 "occupation_soc_2010_definitions"
 
 #' 2010 BLS Standard Occupational Classification (SOC) structure.
@@ -100,6 +110,8 @@
 #'   \code{detailed.title}, \code{notes}.
 #'
 #' @source \url{https://www.bls.gov/soc/2010/2010_major_groups.htm}
+#' @name occupation_soc_2010_structure
+#' @export
 "occupation_soc_2010_structure"
 
 #' 2018 BLS Standard Occupational Classification (SOC) definitions.
@@ -112,6 +124,8 @@
 #'   \code{'SOC Definition'}.
 #'
 #' @source \url{https://www.bls.gov/soc/soc_2018_definitions.xls}
+#' @name occupation_soc_2018_definitions
+#' @export
 "occupation_soc_2018_definitions"
 
 #' 2018 BLS Standard Occupational Classification (SOC) structure.
@@ -125,6 +139,8 @@
 #'   \code{major.title}, \code{minor.title}, \code{broad.title}, \code{detailed.title}.
 #'
 #' @source \url{https://www.bls.gov/soc/2018/2018_major_groups.htm}
+#' @name occupation_soc_2018_structure
+#' @export
 "occupation_soc_2018_structure"
 
 #' 'Essential Worker' definitions using 2018 BLS Standard Occupational Classification (SOC) codes.
@@ -136,6 +152,8 @@
 #'   \code{code}, \code{title}, \code{notes}.
 #'
 #' @source \url{https://www.lmiontheweb.org/more-than-half-of-u-s-workers-in-critical-occupations-in-the-fight-against-covid-19/}
+#' @name occupation_soc_2018_essential_workers_key
+#' @export
 "occupation_soc_2018_essential_workers_key"
 
 
@@ -149,6 +167,8 @@
 #'   \code{population}.
 #'
 #' @source \url{https://www.mysterydata.com}
+#' @name population_hra_pop_18
+#' @export
 "population_hra_pop_18"
 
 #' Standard reference populations with 18 age categories.
@@ -159,6 +179,8 @@
 #'   \code{age_start}, \code{age_end}, \code{pop}, \code{source}.
 #'
 #' @source \url{https://seer.cancer.gov/stdpopulations}
+#' @name population_reference_pop_18_age_groups
+#' @export
 "population_reference_pop_18_age_groups"
 
 #' Standard reference populations with 19 age categories.
@@ -169,6 +191,8 @@
 #'   \code{age_start}, \code{age_end}, \code{pop}, \code{source}.
 #'
 #' @source \url{https://seer.cancer.gov/stdpopulations}
+#' @name population_reference_pop_19_age_groups
+#' @export
 "population_reference_pop_19_age_groups"
 
 #' Standard population for single ages through 84.
@@ -180,6 +204,8 @@
 #'   \code{age_start}, \code{age_end}, \code{pop}, \code{source}.
 #'
 #' @source \url{https://seer.cancer.gov/stdpopulations}
+#' @name population_reference_pop_single_age_to_84
+#' @export
 "population_reference_pop_single_age_to_84"
 
 #' Standard population for single ages through 99.
@@ -191,6 +217,8 @@
 #'   \code{age_start}, \code{age_end}, \code{pop}, \code{source}.
 #'
 #' @source \url{https://seer.cancer.gov/stdpopulations}
+#' @name population_reference_pop_single_age_to_99
+#' @export
 "population_reference_pop_single_age_to_99"
 
 #' Codebook for WA OFM population demographics.
@@ -203,6 +231,8 @@
 #'   \code{code_label}, \code{code_label_long}, \code{code_label_long2}.
 #'
 #' @references  [hhs_analytics_workspace].[ref].[pop_labels]
+#' @name population_wapop_codebook_values
+#' @export
 "population_wapop_codebook_values"
 
 #' Crosswalk from Census tracts to political districts.
@@ -214,6 +244,8 @@
 #'   \code{tract}, \code{kccd}, \code{sea_ccd}.
 #'
 #' @source \url{https://www.mysterydata.com}
+#' @name spatial_acs_council_districts
+#' @export
 "spatial_acs_council_districts"
 
 #' Crosswalk hra > region > coo place > geoid > place > tract > block group
@@ -225,6 +257,8 @@
 #'   \code{blkgrp}, \code{notes}.
 #'
 #' @source \url{https://www.mysterydata.com}
+#' @name spatial_acs_hra_region_place_etc
+#' @export
 "spatial_acs_hra_region_place_etc"
 
 #' Census 2000 crosswalk Block > Block Group > Tract > HRA.
@@ -235,6 +269,8 @@
 #'   \code{stfid = tract}, \code{hra}.
 #'
 #' @source \url{https://www.mysterydata.com}
+#' @name spatial_blocks00_to_hra
+#' @export
 "spatial_blocks00_to_hra"
 
 #' Census 2010 crosswalk blocks > city council districts
@@ -246,6 +282,8 @@
 #'   \code{acres_water}, \code{water}.
 #'
 #' @source \url{https://www.mysterydata.com}
+#' @name spatial_blocks10_to_city_council_dist
+#' @export
 "spatial_blocks10_to_city_council_dist"
 
 #' Census 2010 crosswalk blocks >> hras
@@ -256,6 +294,8 @@
 #'   \code{vid}.
 #'
 #' @source \url{https://www.mysterydata.com}
+#' @name spatial_blocks10_to_hra
+#' @export
 "spatial_blocks10_to_hra"
 
 #' Census 2010 crosswalk blocks >> region & blocks >> hra
@@ -266,6 +306,8 @@
 #'   \code{regionid}, \code{hra}, \code{vid}, \code{svc}, \code{svcid}.
 #'
 #' @source \url{https://www.mysterydata.com}
+#' @name spatial_blocks10_to_region
+#' @export
 "spatial_blocks10_to_region"
 
 #' Crosswalk between 2010 block groups and HRA names, regions, and other RADS/CHI standard geographies
@@ -278,6 +320,8 @@
 #'   \code{chi_geo_sch_dist}, \code{vid}.
 #'
 #' @source \url{https://www.mysterydata.com}
+#' @name spatial_chi_blocks10_xwalk
+#' @export
 "spatial_chi_blocks10_xwalk"
 
 #' Crosswalk between 2010 county id, code, fips code and name
@@ -288,6 +332,8 @@
 #'   \code{cou_name}, \code{cou_code}, \code{fips_co}.
 #'
 #' @source kcitazrhpasqlprp16.azds.kingcounty.gov [ref].[pop_cou_crosswalk]
+#' @name spatial_county_codes_to_names
+#' @export
 "spatial_county_codes_to_names"
 
 #' Census 2010 ... most extensive crosswalk file ... the best
@@ -315,6 +361,8 @@
 #' \code{con_id}, \code{con_name}, \code{scc_id}, \code{scc_name}.
 #'
 #' @source \url{https://www.mysterydata.com}
+#' @name spatial_geocomp_blk10_kps
+#' @export
 "spatial_geocomp_blk10_kps"
 
 #' Crosswalk HRA short names to long names for CHI standards
@@ -325,6 +373,8 @@
 #' \code{cat1_group}, \code{cat1_group_alias}.
 #'
 #' @source \url{https://www.mysterydata.com}
+#' @name spatial_hra_shortname_to_CHIname
+#' @export
 "spatial_hra_shortname_to_CHIname"
 
 #' Crosswalk HRA's to regions
@@ -335,6 +385,8 @@
 #' \code{hra}, \code{vid}, \code{region}, \code{region_id}.
 #'
 #' @source \url{https://www.mysterydata.com}
+#' @name spatial_hra_vid_region
+#' @export
 "spatial_hra_vid_region"
 
 #' Crosswalk between 2010 legislative district id, name, county, and url
@@ -345,6 +397,8 @@
 #'   \code{lgd_name}, \code{lgd_counties}, \code{lgd_url}.
 #'
 #' @source kcitazrhpasqlprp16.azds.kingcounty.gov [ref].[pop_lgd_crosswalk]
+#' @name spatial_legislative_codes_to_names
+#' @export
 "spatial_legislative_codes_to_names"
 
 #' Crosswalk between 2010 school district id, name, state id, county code, and esd name
@@ -355,6 +409,8 @@
 #'  and  \code{scd_name}.
 #'
 #' @source \url{https://secureaccess.wa.gov/doh/chat/Entry.mvc}
+#' @name spatial_school_codes_to_names
+#' @export
 "spatial_school_codes_to_names"
 
 #' Crosswalk between King County school districts and KC regions
@@ -365,6 +421,8 @@
 #' \code{school_district}, \code{geo_id}, \code{region}.
 #'
 #' @source \url{https://www.mysterydata.com}
+#' @name spatial_school_dist_to_region
+#' @export
 "spatial_school_dist_to_region"
 
 #' Crosswalk between 2010 census tracts and King County Council Districts
@@ -382,6 +440,8 @@
 #' \code{shape_leng}, \code{shape_ar_1}, \code{tract_perc}.
 #'
 #' @source \url{https://www.mysterydata.com}
+#' @name spatial_tract_to_county_council_dist
+#' @export
 "spatial_tract_to_county_council_dist"
 
 #' Census 2010 crosswalk tracts to PUMAS
@@ -392,6 +452,8 @@
 #' \code{wa}, \code{kingco}, \code{tract10}, \code{puma}.
 #'
 #' @source \url{https://www.mysterydata.com}
+#' @name spatial_tract10_to_puma
+#' @export
 "spatial_tract10_to_puma"
 
 #' Crosswalk zip codes to cities / towns
@@ -402,6 +464,8 @@
 #' \code{zip}, \code{zip_type},\code{city}.
 #'
 #' @source \url{https://www.mysterydata.com}
+#' @name spatial_zip_admin
+#' @export
 "spatial_zip_admin"
 
 #' Crosswalk zip codes to cities and regions
@@ -412,6 +476,8 @@
 #'   \code{zip}, \code{city}, \code{region}, \code{region_vid}.
 #'
 #' @source \url{https://www.mysterydata.com}
+#' @name spatial_zip_city_region_vid
+#' @export
 "spatial_zip_city_region_vid"
 
 #' Crosswalk FOR HCA MEDICAID KC definition ... zip >> city
@@ -425,6 +491,8 @@
 #'   \code{zip}, \code{zip_type}, \code{city}, \code{primary_city}, \code{two_counties}.
 #'
 #' @source \url{https://www.mysterydata.com}
+#' @name spatial_zip_hca
+#' @export
 "spatial_zip_hca"
 
 #' Crosswalk zip code to Seattle city council districts
@@ -435,6 +503,8 @@
 #' \code{zip}, \code{district}.
 #'
 #' @source \url{https://www.mysterydata.com}
+#' @name spatial_zip_to_city_council_dist
+#' @export
 "spatial_zip_to_city_council_dist"
 
 #' Crosswalk zip codes to regions
@@ -446,4 +516,6 @@
 #'   \code{office_building}, \code{notes}.
 #'
 #' @source \url{https://www.mysterydata.com}
+#' @name spatial_zip_to_region
+#' @export
 "spatial_zip_to_region"
