@@ -1,3 +1,6 @@
+# Header ----
+# Author: Danny Colombara
+# Date: April 22, 2022
 # Purpose: Create machine usable long form of NCHS 113 Selected Causes of Death ICD 10 codes ----
 
 library(data.table)
@@ -37,6 +40,7 @@ library(data.table)
   # E.g., split.dash("X0-X04, X17-X19") >> "X00, X01, X02, X03, X04, X17, X18, X19"
     split.dash <- function(myvar){
       myvar <- toupper(myvar)
+      myvar <- gsub("^ *|(?<= ) | *$", "", myvar, perl = TRUE) # collapse multiple consecutive white spaces into one
       myvar <- gsub("\\.|\\*|[:blank:]|[:space:]| |\\s", "", myvar) # drop decimal, drop *, try 4 ways to drop spaces!
       myvar <- strsplit(myvar, ",")[[1]] # split at commas & unlist
       nuevo <- c() #empty character vector
@@ -83,16 +87,10 @@ library(data.table)
 # Read in raw NCHS 113 Selected Causes of Death ICD codes ----
     # Based on pp. 15-17, https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf
     # See also https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/CodeSetDefinitions/NCHS113CausesOfDeath.pdf
+    # Refer to ?icd_nchs113causes_raw for details
 
-    # Per CDC guidance, contains •	COVID-19 (U07.1) in cause id 17 (“Other and unspecified
-    # infectious and parasitic diseases and their sequelae”)
-
-    # Cause id 95 (“All other diseases (Residual)”) uses codings discovered on a PHSKC
-    # network drive. They were propbably created by Mike Smyzer, who has retired. These
-    # are being used instead of the CDC codes due to better alignment with WA DOH. The
-    # official CDC coding is now saved as cause id 114 “CDC version of cause id 95 (Residual)”
-
-    dt113 <- data.table::fread("data-raw/icd_nchs113causes_raw.csv")
+    load("data/icd_nchs113causes_raw.rda")
+    dt113 <- copy(icd_nchs113causes_raw)
     sql_clean(dt113)
 
 # Format 113 cause of death ----
@@ -112,5 +110,6 @@ library(data.table)
     setorder(icd_nchs113causes, causeid, icd10)
 
 # Write to package
-    write.csv(icd_nchs113causes, "data-raw/icd_nchs113causes.csv", row.names = F)
     usethis::use_data(icd_nchs113causes, overwrite = TRUE)
+    write.csv(icd_nchs113causes_raw, "inst/extdata/icd_data/nchs113causes_raw.csv", row.names = F)
+    write.csv(icd_nchs113causes, "inst/extdata/icd_data/nchs113causes.csv", row.names = F)
