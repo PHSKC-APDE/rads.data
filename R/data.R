@@ -1,21 +1,81 @@
-#' NCHS 113 Selected Causes of Death (long).
+#' NCHS 113 Selected Causes of Death (raw)
 #'
-#' NCHS 113 Selected Causes of Death (long). Cause id 95 ("All other diseases (Residual)") uses codings discovered on a PHSKC
-#'     network drive. They were propbably created by Mike Smyzer, who has retired. These
-#'     are being used instead of the CDC codes due to better alignment with WA DOH. The
-#'     official CDC coding is now saved as cause id 114 "CDC version of cause id 95 (Residual)".
+#' NCHS 113 Selected Causes of Death (raw). Used to create \code{icd_nchs113causes}
+#' with \code{/data-raw/icd_nchs113causes.R}
 #'
 #' @note Per CDC guidance, our cause list contains COVID-19 (U07.1) in cause id 17 ("Other and unspecified
 #'     infectious and parasitic diseases and their sequelae")
 #'
-#' @references https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/CodeSetDefinitions/NCHS113CausesOfDeath.pdf
+#'     Cause id 95 ("All other diseases (Residual)") uses codings discovered on a PHSKC
+#'     network drive. They were probably created by Mike Smyser, who has retired. These
+#'     are being used instead of the CDC codes due to better alignment with WA DOH.
+#'
+#'     The official CDC coding for Cause id 95 is now saved as cause id 114 "CDC version of cause id 95 (Residual)".
+#'
+#' @format A data.table with 114 rows and three variables: \code{causeid}, \code{cause.of.deaths},
+#'   \code{icd10}. Each row is for one of the 113 NCHS causes of death, with the \code{icd10} column summarizing all the relevant
+#'   codes for the given cause of death.
+#'
+#' @source Downloaded from \url{https://ibis.health.utah.gov/ibisph-view/query/NCHS113.html} on 9/22/2021. It is a machine readable version of
+#' \url{https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/CodeSetDefinitions/NCHS113CausesOfDeath.pdf}
+#'
+#' @references \url{https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}
+"icd_nchs113causes_raw"
+
+#' NCHS 113 Selected Causes of Death (long)
+#'
+#' NCHS 113 Selected Causes of Death (long).
+#'
+#' Tidied long version of \code{icd_nchs113causes_raw}. Converted by \code{/data-raw/icd_nchs113causes.R}.
+#'
+#' @note Per CDC guidance, our cause list contains COVID-19 (U07.1) in cause id 17 ("Other and unspecified
+#'     infectious and parasitic diseases and their sequelae")
+#'
+#'     Cause id 95 ("All other diseases (Residual)") uses codings discovered on a PHSKC
+#'     network drive. They were probably created by Mike Smyser, who has retired. These
+#'     are being used instead of the CDC codes due to better alignment with WA DOH.
+#'
+#'     The official CDC coding for Cause id 95 is now saved as cause id 114 "CDC version of cause id 95 (Residual)".
 #'
 #' @format A data.table with 2975 rows and three variables: \code{causeid}, \code{cause.of.deaths},
 #'   \code{icd10}. Each row maps one ICD 10 code to one of the 113 causes of death.
 #'
-#' @source \url{https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}
+#' @source Downloaded from \url{https://ibis.health.utah.gov/ibisph-view/query/NCHS113.html} on 9/22/2021. It is a machine readable version of
+#' \url{https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/CodeSetDefinitions/NCHS113CausesOfDeath.pdf}
+#'
+#' @references \url{https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}
 "icd_nchs113causes"
 
+#' CMS 2022 ICD-10-CM
+#'
+#' CMS (Centers for Medicare & Medicaid Services) 2022 ICD-10-CM
+#'
+#' @format a data.table with 95,524 rows and five columns: \code{order}, \code{icd10}, \code{header}, \code{short}, \code{long}.
+#'
+#' @note These are diagnosis codes, not procedure codes.
+#'
+#' \code{header} == 0 == not valid for HIPAA-covered transactions.
+#'
+#' @source \url{https://www.cms.gov/files/zip/2022-code-descriptions-tabular-order-updated-02012022.zip}, found on
+#' \url{https://www.cms.gov/medicare/icd-10/2022-icd-10-cm}
+#'
+#' @references \code{icd10-Order-Files-2022.pdf} in \url{https://www.cms.gov/files/zip/2022-code-descriptions-tabular-order-updated-02012022.zip}
+"icd_icd10cm_codes_2022"
+
+#' CMS 2022 ICD-10-PCS
+#'
+#' CMS (Centers for Medicare & Medicaid Services) 2022 ICD-10-PCS
+#'
+#' @format a data.table with 79,124 rows and five columns: \code{order}, \code{icd10}, \code{header}, \code{short}, \code{long}.
+#'
+#' @note These are procedure codes, not diagnosis codes.
+#'
+#' \code{header} == 0 == not valid for HIPAA-covered transactions.
+#'
+#' @source \code{icd10pcs_order_2022.txt} in \url{https://www.cms.gov/files/zip/errata-january-12-2022.zip}
+#'
+#' @references \code{icd10pcsOrderFile.pdf} in \url{https://www.cms.gov/files/zip/2022-icd-10-pcs-codes-file-updated-december-1-2021.zip}
+"icd_icd10pcs_codes_2022"
 
 #' 2010 BLS Standard Occupational Classification (SOC) definitions.
 #'
