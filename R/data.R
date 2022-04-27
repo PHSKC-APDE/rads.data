@@ -48,6 +48,21 @@
 #' @name icd_nchs113causes
 "icd_nchs113causes"
 
+#' ICD10 Death Injury Matrix
+#'
+#' ICD10 Death Injury Matrix (ICE: International Collaborative Effort on Injury Statistics)
+#'
+#' @format a 'long' data.table with 1,398 rows and four columns: \code{intent}, \code{mechanism}, \code{orig.coding}, & \code{icd10}.
+#'
+#' @note This function uses ICD10 mortality codes and should not be used with  ICD10-CM hospitalization data.
+#'
+#' @source WA DOH CHAT: \url{https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/CodeSetDefinitions/CHATInjury(ICE)codes.pdf}.
+#' Converted to XLSX with Adobe Acrobat and then used Excel to convert to CSV.
+#'
+#' @references \url{https://www.flhealthcharts.gov/ChartsReports/_SupportFiles/InjuryDeathProfileReference.pdf}
+#' @name icd10_death_injury_matrix
+"icd10_death_injury_matrix"
+
 #' CMS 2022 ICD-10-CM
 #'
 #' CMS (Centers for Medicare & Medicaid Services) 2022 ICD-10-CM

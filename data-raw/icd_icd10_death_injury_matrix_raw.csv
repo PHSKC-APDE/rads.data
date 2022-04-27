@@ -1,0 +1,110 @@
+Injury by Intent and Mechanism (ICE),codes
+,
+All injury,
+Unintentional,"V01-X59, Y85, Y86"
+Suicide,"X60-X84,Y87.0"
+Homicide,"X85-Y09,Y87.1"
+Undetermined,"Y10-Y34,Y87.2,Y89.9"
+Legal intervention/war,"Y35-Y36,Y89[.0,.1]"
+Cut/pierce,
+Unintentional,"W25-W29,W45"
+Suicide,X78
+Homicide,X99
+Undetermined,Y28
+Legal intervention/war,Y35.4
+Drowning,
+Unintentional,W65-W74
+Suicide,X71
+Homicide,X92
+Undetermined,Y21
+Fall,
+Unintentional,W00-W19
+Suicide,X80
+Homicide,Y01
+Undetermined,Y30
+Fire/hot object or substance,
+Unintentional,X00-X19
+Suicide,X76-X77
+Homicide,X97-X98
+Undetermined,Y26-Y27
+Legal intervention/war,Y36.3
+Fire/flame,
+Unintentional,X00-X09
+Suicide,X76
+Homicide,X97
+Undetermined,Y26
+Hot object/substance,
+Unintentional,X10-X19
+Suicide,X77
+Homicide,X98
+Undetermined,Y27
+Firearm,
+Unintentional,W32-W34
+Suicide,X72-X74
+Homicide,X93-X95
+Undetermined,Y22-Y24
+Legal intervention/war,Y35.0
+Machinery,"W24,W30-W31"
+All transport,
+Unintentional,V01-V99
+Suicide,X82
+Homicide,Y03
+Undetermined,Y32
+Legal intervention/war,Y36.1
+Motor vehicle traffic,
+Occupant,"V30-V79[.4-.9],V83-V86[.0-.3]"
+Motorcyclist,"V20-V28[.3-.9],V29[.4-.9]"
+Pedal cyclist,"V12-V14[.3-.9],V19[.4-.6]"
+Pedestrian,"V02-V04[.1,.9],V09.2"
+Other,"V80[.3-.5],V81.1,V82.1"
+Unspecified,"V87[.0-.8],V89.2"
+"Pedal cyclist, other","V10-V11,V12-V14[.0-.2],V15-V18,V19[.0-.3,.8,.9]"
+"Pedestrian, other","V01,V02-V04[.0], V05, V06, V09[.0,.1,.3,.9]"
+Other land transport,
+Unintentional,"V20-V28[.0-.2],V29-V79[.0-.3],V80(.0-.2,.6-.9),V81-
+V82[.0,.2-.9],V83-V86[.4-.9],V87.9,V88[.0-
+.9],V89[.0,.1,.3,.9]"
+Suicide,X82
+Homicide,Y03
+Undetermined,Y32
+Other transport,
+Unintentional,V90-V99
+Homicide,
+Legal intervention/war,Y36.1
+Natural/environmental,"W42-W43,W53-W64,W92-W99,X20-X39,X51-X57"
+Overexertion,X50
+Poisoning,
+Unintentional,X40-X49
+Suicide,X60-X69
+Homicide,X85-X90
+Undetermined,Y10-Y19
+Legal intervention/war,Y35.2
+Struck by or against,
+Unintentional,"W20-W22,W50-W52"
+Suicide,X79
+Homicide,"Y00,Y04"
+Undetermined,Y29
+Legal intervention/war,Y35.3
+Suffocation,
+Unintentional,W75-W84
+Suicide,X70
+Homicide,X91
+Undetermined,Y20
+"Other specified, classifiable",
+Unintentional,"W23,W35-W41,W44,W49,W85-W91,Y85"
+Suicide,"X75,X81"
+Homicide,"X96,Y02,Y05-Y07"
+Undetermined,"Y25,Y31"
+Legal intervention/war,"Y35[.1,.5],Y36[.0,.2,.4-.8]"
+"Other specified, not elsewhere classified",
+Unintentional,"X58,Y86"
+Suicide,"X83,Y87.0"
+Homicide,"Y08,Y87.1"
+Undetermined,"Y33,Y87.2"
+Legal intervention/war,"Y35.6,Y89[.0,.1]"
+Unspecified,
+Unintentional,X59
+Suicide,X84
+Homicide,Y09
+Undetermined,"Y34,Y89.9"
+Legal intervention/war,"Y35.7,Y36.9"
