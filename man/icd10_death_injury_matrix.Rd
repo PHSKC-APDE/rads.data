@@ -19,8 +19,12 @@ ICD10 Death Injury Matrix (ICE: International Collaborative Effort on Injury Sta
 }
 \note{
 This function uses ICD10 mortality codes and should not be used with  ICD10-CM hospitalization data.
+
+Also note that terrorism codes (U01.#, U02.#, & U03.#) are not included
+because they are not included in the coding used by WA DOH. If they are
+needed, they can be obtained from \url{https://www.cdc.gov/nchs/data/ice/icd10_transcode.pdf}.
 }
 \references{
-\url{https://www.flhealthcharts.gov/ChartsReports/_SupportFiles/InjuryDeathProfileReference.pdf}
+\url{https://www.cdc.gov/nchs/data/ice/icd10_transcode.pdf}
 }
 \keyword{datasets}

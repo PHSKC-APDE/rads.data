@@ -70,9 +70,7 @@ library(data.table)
     sql_clean(dt)
 
     # tidy columns and rows ----
-    dt[is.na(codes), intent := `Injury by Intent and Mechanism (ICE)`]
-    dt[!is.na(codes), mechanism := `Injury by Intent and Mechanism (ICE)`]
-    dt[, intent := intent[nafill(replace(.I, is.na(intent), NA), "locf")]] # fill downward, hacky way to get around limitation of nafill only working with numerics
+    dt[, mechanism := mechanism[nafill(replace(.I, is.na(mechanism), NA), "locf")]] # fill downward, hacky way to get around limitation of nafill only working with numerics
     dt <- dt[, .(intent, mechanism, codes)]
     dt <- dt[!is.na(codes)]
     dt[, original.order := 1:.N]
@@ -139,7 +137,6 @@ library(data.table)
     dt = dt[, .(original.order, intent, mechanism, orig.coding = gsub("~\\,", ", ", codes), codes = do.call(paste, c(replace(.SD, is.na(.SD), ""), sep = ","))),
               .SDcols = patterns("^part") ] # collapse without including NAs
     dt[, codes := gsub("([^0-9]+$)", "", codes)] # drop everything after the last number
-    head(dt)
 
 # Use split_dash() to convert dashed to enumerated ICD codes & drop decimals b/c death icds have decimals removed ----
     sql_clean(dt)
@@ -156,7 +153,7 @@ library(data.table)
     icd10_death_injury_matrix[, variable := NULL]
     icd10_death_injury_matrix <- icd10_death_injury_matrix[!is.na(icd10)]
     setorder(icd10_death_injury_matrix, original.order, intent, mechanism, icd10)
-    icd10_death_injury_matrix <- icd10_death_injury_matrix[, .(intent, mechanism, orig.coding, icd10)]
+    icd10_death_injury_matrix <- icd10_death_injury_matrix[, .(mechanism, intent, orig.coding, icd10)]
 
 # Write to package ----
     usethis::use_data(icd10_death_injury_matrix, overwrite = TRUE)
