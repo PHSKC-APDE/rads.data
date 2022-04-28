@@ -56,10 +56,14 @@
 #'
 #' @note This function uses ICD10 mortality codes and should not be used with  ICD10-CM hospitalization data.
 #'
+#' Also note that terrorism codes (U01.#, U02.#, & U03.#) are not included
+#' because they are not included in the coding used by WA DOH. If they are
+#' needed, they can be obtained from \url{https://www.cdc.gov/nchs/data/ice/icd10_transcode.pdf}.
+#'
 #' @source WA DOH CHAT: \url{https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/CodeSetDefinitions/CHATInjury(ICE)codes.pdf}.
 #' Converted to XLSX with Adobe Acrobat and then used Excel to convert to CSV.
 #'
-#' @references \url{https://www.flhealthcharts.gov/ChartsReports/_SupportFiles/InjuryDeathProfileReference.pdf}
+#' @references \url{https://www.cdc.gov/nchs/data/ice/icd10_transcode.pdf}
 #' @name icd10_death_injury_matrix
 "icd10_death_injury_matrix"
 
