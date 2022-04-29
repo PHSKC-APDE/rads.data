@@ -31,15 +31,15 @@ library(data.table)
           tt.prefix2 <- gsub("[0-9].*$", "", tt.2)
 
           tt.start <- gsub("[A-Z]|[a-z]", "", tt.1)
+            if(nchar(tt.start)==2){tt.start = paste0(tt.start, "0")} # want it to be three digits for specificity
           tt.end <- gsub("[A-Z]|[a-z]", "", tt.2)
+            if(nchar(tt.end)==2){tt.end = paste0(tt.end, "9")}
 
           if(tt.prefix1 != tt.prefix2){
-            tt.1.seq <- seq(as.integer(tt.start), as.integer("99"), 1)
-            if(grepl("^0", tt.start)){tt.1.seq <- paste0("0", tt.1.seq)}
+            tt.1.seq <- sprintf("%03i", seq(as.integer(tt.start),999, 1))
             tt.1 <- paste0(tt.prefix1, tt.1.seq)
 
-            tt.2.seq <- seq(as.integer(0), as.integer(tt.end), 1)
-            if(grepl("^0", tt.end)){tt.2.seq <- paste0("0", tt.2.seq)}
+            tt.2.seq <- sprintf("%03i", seq(as.integer(0), as.integer(tt.end), 1))
             tt.2 <- paste0(tt.prefix2, tt.2.seq)
 
             tt <- c(tt.1, tt.2)
@@ -54,7 +54,9 @@ library(data.table)
             tt <- paste0(tt.prefix1, tt.seq)
           }
 
-        } else {tt}
+        } else {
+          if(nchar(tt)<4){tt <- paste0(tt, 0:9)}
+          }
         nuevo <- c(nuevo, tt)
       }
       nuevo <- paste(nuevo, collapse = ", ")
