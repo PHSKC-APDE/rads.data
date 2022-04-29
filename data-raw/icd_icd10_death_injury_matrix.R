@@ -36,13 +36,32 @@ library(data.table)
             if(nchar(tt.end)==2){tt.end = paste0(tt.end, "9")}
 
           if(tt.prefix1 != tt.prefix2){
+            # identify whether prefixes are consecutive letters. If not, identify letters between them.
+            tt.prefix1.num <- match(tolower(tt.prefix1), letters[])
+            tt.prefix2.num <- match(tolower(tt.prefix2), letters[])
+            if(tt.prefix2.num - tt.prefix1.num > 1){
+              tt.prefixbonus <- toupper(letters[(tt.prefix1.num+1):(tt.prefix2.num-1)])
+            } else {tt.prefixbonus <- NULL}
+
+            # full sequence for first letter
             tt.1.seq <- sprintf("%03i", seq(as.integer(tt.start),999, 1))
             tt.1 <- paste0(tt.prefix1, tt.1.seq)
 
+            # full sequence for intermediate letters
+            if(isFALSE(is.null(tt.prefixbonus))){
+              tt.bonus <- sort(as.vector(outer(tt.prefixbonus, sprintf("%03i", seq(0, 999, 1)), paste0))) # create every combination of prefix and numbers
+            } else {tt.bonus <- NULL}
+
+            # full sequence for final letter
             tt.2.seq <- sprintf("%03i", seq(as.integer(0), as.integer(tt.end), 1))
             tt.2 <- paste0(tt.prefix2, tt.2.seq)
 
-            tt <- c(tt.1, tt.2)
+            # combine the first, intermediate, and final sets of codes
+            if(is.null(tt.bonus)){
+              tt <- c(tt.1, tt.2)
+            } else {
+              tt <- c(tt.1, tt.bonus, tt.2)
+            }
           }
 
           if(tt.prefix1 == tt.prefix2){

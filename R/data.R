@@ -52,9 +52,9 @@
 #'
 #' ICD10 Death Injury Matrix (ICE: International Collaborative Effort on Injury Statistics)
 #'
-#' @format a 'long' data.table with 1,398 rows and four columns: \code{intent}, \code{mechanism}, \code{orig.coding}, & \code{icd10}.
+#' @format a 'long' data.table with 7,969 rows and four columns: \code{intent}, \code{mechanism}, \code{orig.coding}, & \code{icd10}.
 #'
-#' @note This function uses ICD10 mortality codes and should not be used with  ICD10-CM hospitalization data.
+#' @note This function uses ICD10 mortality codes and should not be used with ICD10-CM hospitalization data.
 #'
 #' Also note that terrorism codes (U01.#, U02.#, & U03.#) are not included
 #' because they are not included in the coding used by WA DOH. If they are
