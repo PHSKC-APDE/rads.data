@@ -5,7 +5,7 @@
 \alias{icd10_death_injury_matrix}
 \title{ICD10 Death Injury Matrix}
 \format{
-a 'long' data.table with 1,398 rows and four columns: \code{intent}, \code{mechanism}, \code{orig.coding}, & \code{icd10}.
+a 'long' data.table with 7,969 rows and four columns: \code{intent}, \code{mechanism}, \code{orig.coding}, & \code{icd10}.
 }
 \source{
 WA DOH CHAT: \url{https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/CodeSetDefinitions/CHATInjury(ICE)codes.pdf}.
@@ -18,7 +18,7 @@ icd10_death_injury_matrix
 ICD10 Death Injury Matrix (ICE: International Collaborative Effort on Injury Statistics)
 }
 \note{
-This function uses ICD10 mortality codes and should not be used with  ICD10-CM hospitalization data.
+This function uses ICD10 mortality codes and should not be used with ICD10-CM hospitalization data.
 
 Also note that terrorism codes (U01.#, U02.#, & U03.#) are not included
 because they are not included in the coding used by WA DOH. If they are

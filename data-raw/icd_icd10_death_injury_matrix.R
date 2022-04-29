@@ -15,51 +15,7 @@ library(data.table)
 
 # Function to enumerator all ICD per 113 causes of death (split.dash) ----
   # E.g., split.dash("X0-X04, X17-X19") >> "X00, X01, X02, X03, X04, X17, X18, X19"
-    split.dash <- function(myvar){
-      myvar <- toupper(myvar)
-      myvar <- gsub("^ *|(?<= ) | *$", "", myvar, perl = TRUE) # collapse multiple consecutive white spaces into one
-      myvar <- gsub("\\.|\\*|[:blank:]|[:space:]| |\\s", "", myvar) # drop decimal, drop *, try 4 ways to drop spaces!
-      myvar <- strsplit(myvar, ",")[[1]] # split at commas & unlist
-      nuevo <- c() #empty character vector
-      for(TT in 1:length(myvar)){
-        tt <- myvar[TT]
-        if(grepl("-", tt) == TRUE){
-          tt.1 <- gsub("-.*$","",tt)
-          tt.2 <- gsub("^.*-","",tt)
-
-          tt.prefix1 <- gsub("[0-9].*$", "", tt.1)
-          tt.prefix2 <- gsub("[0-9].*$", "", tt.2)
-
-          tt.start <- gsub("[A-Z]|[a-z]", "", tt.1)
-          tt.end <- gsub("[A-Z]|[a-z]", "", tt.2)
-
-          if(tt.prefix1 != tt.prefix2){
-            tt.1.seq <- seq(as.integer(tt.start), as.integer("99"), 1)
-            if(grepl("^0", tt.start)){tt.1.seq <- paste0("0", tt.1.seq)}
-            tt.1 <- paste0(tt.prefix1, tt.1.seq)
-
-            tt.2.seq <- seq(as.integer(0), as.integer(tt.end), 1)
-            if(grepl("^0", tt.end)){tt.2.seq <- paste0("0", tt.2.seq)}
-            tt.2 <- paste0(tt.prefix2, tt.2.seq)
-
-            tt <- c(tt.1, tt.2)
-          }
-
-          if(tt.prefix1 == tt.prefix2){
-            tt.seq <- seq(as.integer(tt.start), as.integer(tt.end), 1)
-            if(grepl("^0", tt.start) & grepl("^0", tt.end)){tt.seq <- paste0("0", tt.seq)} else{
-              for(i in 1:length(tt.seq)){if( nchar(tt.seq[i])==1 ){tt.seq[i] <- paste0("0", tt.seq[i])}}
-            }
-
-            tt <- paste0(tt.prefix1, tt.seq)
-          }
-
-        } else {tt}
-        nuevo <- c(nuevo, tt)
-      }
-      nuevo <- paste(nuevo, collapse = ", ")
-      return(nuevo)
-    }
+    source("https://raw.githubusercontent.com/PHSKC-APDE/rads.data/main/data-raw/icd_utility_split.dash.R")
 
 # Read & tidy raw ICD10 death injury matrix ----
     # See notes above for origin details
