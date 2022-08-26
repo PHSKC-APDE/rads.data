@@ -180,6 +180,20 @@
 #' @name population_hra_pop_18
 "population_hra_pop_18"
 
+#' Standard reference populations with 11 age categories.
+#'
+#' One standard reference populations with 11 non-overlapping age categories.
+#' 2000 US Standard Population with 11 age categories is used by WA DOH CHAT
+#' as of August 26, 2022.
+#'
+#' @format A data.table with 11 rows and 7 variables: \code{standard}, \code{agecat},
+#'   \code{age_start}, \code{age_end}, \code{pop}, \code{source}, \code{uploaded}.
+#'
+#' @source \url{https://www.cdc.gov/nchs/data/statnt/statnt20.pdf}
+#' @name population_reference_pop_11_age_groups
+"population_reference_pop_11_age_groups"
+
+
 #' Standard reference populations with 18 age categories.
 #'
 #' Fifteen standard reference populations with 18 non-overlapping age categories.
