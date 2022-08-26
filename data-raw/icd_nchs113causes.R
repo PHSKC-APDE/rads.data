@@ -19,6 +19,9 @@ library(data.table)
     # Refer to ?icd_nchs113causes_raw for details
 
     load("data/icd_nchs113causes_raw.rda")
+    icd_nchs113causes_raw[, icd10 := gsub("l", "1", icd10)] # there is at least one case with the letter 'l' instead of 1 in the numeric portion
+    icd_nchs113causes_raw[causeid == 95, icd10 := gsub("N15.1, ", "", icd10)] # N15.1 is already accounted for under causeid==87, "Infections fo kidney"
+    icd_nchs113causes_raw[causeid == 95, icd10 := gsub("N014, |N01.4, ", "", icd10)] # N014 is already accounted for under causeid==83, "Acute ... nephrotic syndrome"
     dt113 <- copy(icd_nchs113causes_raw)
     sql_clean(dt113)
 
