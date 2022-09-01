@@ -48,6 +48,37 @@
 #' @name icd_nchs113causes
 "icd_nchs113causes"
 
+
+
+
+
+
+#' Other Causes of Death (long)
+#'
+#' Other Causes of Death (long).
+#'
+#' Tidied long version of \code{/data-raw/icd_other_causes_of_death_raw}.
+#' Converted by \code{/data-raw/icd_other_causes_of_death.R}.
+#'
+#' @note This table contains ICD 10 definitions of causes of death that are of
+#'       interest for systematic analyses, but are not included in the CDC 113
+#'       Causes of Death (\code{/data/icd_nchs113causes.rda}) or the injury
+#'       matrix (\code{/data/icd10_death_injury_matrix.rda})
+#'
+#'
+#' @format A data.table with 429 rows and three variables: \code{cause.of.deaths},
+#'   \code{orig.coding}, and \code{icd10}. Each row maps one specific ICD 10
+#'   code to a given cause of death.
+#'
+#' @source Drug-induced and drug-overdose are extracted from
+#' \url{https://www.cdc.gov/nchs/data/nvsr/nvsr70/nvsr70-08-508.pdf}.
+#'
+#' @references \url{}
+#' @name icd_other_causes_of_death
+"icd_other_causes_of_death"
+
+
+
 #' ICD10 Death Injury Matrix
 #'
 #' ICD10 Death Injury Matrix (ICE: International Collaborative Effort on Injury Statistics)
