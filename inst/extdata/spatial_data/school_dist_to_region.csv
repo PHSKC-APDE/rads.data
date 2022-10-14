@@ -1,20 +1,20 @@
-"school_district","geo_id","region","uploaded"
-"Northshore",5305910,"North",2022-02-02
-"Shoreline",5307920,"North",2022-02-02
-"Bellevue",5300390,"East",2022-02-02
-"Issaquah",5303750,"East",2022-02-02
-"Lake Washington",5304230,"East",2022-02-02
-"Mercer Island",5304980,"East",2022-02-02
-"Riverview",5304560,"East",2022-02-02
-"Skykomish",5307980,"East",2022-02-02
-"Snoqualmie Valley",5308040,"East",2022-02-02
-"Auburn",5300300,"South",2022-02-02
-"Enumclaw",5300001,"South",2022-02-02
-"Federal Way",5302820,"South",2022-02-02
-"Highline",5303540,"South",2022-02-02
-"Kent",5303960,"South",2022-02-02
-"Renton",5307230,"South",2022-02-02
-"Tahoma",5308760,"South",2022-02-02
-"Tukwila",5308130,"South",2022-02-02
-"Vashon Island",5309300,"South",2022-02-02
-"Seattle",5307710,"Seattle",2022-02-02
+school_district,geo_id,region,region_id
+Northshore,5305910,North,2
+Shoreline,5307920,North,2
+Bellevue,5300390,East,1
+Issaquah,5303750,East,1
+Lake Washington,5304230,East,1
+Mercer Island,5304980,East,1
+Riverview,5304560,East,1
+Skykomish,5307980,East,1
+Snoqualmie Valley ,5308040,East,1
+Auburn,5300300,South,4
+Enumclaw,5300001,South,4
+Federal Way,5302820,South,4
+Highline,5303540,South,4
+Kent,5303960,South,4
+Renton,5307230,South,4
+Tahoma,5308760,South,4
+Tukwila,5308130,South,4
+Vashon Island ,5309300,South,4
+Seattle ,5307710,Seattle,3
