@@ -5,9 +5,9 @@
 \alias{spatial_blocks10_to_city_council_dist}
 \title{Census 2010 crosswalk blocks > city council districts}
 \format{
-A data.table with 11475 rows and 10 variables: \code{council_district}, \code{geoid10},
+A data.table with 11,475 rows and 11 variables: \code{council_district}, \code{geoid10},
   \code{tract_10}, \code{block_10}, \code{trbl_10}, \code{trbg_10}, \code{acres_total}, \code{acres_land},
-  \code{acres_water}, \code{water}.
+  \code{acres_water}, \code{water}, \code{uploaded}.
 }
 \source{
 \url{https://www.mysterydata.com}

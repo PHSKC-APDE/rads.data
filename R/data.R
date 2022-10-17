@@ -12,7 +12,7 @@
 #'
 #'     The official CDC coding for Cause id 95 is now saved as cause id 114 "CDC version of cause id 95 (Residual)".
 #'
-#' @format A data.table with 114 rows and three variables: \code{causeid}, \code{cause.of.deaths},
+#' @format A data.table with 114 rows and three variables: \code{causeid}, \code{cause.of.death},
 #'   \code{icd10}. Each row is for one of the 113 NCHS causes of death, with the \code{icd10} column summarizing all the relevant
 #'   codes for the given cause of death.
 #'
@@ -22,6 +22,8 @@
 #' @references \url{https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}
 #' @name icd_nchs113causes_raw
 "icd_nchs113causes_raw"
+
+
 
 #' NCHS 113 Selected Causes of Death (long)
 #'
@@ -38,7 +40,7 @@
 #'
 #'     The official CDC coding for Cause id 95 is now saved as cause id 114 "CDC version of cause id 95 (Residual)".
 #'
-#' @format A data.table with 2975 rows and three variables: \code{causeid}, \code{cause.of.deaths},
+#' @format A data.table with 28,127 rows and three variables: \code{causeid}, \code{cause.of.death}, \code{orig.coding},
 #'   \code{icd10}. Each row maps one ICD 10 code to one of the 113 causes of death.
 #'
 #' @source Downloaded from \url{https://ibis.health.utah.gov/ibisph-view/query/NCHS113.html} on 9/22/2021. It is a machine readable version of
@@ -67,7 +69,7 @@
 #' an Excel workbook downloaded from DOH/CHAT and saved to SharePoint.
 #' Created by \code{/data-raw/icd_other_causes_of_death.R}.
 #'
-#' @format A data.table with 1,496 rows and four variables: \code{cause.of.deaths},
+#' @format A data.table with 1,496 rows and four variables: \code{cause.of.death},
 #'   \code{orig.coding}, \code{icd10}, and \code{source}. Each row maps one
 #'   specific ICD 10 code to a given cause of death.
 #'
@@ -103,6 +105,8 @@
 #' @name icd10_death_injury_matrix
 "icd10_death_injury_matrix"
 
+
+
 #' CMS 2022 ICD-10-CM
 #'
 #' CMS (Centers for Medicare & Medicaid Services) 2022 ICD-10-CM
@@ -120,6 +124,8 @@
 #' @name icd_icd10cm_codes_2022
 "icd_icd10cm_codes_2022"
 
+
+
 #' CMS 2022 ICD-10-PCS
 #'
 #' CMS (Centers for Medicare & Medicaid Services) 2022 ICD-10-PCS
@@ -136,45 +142,50 @@
 #' @name icd_icd10pcs_codes_2022
 "icd_icd10pcs_codes_2022"
 
+
+
 #' 2010 BLS Standard Occupational Classification (SOC) definitions.
 #'
 #' 2010 BLS Standard Occupational Classification (SOC) definitions.
 #'
 #' Detailed definitions for each 2010 BLS SOC code / title
 #'
-#' @format A data.table with 840 rows and three variables: \code{'SOC Code'}, \code{'SOC Title'},
-#'   \code{'SOC Definition'}.
+#' @format A data.table with 840 rows and four variables: \code{'SOC.Code'}, \code{'SOC.Title'},
+#'   \code{'SOC.Definition'}, \code{'uploaded'}.
 #'
 #' @source \url{https://www.bls.gov/soc/soc_2010_definitions.xls}
 #' @name occupation_soc_2010_definitions
 "occupation_soc_2010_definitions"
+
 
 #' 2010 BLS Standard Occupational Classification (SOC) structure.
 #'
 #' 2010 BLS Standard Occupational Classification (SOC) structure.
 #'     SOC codes with hierarchy information.
 #'
-#' @format A data.table with 1421 rows and twelve variables: \code{group}, \code{code},
+#' @format A data.table with 1421 rows and thirteen variables: \code{group}, \code{code},
 #'   \code{major}, \code{minor}, \code{broad}, \code{detailed}, \code{title},
 #'   \code{major.title}, \code{minor.title}, \code{broad.title},
-#'   \code{detailed.title}, \code{notes}.
+#'   \code{detailed.title}, \code{notes}, \code{'uploaded'}.
 #'
 #' @source \url{https://www.bls.gov/soc/2010/2010_major_groups.htm}
 #' @name occupation_soc_2010_structure
 "occupation_soc_2010_structure"
 
+
 #' 2018 BLS Standard Occupational Classification (SOC) definitions.
 #'
 #' 2018 BLS Standard Occupational Classification (SOC) definitions.
 #'
 #' Detailed definitions for each 2018 BLS SOC code / title
 #'
-#' @format A data.table with 1447 rows and four variables: \code{'SOC Group'}, \code{'SOC Code'}, \code{'SOC Title'},
-#'   \code{'SOC Definition'}.
+#' @format A data.table with 1447 rows and five variables: \code{'SOC.Group'},
+#' \code{'SOC.Code'}, \code{'SOC.Title'}, \code{'SOC.Definition'}, \code{'uploaded'}.
 #'
 #' @source \url{https://www.bls.gov/soc/soc_2018_definitions.xls}
 #' @name occupation_soc_2018_definitions
 "occupation_soc_2018_definitions"
+
 
 #' 2018 BLS Standard Occupational Classification (SOC) structure.
 #'
@@ -182,39 +193,29 @@
 #'
 #' Detailed definitions for each 2018 BLS SOC code / title
 #'
-#' @format A data.table with 1447 rows and eleven variables: \code{group}, \code{code},
+#' @format A data.table with 1447 rows and twelve variables: \code{group}, \code{code},
 #'   \code{major}, \code{minor}, \code{broad}, \code{detailed}, \code{title},
-#'   \code{major.title}, \code{minor.title}, \code{broad.title}, \code{detailed.title}.
+#'   \code{major.title}, \code{minor.title}, \code{broad.title}, \code{detailed.title},
+#'   \code{'uploaded'}.
 #'
 #' @source \url{https://www.bls.gov/soc/2018/2018_major_groups.htm}
 #' @name occupation_soc_2018_structure
 "occupation_soc_2018_structure"
+
 
 #' 'Essential Worker' definitions using 2018 BLS Standard Occupational Classification (SOC) codes.
 #'
 #' 'Essential Worker' definitions using 2018 BLS Standard Occupational Classification (SOC) codes.
 #'     One of many essential worker definitions circulating early in the COVID-19 pandemic.
 #'
-#' @format A data.table with 1447 rows and five variables: \code{essential}, \code{group},
-#'   \code{code}, \code{title}, \code{notes}.
+#' @format A data.table with 1447 rows and six variables: \code{essential}, \code{group},
+#'   \code{code}, \code{title}, \code{notes}, \code{'uploaded'}.
 #'
 #' @source \url{https://www.lmiontheweb.org/more-than-half-of-u-s-workers-in-critical-occupations-in-the-fight-against-covid-19/}
 #' @name occupation_soc_2018_essential_workers_key
 "occupation_soc_2018_essential_workers_key"
 
 
-#' 2018 Population by HRA.
-#'
-#' Health Reporting Area (HRA) 2018 population. Not clear why this was worth saving in GitHub.
-#' Not stratified by demographics.
-#'
-#' @format A data.table with 48 rows and eight variables: \code{year}, \code{hra_id},
-#'   \code{hra_name}, \code{age}, \code{gender}, \code{race}, \code{ethnicity},
-#'   \code{population}.
-#'
-#' @source \url{https://www.mysterydata.com}
-#' @name population_hra_pop_18
-"population_hra_pop_18"
 
 #' Standard reference populations with 11 age categories.
 #'
@@ -222,8 +223,8 @@
 #' 2000 US Standard Population with 11 age categories is used by WA DOH CHAT
 #' as of August 26, 2022.
 #'
-#' @format A data.table with 11 rows and 7 variables: \code{standard}, \code{agecat},
-#'   \code{age_start}, \code{age_end}, \code{pop}, \code{source}, \code{uploaded}.
+#' @format A data.table with 11 rows and 6 variables: \code{standard}, \code{agecat},
+#'   \code{age_start}, \code{age_end}, \code{pop}, \code{source}.
 #'
 #' @source \url{https://www.cdc.gov/nchs/data/statnt/statnt20.pdf}
 #' @name population_reference_pop_11_age_groups
@@ -234,47 +235,51 @@
 #'
 #' Fifteen standard reference populations with 18 non-overlapping age categories.
 #'
-#' @format A data.table with 270 rows and 6 variables: \code{standard}, \code{agecat},
-#'   \code{age_start}, \code{age_end}, \code{pop}, \code{source}.
+#' @format A data.table with 270 rows and 7 variables: \code{standard}, \code{agecat},
+#'   \code{age_start}, \code{age_end}, \code{pop}, \code{source}, \code{uploaded}.
 #'
 #' @source \url{https://seer.cancer.gov/stdpopulations}
 #' @name population_reference_pop_18_age_groups
 "population_reference_pop_18_age_groups"
 
+
 #' Standard reference populations with 19 age categories.
 #'
 #' Fifteen standard reference populations with 19 non-overlapping age categories.
 #'
-#' @format A data.table with 285 rows and 6 variables: \code{standard}, \code{agecat},
-#'   \code{age_start}, \code{age_end}, \code{pop}, \code{source}.
+#' @format A data.table with 285 rows and 7 variables: \code{standard}, \code{agecat},
+#'   \code{age_start}, \code{age_end}, \code{pop}, \code{source}, \code{uploaded}.
 #'
 #' @source \url{https://seer.cancer.gov/stdpopulations}
 #' @name population_reference_pop_19_age_groups
 "population_reference_pop_19_age_groups"
+
 
 #' Standard population for single ages through 84.
 #'
 #' Standard population for single ages through 84.
 #' After 84, binned into 85-120. Three standards.
 #'
-#' @format A data.table with 258 rows and 6 variables: \code{standard}, \code{agecat},
-#'   \code{age_start}, \code{age_end}, \code{pop}, \code{source}.
+#' @format A data.table with 258 rows and 7 variables: \code{standard}, \code{agecat},
+#'   \code{age_start}, \code{age_end}, \code{pop}, \code{source}, \code{uploaded}.
 #'
 #' @source \url{https://seer.cancer.gov/stdpopulations}
 #' @name population_reference_pop_single_age_to_84
 "population_reference_pop_single_age_to_84"
+
 
 #' Standard population for single ages through 99.
 #'
 #' Standard population for single ages through 99.
 #' After 99, binned into 99-120. Two standards.
 #'
-#' @format A data.table with 202 rows and 6 variables: \code{standard}, \code{agecat},
-#'   \code{age_start}, \code{age_end}, \code{pop}, \code{source}.
+#' @format A data.table with 202 rows and 7 variables: \code{standard}, \code{agecat},
+#'   \code{age_start}, \code{age_end}, \code{pop}, \code{source}, \code{uploaded}.
 #'
 #' @source \url{https://seer.cancer.gov/stdpopulations}
 #' @name population_reference_pop_single_age_to_99
 "population_reference_pop_single_age_to_99"
+
 
 #' Codebook for WA OFM population demographics.
 #'
@@ -289,17 +294,21 @@
 #' @name population_wapop_codebook_values
 "population_wapop_codebook_values"
 
+
+
+
 #' Crosswalk from Census tracts to political districts.
 #'
 #' Crosswalk from Census tracts to political districts.
 #' Census/ACS tracts mapped to King County and Seattle districts.
 #'
-#' @format A data.table with 397 rows and 5 variables: \code{geo_id}, \code{name},
-#'   \code{tract}, \code{kccd}, \code{sea_ccd}.
+#' @format A data.table with 397 rows and 6 variables: \code{geo_id}, \code{name},
+#'   \code{tract}, \code{kccd}, \code{sea_ccd}, , \code{uploaded}.
 #'
 #' @source \url{https://www.mysterydata.com}
 #' @name spatial_acs_council_districts
 "spatial_acs_council_districts"
+
 
 #' Crosswalk hra > region > coo place > geoid > place > tract > block group
 #'
@@ -313,6 +322,7 @@
 #' @name spatial_acs_hra_region_place_etc
 "spatial_acs_hra_region_place_etc"
 
+
 #' Census 2000 crosswalk Block > Block Group > Tract > HRA.
 #'
 #' Census 2000 crosswalk Block > Block Group > Tract > HRA.
@@ -324,39 +334,32 @@
 #' @name spatial_blocks00_to_hra
 "spatial_blocks00_to_hra"
 
+
 #' Census 2010 crosswalk blocks > city council districts
 #'
 #' Census 2010 crosswalk blocks > city council districts
 #'
-#' @format A data.table with 11475 rows and 10 variables: \code{council_district}, \code{geoid10},
+#' @format A data.table with 11,475 rows and 11 variables: \code{council_district}, \code{geoid10},
 #'   \code{tract_10}, \code{block_10}, \code{trbl_10}, \code{trbg_10}, \code{acres_total}, \code{acres_land},
-#'   \code{acres_water}, \code{water}.
+#'   \code{acres_water}, \code{water}, \code{uploaded}.
 #'
 #' @source \url{https://www.mysterydata.com}
 #' @name spatial_blocks10_to_city_council_dist
 "spatial_blocks10_to_city_council_dist"
 
-#' Census 2010 crosswalk blocks >> hras
-#'
-#' Census 2010 crosswalk blocks >> hras
-#'
-#' @format A data.table with 35838 rows and 3 variables: \code{geo_id_blk}, \code{hra},
-#'   \code{vid}.
-#'
-#' @source \url{https://www.mysterydata.com}
-#' @name spatial_blocks10_to_hra
-"spatial_blocks10_to_hra"
 
-#' Census 2010 crosswalk blocks >> region & blocks >> hra
+#' Census 2010 crosswalk blocks >> hra >> region
 #'
-#' Census 2010 crosswalk blocks >> region & blocks >> hra
+#' Census 2010 crosswalk blocks >> hra >> region
 #'
-#' @format A data.table with 35,837 rows and 7 variables: \code{geo_id_blk}, \code{region},
-#'   \code{regionid}, \code{hra}, \code{vid}, \code{svc}, \code{svcid}.
+#' @format A data.table with 35,837 rows and 8 variables: \code{geo_id_blk}, \code{hra},
+#'   \code{vid}, \code{region}, \code{region_id}, \code{region_id_old}, \code{svc},
+#'   \code{svcid}.
 #'
 #' @source \url{https://www.mysterydata.com}
-#' @name spatial_blocks10_to_region
-"spatial_blocks10_to_region"
+#' @name spatial_blocks10_to_hra_to_region
+"spatial_blocks10_to_hra_to_region"
+
 
 #' Crosswalk between 2010 block groups and HRA names, regions, and other RADS/CHI standard geographies
 #'
@@ -371,16 +374,32 @@
 #' @name spatial_chi_blocks10_xwalk
 "spatial_chi_blocks10_xwalk"
 
+
 #' Crosswalk between 2010 county id, code, fips code and name
 #'
 #' Crosswalk between 2010 county id, code, fips code and name
 #'
-#' @format A data.table with 39 rows and 5 variables: \code{cou_id}, \code{geo_year},
-#'   \code{cou_name}, \code{cou_code}, \code{fips_co}.
+#' @format A data.table with 39 rows and 7 variables: \code{geo_county_name},
+#' \code{geo_county_code_fips }, \code{geo_county_fips_long},
+#' \code{geo_county_code_order}, \code{geo_county_code_gnis}.
+#' \code{geo_county_code_tiger}, \code{geo_county_code_aff}.
+#'
+#' @source ???
+#' @name spatial_county_codes
+"spatial_county_codes"
+
+
+#' Crosswalk between 2010 county id, code, fips code and name
+#'
+#' Crosswalk between 2010 county id, code, fips code and name
+#'
+#' @format A data.table with 39 rows and 5 variables: \code{cou_id},
+#' \code{geo_year}, \code{cou_name}, \code{cou_code}, \code{fips_co}.
 #'
 #' @source kcitazrhpasqlprp16.azds.kingcounty.gov [ref].[pop_cou_crosswalk]
 #' @name spatial_county_codes_to_names
 "spatial_county_codes_to_names"
+
 
 #' Census 2010 ... most extensive crosswalk file ... the best
 #'
@@ -410,27 +429,31 @@
 #' @name spatial_geocomp_blk10_kps
 "spatial_geocomp_blk10_kps"
 
+
 #' Crosswalk HRA short names to long names for CHI standards
 #'
 #' Crosswalk HRA short names to long names for CHI standards
 #'
-#' @format A data.table with 48 rows and 2 variables:
-#' \code{cat1_group}, \code{cat1_group_alias}.
+#' @format A data.table with 48 rows and 3 variables:
+#' \code{cat1_group}, \code{cat1_group_alias},
+#' \code{uploaded}.
 #'
-#' @source \url{https://www.mysterydata.com}
+#' @source \url{https://kc1.sharepoint.com/:x:/r/teams/DPH-CommunityHealthIndicators/_layouts/15/Doc.aspx?sourcedoc=%7BC9A481B4-1196-5782-AD25-70AC8F29C89D%7D&file=Tableau%20Ready%20Output%20Format_HRA_cat1_group_alias.xlsx&action=default&mobileredirect=true}
 #' @name spatial_hra_shortname_to_CHIname
 "spatial_hra_shortname_to_CHIname"
+
 
 #' Crosswalk HRA's to regions
 #'
 #' Crosswalk HRA's to regions
 #'
 #' @format A data.table with 48 rows and 4 variables:
-#' \code{hra}, \code{vid}, \code{region}, \code{region_id}.
+#' \code{hra}, \code{vid}, \code{region}, \code{region_id}, \code{region_id_old}.
 #'
 #' @source \url{https://www.mysterydata.com}
 #' @name spatial_hra_vid_region
 "spatial_hra_vid_region"
+
 
 #' Crosswalk between 2010 legislative district id, name, county, and url
 #'
@@ -443,27 +466,30 @@
 #' @name spatial_legislative_codes_to_names
 "spatial_legislative_codes_to_names"
 
+
 #' Crosswalk between 2010 school district id, name, state id, county code, and esd name
 #'
 #' Crosswalk between 2010 school district id, name, state id, county code, and esd name
 #'
 #' @format A data.table with 295 rows and 3 variables: \code{geo_year}, \code{scd_id},
-#'  and  \code{scd_name}.
+#'  and \code{scd_name}.
 #'
 #' @source \url{https://secureaccess.wa.gov/doh/chat/Entry.mvc}
 #' @name spatial_school_codes_to_names
 "spatial_school_codes_to_names"
 
+
 #' Crosswalk between King County school districts and KC regions
 #'
 #' Crosswalk between King County school districts and KC regions
 #'
-#' @format A data.table with 19 rows and 3 variables:
-#' \code{school_district}, \code{geo_id}, \code{region}.
+#' @format A data.table with 19 rows and 4 variables:
+#' \code{school_district}, \code{geo_id}, \code{region}, \code{region_id}.
 #'
 #' @source \url{https://www.mysterydata.com}
 #' @name spatial_school_dist_to_region
 "spatial_school_dist_to_region"
+
 
 #' Crosswalk between 2010 census tracts and King County Council Districts
 #'
@@ -483,38 +509,35 @@
 #' @name spatial_tract_to_county_council_dist
 "spatial_tract_to_county_council_dist"
 
+
 #' Census 2010 crosswalk tracts to PUMAS
 #'
 #' Census 2010 crosswalk tracts to PUMAS
 #'
-#' @format A data.table with 398 rows and 4 variables:
-#' \code{wa}, \code{kingco}, \code{tract10}, \code{puma}.
+#' @format A data.table with 398 rows and 5 variables:
+#' \code{wa}, \code{kingco}, \code{tract10}, \code{puma}, \code{uploaded}.
 #'
 #' @source \url{https://www.mysterydata.com}
 #' @name spatial_tract10_to_puma
 "spatial_tract10_to_puma"
 
-#' Crosswalk zip codes to cities / towns
-#'
-#' Crosswalk zip codes to cities / towns
-#'
-#' @format A data.table with 122 rows and 3 variables:
-#' \code{zip}, \code{zip_type},\code{city}.
-#'
-#' @source \url{https://www.mysterydata.com}
-#' @name spatial_zip_admin
-"spatial_zip_admin"
 
-#' Crosswalk zip codes to cities and regions
+#' Crosswalk zip codes >> cities >> regions (& SCC)
 #'
-#' Crosswalk zip codes to cities and regions
+#' Crosswalk zip codes >> cities >> regions (& SCC)
 #'
-#' @format A data.table with 120 rows and 4 variables:
-#'   \code{zip}, \code{city}, \code{region}, \code{region_vid}.
+#' @format A data.table with 126 rows and 11 variables:
+#' \code{zip}, \code{zip_type}, \code{city}, \code{city_primary}, \code{region},
+#' \code{region_id}, \code{region_vid}, \code{scc}, \code{multi_county},
+#' \code{office_building}, \code{notes}.
 #'
-#' @source \url{https://www.mysterydata.com}
-#' @name spatial_zip_city_region_vid
-"spatial_zip_city_region_vid"
+#' @source combined spatial_zip_admin, spatial_zip_to_city_council_dist,
+#' spatial_zip_to_region, & spatial_zip_city_region_vid & then deleted the
+#' originals
+#'
+#' @name spatial_zip_city_region_scc
+"spatial_zip_city_region_scc"
+
 
 #' Crosswalk FOR HCA MEDICAID KC definition ... zip >> city
 #'
@@ -530,25 +553,3 @@
 #' @name spatial_zip_hca
 "spatial_zip_hca"
 
-#' Crosswalk zip code to Seattle city council districts
-#'
-#' Crosswalk zip code to Seattle city council districts
-#'
-#' @format A data.table with 24 rows and 2 variables:
-#' \code{zip}, \code{district}.
-#'
-#' @source \url{https://www.mysterydata.com}
-#' @name spatial_zip_to_city_council_dist
-"spatial_zip_to_city_council_dist"
-
-#' Crosswalk zip codes to regions
-#'
-#' Crosswalk zip codes to regions
-#'
-#' @format A data.table with 120 rows and 6 variables:
-#'   \code{zip}, \code{city}, \code{cc_region}, \code{po_box},
-#'   \code{office_building}, \code{notes}.
-#'
-#' @source \url{https://www.mysterydata.com}
-#' @name spatial_zip_to_region
-"spatial_zip_to_region"

@@ -5,8 +5,8 @@
 \alias{occupation_soc_2010_definitions}
 \title{2010 BLS Standard Occupational Classification (SOC) definitions.}
 \format{
-A data.table with 840 rows and three variables: \code{'SOC Code'}, \code{'SOC Title'},
-  \code{'SOC Definition'}.
+A data.table with 840 rows and four variables: \code{'SOC.Code'}, \code{'SOC.Title'},
+  \code{'SOC.Definition'}, \code{'uploaded'}.
 }
 \source{
 \url{https://www.bls.gov/soc/soc_2010_definitions.xls}

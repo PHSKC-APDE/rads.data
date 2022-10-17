@@ -5,8 +5,8 @@
 \alias{spatial_school_dist_to_region}
 \title{Crosswalk between King County school districts and KC regions}
 \format{
-A data.table with 19 rows and 3 variables:
-\code{school_district}, \code{geo_id}, \code{region}.
+A data.table with 19 rows and 4 variables:
+\code{school_district}, \code{geo_id}, \code{region}, \code{region_id}.
 }
 \source{
 \url{https://www.mysterydata.com}

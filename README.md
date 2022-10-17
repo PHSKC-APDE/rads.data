@@ -37,6 +37,9 @@ Once the package has been loaded, you can import the table of interest into memo
 
 Finally, if you need a CSV to share the data with non-R users, you can point them to [`inst/extdata`](https://github.com/PHSKC-APDE/rads.data/inst/extdata). This folder contains CSV copies of the R data files. When updating this package, all updates should be performed on the R data files followed by running the [copying code](https://github.com/PHSKC-APDE/rads.data/blob/main/data-raw/copy_rda_to_csv.R).
 
+## Adding files and or thematic areas
+If you want to add files or thematic areas, PLEASE create a new branch and then submit a pull request.
+
 ## Problems & suggestions?
 If you notice something that is incorrect, know a data source that you'd like to add, or have a suggestion for improvement, please let us know. Click on ["Issues"](https://github.com/PHSKC-APDE/rads.data/issues) at the top of this page and then click ["New Issue"](https://github.com/PHSKC-APDE/rads.data/issues/new/choose) and provide the necessary details. 
 

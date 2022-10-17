@@ -6,7 +6,7 @@
 \title{Crosswalk HRA's to regions}
 \format{
 A data.table with 48 rows and 4 variables:
-\code{hra}, \code{vid}, \code{region}, \code{region_id}.
+\code{hra}, \code{vid}, \code{region}, \code{region_id}, \code{region_id_old}.
 }
 \source{
 \url{https://www.mysterydata.com}

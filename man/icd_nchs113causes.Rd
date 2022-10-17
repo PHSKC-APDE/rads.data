@@ -5,7 +5,7 @@
 \alias{icd_nchs113causes}
 \title{NCHS 113 Selected Causes of Death (long)}
 \format{
-A data.table with 2975 rows and three variables: \code{causeid}, \code{cause.of.deaths},
+A data.table with 28,127 rows and three variables: \code{causeid}, \code{cause.of.death}, \code{orig.coding},
   \code{icd10}. Each row maps one ICD 10 code to one of the 113 causes of death.
 }
 \source{

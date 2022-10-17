@@ -6,7 +6,7 @@
 \title{Crosswalk between 2010 school district id, name, state id, county code, and esd name}
 \format{
 A data.table with 295 rows and 3 variables: \code{geo_year}, \code{scd_id},
- and  \code{scd_name}.
+ and \code{scd_name}.
 }
 \source{
 \url{https://secureaccess.wa.gov/doh/chat/Entry.mvc}
