@@ -5,8 +5,8 @@
 \alias{spatial_tract10_to_puma}
 \title{Census 2010 crosswalk tracts to PUMAS}
 \format{
-A data.table with 398 rows and 4 variables:
-\code{wa}, \code{kingco}, \code{tract10}, \code{puma}.
+A data.table with 398 rows and 5 variables:
+\code{wa}, \code{kingco}, \code{tract10}, \code{puma}, \code{uploaded}.
 }
 \source{
 \url{https://www.mysterydata.com}

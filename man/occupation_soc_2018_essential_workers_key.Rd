@@ -5,8 +5,8 @@
 \alias{occupation_soc_2018_essential_workers_key}
 \title{'Essential Worker' definitions using 2018 BLS Standard Occupational Classification (SOC) codes.}
 \format{
-A data.table with 1447 rows and five variables: \code{essential}, \code{group},
-  \code{code}, \code{title}, \code{notes}.
+A data.table with 1447 rows and six variables: \code{essential}, \code{group},
+  \code{code}, \code{title}, \code{notes}, \code{'uploaded'}.
 }
 \source{
 \url{https://www.lmiontheweb.org/more-than-half-of-u-s-workers-in-critical-occupations-in-the-fight-against-covid-19/}

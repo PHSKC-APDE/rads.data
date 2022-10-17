@@ -5,8 +5,8 @@
 \alias{spatial_county_codes_to_names}
 \title{Crosswalk between 2010 county id, code, fips code and name}
 \format{
-A data.table with 39 rows and 5 variables: \code{cou_id}, \code{geo_year},
-  \code{cou_name}, \code{cou_code}, \code{fips_co}.
+A data.table with 39 rows and 5 variables: \code{cou_id},
+\code{geo_year}, \code{cou_name}, \code{cou_code}, \code{fips_co}.
 }
 \source{
 kcitazrhpasqlprp16.azds.kingcounty.gov [ref].[pop_cou_crosswalk]

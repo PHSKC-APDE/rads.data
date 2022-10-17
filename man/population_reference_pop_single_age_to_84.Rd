@@ -5,8 +5,8 @@
 \alias{population_reference_pop_single_age_to_84}
 \title{Standard population for single ages through 84.}
 \format{
-A data.table with 258 rows and 6 variables: \code{standard}, \code{agecat},
-  \code{age_start}, \code{age_end}, \code{pop}, \code{source}.
+A data.table with 258 rows and 7 variables: \code{standard}, \code{agecat},
+  \code{age_start}, \code{age_end}, \code{pop}, \code{source}, \code{uploaded}.
 }
 \source{
 \url{https://seer.cancer.gov/stdpopulations}

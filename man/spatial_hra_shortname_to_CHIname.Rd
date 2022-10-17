@@ -5,11 +5,12 @@
 \alias{spatial_hra_shortname_to_CHIname}
 \title{Crosswalk HRA short names to long names for CHI standards}
 \format{
-A data.table with 48 rows and 2 variables:
-\code{cat1_group}, \code{cat1_group_alias}.
+A data.table with 48 rows and 3 variables:
+\code{cat1_group}, \code{cat1_group_alias},
+\code{uploaded}.
 }
 \source{
-\url{https://www.mysterydata.com}
+\url{https://kc1.sharepoint.com/:x:/r/teams/DPH-CommunityHealthIndicators/}
 }
 \usage{
 spatial_hra_shortname_to_CHIname

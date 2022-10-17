@@ -5,8 +5,8 @@
 \alias{population_reference_pop_18_age_groups}
 \title{Standard reference populations with 18 age categories.}
 \format{
-A data.table with 270 rows and 6 variables: \code{standard}, \code{agecat},
-  \code{age_start}, \code{age_end}, \code{pop}, \code{source}.
+A data.table with 270 rows and 7 variables: \code{standard}, \code{agecat},
+  \code{age_start}, \code{age_end}, \code{pop}, \code{source}, \code{uploaded}.
 }
 \source{
 \url{https://seer.cancer.gov/stdpopulations}
