@@ -37,6 +37,16 @@ Once the package has been loaded, you can import the table of interest into memo
 
 Finally, if you need a CSV to share the data with non-R users, you can point them to [`inst/extdata`](https://github.com/PHSKC-APDE/rads.data/inst/extdata). This folder contains CSV copies of the R data files. When updating this package, all updates should be performed on the R data files followed by running the [copying code](https://github.com/PHSKC-APDE/rads.data/blob/main/data-raw/copy_rda_to_csv.R).
 
+## A quick reminder regarding Census geographies
+Census GEOIDs have the following structure:
+| Area    | GEOID Structure                | Digits     | Example Area                 | Example GEOID        |
+| ------------ | ------------------------------ | ---------- | -----------------------------| -------------------- |
+| State        | STATE                          | 2          | WA                           | 53                   |
+| County       | STATE+COUNTY                   | 2+3=5      | King County, WA              | 53 033               |
+| Census Tract | STATE+COUNTY+TRACT             | 2+3+6=11   | Tract 11001 in King County   | 53 033 011001        |
+| Block Group  | STATE+COUNTY+TRACT+BLOCK GROUP | 2+3+6+1=12 | Block Group 2 in Tract 11001 | 53 033 011001 2      |
+| Block        | STATE+COUNTY+TRACT+BLOCK       | 2+3+6+4=15 | Block 2006 in Tract 11001 in | 53 033 011001 2006   |
+
 ## Adding files and or thematic areas
 If you want to add files or thematic areas, PLEASE create a new branch and then submit a pull request.
 

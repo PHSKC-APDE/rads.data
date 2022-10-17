@@ -10,7 +10,7 @@ A data.table with 48 rows and 3 variables:
 \code{uploaded}.
 }
 \source{
-
+\url{https://kc1.sharepoint.com/:x:/r/teams/DPH-CommunityHealthIndicators/}
 }
 \usage{
 spatial_hra_shortname_to_CHIname

@@ -15,4 +15,4 @@ Imports:
     data.table (>= 1.14.2),
     readr (>= 2.1.0)
 Depends: 
-    R (>= 3.5.0)
+    R (>= 4.0.0)

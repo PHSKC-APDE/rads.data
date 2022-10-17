@@ -438,7 +438,7 @@
 #' \code{cat1_group}, \code{cat1_group_alias},
 #' \code{uploaded}.
 #'
-#' @source \url{https://kc1.sharepoint.com/:x:/r/teams/DPH-CommunityHealthIndicators/_layouts/15/Doc.aspx?sourcedoc=%7BC9A481B4-1196-5782-AD25-70AC8F29C89D%7D&file=Tableau%20Ready%20Output%20Format_HRA_cat1_group_alias.xlsx&action=default&mobileredirect=true}
+#' @source \url{https://kc1.sharepoint.com/:x:/r/teams/DPH-CommunityHealthIndicators/}
 #' @name spatial_hra_shortname_to_CHIname
 "spatial_hra_shortname_to_CHIname"
 
