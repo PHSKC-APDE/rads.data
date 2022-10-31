@@ -90,7 +90,7 @@
 #'
 #' ICD10 Death Injury Matrix (ICE: International Collaborative Effort on Injury Statistics)
 #'
-#' @format a 'long' data.table with 7,969 rows and four columns: \code{intent}, \code{mechanism}, \code{orig.coding}, & \code{icd10}.
+#' @format a 'long' data.table with 8,400 rows and four columns: \code{intent}, \code{mechanism}, \code{orig.coding}, & \code{icd10}.
 #'
 #' @note This function uses ICD10 mortality codes and should not be used with ICD10-CM hospitalization data.
 #'
