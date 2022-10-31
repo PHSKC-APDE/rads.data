@@ -69,7 +69,7 @@
 #' an Excel workbook downloaded from DOH/CHAT and saved to SharePoint.
 #' Created by \code{/data-raw/icd_other_causes_of_death.R}.
 #'
-#' @format A data.table with 1,496 rows and four variables: \code{cause.of.death},
+#' @format A data.table with 3,126 rows and four variables: \code{cause.of.death},
 #'   \code{orig.coding}, \code{icd10}, and \code{source}. Each row maps one
 #'   specific ICD 10 code to a given cause of death.
 #'

@@ -64,3 +64,8 @@ Drug-overdose,X40–X44,"Accidental poisoning by and exposure to drugs, medicame
 Drug-overdose,X60–X64,"Intentional self-poisoning (suicide) by and exposure to drugs, medicaments and biological substances","National Vital Statistics Reports Volume 70, Number 8 July 26, 2016 Deaths: Final Data 2019 (cdc.gov)"
 Drug-overdose,X85,"Assault (homicide) by drugs, medicaments and biological substances","National Vital Statistics Reports Volume 70, Number 8 July 26, 2016 Deaths: Final Data 2019 (cdc.gov)"
 Drug-overdose,Y10–Y14,"Poisoning by and exposure to drugs, medicaments and biological substances, undetermined intent","National Vital Statistics Reports Volume 70, Number 8 July 26, 2016 Deaths: Final Data 2019 (cdc.gov)"
+Cancer,C00-C97,Cancer of any type (malignant neoplasms),CDC 113 COD
+Heart disease,I00-I09,Heart disease of any type,CDC 113 COD
+Heart disease,I11,Heart disease of any type,CDC 113 COD
+Heart disease,I13,Heart disease of any type,CDC 113 COD
+Heart disease,I20-I51,Heart disease of any type,CDC 113 COD

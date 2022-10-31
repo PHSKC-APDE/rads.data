@@ -5,7 +5,7 @@
 \alias{icd_other_causes_of_death}
 \title{Other Causes of Death (long)}
 \format{
-A data.table with 1,496 rows and four variables: \code{cause.of.death},
+A data.table with 3,126 rows and four variables: \code{cause.of.death},
   \code{orig.coding}, \code{icd10}, and \code{source}. Each row maps one
   specific ICD 10 code to a given cause of death.
 }
