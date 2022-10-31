@@ -74,11 +74,7 @@
           }
 
           if(tt.prefix1 == tt.prefix2){
-            tt.seq <- seq(as.integer(tt.start), as.integer(tt.end), 1)
-            if(grepl("^0", tt.start) & grepl("^0", tt.end)){tt.seq <- paste0("0", tt.seq)} else{
-              for(i in 1:length(tt.seq)){if( nchar(tt.seq[i])==1 ){tt.seq[i] <- paste0("0", tt.seq[i])}}
-            }
-
+            tt.seq <- formatC(seq(as.integer(tt.start), as.integer(tt.end), 1), width = 3, format = "d", flag = "0")
             tt <- paste0(tt.prefix1, tt.seq)
           }
 
