@@ -5,7 +5,7 @@
 \alias{icd10_death_injury_matrix}
 \title{ICD10 Death Injury Matrix}
 \format{
-a 'long' data.table with 7,969 rows and four columns: \code{intent}, \code{mechanism}, \code{orig.coding}, & \code{icd10}.
+a 'long' data.table with 8,400 rows and four columns: \code{intent}, \code{mechanism}, \code{orig.coding}, & \code{icd10}.
 }
 \source{
 WA DOH CHAT: \url{https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/CodeSetDefinitions/CHATInjury(ICE)codes.pdf}.

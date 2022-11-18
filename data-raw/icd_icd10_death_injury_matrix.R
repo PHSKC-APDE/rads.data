@@ -35,6 +35,7 @@ library(data.table)
     dt[, codes := gsub("\\\\n| ", "", codes)]
     dt[, codes := gsub("\\)", "\\]", codes)]
     dt[, codes := gsub("\\(", "\\[", codes)]
+    dt[, codes := gsub("\\R", "", codes, fixed = T)]
     dt[, codes := toupper(codes)]
     dt[, codes := gsub("^ *|(?<= ) | *$", "", codes, perl = TRUE)] # remove multiple white spaces even if there is more than one
 
@@ -45,7 +46,9 @@ library(data.table)
 
     # create function to expand the ICD codes by ascribing the proper decimal to each stem (e.g., Y89 and [.0, .1] to Y89.0, Y89.1) ----
       expand.icds <- function(mydt = NULL, xcode){ # had a hard time doing this a legit data.table way, so will apply this to each row
+        mydt[, paste0(xcode) := gsub("\\R", "", get(xcode), fixed = T)]
         for(i in 1:nrow(mydt)){
+          print(paste(xcode, ": ", i))
           if(!is.na(mydt[i,][[xcode]])){ # if NA, no need for any of the followign code
             stem =  gsub("\\[.*$", "", mydt[i,][[xcode]]) # get the stem (e.g., V83-V86 from V83-V86[.0-.3] )
             first.stem = substr(stem, 1, 3) # get the final stem (e.g., V83 from V83-V86[.0-.3])
@@ -110,6 +113,11 @@ library(data.table)
     icd10_death_injury_matrix <- icd10_death_injury_matrix[!is.na(icd10)]
     setorder(icd10_death_injury_matrix, original.order, intent, mechanism, icd10)
     icd10_death_injury_matrix <- icd10_death_injury_matrix[, .(mechanism, intent, orig.coding, icd10)]
+
+# Create summary category for all Motor Vehicle ----
+    mv <- copy(icd10_death_injury_matrix)[mechanism %like% 'Moto']
+    mv <- unique(mv[, mechanism:= "Motor vehicle traffic"])
+    icd10_death_injury_matrix <- rbind(icd10_death_injury_matrix, mv)
 
 # Write to package ----
     usethis::use_data(icd10_death_injury_matrix, overwrite = TRUE)

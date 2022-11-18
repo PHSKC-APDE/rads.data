@@ -96,6 +96,27 @@ library(Microsoft365R)
 
     setorder(icd_other_causes_of_death, cause.of.death, icd10, -orig.coding)
 
+# Add new summary categories from CDC 113 COD ----
+    x113 <- copy(rads.data::icd_nchs113causes)
+
+    xliver <- x113[cause.of.death %in% c("Alcoholic liver disease", "Other chronic liver disease and cirrhosis")]
+    xliver <- unique(xliver[, .(cause.of.death = "Chronic liver disease and cirrhosis", orig.coding, icd10, source = "CDC 113 COD")])
+
+    xresp <- x113[cause.of.death %in% c("Asthma", "Bronchitis, chronic and unspecified", "Emphysema", "Other chronic lower respiratory diseases")]
+    xresp <- unique(xresp[, .(cause.of.death = "Chronic lower respiratory disease", orig.coding, icd10, source = "CDC 113 COD")])
+
+    xflu <- x113[cause.of.death %in% c("Influenza", "Pneumonia")]
+    xflu <- unique(xflu[, .(cause.of.death = "Influenza/pneumonia", orig.coding, icd10, source = "CDC 113 COD")])
+
+    xnew <- rbind(xliver, xresp, xflu)
+    xnew[, .N, cause.of.death]
+
+    icd_other_causes_of_death <- icd_other_causes_of_death[!cause.of.death %in% c("Chronic liver disease and cirrhosis", "Chronic lower respiratory disease", "Influenza/pneumonia")] # drop if exists
+    icd_other_causes_of_death <- rbind(icd_other_causes_of_death, xnew)
+
+    setorder(icd_other_causes_of_death, cause.of.death, icd10, -orig.coding)
+    icd_other_causes_of_death[, .N, cause.of.death]
+
 # Write to package ----
     usethis::use_data(icd_other_causes_of_death, overwrite = TRUE)
     write.csv(icd_other_causes_of_death, "inst/extdata/icd_data/icd_other_causes_of_death.csv", row.names = F)
