@@ -105,6 +105,21 @@
 #' @name icd10_death_injury_matrix
 "icd10_death_injury_matrix"
 
+#' DOH CHAT ICD-10-CM & CSS
+#'
+#' DOH CHAT ICD-10-CM & CSS with descriptions and levels of CCS
+#'
+#' @format a data.table with 71,807 rows and eight columns: \code{icd10},
+#' \code{ccs}, \code{icd10_desc}, \code{ccs_desc}, \code{ccs_lvl_1},
+#' \code{ccs_lvl_1_desc}, \code{ccs_lvl_2}, & \code{ccs_lvl_2_desc}.
+#'
+#' @note CCS ==  Clinical Classifications Software (CCS)
+#'
+#' @source https://secureaccess.wa.gov/ >> Community Health Assessment Tool (CHAT)
+#' >> User Guides >> 'CHAT Hospital CCS Codes Sorted By ICD10cm Codes' on Jan 10, 2023
+#'
+#' @name icd_icd10cm_CHAT_2023
+"icd_icd10cm_CHAT_2023"
 
 
 #' CMS 2022 ICD-10-CM
