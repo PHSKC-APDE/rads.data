@@ -5,9 +5,9 @@
 \alias{icd_icd10cm_CHAT_2023}
 \title{DOH CHAT ICD-10-CM & CSS}
 \format{
-a data.table with 71,807 rows and eight columns: \code{icd10},
-\code{ccs}, \code{icd10_desc}, \code{ccs_desc}, \code{ccs_lvl_1},
-\code{ccs_lvl_1_desc}, \code{ccs_lvl_2}, & \code{ccs_lvl_2_desc}.
+a data.table with 71,807 rows and eight columns: \code{icd10_desc},
+\code{icd10}, \code{ccs_lvl_1_desc}, \code{ccs_lvl_1}, \code{ccs_lvl_2_desc},
+\code{ccs_lvl_2}, \code{ccs_lvl_3_desc}, & \code{ccs_lvl_3}.
 }
 \source{
 https://secureaccess.wa.gov/ >> Community Health Assessment Tool (CHAT)
