@@ -51,10 +51,6 @@
 "icd_nchs113causes"
 
 
-
-
-
-
 #' Other Causes of Death (long)
 #'
 #' @description
@@ -156,6 +152,25 @@
 #' @references \code{icd10pcsOrderFile.pdf} in \url{https://www.cms.gov/files/zip/2022-icd-10-pcs-codes-file-updated-december-1-2021.zip}
 #' @name icd_icd10pcs_codes_2022
 "icd_icd10pcs_codes_2022"
+
+
+
+#' Poverty groupings based on 200 percent FPL
+#'
+#' Tract and ZCTA level poverty groupings based on the proportion of the population below 200 percent of the Federal Poverty Level (FPL)
+#'
+#' @format a data.table with 578 rows and six columns: \code{geo_type}, \code{geo_id}, \code{census_vintage}, \code{pov200grp},
+#' \code{source}, \code{creation_date}.
+#'
+#' @note These replace the previous poverty groups (low, medium, high) that were based on 100 percent FPL from 2008-2012 ACS data.
+#'
+#' @source ACS 2017-2021 tabular estimates processed by \url{https://github.com/PHSKC-APDE/chi/blob/main/acs/2021_2017/03_calculations_5_year_tabular_data.R}
+#' with results saved in "//dphcifs/APDE-CDIP/ACS/2021_2017_5_year/Analysis/03_ACS_Calculations/output_ACS_data_2021_2017_by_geography.xlsx"
+#'
+#' @references Code based on \url{https://github.com/PHSKC-APDE/pers_dvc/blob/main/R/2020_poverty_groupings_v2.qmd}
+#'
+#' @name misc_poverty_groups
+"misc_poverty_groups"
 
 
 
