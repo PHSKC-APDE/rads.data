@@ -9,9 +9,10 @@ A data.table with 18,936 rows and four variables: \code{causeid}, \code{cause.of
   \code{icd10}. Each row maps one ICD-10 code to one of the 130 causes of death.
 }
 \source{
-Downloaded from \url{https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/TechnicalNotes.pdf#nameddest=Infant%20Mortality}
+Downloaded from
+\url{https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/TechnicalNotes.pdf}
 on 2/15/2023. It should represent table in
-\urlhttps://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}, on pages 18-20.
+\url{https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}, on pages 18-20.
 }
 \usage{
 icd_nchs130causes

@@ -68,7 +68,8 @@
 #' \code{level2},\code{level3}, & \code{level4}. Each row is for one of the 130 NCHS causes of infant death,
 #' with the \code{icd10} column summarizing all the relevant codes for the given cause of death.
 #'
-#' @source Downloaded from \urlhttps://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/TechnicalNotes.pdf#nameddest=Infant%20Mortality}
+#' @source Downloaded from
+#' \url{https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/TechnicalNotes.pdf}
 #' on 2/15/2023. It should represent table in
 #' \url{https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}, on pages 18-20.
 #'
@@ -86,9 +87,10 @@
 #' @format A data.table with 18,936 rows and four variables: \code{causeid}, \code{cause.of.death}, \code{orig.coding},
 #'   \code{icd10}. Each row maps one ICD-10 code to one of the 130 causes of death.
 #'
-#' @source Downloaded from \url{https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/TechnicalNotes.pdf#nameddest=Infant%20Mortality}
+#' @source Downloaded from
+#' \url{https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/TechnicalNotes.pdf}
 #' on 2/15/2023. It should represent table in
-#' \urlhttps://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}, on pages 18-20.
+#' \url{https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}, on pages 18-20.
 #'
 #' @references \url{https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}
 #' @name icd_nchs130causes

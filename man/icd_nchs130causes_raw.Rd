@@ -11,7 +11,8 @@ A data.table with 130 rows and ten variables: \code{causeid},\code{cause.of.deat
 with the \code{icd10} column summarizing all the relevant codes for the given cause of death.
 }
 \source{
-Downloaded from \urlhttps://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/TechnicalNotes.pdf#nameddest=Infant%20Mortality}
+Downloaded from
+\url{https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/TechnicalNotes.pdf}
 on 2/15/2023. It should represent table in
 \url{https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}, on pages 18-20.
 }
