@@ -12,9 +12,10 @@
 #'
 #'     The official CDC coding for Cause id 95 is now saved as cause id 114 "CDC version of cause id 95 (Residual)".
 #'
-#' @format A data.table with 114 rows and three variables: \code{causeid}, \code{cause.of.death},
-#'   \code{icd10}. Each row is for one of the 113 NCHS causes of death, with the \code{icd10} column summarizing all the relevant
-#'   codes for the given cause of death.
+#' @format A data.table with 113 rows and ten variables: \code{causeid},\code{cause.of.death},\code{icd10},
+#' \code{leading.cause.group.num},\code{leading.cause.group},\code{leading.cause.group.alias},\code{level1},
+#' \code{level2},\code{level3}, & \code{level4}. Each row is for one of the 113 NCHS causes of death,
+#' with the \code{icd10} column summarizing all the relevant codes for the given cause of death.
 #'
 #' @source Downloaded from \url{https://ibis.health.utah.gov/ibisph-view/query/NCHS113.html} on 9/22/2021. It is a machine readable version of
 #' \url{https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/CodeSetDefinitions/NCHS113CausesOfDeath.pdf}
@@ -40,8 +41,8 @@
 #'
 #'     The official CDC coding for Cause id 95 is now saved as cause id 114 "CDC version of cause id 95 (Residual)".
 #'
-#' @format A data.table with 28,127 rows and three variables: \code{causeid}, \code{cause.of.death}, \code{orig.coding},
-#'   \code{icd10}. Each row maps one ICD 10 code to one of the 113 causes of death.
+#' @format A data.table with 28,127 rows and four variables: \code{causeid}, \code{cause.of.death}, \code{orig.coding},
+#'   \code{icd10}. Each row maps one ICD-10 code to one of the 113 causes of death.
 #'
 #' @source Downloaded from \url{https://ibis.health.utah.gov/ibisph-view/query/NCHS113.html} on 9/22/2021. It is a machine readable version of
 #' \url{https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/CodeSetDefinitions/NCHS113CausesOfDeath.pdf}
@@ -49,6 +50,49 @@
 #' @references \url{https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}
 #' @name icd_nchs113causes
 "icd_nchs113causes"
+
+
+#' NCHS 130 Selected Causes of Infant Death (raw)
+#'
+#' NCHS 130 Selected Causes of Infant Death (raw). Used to create \code{icd_nchs130causes}
+#' with \code{/data-raw/icd_nchs130causes.R}
+#'
+#' @note This table is based on a download from WA DOH (see sources below). The PDF was exported to an Excel file and the Excel
+#' file was manually cleaned to make it machine readable. The `Levels` based on the hierarchy shown in the CHAT infant
+#' mortality module's 'NCHS130 Groupings' code set. The `leading.cause.group` information is from the CHAT infant mortality
+#' module's 'Leading Infant Causes' code set. The `leading.cause.group.alias` are from my imagination and should not be assumed
+#' to match any standard.
+#'
+#' @format A data.table with 130 rows and ten variables: \code{causeid},\code{cause.of.death},\code{icd10},
+#' \code{leading.cause.group.num},\code{leading.cause.group},\code{leading.cause.group.alias},\code{level1},
+#' \code{level2},\code{level3}, & \code{level4}. Each row is for one of the 130 NCHS causes of infant death,
+#' with the \code{icd10} column summarizing all the relevant codes for the given cause of death.
+#'
+#' @source Downloaded from \urlhttps://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/TechnicalNotes.pdf#nameddest=Infant%20Mortality}
+#' on 2/15/2023. It should represent table in
+#' \url{https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}, on pages 18-20.
+#'
+#' @references \url{https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}
+#' @name icd_nchs130causes_raw
+"icd_nchs130causes_raw"
+
+
+#' NCHS 130 Selected Causes of Infant Death (long)
+#'
+#' NCHS 130 Selected Causes of Infant Death (long).
+#'
+#' Tidied long version of \code{icd_nchs130causes_raw}. Converted by \code{/data-raw/icd_nchs130causes.R}.
+#'
+#' @format A data.table with 18,936 rows and four variables: \code{causeid}, \code{cause.of.death}, \code{orig.coding},
+#'   \code{icd10}. Each row maps one ICD-10 code to one of the 130 causes of death.
+#'
+#' @source Downloaded from \url{https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/TechnicalNotes.pdf#nameddest=Infant%20Mortality}
+#' on 2/15/2023. It should represent table in
+#' \urlhttps://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}, on pages 18-20.
+#'
+#' @references \url{https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}
+#' @name icd_nchs130causes
+"icd_nchs130causes"
 
 
 #' Other Causes of Death (long)
