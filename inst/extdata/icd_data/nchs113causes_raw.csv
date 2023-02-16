@@ -1,115 +1,115 @@
-"causeid","cause.of.death","icd10"
-1,"Salmonella infections","A01-A02"
-2,"Shigellosis and amebiasis","A03, A06"
-3,"Certain other intestinal infections","A04, A07-A09"
-4,"Respiratory tuberculosis","A16"
-5,"Other tuberculosis","A17-A19"
-6,"Whooping cough","A37"
-7,"Scarlet fever and erysipelas","A38, A46"
-8,"Meningococcal infection","A39"
-9,"Septicemia","A40-A41"
-10,"Syphilis","A50-A53"
-11,"Acute poliomyelitis","A80"
-12,"Arthropod-borne viral encephalitis","A83-A84, A85.2"
-13,"Measles","B05"
-14,"Viral hepatitis","B15-B19"
-15,"Human immunodeficiency virus (HIV) disease","B20-B24"
-16,"Malaria","B50-B54"
-17,"Other and unspecified infectious and parasitic diseases and their sequelae","A00, A05, A20-A36, A42-A44, A48-A49, A54-A79, A81-A82, A85.0-A85.1, A85.8, A86-B04, B06-B09, B25-B49, B55-B99, U07.1"
-18,"Malignant neoplasms of lip, oral cavity and pharynx","C00-C14"
-19,"Malignant neoplasm of esophagus","C15"
-20,"Malignant neoplasm of stomach","C16"
-21,"Malignant neoplasms of colon, rectum and anus","C18-C21"
-22,"Malignant neoplasms of liver and intrahepatic bile ducts","C22"
-23,"Malignant neoplasm of pancreas","C25"
-24,"Malignant neoplasm of larynx","C32"
-25,"Malignant neoplasms of trachea, bronchus and lung","C33-C34"
-26,"Malignant melanoma of skin","C43"
-27,"Malignant neoplasm of breast","C50"
-28,"Malignant neoplasm of cervix uteri","C53"
-29,"Malignant neoplasms of corpus uteri and uterus, part unspecified","C54-C55"
-30,"Malignant neoplasm of ovary","C56"
-31,"Malignant neoplasm of prostate","C61"
-32,"Malignant neoplasms of kidney and renal pelvis","C64-C65"
-33,"Malignant neoplasm of bladder","C67"
-34,"Malignant neoplasms of meninges, brain and other parts of central nervous system","C70-C72"
-35,"Hodgkin's disease","C81"
-36,"Non-Hodgkin's lymphoma","C82-C85"
-37,"Leukemia","C91-C95"
-38,"Multiple myeloma and immunoproliferative neoplasms","C88, C90"
-39,"Other and unspecified malignant neoplasms of lymphoid, hematopoietic and related tissue","C96"
-40,"All other and unspecified malignant neoplasms","C17, C23-C24, C26-C31, C37-C41, C44-C49, C51-C52, C57-C60, C62-C63, C66, C68-C69, C73-C80, C97"
-41,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behavior","D00-D48"
-42,"Anemias","D50-D64"
-43,"Diabetes mellitus","E10-E14"
-44,"Malnutrition","E40-E46"
-45,"Other nutritional deficiencies","E50-E64"
-46,"Meningitis","G00, G03"
-47,"Parkinson's disease","G20-G21"
-48,"Alzheimer's disease","G30"
-49,"Acute rheumatic fever and chronic rheumatic heart diseases","I00-I09"
-50,"Hypertensive heart disease","I11"
-51,"Hypertensive heart and renal disease","I13"
-52,"Acute myocardial infarction","I21-I22"
-53,"Other acute ischemic heart diseases","I24"
-54,"Atherosclerotic cardiovascular disease, so described","I25.0"
-55,"All other forms of chronic ischemic heart disease","I20, I25.1-I25.9"
-56,"Acute and subacute endocarditis","I33"
-57,"Diseases of pericardium and acute myocarditis","I30-I31, I40"
-58,"Heart failure","I50"
-59,"All other forms of heart disease","I26-I28, I34-I38, I42-I49, I51"
-60,"Essential (primary) hypertension and hypertensive renal disease","I10, I12, I15"
-61,"Cerebrovascular diseases","I60-I69"
-62,"Atherosclerosis","I70"
-63,"Aortic aneurysm and dissection","I71"
-64,"Other diseases of arteries, arterioles and capillaries","I72-I78"
-65,"Other disorders of circulatory system","I80-I99"
-66,"Influenza","J09-J11"
-67,"Pneumonia","J12-J18"
-68,"Acute bronchitis and bronchiolitis","J20-J21"
-69,"Unspecified acute lower respiratory infection","J22, U04"
-70,"Bronchitis, chronic and unspecified","J40-J42"
-71,"Emphysema","J43"
-72,"Asthma","J45-J46"
-73,"Other chronic lower respiratory diseases","J44, J47"
-74,"Pneumoconioses and chemical effects","J60-J66, J68"
-75,"Pneumonitis due to solids and liquids","J69"
-76,"Other diseases of respiratory system","J00-J06, J30-J39, J67, J70-J98"
-77,"Peptic ulcer","K25-K28"
-78,"Diseases of appendix","K35-K38"
-79,"Hernia","K40-K46"
-80,"Alcoholic liver disease","K70"
-81,"Other chronic liver disease and cirrhosis","K73-K74"
-82,"Cholelithiasis and other disorders of gallbladder","K80-K82"
-83,"Acute and rapidly progressive nephritic and nephrotic syndrome","N00-N01, N04"
-84,"Chronic glomerulonephritis, nephritis and nephritis not specified as acute or chronic, and renal sclerosis unspecified","N02-N03, N05-N07, N26"
-85,"Renal failure","N17-N19"
-86,"Other disorders of kidney","N25, N27"
-87,"Infections of kidney","N10-N12, N13.6, N15.1"
-88,"Hyperplasia of prostate","N40"
-89,"Inflammatory diseases of female pelvic organs","N70-N76"
-90,"Pregnancy with abortive outcome","O00-O07"
-91,"Other complications of pregnancy, childbirth and the puerperium","O10-O99"
-92,"Certain conditions originating in the perinatal period","P00-P96"
-93,"Congenital malformations, deformations and chromosomal abnormalities","Q00-Q99"
-94,"Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified","R00-R99"
-95,"All other diseases (Residual)","D65-D99, E00-E09, E15-E39, E65-E99, F00-F99, G01-G02, G04-G19, G22-G29, G31-G99, H00-H99, K00-K24, K29-K34, K47-K69, K71-K72, K75-K79, K83-K99, L00-L99, M00-M99, N08-N09, N13.0-N13.5, N13.7-N13.9, N15.2-N15.9, N16, N20-N24, N28-N39, N41-N69, N77-N99, O08-O09"
-96,"Motor vehicle crash","V02-V04, V09.0, V09.2, V12-V14, V19.0-V19.2, V19.4-V19.6, V20-V79, V80.3-V80.5, V81.0-V81.1, V82.0-V82.1, V83-V86, V87.0-V87.8, V88.0-V88.8, V89.0, V89.2"
-97,"Unintentional injury: Other land transport","V01, V05-V06, V09.1, V09.3-V09.9, V10-V11, V15-V18, V19.3, V19.8-V19.9, V80.0-V80.2, V80.6-V80.9, V81.2-V81.9, V82.2-V82.9, V87.9, V88.9, V89.1, V89.3, V89.9"
-98,"Unintentional injury: Water, air and space, and other transport","V90-V99, Y85"
-99,"Falls","W00-W19"
-100,"Accidental discharge of firearms","W32-W34"
-101,"Accidental drowning and submersion","W65-W74"
-102,"Accidental exposure to smoke, fire and flames","X00-X09"
-103,"Accidental poisoning and exposure to noxious substances","X40-X49"
-104,"Other and unspecified nontransport accidents and their sequelae","W20-W31, W35-W64, W75-W99, X10-X39, X50-X59, Y86"
-105,"Intentional self-harm (suicide) by discharge of firearms","X72-X74"
-106,"Intentional self-harm (suicide) by other and unspecified means and their sequelae","X60-X71, X75-X84, Y87.0, *U03"
-107,"Assault (homicide) by discharge of firearms","X93-X95, *U01.4"
-108,"Assault (homicide) by other and unspecified means and their sequelae","X85-X92, X96-Y09, Y87.1, *U01.0-*U01.3, *U01.5-*U01.9, *U02"
-109,"Legal intervention","Y35, Y89.0"
-110,"Discharge of firearms, undetermined intent","Y22-Y24"
-111,"Other and unspecified events of undetermined intent and their sequelae","Y10-Y21, Y25-Y34, Y87.2, Y89.9"
-112,"Operations of war and their sequelae","Y36, Y89.1"
-113,"Complications of medical and surgical care","Y40-Y84, Y88"
-114,"CDC version of causeid 95 (Residual)","D65-D99, E00-E07, E15-E34, E65-E99, F00-F99, G04-G14, G23-G25, G31-H93, K00-K22, K29-K31, K50-K66, K71-K72, K75-K76, K83-K99, L00-L99, M00-M99, N13.0-N13.5, N13.7-N13.9, N14, N15.0, N15.8-N15.9, N20-N23, N28-N39, N41-N64, N80-N98"
+causeid,cause.of.death,icd10,leading.cause.group.num,leading.cause.group,leading.cause.group.alias,level1,level2,level3,level4
+1,Salmonella infections,A01-A02,1,Salmonella infections,Salmonella infections,Infectious and Parasitic Disease,Salmonella infections,,
+2,Shigellosis and amebiasis,"A03, A06",2,Shigellosis and amebiasis,Shigellosis and amebiasis,Infectious and Parasitic Disease,Shigellosis and amebiasis,,
+3,Certain other intestinal infections,"A04, A07-A09",3,Certain other intestinal infections,Certain other intestinal infections,Infectious and Parasitic Disease,Certain other intestinal infections,,
+4,Respiratory tuberculosis,A16,4,Tuberculosis,Tuberculosis,Infectious and Parasitic Disease,Tuberculosis,Respiratory tuberculosis,
+5,Other tuberculosis,A17-A19,4,Tuberculosis,Tuberculosis,Infectious and Parasitic Disease,Tuberculosis,Other tuberculosis,
+6,Whooping cough,A37,5,Whooping cough,Whooping cough,Infectious and Parasitic Disease,Whooping cough,,
+7,Scarlet fever and erysipelas,"A38, A46",6,Scarlet fever and erysipelas,Scarlet fever and erysipelas,Infectious and Parasitic Disease,Scarlet fever and erysipelas,,
+8,Meningococcal infection,A39,7,Meningococcal infection,Meningococcal infection,Infectious and Parasitic Disease,Meningococcal infection,,
+9,Septicemia,A40-A41,8,Septicemia,Septicemia,Infectious and Parasitic Disease,Septicemia,,
+10,Syphilis,A50-A53,9,Syphilis,Syphilis,Infectious and Parasitic Disease,Syphilis,,
+11,Acute poliomyelitis,A80,10,Acute poliomyelitis,Acute poliomyelitis,Infectious and Parasitic Disease,Acute poliomyelitis,,
+12,Arthropod-borne viral encephalitis,"A83-A84, A85.2",11,Arthropod-borne viral encephalitis,Arthropod-borne viral encephalitis,Infectious and Parasitic Disease,Arthropod-borne viral encephalitis,,
+13,Measles,B05,12,Measles,Measles,Infectious and Parasitic Disease,Measles,,
+14,Viral hepatitis,B15-B19,13,Viral hepatitis,Viral hepatitis,Infectious and Parasitic Disease,Viral hepatitis,,
+15,Human immunodeficiency virus (HIV) disease,B20-B24,14,Human immunodeficiency virus (HIV) disease,HIV disease,Infectious and Parasitic Disease,Human immunodeficiency virus (HIV) disease,,
+16,Malaria,B50-B54,15,Malaria,Malaria,Infectious and Parasitic Disease,Malaria,,
+17,Other and unspecified infectious and parasitic diseases and their sequelae,"A00, A05, A20-A36, A42-A44, A48-A49, A54-A79, A81-A82, A85.0-A85.1, A85.8, A86-B04, B06-B09, B25-B49, B55-B99, U07.1",16,Other and unspecified infectious and parasitic diseases and their sequelae,Other infectious diseases,Infectious and Parasitic Disease,Other and unspecified infectious and parasitic diseases and their sequelae,,
+18,"Malignant neoplasms of lip, oral cavity and pharynx",C00-C14,17,Malignant neoplasms,Cancer,Malignant neoplasms,"Malignant neoplasms of lip, oral cavity and pharynx",,
+19,Malignant neoplasm of esophagus,C15,17,Malignant neoplasms,Cancer,Malignant neoplasms,Malignant neoplasm of esophagus,,
+20,Malignant neoplasm of stomach,C16,17,Malignant neoplasms,Cancer,Malignant neoplasms,Malignant neoplasm of stomach,,
+21,"Malignant neoplasms of colon, rectum and anus",C18-C21,17,Malignant neoplasms,Cancer,Malignant neoplasms,"Malignant neoplasms of colon, rectum and anus",,
+22,Malignant neoplasms of liver and intrahepatic bile ducts,C22,17,Malignant neoplasms,Cancer,Malignant neoplasms,Malignant neoplasms of liver and intrahepatic bile ducts,,
+23,Malignant neoplasm of pancreas,C25,17,Malignant neoplasms,Cancer,Malignant neoplasms,Malignant neoplasm of pancreas,,
+24,Malignant neoplasm of larynx,C32,17,Malignant neoplasms,Cancer,Malignant neoplasms,Malignant neoplasm of larynx,,
+25,"Malignant neoplasms of trachea, bronchus and lung",C33-C34,17,Malignant neoplasms,Cancer,Malignant neoplasms,"Malignant neoplasms of trachea, bronchus and lung",,
+26,Malignant melanoma of skin,C43,17,Malignant neoplasms,Cancer,Malignant neoplasms,Malignant melanoma of skin,,
+27,Malignant neoplasm of breast,C50,17,Malignant neoplasms,Cancer,Malignant neoplasms,Malignant neoplasm of breast,,
+28,Malignant neoplasm of cervix uteri,C53,17,Malignant neoplasms,Cancer,Malignant neoplasms,Malignant neoplasm of cervix uteri,,
+29,"Malignant neoplasms of corpus uteri and uterus, part unspecified",C54-C55,17,Malignant neoplasms,Cancer,Malignant neoplasms,"Malignant neoplasms of corpus uteri and uterus, part unspecified",,
+30,Malignant neoplasm of ovary,C56,17,Malignant neoplasms,Cancer,Malignant neoplasms,Malignant neoplasm of ovary,,
+31,Malignant neoplasm of prostate,C61,17,Malignant neoplasms,Cancer,Malignant neoplasms,Malignant neoplasm of prostate,,
+32,Malignant neoplasms of kidney and renal pelvis,C64-C65,17,Malignant neoplasms,Cancer,Malignant neoplasms,Malignant neoplasms of kidney and renal pelvis,,
+33,Malignant neoplasm of bladder,C67,17,Malignant neoplasms,Cancer,Malignant neoplasms,Malignant neoplasm of bladder,,
+34,"Malignant neoplasms of meninges, brain and other parts of central nervous system",C70-C72,17,Malignant neoplasms,Cancer,Malignant neoplasms,"Malignant neoplasms of meninges, brain and other parts of central nervous system",,
+35,Hodgkin's disease,C81,17,Malignant neoplasms,Cancer,Malignant neoplasms,"Malignant neoplasms of lymphoid, hematopoietic and related tissue",Hodgkin's disease,
+36,Non-Hodgkin's lymphoma,C82-C85,17,Malignant neoplasms,Cancer,Malignant neoplasms,"Malignant neoplasms of lymphoid, hematopoietic and related tissue",Non-Hodgkin's lymphoma,
+37,Leukemia,C91-C95,17,Malignant neoplasms,Cancer,Malignant neoplasms,"Malignant neoplasms of lymphoid, hematopoietic and related tissue",Leukemia,
+38,Multiple myeloma and immunoproliferative neoplasms,"C88, C90",17,Malignant neoplasms,Cancer,Malignant neoplasms,"Malignant neoplasms of lymphoid, hematopoietic and related tissue",Multiple myeloma and immunoproliferative neoplasms,
+39,"Other and unspecified malignant neoplasms of lymphoid, hematopoietic and related tissue",C96,17,Malignant neoplasms,Cancer,Malignant neoplasms,"Malignant neoplasms of lymphoid, hematopoietic and related tissue","Other and unspecified malignant neoplasms of lymphoid, hematopoietic and related tissue",
+40,All other and unspecified malignant neoplasms,"C17, C23-C24, C26-C31, C37-C41, C44-C49, C51-C52, C57-C60, C62-C63, C66, C68-C69, C73-C80, C97",17,Malignant neoplasms,Cancer,Malignant neoplasms,All other and unspecified malignant neoplasms,,
+41,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behavior",D00-D48,18,"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behavior","Neoplasms (in situ, benign, unknown)","In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behavior",,,
+42,Anemias,D50-D64,19,Anemias,Anemias,Anemias,,,
+43,Diabetes mellitus,E10-E14,20,Diabetes mellitus,Diabetes mellitus,Diabetes mellitus,,,
+44,Malnutrition,E40-E46,21,Malnutrition,Malnutrition,Nutritional deficiencies,Malnutrition,,
+45,Other nutritional deficiencies,E50-E64,22,Other nutritional deficiencies,Other nutritional deficiencies,Nutritional deficiencies,Other nutritional deficiencies,,
+46,Meningitis,"G00, G03",23,Meningitis,Meningitis,Meningitis,,,
+47,Parkinson's disease,G20-G21,24,Parkinson's disease,Parkinson's disease,Parkinson's disease,,,
+48,Alzheimer's disease,G30,25,Alzheimer's disease,Alzheimer's disease,Alzheimer's disease,,,
+49,Acute rheumatic fever and chronic rheumatic heart diseases,I00-I09,26,Diseases of heart,Heart disease,Major cardiovascular diseases,Diseases of heart,Acute rheumatic fever and chronic rheumatic heart diseases,
+50,Hypertensive heart disease,I11,26,Diseases of heart,Heart disease,Major cardiovascular diseases,Diseases of heart,Hypertensive heart disease,
+51,Hypertensive heart and renal disease,I13,26,Diseases of heart,Heart disease,Major cardiovascular diseases,Diseases of heart,Hypertensive heart and renal disease,
+52,Acute myocardial infarction,I21-I22,26,Diseases of heart,Heart disease,Major cardiovascular diseases,Diseases of heart,Ischemic heart diseases,Acute myocardial infarction
+53,Other acute ischemic heart diseases,I24,26,Diseases of heart,Heart disease,Major cardiovascular diseases,Diseases of heart,Ischemic heart diseases,Other acute ischemic heart diseases
+54,"Atherosclerotic cardiovascular disease, so described",I25.0,26,Diseases of heart,Heart disease,Major cardiovascular diseases,Diseases of heart,Ischemic heart diseases,"Atherosclerotic cardiovascular disease, so described"
+55,All other forms of chronic ischemic heart disease,"I20, I25.1-I25.9",26,Diseases of heart,Heart disease,Major cardiovascular diseases,Diseases of heart,Ischemic heart diseases,All other forms of chronic ischemic heart disease
+56,Acute and subacute endocarditis,I33,26,Diseases of heart,Heart disease,Major cardiovascular diseases,Diseases of heart,Other heart diseases,Acute and subacute endocarditis
+57,Diseases of pericardium and acute myocarditis,"I30-I31, I40",26,Diseases of heart,Heart disease,Major cardiovascular diseases,Diseases of heart,Other heart diseases,Diseases of pericardium and acute myocarditis
+58,Heart failure,I50,26,Diseases of heart,Heart disease,Major cardiovascular diseases,Diseases of heart,Other heart diseases,Heart failure
+59,All other forms of heart disease,"I26-I28, I34-I38, I42-I49, I51",26,Diseases of heart,Heart disease,Major cardiovascular diseases,Diseases of heart,Other heart diseases,All other forms of heart disease
+60,Essential (primary) hypertension and hypertensive renal disease,"I10, I12, I15",27,Essential (primary) hypertension and hypertensive renal disease,Essential (primary) hypertension,Major cardiovascular diseases,Essential (primary) hypertension and hypertensive renal disease,,
+61,Cerebrovascular diseases,I60-I69,28,Cerebrovascular diseases,Stroke,Major cardiovascular diseases,Cerebrovascular diseases,,
+62,Atherosclerosis,I70,29,Atherosclerosis,Atherosclerosis,Major cardiovascular diseases,Atherosclerosis,,
+63,Aortic aneurysm and dissection,I71,30,Aortic aneurysm and dissection,Aortic aneurysm,Major cardiovascular diseases,Other diseases of circulatory system,Aortic aneurysm and dissection,
+64,"Other diseases of arteries, arterioles and capillaries",I72-I78,31,"Other diseases of arteries, arterioles and capillaries","Other diseases of arteries, arterioles and capillaries",Major cardiovascular diseases,Other diseases of circulatory system,"Other diseases of arteries, arterioles and capillaries",
+65,Other disorders of circulatory system,I80-I99,32,Other disorders of circulatory system,Other disorders of circulatory system,Major cardiovascular diseases,Other disorders of circulatory system,,
+66,Influenza,J09-J11,33,Influenza and pneumonia,Influenza and pneumonia,Influenza and pneumonia,Influenza,,
+67,Pneumonia,J12-J18,33,Influenza and pneumonia,Influenza and pneumonia,Influenza and pneumonia,Pneumonia,,
+68,Acute bronchitis and bronchiolitis,J20-J21,34,Acute bronchitis and bronchiolitis,Acute bronchitis and bronchiolitis,Other acute lower respiratory infections,Acute bronchitis and bronchiolitis,,
+69,Unspecified acute lower respiratory infection,"J22, U04",35,Unspecified acute lower respiratory infection,Unspecified acute lower respiratory infection,Other acute lower respiratory infections,Unspecified acute lower respiratory infection,,
+70,"Bronchitis, chronic and unspecified",J40-J42,36,Chronic lower respiratory diseases,Chronic lower resp. disease,Chronic lower respiratory diseases,"Bronchitis, chronic and unspecified",,
+71,Emphysema,J43,36,Chronic lower respiratory diseases,Chronic lower resp. disease,Chronic lower respiratory diseases,Emphysema,,
+72,Asthma,J45-J46,36,Chronic lower respiratory diseases,Chronic lower resp. disease,Chronic lower respiratory diseases,Asthma,,
+73,Other chronic lower respiratory diseases,"J44, J47",36,Chronic lower respiratory diseases,Chronic lower resp. disease,Chronic lower respiratory diseases,Other chronic lower respiratory diseases,,
+74,Pneumoconioses and chemical effects,"J60-J66, J68",37,Pneumoconioses and chemical effects,Pneumoconioses and chemical effects,Pneumoconioses and chemical effects,,,
+75,Pneumonitis due to solids and liquids,J69,38,Pneumonitis due to solids and liquids,Pneumonitis,Pneumonitis due to solids and liquids,,,
+76,Other diseases of respiratory system,"J00-J06, J30-J39, J67, J70-J98",39,Other diseases of respiratory system,Other diseases of respiratory system,Other diseases of respiratory system,,,
+77,Peptic ulcer,K25-K28,40,Peptic ulcer,Peptic ulcer,Peptic ulcer,,,
+78,Diseases of appendix,K35-K38,41,Diseases of appendix,Diseases of appendix,Diseases of appendix,,,
+79,Hernia,K40-K46,42,Hernia,Hernia,Hernia,,,
+80,Alcoholic liver disease,K70,43,Chronic liver disease and cirrhosis,Chronic liver disease,Chronic liver disease and cirrhosis,Alcoholic liver disease,,
+81,Other chronic liver disease and cirrhosis,K73-K74,43,Chronic liver disease and cirrhosis,Chronic liver disease,Chronic liver disease and cirrhosis,Other chronic liver disease and cirrhosis,,
+82,Cholelithiasis and other disorders of gallbladder,K80-K82,44,Cholelithiasis and other disorders of gallbladder,Cholelithiasis and other disorders of gallbladder,Cholelithiasis and other disorders of gallbladder,,,
+83,Acute and rapidly progressive nephritic and nephrotic syndrome,"N00-N01, N04",45,"Nephritis, nephrotic syndrome and nephrosis",Nephritis,"Nephritis, nephrotic syndrome and nephrosis",Acute and rapidly progressive nephritic and nephrotic syndrome,,
+84,"Chronic glomerulonephritis, nephritis and nephritis not specified as acute or chronic, and renal sclerosis unspecified","N02-N03, N05-N07, N26",45,"Nephritis, nephrotic syndrome and nephrosis",Nephritis,"Nephritis, nephrotic syndrome and nephrosis","Chronic glomerulonephritis, nephritis and nephritis not specified as acute or chronic, and renal sclerosis unspecified",,
+85,Renal failure,N17-N19,45,"Nephritis, nephrotic syndrome and nephrosis",Nephritis,"Nephritis, nephrotic syndrome and nephrosis",Renal failure,,
+86,Other disorders of kidney,"N25, N27",45,"Nephritis, nephrotic syndrome and nephrosis",Nephritis,"Nephritis, nephrotic syndrome and nephrosis",Other disorders of kidney,,
+87,Infections of kidney,"N10-N12, N13.6, N15.1",46,Infections of kidney,Infections of kidney,Infections of kidney,,,
+88,Hyperplasia of prostate,N40,47,Hyperplasia of prostate,Hyperplasia of prostate,Hyperplasia of prostate,,,
+89,Inflammatory diseases of female pelvic organs,N70-N76,48,Inflammatory diseases of female pelvic organs,Inflammatory diseases of female pelvic organs,Inflammatory diseases of female pelvic organs,,,
+90,Pregnancy with abortive outcome,O00-O07,49,"Pregnancy, childbirth and the puerperium","Pregnancy, childbirth and the puerperium","Pregnancy, childbirth and the puerperium",Pregnancy with abortive outcome,,
+91,"Other complications of pregnancy, childbirth and the puerperium",O10-O99,49,"Pregnancy, childbirth and the puerperium","Pregnancy, childbirth and the puerperium","Pregnancy, childbirth and the puerperium","Other complications of pregnancy, childbirth and the puerperium",,
+92,Certain conditions originating in the perinatal period,P00-P96,50,Certain conditions originating in the perinatal period,Certain conditions originating in the perinatal period,Certain conditions originating in the perinatal period,,,
+93,"Congenital malformations, deformations and chromosomal abnormalities",Q00-Q99,51,"Congenital malformations, deformations and chromosomal abnormalities",Congenital malformations,"Congenital malformations, deformations and chromosomal abnormalities",,,
+94,"Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",R00-R99,999,999,999,"Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",,,
+95,All other diseases (Residual),"D65-D99, E00-E09, E15-E39, E65-E99, F00-F99, G01-G02, G04-G19, G22-G29, G31-G99, H00-H99, K00-K24, K29-K34, K47-K69, K71-K72, K75-K79, K83-K99, L00-L99, M00-M99, N08-N09, N13.0-N13.5, N13.7-N13.9, N15.2-N15.9, N16, N20-N24, N28-N39, N41-N69, N77-N99, O08-O09",999,999,999,All other diseases (Residual),,,
+96,Motor vehicle crash,"V02-V04, V09.0, V09.2, V12-V14, V19.0-V19.2, V19.4-V19.6, V20-V79, V80.3-V80.5, V81.0-V81.1, V82.0-V82.1, V83-V86, V87.0-V87.8, V88.0-V88.8, V89.0, V89.2",52,Accidents,Unintentional injuries,Accidents,Transport accidents,Motor vehicle crash,
+97,Unintentional injury: Other land transport,"V01, V05-V06, V09.1, V09.3-V09.9, V10-V11, V15-V18, V19.3, V19.8-V19.9, V80.0-V80.2, V80.6-V80.9, V81.2-V81.9, V82.2-V82.9, V87.9, V88.9, V89.1, V89.3, V89.9",52,Accidents,Unintentional injuries,Accidents,Transport accidents,Unintentional injury: Other land transport,
+98,"Unintentional injury: Water, air and space, and other transport","V90-V99, Y85",52,Accidents,Unintentional injuries,Accidents,Transport accidents,"Unintentional injury: Water, air and space, and other transport",
+99,Falls,W00-W19,52,Accidents,Unintentional injuries,Accidents,Nontransport accidents,Falls,
+100,Accidental discharge of firearms,W32-W34,52,Accidents,Unintentional injuries,Accidents,Nontransport accidents,Accidental discharge of firearms,
+101,Accidental drowning and submersion,W65-W74,52,Accidents,Unintentional injuries,Accidents,Nontransport accidents,Accidental drowning and submersion,
+102,"Accidental exposure to smoke, fire and flames",X00-X09,52,Accidents,Unintentional injuries,Accidents,Nontransport accidents,"Accidental exposure to smoke, fire and flames",
+103,Accidental poisoning and exposure to noxious substances,X40-X49,52,Accidents,Unintentional injuries,Accidents,Nontransport accidents,Accidental poisoning and exposure to noxious substances,
+104,Other and unspecified nontransport accidents and their sequelae,"W20-W31, W35-W64, W75-W99, X10-X39, X50-X59, Y86",52,Accidents,Unintentional injuries,Accidents,Nontransport accidents,Other and unspecified nontransport accidents and their sequelae,
+105,Intentional self-harm (suicide) by discharge of firearms,X72-X74,53,Intentional self-harm (suicide),Suicide,Intentional self-harm (suicide),Intentional self-harm (suicide) by discharge of firearms,,
+106,Intentional self-harm (suicide) by other and unspecified means and their sequelae,"X60-X71, X75-X84, Y87.0, *U03",53,Intentional self-harm (suicide),Suicide,Intentional self-harm (suicide),Intentional self-harm (suicide) by other and unspecified means and their sequelae,,
+107,Assault (homicide) by discharge of firearms,"X93-X95, *U01.4",54,Assault (homicide),Homicide,Assault (homicide),Assault (homicide) by discharge of firearms,,
+108,Assault (homicide) by other and unspecified means and their sequelae,"X85-X92, X96-Y09, Y87.1, *U01.0-*U01.3, *U01.5-*U01.9, *U02",54,Assault (homicide),Homicide,Assault (homicide),Assault (homicide) by other and unspecified means and their sequelae,,
+109,Legal intervention,"Y35, Y89.0",55,Legal intervention,Legal intervention,Legal intervention,,,
+110,"Discharge of firearms, undetermined intent",Y22-Y24,999,999,999,Events of undetermined intent,"Discharge of firearms, undetermined intent",,
+111,Other and unspecified events of undetermined intent and their sequelae,"Y10-Y21, Y25-Y34, Y87.2, Y89.9",999,999,999,Events of undetermined intent,Other and unspecified events of undetermined intent and their sequelae,,
+112,Operations of war and their sequelae,"Y36, Y89.1",56,Operations of war and their sequelae,Operations of war and their sequelae,Operations of war and their sequelae,,,
+113,Complications of medical and surgical care,"Y40-Y84, Y88",57,Complications of medical and surgical care,Complications of medical and surgical care,Complications of medical and surgical care,,,
+114,CDC version of causeid 95 (Residual),"D65-D99, E00-E07, E15-E34, E65-E99, F00-F99, G04-G14, G23-G25, G31-H93, K00-K22, K29-K31, K50-K66, K71-K72, K75-K76, K83-K99, L00-L99, M00-M99, N13.0-N13.5, N13.7-N13.9, N14, N15.0, N15.8-N15.9, N20-N23, N28-N39, N41-N64, N80-N98",999,999,999,CDC version of causeid 95 (Residual),,,

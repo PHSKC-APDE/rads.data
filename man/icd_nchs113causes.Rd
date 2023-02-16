@@ -5,8 +5,8 @@
 \alias{icd_nchs113causes}
 \title{NCHS 113 Selected Causes of Death (long)}
 \format{
-A data.table with 28,127 rows and three variables: \code{causeid}, \code{cause.of.death}, \code{orig.coding},
-  \code{icd10}. Each row maps one ICD 10 code to one of the 113 causes of death.
+A data.table with 28,127 rows and four variables: \code{causeid}, \code{cause.of.death}, \code{orig.coding},
+  \code{icd10}. Each row maps one ICD-10 code to one of the 113 causes of death.
 }
 \source{
 Downloaded from \url{https://ibis.health.utah.gov/ibisph-view/query/NCHS113.html} on 9/22/2021. It is a machine readable version of
