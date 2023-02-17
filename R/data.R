@@ -1,3 +1,4 @@
+# icd_nchs113causes_raw ----
 #' NCHS 113 Selected Causes of Death (raw)
 #'
 #' NCHS 113 Selected Causes of Death (raw). Used to create \code{icd_nchs113causes}
@@ -12,8 +13,8 @@
 #'
 #'     The official CDC coding for Cause id 95 is now saved as cause id 114 "CDC version of cause id 95 (Residual)".
 #'
-#' @format A data.table with 113 rows and ten variables: \code{causeid},\code{cause.of.death},\code{icd10},
-#' \code{leading.cause.group.num},\code{leading.cause.group},\code{leading.cause.group.alias},\code{level1},
+#' @format A data.table with 113 rows and 11 variables: \code{causeid},\code{cause.of.death},\code{icd10},
+#' \code{cause.category}, \code{leading.cause.group.num},\code{leading.cause.group},\code{leading.cause.group.alias},\code{level1},
 #' \code{level2},\code{level3}, & \code{level4}. Each row is for one of the 113 NCHS causes of death,
 #' with the \code{icd10} column summarizing all the relevant codes for the given cause of death.
 #'
@@ -25,7 +26,7 @@
 "icd_nchs113causes_raw"
 
 
-
+# icd_nchs113causes ----
 #' NCHS 113 Selected Causes of Death (long)
 #'
 #' NCHS 113 Selected Causes of Death (long).
@@ -51,7 +52,7 @@
 #' @name icd_nchs113causes
 "icd_nchs113causes"
 
-
+# icd_nchs130causes_raw ----
 #' NCHS 130 Selected Causes of Infant Death (raw)
 #'
 #' NCHS 130 Selected Causes of Infant Death (raw). Used to create \code{icd_nchs130causes}
@@ -63,8 +64,8 @@
 #' module's 'Leading Infant Causes' code set. The `leading.cause.group.alias` are from my imagination and should not be assumed
 #' to match any standard.
 #'
-#' @format A data.table with 130 rows and ten variables: \code{causeid},\code{cause.of.death},\code{icd10},
-#' \code{leading.cause.group.num},\code{leading.cause.group},\code{leading.cause.group.alias},\code{level1},
+#' @format A data.table with 130 rows and 11 variables: \code{causeid},\code{cause.of.death},\code{icd10},
+#' \code{cause.category}, \code{leading.cause.group.num},\code{leading.cause.group},\code{leading.cause.group.alias},\code{level1},
 #' \code{level2},\code{level3}, & \code{level4}. Each row is for one of the 130 NCHS causes of infant death,
 #' with the \code{icd10} column summarizing all the relevant codes for the given cause of death.
 #'
@@ -77,7 +78,7 @@
 #' @name icd_nchs130causes_raw
 "icd_nchs130causes_raw"
 
-
+# icd_nchs130causes ----
 #' NCHS 130 Selected Causes of Infant Death (long)
 #'
 #' NCHS 130 Selected Causes of Infant Death (long).
@@ -96,7 +97,7 @@
 #' @name icd_nchs130causes
 "icd_nchs130causes"
 
-
+# icd_other_causes_of_death ----
 #' Other Causes of Death (long)
 #'
 #' @description
@@ -127,7 +128,7 @@
 "icd_other_causes_of_death"
 
 
-
+# icd10_death_injury_matrix ----
 #' ICD10 Death Injury Matrix
 #'
 #' ICD10 Death Injury Matrix (ICE: International Collaborative Effort on Injury Statistics)
@@ -147,6 +148,7 @@
 #' @name icd10_death_injury_matrix
 "icd10_death_injury_matrix"
 
+# icd_icd10cm_CHAT_2023 ----
 #' DOH CHAT ICD-10-CM & CSS
 #'
 #' DOH CHAT ICD-10-CM & CSS with descriptions and levels of CCS
@@ -163,7 +165,7 @@
 #' @name icd_icd10cm_CHAT_2023
 "icd_icd10cm_CHAT_2023"
 
-
+# icd_icd10cm_codes_2022 ----
 #' CMS 2022 ICD-10-CM
 #'
 #' CMS (Centers for Medicare & Medicaid Services) 2022 ICD-10-CM
@@ -182,7 +184,7 @@
 "icd_icd10cm_codes_2022"
 
 
-
+# icd_icd10pcs_codes_2022 ----
 #' CMS 2022 ICD-10-PCS
 #'
 #' CMS (Centers for Medicare & Medicaid Services) 2022 ICD-10-PCS
@@ -200,7 +202,7 @@
 "icd_icd10pcs_codes_2022"
 
 
-
+# misc_poverty_groups ----
 #' Poverty groupings based on 200 percent FPL
 #'
 #' Tract and ZCTA level poverty groupings based on the proportion of the population below 200 percent of the Federal Poverty Level (FPL)
@@ -219,7 +221,7 @@
 "misc_poverty_groups"
 
 
-
+# occupation_soc_2010_definitions ----
 #' 2010 BLS Standard Occupational Classification (SOC) definitions.
 #'
 #' 2010 BLS Standard Occupational Classification (SOC) definitions.
@@ -233,7 +235,7 @@
 #' @name occupation_soc_2010_definitions
 "occupation_soc_2010_definitions"
 
-
+# occupation_soc_2010_structure ----
 #' 2010 BLS Standard Occupational Classification (SOC) structure.
 #'
 #' 2010 BLS Standard Occupational Classification (SOC) structure.
@@ -248,7 +250,7 @@
 #' @name occupation_soc_2010_structure
 "occupation_soc_2010_structure"
 
-
+# occupation_soc_2018_definitions ----
 #' 2018 BLS Standard Occupational Classification (SOC) definitions.
 #'
 #' 2018 BLS Standard Occupational Classification (SOC) definitions.
@@ -262,7 +264,7 @@
 #' @name occupation_soc_2018_definitions
 "occupation_soc_2018_definitions"
 
-
+# occupation_soc_2018_structure ----
 #' 2018 BLS Standard Occupational Classification (SOC) structure.
 #'
 #' 2018 BLS Standard Occupational Classification (SOC) structure.
@@ -278,7 +280,7 @@
 #' @name occupation_soc_2018_structure
 "occupation_soc_2018_structure"
 
-
+# occupation_soc_2018_essential_workers_key ----
 #' 'Essential Worker' definitions using 2018 BLS Standard Occupational Classification (SOC) codes.
 #'
 #' 'Essential Worker' definitions using 2018 BLS Standard Occupational Classification (SOC) codes.
@@ -292,7 +294,7 @@
 "occupation_soc_2018_essential_workers_key"
 
 
-
+# population_reference_pop_11_age_groups ----
 #' Standard reference populations with 11 age categories.
 #'
 #' One standard reference populations with 11 non-overlapping age categories.
@@ -306,7 +308,7 @@
 #' @name population_reference_pop_11_age_groups
 "population_reference_pop_11_age_groups"
 
-
+# population_reference_pop_18_age_groups ----
 #' Standard reference populations with 18 age categories.
 #'
 #' Fifteen standard reference populations with 18 non-overlapping age categories.
@@ -318,7 +320,7 @@
 #' @name population_reference_pop_18_age_groups
 "population_reference_pop_18_age_groups"
 
-
+# population_reference_pop_19_age_groups ----
 #' Standard reference populations with 19 age categories.
 #'
 #' Fifteen standard reference populations with 19 non-overlapping age categories.
@@ -330,7 +332,7 @@
 #' @name population_reference_pop_19_age_groups
 "population_reference_pop_19_age_groups"
 
-
+# population_reference_pop_single_age_to_84 ----
 #' Standard population for single ages through 84.
 #'
 #' Standard population for single ages through 84.
@@ -343,7 +345,7 @@
 #' @name population_reference_pop_single_age_to_84
 "population_reference_pop_single_age_to_84"
 
-
+# population_reference_pop_single_age_to_99 ----
 #' Standard population for single ages through 99.
 #'
 #' Standard population for single ages through 99.
@@ -356,7 +358,7 @@
 #' @name population_reference_pop_single_age_to_99
 "population_reference_pop_single_age_to_99"
 
-
+# population_wapop_codebook_values ----
 #' Codebook for WA OFM population demographics.
 #'
 #' Codebook for WA OFM population demographics.
@@ -370,9 +372,7 @@
 #' @name population_wapop_codebook_values
 "population_wapop_codebook_values"
 
-
-
-
+# spatial_acs_council_districts ----
 #' Crosswalk from Census tracts to political districts.
 #'
 #' Crosswalk from Census tracts to political districts.
@@ -385,7 +385,7 @@
 #' @name spatial_acs_council_districts
 "spatial_acs_council_districts"
 
-
+# spatial_acs_hra_region_place_etc ----
 #' Crosswalk hra > region > coo place > geoid > place > tract > block group
 #'
 #' Crosswalk hra > region > coo place > geoid > place > tract > block group
@@ -398,7 +398,7 @@
 #' @name spatial_acs_hra_region_place_etc
 "spatial_acs_hra_region_place_etc"
 
-
+# spatial_blocks00_to_hra ----
 #' Census 2000 crosswalk Block > Block Group > Tract > HRA.
 #'
 #' Census 2000 crosswalk Block > Block Group > Tract > HRA.
@@ -410,7 +410,7 @@
 #' @name spatial_blocks00_to_hra
 "spatial_blocks00_to_hra"
 
-
+# spatial_blocks10_to_city_council_dist ----
 #' Census 2010 crosswalk blocks > city council districts
 #'
 #' Census 2010 crosswalk blocks > city council districts
@@ -423,7 +423,7 @@
 #' @name spatial_blocks10_to_city_council_dist
 "spatial_blocks10_to_city_council_dist"
 
-
+# spatial_blocks10_to_hra_to_region ----
 #' Census 2010 crosswalk blocks >> hra >> region
 #'
 #' Census 2010 crosswalk blocks >> hra >> region
@@ -436,7 +436,7 @@
 #' @name spatial_blocks10_to_hra_to_region
 "spatial_blocks10_to_hra_to_region"
 
-
+# spatial_chi_blocks10_xwalk ----
 #' Crosswalk between 2010 block groups and HRA names, regions, and other RADS/CHI standard geographies
 #'
 #' Crosswalk between 2010 block groups and HRA names, regions, and other RADS/CHI standard geographies
@@ -450,7 +450,7 @@
 #' @name spatial_chi_blocks10_xwalk
 "spatial_chi_blocks10_xwalk"
 
-
+# spatial_county_codes ----
 #' Crosswalk between 2010 county id, code, fips code and name
 #'
 #' Crosswalk between 2010 county id, code, fips code and name
@@ -464,7 +464,7 @@
 #' @name spatial_county_codes
 "spatial_county_codes"
 
-
+# spatial_county_codes_to_names ----
 #' Crosswalk between 2010 county id, code, fips code and name
 #'
 #' Crosswalk between 2010 county id, code, fips code and name
@@ -476,7 +476,7 @@
 #' @name spatial_county_codes_to_names
 "spatial_county_codes_to_names"
 
-
+# spatial_geocomp_blk10_kps ----
 #' Census 2010 ... most extensive crosswalk file ... the best
 #'
 #' Census 2010 ... APDE's most extensive crosswalk file.
@@ -505,7 +505,7 @@
 #' @name spatial_geocomp_blk10_kps
 "spatial_geocomp_blk10_kps"
 
-
+# spatial_hra_shortname_to_CHIname ----
 #' Crosswalk HRA short names to long names for CHI standards
 #'
 #' Crosswalk HRA short names to long names for CHI standards
@@ -518,7 +518,7 @@
 #' @name spatial_hra_shortname_to_CHIname
 "spatial_hra_shortname_to_CHIname"
 
-
+# spatial_hra_vid_region ----
 #' Crosswalk HRA's to regions
 #'
 #' Crosswalk HRA's to regions
@@ -530,7 +530,7 @@
 #' @name spatial_hra_vid_region
 "spatial_hra_vid_region"
 
-
+# spatial_legislative_codes_to_names ----
 #' Crosswalk between 2010 legislative district id, name, county, and url
 #'
 #' Crosswalk between 2010 legislative district id, name, county, and url
@@ -542,7 +542,7 @@
 #' @name spatial_legislative_codes_to_names
 "spatial_legislative_codes_to_names"
 
-
+# spatial_school_codes_to_names ----
 #' Crosswalk between 2010 school district id, name, state id, county code, and esd name
 #'
 #' Crosswalk between 2010 school district id, name, state id, county code, and esd name
@@ -554,7 +554,7 @@
 #' @name spatial_school_codes_to_names
 "spatial_school_codes_to_names"
 
-
+# spatial_school_dist_to_region ----
 #' Crosswalk between King County school districts and KC regions
 #'
 #' Crosswalk between King County school districts and KC regions
@@ -566,7 +566,7 @@
 #' @name spatial_school_dist_to_region
 "spatial_school_dist_to_region"
 
-
+# spatial_tract_to_county_council_dist ----
 #' Crosswalk between 2010 census tracts and King County Council Districts
 #'
 #' Crosswalk between 2010 census tracts and King County Council Districts
@@ -585,7 +585,7 @@
 #' @name spatial_tract_to_county_council_dist
 "spatial_tract_to_county_council_dist"
 
-
+# spatial_tract10_to_puma ----
 #' Census 2010 crosswalk tracts to PUMAS
 #'
 #' Census 2010 crosswalk tracts to PUMAS
@@ -597,7 +597,7 @@
 #' @name spatial_tract10_to_puma
 "spatial_tract10_to_puma"
 
-
+# spatial_zip_city_region_scc ----
 #' Crosswalk zip codes >> cities >> regions (& SCC)
 #'
 #' Crosswalk zip codes >> cities >> regions (& SCC)
@@ -615,6 +615,7 @@
 "spatial_zip_city_region_scc"
 
 
+# spatial_zip_hca ----
 #' Crosswalk FOR HCA MEDICAID KC definition ... zip >> city
 #'
 #' 133 zip codes, with zip type, city, primary_city, used to define King County
