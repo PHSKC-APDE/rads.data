@@ -17,7 +17,14 @@ https://secureaccess.wa.gov/ >> Community Health Assessment Tool (CHAT)
 icd_icd10cm_CHAT_2023
 }
 \description{
-DOH CHAT ICD-10-CM & CSS with descriptions and levels of CCS
+DOH CHAT ICD-10-CM & CSS with descriptions and levels of CCS.
+
+This can be merged/joined with the contents of
+\code{rads.data::icd_icd10cm_groups} to get the corresponding
+\code{cause.category} and \code{leading.cause} of hospitalization
+group identifiers. \strong{Please note} that the complete list
+of leading causes of hospitalization should include injury related
+hospitalizations by intent (\emph{hint, use \code{rads::chars_injury_matrix_count()}}).
 }
 \note{
 CCS ==  Clinical Classifications Software (CCS)

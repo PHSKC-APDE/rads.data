@@ -13,9 +13,9 @@
 #'
 #'     The official CDC coding for Cause id 95 is now saved as cause id 114 "CDC version of cause id 95 (Residual)".
 #'
-#' @format A data.table with 113 rows and 11 variables: \code{causeid},\code{cause.of.death},\code{icd10},
+#' @format A data.table with 114 rows and 11 variables: \code{causeid},\code{cause.of.death},\code{icd10},
 #' \code{cause.category}, \code{leading.cause.group.num},\code{leading.cause.group},\code{leading.cause.group.alias},\code{level1},
-#' \code{level2},\code{level3}, & \code{level4}. Each row is for one of the 113 NCHS causes of death,
+#' \code{level2},\code{level3}, & \code{level4}. Each of the first 113 rows is for one of the 113 NCHS causes of death,
 #' with the \code{icd10} column summarizing all the relevant codes for the given cause of death.
 #'
 #' @source Downloaded from \url{https://ibis.health.utah.gov/ibisph-view/query/NCHS113.html} on 9/22/2021. It is a machine readable version of
@@ -61,7 +61,7 @@
 #' @note This table is based on a download from WA DOH (see sources below). The PDF was exported to an Excel file and the Excel
 #' file was manually cleaned to make it machine readable. The `Levels` based on the hierarchy shown in the CHAT infant
 #' mortality module's 'NCHS130 Groupings' code set. The `leading.cause.group` information is from the CHAT infant mortality
-#' module's 'Leading Infant Causes' code set. The `leading.cause.group.alias` are from my imagination and should not be assumed
+#' module's 'Leading Infant Causes' code set. The `leading.cause.group.alias` are from Danny's imagination and should not be assumed
 #' to match any standard.
 #'
 #' @format A data.table with 130 rows and 11 variables: \code{causeid},\code{cause.of.death},\code{icd10},
@@ -151,7 +151,14 @@
 # icd_icd10cm_CHAT_2023 ----
 #' DOH CHAT ICD-10-CM & CSS
 #'
-#' DOH CHAT ICD-10-CM & CSS with descriptions and levels of CCS
+#' @description DOH CHAT ICD-10-CM & CSS with descriptions and levels of CCS.
+#'
+#' This can be merged/joined with the contents of
+#' \code{rads.data::icd_icd10cm_groups} to get the corresponding
+#' \code{cause.category} and \code{leading.cause} of hospitalization
+#' group identifiers. \strong{Please note} that the complete list
+#' of leading causes of hospitalization should include injury related
+#' hospitalizations by intent (\emph{hint, use \code{rads::chars_injury_matrix_count()}}).
 #'
 #' @format a data.table with 71,807 rows and eight columns: \code{icd10_desc},
 #' \code{icd10}, \code{ccs_lvl_1_desc}, \code{ccs_lvl_1}, \code{ccs_lvl_2_desc},
@@ -182,6 +189,32 @@
 #' @references \code{icd10-Order-Files-2022.pdf} in \url{https://www.cms.gov/files/zip/2022-code-descriptions-tabular-order-updated-02012022.zip}
 #' @name icd_icd10cm_codes_2022
 "icd_icd10cm_codes_2022"
+
+# icd_icd10cm_groups ----
+#' Available groupings for ICD-10-CM causes of hospitalization
+#'
+#' @description Provides a crosswalk between CCS Levels 1, 2, and 3 and 186
+#' leading causes of hospitalization as well as the \code{cause.category}.
+#'
+#' This would typically be merged with
+#' \code{rads.data::icd_icd10cm_CHAT_2023} or the results of
+#' \code{rads::chars_icd_ccs_count()}.
+#'
+#' @format a data.table with 283 rows and seven columns:
+#' \code{leading.cause.group.num}, \code{leading.cause.group},
+#' \code{leading.cause.group.alias}, \code{cause.category},
+#' \code{ccs_lvl_1_desc}, \code{ccs_lvl_2_desc}, & \code{ccs_lvl_3_desc}.
+#'
+#' @note \strong{Don't forget!!!} These leading causes of hospitalization are
+#' among non-injury hospitalizations. The complete list of leading causes of
+#' hospitalizations should include injury hospitalizations by intent.
+#'
+#' @source Prepared by Danny Colombara, based on a draft approved by Eli Kern
+#' on February 28, 2023. This replaces any and all other references for leading
+#' causes of hospitalization reported by APDE.
+#'
+#' @name icd_icd10cm_groups
+"icd_icd10cm_groups"
 
 
 # icd_icd10pcs_codes_2022 ----

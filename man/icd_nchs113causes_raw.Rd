@@ -5,9 +5,9 @@
 \alias{icd_nchs113causes_raw}
 \title{NCHS 113 Selected Causes of Death (raw)}
 \format{
-A data.table with 113 rows and 11 variables: \code{causeid},\code{cause.of.death},\code{icd10},
+A data.table with 114 rows and 11 variables: \code{causeid},\code{cause.of.death},\code{icd10},
 \code{cause.category}, \code{leading.cause.group.num},\code{leading.cause.group},\code{leading.cause.group.alias},\code{level1},
-\code{level2},\code{level3}, & \code{level4}. Each row is for one of the 113 NCHS causes of death,
+\code{level2},\code{level3}, & \code{level4}. Each of the first 113 rows is for one of the 113 NCHS causes of death,
 with the \code{icd10} column summarizing all the relevant codes for the given cause of death.
 }
 \source{
