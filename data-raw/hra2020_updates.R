@@ -150,6 +150,14 @@ usethis::use_data(spatial_block10_to_hra20_to_region20, overwrite = TRUE)
 spatial_hra20_to_region20 = labs
 usethis::use_data(spatial_hra20_to_region20)
 
+#save things to csv
+objs = ls()
+objs = objs[substr(objs, 1,8) == 'spatial_']
+
+for(ooo in objs){
+  write.csv(get(ooo), file = file.path(getwd(), 'inst', 'extdata', 'spatial_data', paste0(ooo, '.csv')), row.names = FALSE)
+}
+
 # # 2020 HRA to A&I HRA combos
 # hracombo = st_transform(hracombo, st_crs(newhra))
 # h2hc = create_xwalk(newhra, hracombo, source_id = 'id', 'HRA2010v2_')
