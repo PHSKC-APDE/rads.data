@@ -1,4 +1,4 @@
-"GEOID10","hra_id","s2t_fraction","isect_amount","tcoverage_amount","target_amount","hra_name","source_id","target_id","method","creation_date"
+"GEOID10","hra20_id","s2t_fraction","isect_amount","tcoverage_amount","target_amount","hra20_name","source_id","target_id","method","creation_date"
 "53033030600",1,0.164266534984217,6063388.66069649,9319014041.76639,9336629268.93916,"Enumclaw, Black Diamond, and Southeast King County","53033030600",1,"geographic overlap",2023-03-13
 "53033031000",1,0.00468014933816996,642780.792374829,9319014041.76639,9336629268.93916,"Enumclaw, Black Diamond, and Southeast King County","53033031000",1,"geographic overlap",2023-03-13
 "53033031100",1,0.201956076537747,16175030.3577724,9319014041.76639,9336629268.93916,"Enumclaw, Black Diamond, and Southeast King County","53033031100",1,"geographic overlap",2023-03-13

@@ -4,10 +4,11 @@ library('dplyr')
 library('spatagg')
 library('kcparcelpop')
 library('usethis')
-
+library('DBI')
 #  outfol = 'C:/Users/DCASEY/King County/DPH-APDEData - HRA/xwalks'
 newreg = st_read("//dphcifs/APDE-CDIP/Shapefiles/Region/region_hra20.shp")
 newhra = st_read('//dphcifs/APDE-CDIP/Shapefiles/HRA/hra_2020.shp')
+newhra = newhra[, c('id', 'name', 'reg_id', 'reg_nm')]
 zipo = st_read("//dphcifs/APDE-CDIP/Shapefiles/ZIP/zipcode.shp")
 tract10 = st_read("//dphcifs/APDE-CDIP/Shapefiles/Census_2010/tract/kc_tract.shp")
 tract20 = st_read("//dphcifs/APDE-CDIP/Shapefiles/Census_2020/tract/kc_tract.shp")
@@ -55,24 +56,24 @@ z2h_fp = create_xwalk(zip, newhra, source_id = 'ZIP', target_id = 'id', min_over
 setDT(z2h_fo); setDT(z2h_fp);
 z2h_fo = merge(z2h_fo, newhra[, c('id', 'name'), drop = T], all.x = T, by.x = 'target_id', by.y = 'id')
 z2h_fp = merge(z2h_fp, newhra[, c('id', 'name'), drop = T], all.x = T, by.x = 'target_id', by.y = 'id')
-setnames(z2h_fo, c('target_id', 'source_id', 'name'), c('hra_id', 'ZIP', 'hra_name'))
-setnames(z2h_fp, c('target_id', 'source_id', 'name'), c('hra_id', 'ZIP', 'hra_name'))
-z2h_fo[, c('source_id', 'target_id') := list(ZIP, hra_id)][, method := 'geographic overlap']
-z2h_fp[, c('source_id', 'target_id') := list(ZIP, hra_id)][, method := 'point population']
+setnames(z2h_fo, c('target_id', 'source_id', 'name'), c('hra20_id', 'ZIP', 'hra20_name'))
+setnames(z2h_fp, c('target_id', 'source_id', 'name'), c('hra20_id', 'ZIP', 'hra20_name'))
+z2h_fo[, c('source_id', 'target_id') := list(ZIP, hra20_id)][, method := 'geographic overlap']
+z2h_fp[, c('source_id', 'target_id') := list(ZIP, hra20_id)][, method := 'point population']
 
 z2h_fo[, creation_date := Sys.Date()]
 z2h_fp[, creation_date := Sys.Date()]
-spatial_zip_to_hra20_region20_geog = z2h_fo
-spatial_zip_to_hra20_region20_pop = z2h_fp
+spatial_zip_to_hra20_geog = z2h_fo
+spatial_zip_to_hra20_pop = z2h_fp
 
-setcolorder(spatial_zip_to_hra20_region20_geog, c('ZIP', 'hra_id', 's2t_fraction'))
-setcolorder(spatial_zip_to_hra20_region20_pop, c('ZIP', 'hra_id', 's2t_fraction'))
+setcolorder(spatial_zip_to_hra20_geog, c('ZIP', 'hra20_id', 's2t_fraction'))
+setcolorder(spatial_zip_to_hra20_pop, c('ZIP', 'hra20_id', 's2t_fraction'))
 
 #
 # write.csv(z2h_fo, file.path(outfol, 'zip_to_hra2020_geo.csv'), row.names = FALSE)
 # write.csv(z2h_fp, file.path(outfol, 'zip_to_hra2020_pop.csv'), row.names = FALSE)
-usethis::use_data(spatial_zip_to_hra20_region20_pop, overwrite = T)
-usethis::use_data(spatial_zip_to_hra20_region20_geog, overwrite = T)
+usethis::use_data(spatial_zip_to_hra20_pop, overwrite = T)
+usethis::use_data(spatial_zip_to_hra20_geog, overwrite = T)
 
 # 2010 tracts to HRAs to region
 t102h_fo = create_xwalk(tract10, newhra, source_id = 'GEOID10', target_id = 'id', min_overlap = .1)
@@ -80,21 +81,21 @@ t102h_fp = create_xwalk(tract10, newhra, source_id = 'GEOID10', target_id = 'id'
 setDT(t102h_fo); setDT(t102h_fp);
 t102h_fo = merge(t102h_fo, newhra[, c('id', 'name'), drop = T], all.x = T, by.x = 'target_id', by.y = 'id')
 t102h_fp = merge(t102h_fp, newhra[, c('id', 'name'), drop = T], all.x = T, by.x = 'target_id', by.y = 'id')
-setnames(t102h_fo, c('target_id', 'source_id', 'name'), c('hra_id', 'GEOID10', 'hra_name'))
-setnames(t102h_fp, c('target_id', 'source_id', 'name'), c('hra_id', 'GEOID10', 'hra_name'))
-t102h_fo[, c('source_id', 'target_id') := list(GEOID10, hra_id)][, method := 'geographic overlap']
-t102h_fp[, c('source_id', 'target_id') := list(GEOID10, hra_id)][, method := 'point population']
+setnames(t102h_fo, c('target_id', 'source_id', 'name'), c('hra20_id', 'GEOID10', 'hra20_name'))
+setnames(t102h_fp, c('target_id', 'source_id', 'name'), c('hra20_id', 'GEOID10', 'hra20_name'))
+t102h_fo[, c('source_id', 'target_id') := list(GEOID10, hra20_id)][, method := 'geographic overlap']
+t102h_fp[, c('source_id', 'target_id') := list(GEOID10, hra20_id)][, method := 'point population']
 
 t102h_fo[, creation_date := Sys.Date()]
 t102h_fp[, creation_date := Sys.Date()]
-spatial_tract10_to_hra20_region20_geog = t102h_fo
-spatial_tract10_to_hra20_region20_pop = t102h_fp
+spatial_tract10_to_hra20_geog = t102h_fo
+spatial_tract10_to_hra20_pop = t102h_fp
 
-setcolorder(spatial_tract10_to_hra20_region20_geog, c('GEOID10', 'hra_id', 's2t_fraction'))
-setcolorder(spatial_tract10_to_hra20_region20_pop, c('GEOID10', 'hra_id', 's2t_fraction'))
+setcolorder(spatial_tract10_to_hra20_geog, c('GEOID10', 'hra20_id', 's2t_fraction'))
+setcolorder(spatial_tract10_to_hra20_pop, c('GEOID10', 'hra20_id', 's2t_fraction'))
 
-usethis::use_data(spatial_tract10_to_hra20_region20_pop, overwrite = T)
-usethis::use_data(spatial_tract10_to_hra20_region20_geog, overwrite = T)
+usethis::use_data(spatial_tract10_to_hra20_pop, overwrite = T)
+usethis::use_data(spatial_tract10_to_hra20_geog, overwrite = T)
 # write.csv(t102h_fo, file.path(outfol, 'tract10_to_hra2020_geo.csv'), row.names = FALSE)
 # write.csv(t102h_fp, file.path(outfol, 'tract10_to_hra2020_pop.csv'), row.names = FALSE)
 
@@ -105,21 +106,21 @@ t202h_fp = create_xwalk(tract20, newhra, source_id = 'GEOID20', target_id = 'id'
 setDT(t202h_fo); setDT(t202h_fp);
 t202h_fo = merge(t202h_fo, newhra[, c('id', 'name'), drop = T], all.x = T, by.x = 'target_id', by.y = 'id')
 t202h_fp = merge(t202h_fp, newhra[, c('id', 'name'), drop = T], all.x = T, by.x = 'target_id', by.y = 'id')
-setnames(t202h_fo, c('target_id', 'source_id', 'name'), c('hra_id', 'GEOID20', 'hra_name'))
-setnames(t202h_fp, c('target_id', 'source_id', 'name'), c('hra_id', 'GEOID20', 'hra_name'))
-t202h_fo[, c('source_id', 'target_id') := list(GEOID20, hra_id)][, method := 'geographic overlap']
-t202h_fp[, c('source_id', 'target_id') := list(GEOID20, hra_id)][, method := 'point population']
+setnames(t202h_fo, c('target_id', 'source_id', 'name'), c('hra20_id', 'GEOID20', 'hra_name'))
+setnames(t202h_fp, c('target_id', 'source_id', 'name'), c('hra20_id', 'GEOID20', 'hra_name'))
+t202h_fo[, c('source_id', 'target_id') := list(GEOID20, hra20_id)][, method := 'geographic overlap']
+t202h_fp[, c('source_id', 'target_id') := list(GEOID20, hra20_id)][, method := 'point population']
 
 t202h_fo[, creation_date := Sys.Date()]
 t202h_fp[, creation_date := Sys.Date()]
-spatial_tract20_to_hra20_region20_geog = t202h_fo
-spatial_tract20_to_hra20_region20_pop = t202h_fp
+spatial_tract20_to_hra20_geog = t202h_fo
+spatial_tract20_to_hra20_pop = t202h_fp
 
-setcolorder(spatial_tract20_to_hra20_region20_geog, c('GEOID20', 'hra_id', 's2t_fraction'))
-setcolorder(spatial_tract20_to_hra20_region20_pop, c('GEOID20', 'hra_id', 's2t_fraction'))
+setcolorder(spatial_tract20_to_hra20_geog, c('GEOID20', 'hra20_id', 's2t_fraction'))
+setcolorder(spatial_tract20_to_hra20_pop, c('GEOID20', 'hra20_id', 's2t_fraction'))
 
-usethis::use_data(spatial_tract20_to_hra20_region20_pop, overwrite = T)
-usethis::use_data(spatial_tract20_to_hra20_region20_geog,overwrite = T)
+usethis::use_data(spatial_tract20_to_hra20_geog, overwrite = T)
+usethis::use_data(spatial_tract20_to_hra20_pop,overwrite = T)
 
 
 # 2020 blocks to HRAs to Regions
@@ -128,27 +129,28 @@ con <- DBI::dbConnect(odbc::odbc(),
                       driver = "ODBC Driver 18 for SQL Server",
                       server = keyring::key_list(service = 'azure_server')$username[1],
                       database = keyring::key_get('azure_server', keyring::key_list(service = 'azure_server')$username[1]),
-                      uid = keyring::key_list(mykey)[["username"]],
-                      pwd = keyring::key_get(mykey, keyring::key_list(mykey)[["username"]]),
+                      uid = keyring::key_list('hhsaw')[["username"]],
+                      pwd = keyring::key_get('hhsaw', keyring::key_list('hhsaw')[["username"]]),
                       Encrypt = 'yes',
                       TrustServerCertificate = 'yes',
                       Authentication = 'ActiveDirectoryPassword')
 spatial_block20_to_hra20_to_region20 = setDT(dbGetQuery(con, 'Select * from ref.block2020_hra20'))
-setnames(spatial_block20_to_hra20_to_region20, c('id', 'name'), c('hra_id', 'hra_name'))
+setnames(spatial_block20_to_hra20_to_region20, c('id', 'name', 'reg_id', 'reg_nm'), c('hra20_id', 'hra20_name', 'region_id', 'region_name'))
+spatial_block20_to_hra20_to_region20 = spatial_block20_to_hra20_to_region20[, .(GEOID20, hra20_id, hra20_name, region_id, region_name, creation_date = Sys.Date())]
 usethis::use_data(spatial_block20_to_hra20_to_region20, overwrite = TRUE)
 
 # 2010 blocks to HRAs to Regions
 b102hra = spatagg::create_xwalk(blk10, newhra, 'GEOID10', 'id')
 b102hra = which_max_olap(b102hra)
-spatial_block10_to_hra20_to_region20 = b102hra[,.(GEOID10 = source_id, hra_id = target_id)]
-labs = unique(spatial_block20_to_hra20_to_region20[,.(hra_id, hra_name, reg_id, reg_nm)])
-spatial_block10_to_hra20_to_region20 = merge(spatial_block10_to_hra20_to_region20, labs, by = 'hra_id', all.x = T)
-spatial_block10_to_hra20_to_region20[, creation := Sys.Date()]
+spatial_block10_to_hra20_to_region20 = b102hra[,.(GEOID10 = source_id, hra20_id = target_id)]
+labs = unique(spatial_block20_to_hra20_to_region20[,.(hra20_id, hra20_name, region_id, region_name)])
+spatial_block10_to_hra20_to_region20 = merge(spatial_block10_to_hra20_to_region20, labs, by = 'hra20_id', all.x = T)
+spatial_block10_to_hra20_to_region20[, creation_date := Sys.Date()]
 usethis::use_data(spatial_block10_to_hra20_to_region20, overwrite = TRUE)
 
 # HRA to region
 spatial_hra20_to_region20 = labs
-usethis::use_data(spatial_hra20_to_region20)
+usethis::use_data(spatial_hra20_to_region20, overwrite = T)
 
 #save things to csv
 objs = ls()
