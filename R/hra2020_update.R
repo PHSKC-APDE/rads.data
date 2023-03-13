@@ -179,7 +179,7 @@
 #'   \code{target_id}: hra20_id,
 #'   \code{method}: method to produce intersections
 #'   \code{creation_date}: Date file created
-#' @name spatial_zip_to_hra20_region20_pop
+#' @name spatial_zip_to_hra20_pop
 "spatial_zip_to_hra20_pop"
 
 # spatial_zip_to_hra20_geog ----
@@ -205,5 +205,5 @@
 #'   \code{target_id}: hra20_id,
 #'   \code{method}: method to produce intersections
 #'   \code{creation_date}: Date file created
-#' @name spatial_zip_to_hra20_region20_geog
-"spatial_zip_to_hra20_region20_geog"
+#' @name spatial_zip_to_hra20_geog
+"spatial_zip_to_hra20_geog"
