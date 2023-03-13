@@ -241,10 +241,11 @@
       dev.off() # close the PDF
 
 # STEP 7: Save crosswalk (after visually confirming it is reasonable) ----
-    spatial_geoid20_to_hra20_acs <- copy(xwalk)
-    spatial_geoid20_to_hra20_acs[, creation_date := Sys.Date()]
-    spatial_geoid20_to_hra20_acs <- spatial_geoid20_to_hra20_acs[, .(hra20_id = hra20, hra20_name, place20, tract20, bg20, creation_date)]
-    setorder(spatial_geoid20_to_hra20_acs, hra20_id, bg20, tract20, place20)
+      # tidy table for export ----
+        spatial_geoid20_to_hra20_acs <- copy(xwalk)
+        spatial_geoid20_to_hra20_acs[, creation_date := Sys.Date()]
+        spatial_geoid20_to_hra20_acs <- spatial_geoid20_to_hra20_acs[, .(hra20_id = hra20, hra20_name, place20, tract20, bg20, creation_date)]
+        setorder(spatial_geoid20_to_hra20_acs, hra20_id, bg20, tract20, place20)
 
       # Save as RDA file ----
         usethis::use_data(spatial_geoid20_to_hra20_acs, compress = "bzip2", version = 3, overwrite = TRUE)
