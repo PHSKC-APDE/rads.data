@@ -39,7 +39,7 @@
 #' possible sub-HRA geographies so as to prevent unnecessary inflation in the
 #' standard error during calculation of ACS HRA and Region level estimates.
 #'
-#' @format A data.table with 508 rows and 6 variables:
+#' @format A data.table with 547 rows and 6 variables:
 #'   \code{hra20_id}: Numeric id for the 2020 HRA,
 #'   \code{hra20_name}: Official name for the 2020 HRA,
 #'   \code{place20}: place 2020 GEOID,
