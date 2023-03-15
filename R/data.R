@@ -509,6 +509,49 @@
 #' @name spatial_county_codes_to_names
 "spatial_county_codes_to_names"
 
+# spatial_geoid20_to_kccd20_acs ----
+#' Spatial crosswalk for ACS Census 2020 geographies to 2013 King County Council Districts
+#'
+#' @description Different American Community Survey (ACS) estimates are released
+#' at a variety of geographic levels: block groups, tracts, places (cities,
+#' towns, and Census Designated Places (CDPs)), etc. This
+#' crosswalk represents a best attempt to create a crosswalk using the largest
+#' possible sub-district geographies so as to prevent unnecessary inflation in the
+#' standard error during calculation of ACS King County Council level estimates.
+#'
+#' @format A data.table with 506 rows and 6 variables:
+#'   \code{kccd20_id}: King County Council district number,
+#'   \code{kccd20_name}: King County Council district name,
+#'   \code{place20}: place 2020 GEOID,
+#'   \code{tract20}: tract 2020 GEOID,
+#'   \code{bg20}: bg 2020 GEOID,
+#'   \code{creation}: Date the file was created
+#'
+#' @name spatial_geoid20_to_kccd20_acs
+"spatial_geoid20_to_kccd20_acs"
+
+# spatial_geoid20_to_sccd13_acs ----
+#' Spatial crosswalk for ACS Census 2020 geographies to 2013 Seattle City Council Districts
+#'
+#' @description Different American Community Survey (ACS) estimates are released
+#' at a variety of geographic levels: block groups, tracts, places (cities,
+#' towns, and Census Designated Places (CDPs)), etc. This
+#' crosswalk represents a best attempt to create a crosswalk using the largest
+#' possible sub-district geographies so as to prevent unnecessary inflation in the
+#' standard error during calculation of ACS Seattle City Council level estimates.
+#'
+#' @format A data.table with 177 rows and 6 variables:
+#'   \code{sccd13_id}: Seattle City Council district number,
+#'   \code{sccd13_name}: Seattle City Council district name,
+#'   \code{place20}: place 2020 GEOID,
+#'   \code{tract20}: tract 2020 GEOID,
+#'   \code{bg20}: bg 2020 GEOID,
+#'   \code{creation}: Date the file was created
+#'
+#' @name spatial_geoid20_to_sccd13_acs
+"spatial_geoid20_to_sccd13_acs"
+
+
 # spatial_geocomp_blk10_kps ----
 #' Census 2010 ... most extensive crosswalk file ... the best
 #'
@@ -662,4 +705,5 @@
 #' @source \url{https://www.mysterydata.com}
 #' @name spatial_zip_hca
 "spatial_zip_hca"
+
 
