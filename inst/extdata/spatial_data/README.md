@@ -10,15 +10,15 @@ The complete commit history for these files is visible in GitHub Bash and GitHub
 ## Table of Contents
 ### The new best! Based on census 2020 stuff
 * **Consider [spatagg](https://github.com/PHSKC-APDE/spatagg) for your spatial crosswalking needs**
-* **[spatial_block10_to_hra20](spatial_block10_to_hra20)**: Convert between 2010 Census blocks and 2020 HRAs and regions
-* **[spatial_block20_to_hra20](spatial_block20_to_hra20)**: convert between 2020 Census blocks and 2020 HRAs and regions
-* **[spatial_hra20_to_region20](spatial_hra20_to_region20)**: Convert between 2020 HRAs and regions
-* **[spatial_tract10_to_hra20_geog](spatial_tract10_to_hra20_geog)**: spatagg geographic crosswalk between 2010 tracts and 2020 HRAs
-* **[spatial_tract10_to_hra20_pop](spatial_tract10_to_hra20_pop)**: spatagg population crosswalk between 2010 tracts and 2020 HRAs 
-* **[spatial_tract20_to_hra20_geog](spatial_tract20_to_hra20_geog)**: spatagg geographic crosswalk between 2020 tracts and 2020 HRAs 
-* **[spatial_tract20_to_hra20_pop](spatial_tract20_to_hra20_pop)**: spatagg population crosswalk between 2020 tracts and 2020 HRAs 
-* **[spatial_zip_to_hra20_geog](spatial_zip_to_hra20_geog)**: spatagg geographic crosswalk between ZIPs and 2020 HRAs
-* **[spatial_zip_to_hra20_pop](spatial_zip_to_hra20_pop)**: spatagg population crosswalk between ZIP and 2020 HRAs
+* **[spatial_block10_to_hra20](spatial_block10_to_hra20.csv)**: Convert between 2010 Census blocks and 2020 HRAs and regions
+* **[spatial_block20_to_hra20](spatial_block20_to_hra20.csv)**: convert between 2020 Census blocks and 2020 HRAs and regions
+* **[spatial_hra20_to_region20](spatial_hra20_to_region20.csv)**: Convert between 2020 HRAs and regions
+* **[spatial_tract10_to_hra20_geog](spatial_tract10_to_hra20_geog.csv)**: spatagg geographic crosswalk between 2010 tracts and 2020 HRAs
+* **[spatial_tract10_to_hra20_pop](spatial_tract10_to_hra20_pop.csv)**: spatagg population crosswalk between 2010 tracts and 2020 HRAs 
+* **[spatial_tract20_to_hra20_geog](spatial_tract20_to_hra20_geog.csv)**: spatagg geographic crosswalk between 2020 tracts and 2020 HRAs 
+* **[spatial_tract20_to_hra20_pop](spatial_tract20_to_hra20_pop.csv)**: spatagg population crosswalk between 2020 tracts and 2020 HRAs 
+* **[spatial_zip_to_hra20_geog](spatial_zip_to_hra20_geog.csv)**: spatagg geographic crosswalk between ZIPs and 2020 HRAs
+* **[spatial_zip_to_hra20_pop](spatial_zip_to_hra20_pop.csv)**: spatagg population crosswalk between ZIP and 2020 HRAs
 
 ### The best!
 * **[geocomp_blk10_kps.csv](https://github.com/PHSKC-APDE/rads.data/blob/main/inst/extdata/spatial_data/geocomp_blk10_kps.csv)** = Mike Smyser's extensive cross-walking file for King, Pierce, and Snomhomis counties. It starts with 2010 census block ids and cross walks to HRAs, KC regions, Seattle/Non-Seattle, Communities Count regions, school districts, legislative districts, KC Council Districts and Seattle City Council Districts.
