@@ -10,8 +10,8 @@ The complete commit history for these files is visible in GitHub Bash and GitHub
 ## Table of Contents
 ### The new best! Based on census 2020 stuff
 * **Consider [spatagg](https://github.com/PHSKC-APDE/spatagg) for your spatial crosswalking needs**
-* **[spatial_block10_to_hra20](block10_to_hra20.csv)**: Convert between 2010 Census blocks and 2020 HRAs and regions
-* **[spatial_block20_to_hra20](block20_to_hra20.csv)**: convert between 2020 Census blocks and 2020 HRAs and regions
+* **[spatial_block10_to_hra20_to_region20](block10_to_hra20_to_region20.csv)**: Convert between 2010 Census blocks and 2020 HRAs and regions
+* **[spatial_block20_to_hra20_to_region20](block20_to_hra20_to_region20.csv)**: convert between 2020 Census blocks and 2020 HRAs and regions
 * **[spatial_hra20_to_region20](hra20_to_region20.csv)**: Convert between 2020 HRAs and regions
 * **[spatial_tract10_to_hra20_geog](tract10_to_hra20_geog.csv)**: spatagg geographic crosswalk between 2010 tracts and 2020 HRAs
 * **[spatial_tract10_to_hra20_pop](tract10_to_hra20_pop.csv)**: spatagg population crosswalk between 2010 tracts and 2020 HRAs 
