@@ -157,7 +157,7 @@ objs = ls()
 objs = objs[substr(objs, 1,8) == 'spatial_']
 
 for(ooo in objs){
-  ootfile = file.path(getwd(), 'inst', 'extdata', 'spatial_data', substr(ooo, 9, nchar(ooo), '.csv'))
+  ootfile = file.path(getwd(), 'inst', 'extdata', 'spatial_data', paste0(substr(ooo, 9, nchar(ooo)), '.csv'))
   write.csv(get(ooo), file = ootfile, row.names = FALSE)
 }
 
