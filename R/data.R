@@ -234,6 +234,24 @@
 #' @name icd_icd10pcs_codes_2022
 "icd_icd10pcs_codes_2022"
 
+# misc_chi_byvars ----
+#' The definitive reference table for CHI cat/varname/group/group_alias values
+#'
+#' The definitive reference table for CHI cat/varname/group/group_alias values.
+#' Used in CHI analyses as the by-variables (cat1 & cat1 in CHI parlance).
+#'
+#' @format a data.table with a flexible number of rows and six columns:
+#' \code{cat}, \code{varname}, \code{group}, \code{keepme},
+#' \code{notes} & \code{creation_date}.
+#'
+#' @note This replaces any and all old standard found in documentation or in
+#' existing SQL databases.
+#'
+#' @source A version controlled copy of the data in SharePoint >>
+#' Community Health Indicators >> CHI-Vizes >> CHI-Standards-TableauReady Output.xlsx
+#'
+#' @name misc_chi_byvars
+"misc_chi_byvars"
 
 # misc_poverty_groups ----
 #' Poverty groupings based on 200 percent FPL
