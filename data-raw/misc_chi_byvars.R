@@ -32,17 +32,19 @@ library(Microsoft365R)
 # Identify differences since the previous run ----
   existing <- fread('https://raw.githubusercontent.com/PHSKC-APDE/rads.data/main/inst/extdata/misc_data/chi_byvars.csv')
   setorder(existing, cat, varname, group)
-  misc_chi_byvars <- rbind(existing[cat == 'King County'], misc_chi_byvars[cat == "Washington State"], misc_chi_byvars[!cat %in% c("King County", "Washington State")])
+  misc_chi_byvars <- rbind(misc_chi_byvars[cat == 'King County'],
+                           misc_chi_byvars[cat == "Washington State"],
+                           misc_chi_byvars[!cat %in% c("King County", "Washington State")]) # to force KC and Wa to be at the top
 
 
-  if(nrow(fsetdiff(misc_chi_byvars, existing)) == 0 && nrow(fsetdiff(existing, misc_chi_byvars)) == 0){
+  if(nrow(fsetdiff(misc_chi_byvars[, 1:5], existing[,1:5])) == 0 && nrow(fsetdiff(existing[,1:5], misc_chi_byvars[, 1:5])) == 0){
     message('There reference table has not been updated so rads.data will not be updated.')
   } else {
     message("The following rows are not in the pre-existing data and will be added:")
-    print(fsetdiff(misc_chi_byvars, existing))
+    print(fsetdiff(misc_chi_byvars[, 1:5], existing[, 1:5]))
 
     message("The following rows are in the pre-existing data but not in the new data ... they will be dropped:")
-    print(fsetdiff(existing, misc_chi_byvars))
+    print(fsetdiff(existing[, 1:5], misc_chi_byvars[, 1:5]))
 
     answer <- readline(prompt = "Are you ABSOLUTELY POSITIVE you want to continue? (y/n) ")
     if(answer == 'y'){
