@@ -29,6 +29,8 @@ library(Microsoft365R)
     misc_chi_byvars <- rbind(misc_chi_byvars[cat == 'King County'], misc_chi_byvars[cat == "Washington State"], misc_chi_byvars[!cat %in% c("King County", "Washington State")])
     misc_chi_byvars[, creation_date := Sys.Date()]
 
+    misc_chi_byvars[, notes := gsub('"', "`", notes)] # Replace all quotation marks with tick marks
+
 # Identify differences since the previous run ----
   existing <- fread('https://raw.githubusercontent.com/PHSKC-APDE/rads.data/main/inst/extdata/misc_data/chi_byvars.csv')
   setorder(existing, cat, varname, group)
