@@ -28,7 +28,7 @@
 # Create tract poverty groups and summarize data ----
     tract.dt[, pov200grp := cut(pov200,
                                 breaks = c(-.01, 0.099999999, 0.149999999, 0.249999999, 1),
-                                labels = c("[0, 10)%", "[10, 15)%", "[15, 25)%", "25%+"))]
+                                labels = c("<10%", "10 ≤ 15%", "15 ≤ 25%", "25%+"))]
 
     tract.summary <- setorder(tract.dt[, .(tracts = .N,
                                           `tracts.%` = paste0(round2(100*.N/nrow(tract.dt), 1), "%"),
@@ -56,7 +56,7 @@
 # Create ZCTA poverty groups and summarize data ----
     zcta.dt[, pov200grp := cut(pov200,
                                breaks = c(-.01, 0.099999999, 0.149999999, 0.249999999, 1),
-                               labels = c("[0, 10)%", "[10, 15)%", "[15, 25)%", "25%+"))]
+                               labels = c("<10%", "10 ≤ 15%", "15 ≤ 25%", "25%+"))]
 
     zcta.summary <- setorder(zcta.dt[, .(zctas = .N,
                                         `zctas.%` = paste0(round2(100*.N/nrow(zcta.dt), 1), "%"),
@@ -76,7 +76,7 @@
     tract.dt[, .(geo_type = 'Tract', geo_id = gsub("^1400000US", "", geo_id), census_vintage = 2020, pov200grp, source = "ACS 2017-2021", creation_date = Sys.Date())],
     zcta.dt[, .(geo_type = 'ZCTA', geo_id = gsub("ZCTA5 ", "", name), census_vintage = 2020, pov200grp, source = "ACS 2017-2021", creation_date = Sys.Date())]
     )
-  misc_poverty_groups[, pov200grp := factor(pov200grp, levels = c("[0, 10)%", "[10, 15)%", "[15, 25)%", "25%+"))]
+  misc_poverty_groups[, pov200grp := factor(pov200grp, levels = c("<10%", "10 ≤ 15%", "15 ≤ 25%", "25%+"))]
 
 # Save as RDA file ----
   usethis::use_data(misc_poverty_groups, compress = "bzip2", version = 3, overwrite = TRUE)
