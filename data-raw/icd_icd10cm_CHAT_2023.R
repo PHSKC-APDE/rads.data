@@ -15,15 +15,23 @@
     icd_icd10cm_CHAT_2023 = fread("C:/code/rads.data/data-raw/icd_icd10cm_CHAT_2023.csv")
 
 # rename & set column order ----
-    setnames(icd_icd10cm_CHAT_2023, c("icd10", "ccs_lvl_3", "icd10_desc", "ccs_lvl_3_desc", "ccs_lvl_1", "ccs_lvl_1_desc", "ccs_lvl_2", "ccs_lvl_2_desc"))
-    setcolorder(icd_icd10cm_CHAT_2023, c("icd10_desc", "icd10", "ccs_lvl_1_desc", "ccs_lvl_1", "ccs_lvl_2_desc", "ccs_lvl_2", "ccs_lvl_3_desc", "ccs_lvl_3"))
+    icd_icd10cm_CHAT_2023 <- icd_icd10cm_CHAT_2023[, list(
+      icd10cm_desc = `'ICD-10-CM CODE DESCRIPTION'`,
+      icd10cm = `'ICD-10-CM CODE'`,
+      ccs_lvl_1_desc = `'MULTI CCS LVL 1 LABEL'`,
+      ccs_lvl_1 = `'MULTI CCS LVL 1'`,
+      ccs_lvl_2_desc = `'MULTI CCS LVL 2 LABEL'`,
+      ccs_lvl_2 = `'MULTI CCS LVL 2'`,
+      ccs_lvl_3_desc = `'CCS CATEGORY DESCRIPTION'`,
+      ccs_lvl_3 = `'CCS CATEGORY'`
+    )]
 
 # tidy ----
     # clean white spaces
     rads::sql_clean(icd_icd10cm_CHAT_2023) # clean whitespaces, etc.
 
     # eliminate useless punctuation
-    for(ii in c("icd10", "ccs_lvl_1", "ccs_lvl_2", "ccs_lvl_3")){
+    for(ii in c("icd10cm", "ccs_lvl_1", "ccs_lvl_2", "ccs_lvl_3")){
       icd_icd10cm_CHAT_2023[, paste0(ii) := gsub("'", "", get(ii))]
     }
     rm(ii)
