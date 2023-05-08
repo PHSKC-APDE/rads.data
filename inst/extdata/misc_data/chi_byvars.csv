@@ -64,7 +64,7 @@
 "Birthing person's education","edu_grp","Master's degree","Yes",NA,2023-05-08
 "Birthing person's education","edu_grp","Some college, no degree","Yes",NA,2023-05-08
 "Children in household","hhwchild","Households with children","Yes",NA,2023-05-08
-"Children in household","hhwchild","Households without children","Yes","Changed to keep",2023-05-08
+"Children in household","hhwchild","Households without children","Yes",NA,2023-05-08
 "Cities/neighborhoods","hra20_name","Auburn - North","Yes",NA,2023-05-08
 "Cities/neighborhoods","hra20_name","Auburn - South","Yes",NA,2023-05-08
 "Cities/neighborhoods","hra20_name","Bear Creek and Greater Sammamish","Yes",NA,2023-05-08
@@ -143,12 +143,12 @@
 "Detailed Asian race/ethnicity","chi_race_aic_vietnamese","Not Vietnamese","No",NA,2023-05-08
 "Detailed Asian race/ethnicity","chi_race_aic_vietnamese","Vietnamese","Yes",NA,2023-05-08
 "Disability","disability","With a disability","Yes",NA,2023-05-08
-"Disability","disability","Without a disability","Yes","Changed to keep",2023-05-08
+"Disability","disability","Without a disability","Yes",NA,2023-05-08
 "English learner","english_learner","English learners","Yes",NA,2023-05-08
-"English learner","english_learner","Not English learners","Yes","Changed to keep",2023-05-08
+"English learner","english_learner","Not English learners","Yes",NA,2023-05-08
 "Foster care","foster_care","Foster care","Yes",NA,2023-05-08
-"Foster care","foster_care","Not foster care","Yes","Changed to keep",2023-05-08
-"Free lunch","frlunch","Not receiving FRPL","Yes","Changed to keep",2023-05-08
+"Foster care","foster_care","Not foster care","Yes",NA,2023-05-08
+"Free lunch","frlunch","Not receiving FRPL","Yes",NA,2023-05-08
 "Free lunch","frlunch","Receiving FRPL","Yes",NA,2023-05-08
 "Gender","chi_sex","Female","Yes",NA,2023-05-08
 "Gender","chi_sex","Male","Yes",NA,2023-05-08
@@ -175,7 +175,7 @@
 "Grade level","chi_grade_orig","Grade 12","Yes",NA,2023-05-08
 "Grade level","chi_grade_orig","Grade 8","Yes",NA,2023-05-08
 "Homeless","homeless","Homeless","Yes",NA,2023-05-08
-"Homeless","homeless","Not homeless","Yes","Changed to keep",2023-05-08
+"Homeless","homeless","Not homeless","Yes",NA,2023-05-08
 "Household income","income6","$15-24,999","Yes",NA,2023-05-08
 "Household income","income6","$25-34,999","Yes",NA,2023-05-08
 "Household income","income6","$35-49,999","Yes",NA,2023-05-08
@@ -196,14 +196,15 @@
 "Household income","income7","$75-99,999","Yes",NA,2023-05-08
 "Household income","income7","<$20,000","Yes",NA,2023-05-08
 "Migrant","migrant","Migrant","Yes",NA,2023-05-08
-"Migrant","migrant","Not Migrant","Yes","Changed to keep",2023-05-08
-"Military Service","veteran","Non-Veteran","Yes","Changed to keep",2023-05-08
+"Migrant","migrant","Not Migrant","Yes",NA,2023-05-08
+"Military Service","veteran","Non-Veteran","Yes",NA,2023-05-08
 "Military Service","veteran","Veteran","Yes",NA,2023-05-08
 "Nativity","nativity","Born in US","Yes",NA,2023-05-08
 "Nativity","nativity","Foreign born","Yes",NA,2023-05-08
 "Nativity","nativity","Non-citizen","Yes",NA,2023-05-08
 "NonSeattle","nonseattle","King Co outside Seattle","Yes",NA,2023-05-08
 "NonSeattle","nonseattle","Seattle","Yes",NA,2023-05-08
+"Overall","overall","Overall","Yes","Only used for cat2 in crosstabs for demographic's overall KC estimate (e.g., gender x KC)",2023-05-08
 "Poverty","pov200grp","10 ≤ 15%","Yes","neighborhood level poverty 2023",2023-05-08
 "Poverty","pov200grp","15 ≤ 25%","Yes","neighborhood level poverty 2023",2023-05-08
 "Poverty","pov200grp","25%+","Yes","neighborhood level poverty 2023",2023-05-08
@@ -288,7 +289,7 @@
 "Sexual orientation","chi_sexorien_3","Heterosexual","Yes",NA,2023-05-08
 "Sexual orientation","chi_sexorien_3","LGB+","Yes",NA,2023-05-08
 "Sexual orientation","chi_sexorien_3","Not Sure","Yes",NA,2023-05-08
-"Special education","spec_ed","Not special education","Yes","Changed to keep",2023-05-08
+"Special education","spec_ed","Not special education","Yes",NA,2023-05-08
 "Special education","spec_ed","Special education","Yes",NA,2023-05-08
 "Transgender","transgender","Cisgender","Yes",NA,2023-05-08
 "Transgender","transgender","Transgender","Yes",NA,2023-05-08
