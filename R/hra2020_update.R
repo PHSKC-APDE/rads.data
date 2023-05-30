@@ -61,6 +61,15 @@
 #' @name spatial_hra20_to_region20
 "spatial_hra20_to_region20"
 
+# spatial_hra20_to_bigcities ----
+#' Spatial crosswalk between 2020 HRAs and King County's eight 'big cities'.
+#'
+#' @format A data.table with 32 rows and 3 variables:
+#'   \code{hra20_id}: Numeric id for the HRA,
+#'   \code{hra20_name}: Name of the HRA,
+#'   \code{bigcity}: Name of the big city
+#' @name spatial_hra20_to_bigcities
+"spatial_hra20_to_bigcities"
 
 # spatial_tract10_to_hra20_geog ----
 #' Spatial crosswalk between 2010 census tract and 2020 HRAs. There is
