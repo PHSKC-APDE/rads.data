@@ -117,6 +117,10 @@ library(Microsoft365R)
     setorder(icd_other_causes_of_death, cause.of.death, icd10, -orig.coding)
     icd_other_causes_of_death[, .N, cause.of.death]
 
+    # Remove Diabetes and Parkinson's because both already exist in the CDC 113 causes of death and Parkinson's definition is slightly different
+    icd_other_causes_of_death <- icd_other_causes_of_death[!grepl('parkinson|diabetes', cause.of.death, ignore.case = T)]
+    icd_other_causes_of_death[, .N, cause.of.death]
+
 # Write to package ----
     usethis::use_data(icd_other_causes_of_death, overwrite = TRUE)
     write.csv(icd_other_causes_of_death, "inst/extdata/icd_data/icd_other_causes_of_death.csv", row.names = F)
