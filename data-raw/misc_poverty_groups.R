@@ -76,7 +76,12 @@
     tract.dt[, .(geo_type = 'Tract', geo_id = gsub("^1400000US", "", geo_id), census_vintage = 2020, pov200grp, source = "ACS 2017-2021", creation_date = Sys.Date())],
     zcta.dt[, .(geo_type = 'ZCTA', geo_id = gsub("ZCTA5 ", "", name), census_vintage = 2020, pov200grp, source = "ACS 2017-2021", creation_date = Sys.Date())]
     )
-  misc_poverty_groups[, pov200grp := factor(pov200grp, levels = c("<10%", "10 ≤ 15%", "15 ≤ 25%", "25%+"))]
+  misc_poverty_groups[pov200grp == '<10%', `:=` (pov200grp = "Low poverty areas", notes = '<10% below 200% FPL')]
+  misc_poverty_groups[pov200grp == '10 ≤ 15%', `:=` (pov200grp = "Medium poverty areas" , notes = '10 ≤ 15% below 200% FPL')]
+  misc_poverty_groups[pov200grp == '15 ≤ 25%', `:=` (pov200grp = "High poverty areas", notes = '15 ≤ 25% below 200% FPL')]
+  misc_poverty_groups[pov200grp == '25%+', `:=` (pov200grp = "Very high poverty areas", notes = '25%+ below 200% FPL')]
+
+  misc_poverty_groups[, pov200grp := factor(pov200grp, levels = c("Very high poverty areas", "High poverty areas", "Medium poverty areas", "Low poverty areas"))]
 
 # Save as RDA file ----
   usethis::use_data(misc_poverty_groups, compress = "bzip2", version = 3, overwrite = TRUE)
