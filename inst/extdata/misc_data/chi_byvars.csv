@@ -176,17 +176,19 @@
 "Cities/neighborhoods","places","Auburn","Yes","ACS uninsured, from tables, 'places' with pop > 65K",2023-10-02
 "Cities/neighborhoods","places","Bellevue","Yes","ACS uninsured, from tables, 'places' with pop > 65K",2023-10-02
 "Cities/neighborhoods","places","Bothell","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
+"Cities/neighborhoods","places","Bryn Mawr-Skyway","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
 "Cities/neighborhoods","places","Burien","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
-"Cities/neighborhoods","places","Cottage Lake","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
+"Cities/neighborhoods","places","Cottage Lake","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
 "Cities/neighborhoods","places","Covington","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
-"Cities/neighborhoods","places","Des Moines","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
+"Cities/neighborhoods","places","Des Moines","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
+"Cities/neighborhoods","places","Fairwood","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
 "Cities/neighborhoods","places","Federal Way","Yes","ACS uninsured, from tables, 'places' with pop > 65K",2023-10-02
 "Cities/neighborhoods","places","Issaquah","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
 "Cities/neighborhoods","places","Kenmore","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
 "Cities/neighborhoods","places","Kent","Yes","ACS uninsured, from tables, 'places' with pop > 65K",2023-10-02
 "Cities/neighborhoods","places","Kirkland","Yes","ACS uninsured, from tables, 'places' with pop > 65K",2023-10-02
-"Cities/neighborhoods","places","Maple Valley","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
-"Cities/neighborhoods","places","Mercer Island","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
+"Cities/neighborhoods","places","Maple Valley","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
+"Cities/neighborhoods","places","Mercer Island","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
 "Cities/neighborhoods","places","Redmond","Yes","ACS uninsured, from tables, 'places' with pop > 65K",2023-10-02
 "Cities/neighborhoods","places","Renton","Yes","ACS uninsured, from tables, 'places' with pop > 65K",2023-10-02
 "Cities/neighborhoods","places","Sammamish","Yes","ACS uninsured, from tables, 'places' with pop > 65K",2023-10-02
@@ -194,7 +196,7 @@
 "Cities/neighborhoods","places","Seattle","Yes","ACS uninsured, from tables, 'places' with pop > 65K",2023-10-02
 "Cities/neighborhoods","places","Shoreline","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
 "Cities/neighborhoods","places","Tukwila","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
-"Cities/neighborhoods","places","Union Hill-Novelty Hill","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
+"Cities/neighborhoods","places","Union Hill-Novelty Hill","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
 "Detailed Asian race/ethnicity","chi_race_aic_asianother","Asian - other","Yes",NA,2023-10-02
 "Detailed Asian race/ethnicity","chi_race_aic_asianother","Not Asian - other","No",NA,2023-10-02
 "Detailed Asian race/ethnicity","chi_race_aic_cambodian","Cambodian/Khmer","Yes",NA,2023-10-02
