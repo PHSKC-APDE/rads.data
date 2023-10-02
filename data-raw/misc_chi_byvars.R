@@ -9,6 +9,7 @@
 rm(list=ls())
 library(data.table)
 library(Microsoft365R)
+library(stringi)
 
 # Import data from SharePoint ----
     team <- get_team("Community Health Indicators")
@@ -30,6 +31,11 @@ library(Microsoft365R)
     misc_chi_byvars[, creation_date := Sys.Date()]
 
     misc_chi_byvars[, notes := gsub('"', "`", notes)] # Replace all quotation marks with tick marks
+
+# Tidy irregular whitespaces ----
+    rads::sql_clean(misc_chi_byvars)
+    string.columns <- names(misc_chi_byvars) # all are strings
+    misc_chi_byvars[, (string.columns) := lapply(.SD, function(x){stringi::stri_replace_all_charclass(x, "\\p{WHITE_SPACE}", " ")}), .SDcols = string.columns] # replace irregular whitespaces with true whitespaces (' ')
 
 # Identify differences since the previous run ----
   existing <- fread('https://raw.githubusercontent.com/PHSKC-APDE/rads.data/main/inst/extdata/misc_data/chi_byvars.csv')
