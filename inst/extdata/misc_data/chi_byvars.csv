@@ -1,344 +1,382 @@
 "cat","varname","group","keepme","notes","creation_date"
-"King County","chi_geo_kc","King County","Yes",NA,2023-08-03
-"Washington State","wastate","Washington State","Yes",NA,2023-08-03
-"Age","age5_v1","18-24","Yes",NA,2023-08-03
-"Age","age5_v1","25-44","Yes",NA,2023-08-03
-"Age","age5_v1","45-64","Yes",NA,2023-08-03
-"Age","age5_v1","65+","Yes",NA,2023-08-03
-"Age","age5_v1","<18","Yes",NA,2023-08-03
-"Age","age5_v2","18-24","Yes",NA,2023-08-03
-"Age","age5_v2","25-44","Yes",NA,2023-08-03
-"Age","age5_v2","45-64","Yes",NA,2023-08-03
-"Age","age5_v2","65-74","Yes",NA,2023-08-03
-"Age","age5_v2","75+","Yes",NA,2023-08-03
-"Age","age6","18-24","Yes",NA,2023-08-03
-"Age","age6","25-44","Yes",NA,2023-08-03
-"Age","age6","45-64","Yes",NA,2023-08-03
-"Age","age6","65-74","Yes",NA,2023-08-03
-"Age","age6","75+","Yes",NA,2023-08-03
-"Age","age6","<18","Yes",NA,2023-08-03
-"Age","age6_v2","18-24","Yes",NA,2023-08-03
-"Age","age6_v2","25-44","Yes",NA,2023-08-03
-"Age","age6_v2","45-64","Yes",NA,2023-08-03
-"Age","age6_v2","65-74","Yes",NA,2023-08-03
-"Age","age6_v2","75+","Yes",NA,2023-08-03
-"Age","age6_v2","8-17","Yes",NA,2023-08-03
-"Age","ageedu","25-44","Yes","ACS only (LTBA, LTHS)",2023-08-03
-"Age","ageedu","45-64","Yes","ACS only (LTBA, LTHS)",2023-08-03
-"Age","ageedu","65-74","Yes","ACS only (LTBA, LTHS)",2023-08-03
-"Age","ageedu","75+","Yes","ACS only (LTBA, LTHS)",2023-08-03
-"Age","agelang","18-24","Yes","ACS only (chinese, korean, othlang, pooreng, spanish, tagalog, unspeclang, vietn)",2023-08-03
-"Age","agelang","25-44","Yes","ACS only (chinese, korean, othlang, pooreng, spanish, tagalog, unspeclang, vietn)",2023-08-03
-"Age","agelang","45-64","Yes","ACS only (chinese, korean, othlang, pooreng, spanish, tagalog, unspeclang, vietn)",2023-08-03
-"Age","agelang","5-17","Yes","ACS only (chinese, korean, othlang, pooreng, spanish, tagalog, unspeclang, vietn)",2023-08-03
-"Age","agelang","65-74","Yes","ACS only (chinese, korean, othlang, pooreng, spanish, tagalog, unspeclang, vietn)",2023-08-03
-"Age","agelang","75+","Yes","ACS only (chinese, korean, othlang, pooreng, spanish, tagalog, unspeclang, vietn)",2023-08-03
-"Age","agetran","16-24","Yes","ACS only (bike, carpool, commute90, drive, home, pubtran, walk)",2023-08-03
-"Age","agetran","25-44","Yes","ACS only (bike, carpool, commute90, drive, home, pubtran, walk)",2023-08-03
-"Age","agetran","45-64","Yes","ACS only (bike, carpool, commute90, drive, home, pubtran, walk)",2023-08-03
-"Age","agetran","65-74","Yes","ACS only (bike, carpool, commute90, drive, home, pubtran, walk)",2023-08-03
-"Age","agetran","75+","Yes","ACS only (bike, carpool, commute90, drive, home, pubtran, walk)",2023-08-03
-"Age","agework","16-19","Yes","ACS only (CLF, emplCLF, employ, unemp)",2023-08-03
-"Age","agework","20-24","Yes","ACS only (CLF, emplCLF, employ, unemp)",2023-08-03
-"Age","agework","25-44","Yes","ACS only (CLF, emplCLF, employ, unemp)",2023-08-03
-"Age","agework","45-64","Yes","ACS only (CLF, emplCLF, employ, unemp)",2023-08-03
-"Age","agework","65-74","Yes","ACS only (CLF, emplCLF, employ, unemp)",2023-08-03
-"Age","agework","75+","Yes","ACS only (CLF, emplCLF, employ, unemp)",2023-08-03
-"Age","yage2","13-17","Yes",NA,2023-08-03
-"Age","yage2","8-12","Yes",NA,2023-08-03
-"Age","yage4","0-4","Yes",NA,2023-08-03
-"Age","yage4","10-14","Yes",NA,2023-08-03
-"Age","yage4","15-17","Yes",NA,2023-08-03
-"Age","yage4","5-9","Yes",NA,2023-08-03
-"Big cities","bigcities","Auburn city","Yes",NA,2023-08-03
-"Big cities","bigcities","Bellevue city","Yes",NA,2023-08-03
-"Big cities","bigcities","Federal Way city","Yes",NA,2023-08-03
-"Big cities","bigcities","Kent city","Yes",NA,2023-08-03
-"Big cities","bigcities","Kirkland city","Yes",NA,2023-08-03
-"Big cities","bigcities","Redmond city","Yes",NA,2023-08-03
-"Big cities","bigcities","Renton city","Yes",NA,2023-08-03
-"Big cities","bigcities","Seattle city","Yes",NA,2023-08-03
-"Birthing person's age","mage5","10-17","Yes",NA,2023-08-03
-"Birthing person's age","mage5","18-24","Yes",NA,2023-08-03
-"Birthing person's age","mage5","25-34","Yes",NA,2023-08-03
-"Birthing person's age","mage5","35-44","Yes",NA,2023-08-03
-"Birthing person's age","mage5","45+","Yes",NA,2023-08-03
-"Birthing person's detailed race/ethnicity","chi_race_aic_asianother","Asian - other","Yes",NA,2023-08-03
-"Birthing person's detailed race/ethnicity","chi_race_aic_asianother","Not Asian - other","No",NA,2023-08-03
-"Birthing person's detailed race/ethnicity","chi_race_aic_chinese","Chinese","Yes",NA,2023-08-03
-"Birthing person's detailed race/ethnicity","chi_race_aic_chinese","Not Chinese","No",NA,2023-08-03
-"Birthing person's detailed race/ethnicity","chi_race_aic_filipino","Filipino","Yes",NA,2023-08-03
-"Birthing person's detailed race/ethnicity","chi_race_aic_filipino","Not Filipino","No",NA,2023-08-03
-"Birthing person's detailed race/ethnicity","chi_race_aic_guam_or_chamorro","Guamanian or Chamorro","Yes",NA,2023-08-03
-"Birthing person's detailed race/ethnicity","chi_race_aic_guam_or_chamorro","Not Guamanian or Chamorro","No",NA,2023-08-03
-"Birthing person's detailed race/ethnicity","chi_race_aic_hawaiian","Native Hawaiian","Yes",NA,2023-08-03
-"Birthing person's detailed race/ethnicity","chi_race_aic_hawaiian","Not Native Hawaiian","No",NA,2023-08-03
-"Birthing person's detailed race/ethnicity","chi_race_aic_his_cuban","Cuban","Yes",NA,2023-08-03
-"Birthing person's detailed race/ethnicity","chi_race_aic_his_cuban","Not Cuban","No",NA,2023-08-03
-"Birthing person's detailed race/ethnicity","chi_race_aic_his_mexican","Mexican","Yes",NA,2023-08-03
-"Birthing person's detailed race/ethnicity","chi_race_aic_his_mexican","Not Mexican","No",NA,2023-08-03
-"Birthing person's detailed race/ethnicity","chi_race_aic_his_puerto_rican","Not Puerto Rican","No",NA,2023-08-03
-"Birthing person's detailed race/ethnicity","chi_race_aic_his_puerto_rican","Puerto Rican","Yes",NA,2023-08-03
-"Birthing person's detailed race/ethnicity","chi_race_aic_indian","Asian Indian","Yes",NA,2023-08-03
-"Birthing person's detailed race/ethnicity","chi_race_aic_indian","Not Asian Indian","No",NA,2023-08-03
-"Birthing person's detailed race/ethnicity","chi_race_aic_japanese","Japanese","Yes",NA,2023-08-03
-"Birthing person's detailed race/ethnicity","chi_race_aic_japanese","Not Japanese","No",NA,2023-08-03
-"Birthing person's detailed race/ethnicity","chi_race_aic_korean","Korean","Yes",NA,2023-08-03
-"Birthing person's detailed race/ethnicity","chi_race_aic_korean","Not Korean","No",NA,2023-08-03
-"Birthing person's detailed race/ethnicity","chi_race_aic_samoan","Not Samoan","No",NA,2023-08-03
-"Birthing person's detailed race/ethnicity","chi_race_aic_samoan","Samoan","Yes",NA,2023-08-03
-"Birthing person's detailed race/ethnicity","chi_race_aic_vietnamese","Not Vietnamese","No",NA,2023-08-03
-"Birthing person's detailed race/ethnicity","chi_race_aic_vietnamese","Vietnamese","Yes",NA,2023-08-03
-"Birthing person's education","edu_grp","9th-12th grade, no diploma","Yes",NA,2023-08-03
-"Birthing person's education","edu_grp","<= 8th grade","Yes",NA,2023-08-03
-"Birthing person's education","edu_grp","Associate degree","Yes",NA,2023-08-03
-"Birthing person's education","edu_grp","Bachelor's degree","Yes",NA,2023-08-03
-"Birthing person's education","edu_grp","Doctorate or Professional degree","Yes",NA,2023-08-03
-"Birthing person's education","edu_grp","High school graduate or GED","Yes",NA,2023-08-03
-"Birthing person's education","edu_grp","Master's degree","Yes",NA,2023-08-03
-"Birthing person's education","edu_grp","Some college, no degree","Yes",NA,2023-08-03
-"Children in household","hhwchild","Households with children","Yes",NA,2023-08-03
-"Children in household","hhwchild","Households without children","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Auburn - North","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Auburn - South","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Bear Creek and Greater Sammamish","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Bellevue - Central","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Bellevue - Northeast","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Bellevue - South","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Bellevue - West","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Bothell and Woodinville","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Burien","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Covington","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Des Moines and Normandy Park","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Duvall, Carnation, Skykomish, and Northeast King County","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","East Highlands, Hobart, and Greater Maple Valley","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Enumclaw, Black Diamond, and Southeast King County","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Fairwood","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Federal Way - Central","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Federal Way - Dash Point and Southern Rim","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Federal Way - North Corridor","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Issaquah","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Kenmore and Lake Forest Park","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Kent - Central","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Kent - East","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Kent - South","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Kent - West","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Kirkland - North","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Kirkland - South","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Lakeland, Algona, Pacific, and Milton","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Maple Valley","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Mercer Island and Point Cities","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Newcastle and Four Creeks","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","North Highline and White Center","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Redmond - North","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Redmond - South","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Renton - North","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Renton - South","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Sammamish","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Seatac","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Seattle - Ballard","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Seattle - Broadview, Haller Lake, and Licton Springs","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Seattle - Capitol Hill","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Seattle - Central District, Chinatown-International District, Judkins, and North Beacon Hill","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Seattle - Delridge","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Seattle - Downtown, Belltown, and First Hill","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Seattle - Fremont and Wallingford","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Seattle - Green Lake and Phinney Ridge","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Seattle - Laurelhurst, Sand Point, and Wedgwood","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Seattle - Magnolia and Interbay","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Seattle - Montlake, Madison Park, and Madrona","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Seattle - Northgate and Lake City","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Seattle - Queen Anne","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Seattle - Rainier Valley and Rainier Beach","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Seattle - Ravenna and Bryant","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Seattle - South Beacon Hill, Georgetown, and South Park","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Seattle - South Lake Union, Cascade, and Eastlake","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Seattle - University District","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Seattle - West Seattle","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Shoreline","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Skyway","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Snoqualmie and North Bend","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Tukwila","Yes",NA,2023-08-03
-"Cities/neighborhoods","hra20_name","Vashon","Yes",NA,2023-08-03
-"Detailed Asian race/ethnicity","chi_race_aic_asianother","Asian - other","Yes",NA,2023-08-03
-"Detailed Asian race/ethnicity","chi_race_aic_asianother","Not Asian - other","No",NA,2023-08-03
-"Detailed Asian race/ethnicity","chi_race_aic_cambodian","Cambodian/Khmer","Yes",NA,2023-08-03
-"Detailed Asian race/ethnicity","chi_race_aic_cambodian","Not Cambodian/Khmer","No",NA,2023-08-03
-"Detailed Asian race/ethnicity","chi_race_aic_chinese","Chinese","Yes",NA,2023-08-03
-"Detailed Asian race/ethnicity","chi_race_aic_chinese","Not Chinese","No",NA,2023-08-03
-"Detailed Asian race/ethnicity","chi_race_aic_filipino","Filipino","Yes",NA,2023-08-03
-"Detailed Asian race/ethnicity","chi_race_aic_filipino","Not Filipino","No",NA,2023-08-03
-"Detailed Asian race/ethnicity","chi_race_aic_indian","Asian Indian","Yes",NA,2023-08-03
-"Detailed Asian race/ethnicity","chi_race_aic_indian","Not Asian Indian","No",NA,2023-08-03
-"Detailed Asian race/ethnicity","chi_race_aic_japanese","Japanese","Yes",NA,2023-08-03
-"Detailed Asian race/ethnicity","chi_race_aic_japanese","Not Japanese","No",NA,2023-08-03
-"Detailed Asian race/ethnicity","chi_race_aic_korean","Korean","Yes",NA,2023-08-03
-"Detailed Asian race/ethnicity","chi_race_aic_korean","Not Korean","No",NA,2023-08-03
-"Detailed Asian race/ethnicity","chi_race_aic_vietnamese","Not Vietnamese","No",NA,2023-08-03
-"Detailed Asian race/ethnicity","chi_race_aic_vietnamese","Vietnamese","Yes",NA,2023-08-03
-"Disability","disability","With a disability","Yes",NA,2023-08-03
-"Disability","disability","Without a disability","Yes",NA,2023-08-03
-"English learner","english_learner","English learners","Yes",NA,2023-08-03
-"English learner","english_learner","Not English learners","Yes",NA,2023-08-03
-"Foster care","foster_care","Foster care","Yes",NA,2023-08-03
-"Foster care","foster_care","Not foster care","Yes",NA,2023-08-03
-"Free lunch","frlunch","Not receiving FRPL","Yes",NA,2023-08-03
-"Free lunch","frlunch","Receiving FRPL","Yes",NA,2023-08-03
-"Gender","chi_sex","Female","Yes",NA,2023-08-03
-"Gender","chi_sex","Male","Yes",NA,2023-08-03
-"Gender","gender","Female","Yes",NA,2023-08-03
-"Gender","gender","Gender X","Yes",NA,2023-08-03
-"Gender","gender","Male","Yes",NA,2023-08-03
-"Gender","gender","Multiple","Yes",NA,2023-08-03
-"Grade","grade","1","Yes",NA,2023-08-03
-"Grade","grade","10","Yes",NA,2023-08-03
-"Grade","grade","11","Yes",NA,2023-08-03
-"Grade","grade","12","Yes",NA,2023-08-03
-"Grade","grade","2","Yes",NA,2023-08-03
-"Grade","grade","3","Yes",NA,2023-08-03
-"Grade","grade","4","Yes",NA,2023-08-03
-"Grade","grade","5","Yes",NA,2023-08-03
-"Grade","grade","6","Yes",NA,2023-08-03
-"Grade","grade","7","Yes",NA,2023-08-03
-"Grade","grade","8","Yes",NA,2023-08-03
-"Grade","grade","9","Yes",NA,2023-08-03
-"Grade","grade","Kindergarten (full-day)","Yes",NA,2023-08-03
-"Grade","grade","Kindergarten (half-day)","Yes",NA,2023-08-03
-"Grade","grade","Preschool","Yes",NA,2023-08-03
-"Grade level","chi_grade_orig","Grade 10","Yes",NA,2023-08-03
-"Grade level","chi_grade_orig","Grade 12","Yes",NA,2023-08-03
-"Grade level","chi_grade_orig","Grade 8","Yes",NA,2023-08-03
-"Homeless","homeless","Homeless","Yes",NA,2023-08-03
-"Homeless","homeless","Not homeless","Yes",NA,2023-08-03
-"Household income","income6","$15-24,999","Yes",NA,2023-08-03
-"Household income","income6","$25-34,999","Yes",NA,2023-08-03
-"Household income","income6","$35-49,999","Yes",NA,2023-08-03
-"Household income","income6","$50-74,999","Yes",NA,2023-08-03
-"Household income","income6","$75,000+","Yes",NA,2023-08-03
-"Household income","income6","<$15,000","Yes",NA,2023-08-03
-"Household income","income6b","$100,000+","Yes",NA,2023-08-03
-"Household income","income6b","$20-34,999","Yes",NA,2023-08-03
-"Household income","income6b","$35-49,999","Yes",NA,2023-08-03
-"Household income","income6b","$50-74,999","Yes",NA,2023-08-03
-"Household income","income6b","$75-99,999","Yes",NA,2023-08-03
-"Household income","income6b","<$20,000","Yes",NA,2023-08-03
-"Household income","income7","$100-149,999","Yes",NA,2023-08-03
-"Household income","income7","$150,000+","Yes",NA,2023-08-03
-"Household income","income7","$20-34,999","Yes",NA,2023-08-03
-"Household income","income7","$35-49,999","Yes",NA,2023-08-03
-"Household income","income7","$50-74,999","Yes",NA,2023-08-03
-"Household income","income7","$75-99,999","Yes",NA,2023-08-03
-"Household income","income7","<$20,000","Yes",NA,2023-08-03
-"Migrant","migrant","Migrant","Yes",NA,2023-08-03
-"Migrant","migrant","Not Migrant","Yes",NA,2023-08-03
-"Military Service","veteran","Non-Veteran","Yes",NA,2023-08-03
-"Military Service","veteran","Veteran","Yes",NA,2023-08-03
-"Nativity","nativity","Born in US","Yes",NA,2023-08-03
-"Nativity","nativity","Foreign born","Yes",NA,2023-08-03
-"Nativity","nativity","Non-citizen","Yes",NA,2023-08-03
-"Neighborhood poverty","pov200grp","High poverty areas","Yes","Neighborhood level poverty 2023. Areas where 15 ≤ 25% of the population lives below 200% FPL",2023-08-03
-"Neighborhood poverty","pov200grp","Low poverty areas","Yes","Neighborhood level poverty 2023. Areas where <10% of the population lives below 200% FPL",2023-08-03
-"Neighborhood poverty","pov200grp","Medium poverty areas","Yes","Neighborhood level poverty 2023. Areas where 10 ≤ 15% of the population lives below 200% FPL",2023-08-03
-"Neighborhood poverty","pov200grp","Very high poverty areas","Yes","Neighborhood level poverty 2023. Areas where 25%+ of the population lives below 200% FPL",2023-08-03
-"NonSeattle","nonseattle","NonSeattle","Yes",NA,2023-08-03
-"NonSeattle","nonseattle","Seattle","Yes",NA,2023-08-03
-"Overall","overall","Overall","Yes","Only used for cat2 in crosstabs for demographic's overall KC estimate (e.g., gender x KC)",2023-08-03
-"Poverty","poverty","High","Yes","old defintions based on 2012",2023-08-03
-"Poverty","poverty","Low","Yes","old defintions based on 2012",2023-08-03
-"Poverty","poverty","Meduim","Yes","old defintions based on 2012",2023-08-03
-"Poverty","poverty3","200-399%","Yes",NA,2023-08-03
-"Poverty","poverty3","400%+","Yes",NA,2023-08-03
-"Poverty","poverty3","<200%","Yes",NA,2023-08-03
-"Poverty","poverty4","100-199%","Yes",NA,2023-08-03
-"Poverty","poverty4","200-399%","Yes",NA,2023-08-03
-"Poverty","poverty4","400%+","Yes",NA,2023-08-03
-"Poverty","poverty4","<100%","Yes",NA,2023-08-03
-"Primary language","language","Amharic","Yes","Include as available",2023-08-03
-"Primary language","language","Arabic","Yes","Include as available",2023-08-03
-"Primary language","language","Chinese","Yes",NA,2023-08-03
-"Primary language","language","English","Yes",NA,2023-08-03
-"Primary language","language","Korean","Yes",NA,2023-08-03
-"Primary language","language","Punjabi","Yes",NA,2023-08-03
-"Primary language","language","Russian","Yes",NA,2023-08-03
-"Primary language","language","Somali","Yes",NA,2023-08-03
-"Primary language","language","Spanish","Yes",NA,2023-08-03
-"Primary language","language","Tagalog","Yes",NA,2023-08-03
-"Primary language","language","Ukranian","Yes",NA,2023-08-03
-"Primary language","language","Vietnamese","Yes",NA,2023-08-03
-"Race/ethnicity","chi_race_7","AIAN","Yes","Alone/in combination race groups",2023-08-03
-"Race/ethnicity","chi_race_7","Asian","Yes","Alone/in combination race groups",2023-08-03
-"Race/ethnicity","chi_race_7","Black","Yes","Alone/in combination race groups",2023-08-03
-"Race/ethnicity","chi_race_7","Hispanic","Yes","Alone/in combination race groups",2023-08-03
-"Race/ethnicity","chi_race_7","Multiple","No","Alone/in combination race groups",2023-08-03
-"Race/ethnicity","chi_race_7","NHPI","Yes","Alone/in combination race groups",2023-08-03
-"Race/ethnicity","chi_race_7","Other","Yes","Alone/in combination race groups",2023-08-03
-"Race/ethnicity","chi_race_7","White","Yes","Alone/in combination race groups",2023-08-03
-"Race/ethnicity","chi_race_aic_aian","AIAN","Yes",NA,2023-08-03
-"Race/ethnicity","chi_race_aic_aian","Not AIAN","No",NA,2023-08-03
-"Race/ethnicity","chi_race_aic_asian","Asian","Yes",NA,2023-08-03
-"Race/ethnicity","chi_race_aic_asian","Not Asian","No",NA,2023-08-03
-"Race/ethnicity","chi_race_aic_black","Black","Yes",NA,2023-08-03
-"Race/ethnicity","chi_race_aic_black","Not Black","No",NA,2023-08-03
-"Race/ethnicity","chi_race_aic_his","Hispanic","Yes",NA,2023-08-03
-"Race/ethnicity","chi_race_aic_his","Not Hispanic","No",NA,2023-08-03
-"Race/ethnicity","chi_race_aic_nhpi","NHPI","Yes",NA,2023-08-03
-"Race/ethnicity","chi_race_aic_nhpi","Not NHPI","No",NA,2023-08-03
-"Race/ethnicity","chi_race_aic_oth","Not Other","No",NA,2023-08-03
-"Race/ethnicity","chi_race_aic_oth","Other","Yes",NA,2023-08-03
-"Race/ethnicity","chi_race_aic_wht","Not White","No",NA,2023-08-03
-"Race/ethnicity","chi_race_aic_wht","White","Yes",NA,2023-08-03
-"Race/ethnicity","chi_race_eth8","AIAN","Yes","Mutually exclusive race groups",2023-08-03
-"Race/ethnicity","chi_race_eth8","Asian","Yes","Mutually exclusive race groups",2023-08-03
-"Race/ethnicity","chi_race_eth8","Black","Yes","Mutually exclusive race groups",2023-08-03
-"Race/ethnicity","chi_race_eth8","Hispanic","Yes","Mutually exclusive race groups",2023-08-03
-"Race/ethnicity","chi_race_eth8","Multiple","Yes","Mutually exclusive race groups",2023-08-03
-"Race/ethnicity","chi_race_eth8","NHPI","Yes","Mutually exclusive race groups",2023-08-03
-"Race/ethnicity","chi_race_eth8","Other","Yes","Mutually exclusive race groups",2023-08-03
-"Race/ethnicity","chi_race_eth8","White","Yes","Mutually exclusive race groups",2023-08-03
-"Regions","chi_geo_region","East","Yes","Used for both the 2010 and 2020 vintages",2023-08-03
-"Regions","chi_geo_region","North","Yes","Used for both the 2010 and 2020 vintages",2023-08-03
-"Regions","chi_geo_region","Seattle","Yes","Used for both the 2010 and 2020 vintages",2023-08-03
-"Regions","chi_geo_region","South","Yes","Used for both the 2010 and 2020 vintages",2023-08-03
-"School district","district","Auburn School District","Yes",NA,2023-08-03
-"School district","district","Bellevue School District","Yes",NA,2023-08-03
-"School district","district","Enumclaw School District","Yes",NA,2023-08-03
-"School district","district","Federal Way School District","Yes",NA,2023-08-03
-"School district","district","Highline School District","Yes",NA,2023-08-03
-"School district","district","Issaquah School District","Yes",NA,2023-08-03
-"School district","district","Kent School District","Yes",NA,2023-08-03
-"School district","district","Lake Washington School District","Yes",NA,2023-08-03
-"School district","district","Mercer Island School District","Yes",NA,2023-08-03
-"School district","district","Northshore School District","Yes",NA,2023-08-03
-"School district","district","Renton School District","Yes",NA,2023-08-03
-"School district","district","Riverview School District","Yes",NA,2023-08-03
-"School district","district","Seattle School District","Yes",NA,2023-08-03
-"School district","district","Shoreline School District","Yes",NA,2023-08-03
-"School district","district","Skykomish School District","Yes",NA,2023-08-03
-"School district","district","Snoqualmie Valley School District","Yes",NA,2023-08-03
-"School district","district","Tahoma School District","Yes",NA,2023-08-03
-"School district","district","Tukwila School District","Yes",NA,2023-08-03
-"School district","district","Vashon Island School District","Yes",NA,2023-08-03
-"Sexual orientation","chi_sexorien_2","Heterosexual","Yes",NA,2023-08-03
-"Sexual orientation","chi_sexorien_2","LGB","Yes",NA,2023-08-03
-"Sexual orientation","chi_sexorien_3","Heterosexual","Yes",NA,2023-08-03
-"Sexual orientation","chi_sexorien_3","LGB+","Yes",NA,2023-08-03
-"Sexual orientation","chi_sexorien_3","Not Sure","Yes",NA,2023-08-03
-"Special education","spec_ed","Not special education","Yes",NA,2023-08-03
-"Special education","spec_ed","Special education","Yes",NA,2023-08-03
-"Transgender","transgender","Cisgender","Yes",NA,2023-08-03
-"Transgender","transgender","Transgender","Yes",NA,2023-08-03
-"[Birthing person's] Ethnicity","race3","Hispanic","Yes","OMB 97 categories (Hispanic as ethnicity). Add `Birthing person's` in front of `ethnicity` for birth data source.",2023-08-03
-"[Birthing person's] Ethnicity","race3","Non-Hispanic","No","OMB 97 categories (Hispanic as ethnicity). Add `Birthing person's` in front of `ethnicity` for birth data source.",2023-08-03
-"[Birthing person's] Race","race3","AIAN","Yes","OMB 97 categories (Hispanic as ethnicity). Add `Birthing person's` in front of `race` for birth data source.",2023-08-03
-"[Birthing person's] Race","race3","Asian","Yes","OMB 97 categories (Hispanic as ethnicity). Add `Birthing person's` in front of `race` for birth data source.",2023-08-03
-"[Birthing person's] Race","race3","Black","Yes","OMB 97 categories (Hispanic as ethnicity). Add `Birthing person's` in front of `race` for birth data source.",2023-08-03
-"[Birthing person's] Race","race3","Multiple","Yes","OMB 97 categories (Hispanic as ethnicity). Add `Birthing person's` in front of `race` for birth data source.",2023-08-03
-"[Birthing person's] Race","race3","NHPI","Yes","OMB 97 categories (Hispanic as ethnicity). Add `Birthing person's` in front of `race` for birth data source.",2023-08-03
-"[Birthing person's] Race","race3","White","Yes","OMB 97 categories (Hispanic as ethnicity). Add `Birthing person's` in front of `race` for birth data source.",2023-08-03
-"[Birthing person's] Race","race4","AIAN","Yes","Hispanic as race. Add `Birthing person's` in front of `race` for birth data source.",2023-08-03
-"[Birthing person's] Race","race4","Asian","Yes","Hispanic as race. Add `Birthing person's` in front of `race` for birth data source.",2023-08-03
-"[Birthing person's] Race","race4","Black","Yes","Hispanic as race. Add `Birthing person's` in front of `race` for birth data source.",2023-08-03
-"[Birthing person's] Race","race4","Hispanic","Yes","Hispanic as race. Add `Birthing person's` in front of `race` for birth data source.",2023-08-03
-"[Birthing person's] Race","race4","Multiple","Yes","Hispanic as race. Add `Birthing person's` in front of `race` for birth data source.",2023-08-03
-"[Birthing person's] Race","race4","NHPI","Yes","Hispanic as race. Add `Birthing person's` in front of `race` for birth data source.",2023-08-03
-"[Birthing person's] Race","race4","White","Yes","Hispanic as race. Add `Birthing person's` in front of `race` for birth data source.",2023-08-03
+"King County","chi_geo_kc","King County","Yes",NA,2023-10-02
+"Washington State","wastate","Washington State","Yes",NA,2023-10-02
+"Age","age4","Adults","Yes","ACS uninsured, from tables",2023-10-02
+"Age","age4","All","Yes","ACS uninsured, from tables",2023-10-02
+"Age","age4","Children","Yes","ACS uninsured, from tables",2023-10-02
+"Age","age4","Seniors","Yes","ACS uninsured, from tables",2023-10-02
+"Age","age5_v1","18-24","Yes",NA,2023-10-02
+"Age","age5_v1","25-44","Yes",NA,2023-10-02
+"Age","age5_v1","45-64","Yes",NA,2023-10-02
+"Age","age5_v1","65+","Yes",NA,2023-10-02
+"Age","age5_v1","<18","Yes",NA,2023-10-02
+"Age","age5_v2","18-24","Yes",NA,2023-10-02
+"Age","age5_v2","25-44","Yes",NA,2023-10-02
+"Age","age5_v2","45-64","Yes",NA,2023-10-02
+"Age","age5_v2","65-74","Yes",NA,2023-10-02
+"Age","age5_v2","75+","Yes",NA,2023-10-02
+"Age","age6","18-24","Yes",NA,2023-10-02
+"Age","age6","25-44","Yes",NA,2023-10-02
+"Age","age6","45-64","Yes",NA,2023-10-02
+"Age","age6","65-74","Yes",NA,2023-10-02
+"Age","age6","75+","Yes",NA,2023-10-02
+"Age","age6","<18","Yes",NA,2023-10-02
+"Age","age6_v2","18-24","Yes",NA,2023-10-02
+"Age","age6_v2","25-44","Yes",NA,2023-10-02
+"Age","age6_v2","45-64","Yes",NA,2023-10-02
+"Age","age6_v2","65-74","Yes",NA,2023-10-02
+"Age","age6_v2","75+","Yes",NA,2023-10-02
+"Age","age6_v2","8-17","Yes",NA,2023-10-02
+"Age","ageedu","25-44","Yes","ACS only (LTBA, LTHS)",2023-10-02
+"Age","ageedu","45-64","Yes","ACS only (LTBA, LTHS)",2023-10-02
+"Age","ageedu","65-74","Yes","ACS only (LTBA, LTHS)",2023-10-02
+"Age","ageedu","75+","Yes","ACS only (LTBA, LTHS)",2023-10-02
+"Age","ageinsur","19-25","Yes","ACS uninsured, from tables",2023-10-02
+"Age","ageinsur","26-34","Yes","ACS uninsured, from tables",2023-10-02
+"Age","ageinsur","35-44","Yes","ACS uninsured, from tables",2023-10-02
+"Age","ageinsur","45-54","Yes","ACS uninsured, from tables",2023-10-02
+"Age","ageinsur","55-64","Yes","ACS uninsured, from tables",2023-10-02
+"Age","ageinsur","6-18","No","ACS uninsured, from tables",2023-10-02
+"Age","ageinsur","65-74","No","ACS uninsured, from tables",2023-10-02
+"Age","ageinsur","75+","No","ACS uninsured, from tables",2023-10-02
+"Age","ageinsur","<6","No","ACS uninsured, from tables",2023-10-02
+"Age","agelang","18-24","Yes","ACS only (chinese, korean, othlang, pooreng, spanish, tagalog, unspeclang, vietn)",2023-10-02
+"Age","agelang","25-44","Yes","ACS only (chinese, korean, othlang, pooreng, spanish, tagalog, unspeclang, vietn)",2023-10-02
+"Age","agelang","45-64","Yes","ACS only (chinese, korean, othlang, pooreng, spanish, tagalog, unspeclang, vietn)",2023-10-02
+"Age","agelang","5-17","Yes","ACS only (chinese, korean, othlang, pooreng, spanish, tagalog, unspeclang, vietn)",2023-10-02
+"Age","agelang","65-74","Yes","ACS only (chinese, korean, othlang, pooreng, spanish, tagalog, unspeclang, vietn)",2023-10-02
+"Age","agelang","75+","Yes","ACS only (chinese, korean, othlang, pooreng, spanish, tagalog, unspeclang, vietn)",2023-10-02
+"Age","agetran","16-24","Yes","ACS only (bike, carpool, commute90, drive, home, pubtran, walk)",2023-10-02
+"Age","agetran","25-44","Yes","ACS only (bike, carpool, commute90, drive, home, pubtran, walk)",2023-10-02
+"Age","agetran","45-64","Yes","ACS only (bike, carpool, commute90, drive, home, pubtran, walk)",2023-10-02
+"Age","agetran","65-74","Yes","ACS only (bike, carpool, commute90, drive, home, pubtran, walk)",2023-10-02
+"Age","agetran","75+","Yes","ACS only (bike, carpool, commute90, drive, home, pubtran, walk)",2023-10-02
+"Age","agework","16-19","Yes","ACS only (CLF, emplCLF, employ, unemp)",2023-10-02
+"Age","agework","20-24","Yes","ACS only (CLF, emplCLF, employ, unemp)",2023-10-02
+"Age","agework","25-44","Yes","ACS only (CLF, emplCLF, employ, unemp)",2023-10-02
+"Age","agework","45-64","Yes","ACS only (CLF, emplCLF, employ, unemp)",2023-10-02
+"Age","agework","65-74","Yes","ACS only (CLF, emplCLF, employ, unemp)",2023-10-02
+"Age","agework","75+","Yes","ACS only (CLF, emplCLF, employ, unemp)",2023-10-02
+"Age","yage2","13-17","Yes",NA,2023-10-02
+"Age","yage2","8-12","Yes",NA,2023-10-02
+"Age","yage4","0-4","Yes",NA,2023-10-02
+"Age","yage4","10-14","Yes",NA,2023-10-02
+"Age","yage4","15-17","Yes",NA,2023-10-02
+"Age","yage4","5-9","Yes",NA,2023-10-02
+"Big cities","bigcities","Auburn city","Yes",NA,2023-10-02
+"Big cities","bigcities","Bellevue city","Yes",NA,2023-10-02
+"Big cities","bigcities","Federal Way city","Yes",NA,2023-10-02
+"Big cities","bigcities","Kent city","Yes",NA,2023-10-02
+"Big cities","bigcities","Kirkland city","Yes",NA,2023-10-02
+"Big cities","bigcities","Redmond city","Yes",NA,2023-10-02
+"Big cities","bigcities","Renton city","Yes",NA,2023-10-02
+"Big cities","bigcities","Seattle city","Yes",NA,2023-10-02
+"Birthing person's age","mage5","10-17","Yes",NA,2023-10-02
+"Birthing person's age","mage5","18-24","Yes",NA,2023-10-02
+"Birthing person's age","mage5","25-34","Yes",NA,2023-10-02
+"Birthing person's age","mage5","35-44","Yes",NA,2023-10-02
+"Birthing person's age","mage5","45+","Yes",NA,2023-10-02
+"Birthing person's detailed race/ethnicity","chi_race_aic_asianother","Asian - other","Yes",NA,2023-10-02
+"Birthing person's detailed race/ethnicity","chi_race_aic_asianother","Not Asian - other","No",NA,2023-10-02
+"Birthing person's detailed race/ethnicity","chi_race_aic_chinese","Chinese","Yes",NA,2023-10-02
+"Birthing person's detailed race/ethnicity","chi_race_aic_chinese","Not Chinese","No",NA,2023-10-02
+"Birthing person's detailed race/ethnicity","chi_race_aic_filipino","Filipino","Yes",NA,2023-10-02
+"Birthing person's detailed race/ethnicity","chi_race_aic_filipino","Not Filipino","No",NA,2023-10-02
+"Birthing person's detailed race/ethnicity","chi_race_aic_guam_or_chamorro","Guamanian or Chamorro","Yes",NA,2023-10-02
+"Birthing person's detailed race/ethnicity","chi_race_aic_guam_or_chamorro","Not Guamanian or Chamorro","No",NA,2023-10-02
+"Birthing person's detailed race/ethnicity","chi_race_aic_hawaiian","Native Hawaiian","Yes",NA,2023-10-02
+"Birthing person's detailed race/ethnicity","chi_race_aic_hawaiian","Not Native Hawaiian","No",NA,2023-10-02
+"Birthing person's detailed race/ethnicity","chi_race_aic_his_cuban","Cuban","Yes",NA,2023-10-02
+"Birthing person's detailed race/ethnicity","chi_race_aic_his_cuban","Not Cuban","No",NA,2023-10-02
+"Birthing person's detailed race/ethnicity","chi_race_aic_his_mexican","Mexican","Yes",NA,2023-10-02
+"Birthing person's detailed race/ethnicity","chi_race_aic_his_mexican","Not Mexican","No",NA,2023-10-02
+"Birthing person's detailed race/ethnicity","chi_race_aic_his_puerto_rican","Not Puerto Rican","No",NA,2023-10-02
+"Birthing person's detailed race/ethnicity","chi_race_aic_his_puerto_rican","Puerto Rican","Yes",NA,2023-10-02
+"Birthing person's detailed race/ethnicity","chi_race_aic_indian","Asian Indian","Yes",NA,2023-10-02
+"Birthing person's detailed race/ethnicity","chi_race_aic_indian","Not Asian Indian","No",NA,2023-10-02
+"Birthing person's detailed race/ethnicity","chi_race_aic_japanese","Japanese","Yes",NA,2023-10-02
+"Birthing person's detailed race/ethnicity","chi_race_aic_japanese","Not Japanese","No",NA,2023-10-02
+"Birthing person's detailed race/ethnicity","chi_race_aic_korean","Korean","Yes",NA,2023-10-02
+"Birthing person's detailed race/ethnicity","chi_race_aic_korean","Not Korean","No",NA,2023-10-02
+"Birthing person's detailed race/ethnicity","chi_race_aic_samoan","Not Samoan","No",NA,2023-10-02
+"Birthing person's detailed race/ethnicity","chi_race_aic_samoan","Samoan","Yes",NA,2023-10-02
+"Birthing person's detailed race/ethnicity","chi_race_aic_vietnamese","Not Vietnamese","No",NA,2023-10-02
+"Birthing person's detailed race/ethnicity","chi_race_aic_vietnamese","Vietnamese","Yes",NA,2023-10-02
+"Birthing person's education","edu_grp","9th-12th grade, no diploma","Yes",NA,2023-10-02
+"Birthing person's education","edu_grp","<= 8th grade","Yes",NA,2023-10-02
+"Birthing person's education","edu_grp","Associate degree","Yes",NA,2023-10-02
+"Birthing person's education","edu_grp","Bachelor's degree","Yes",NA,2023-10-02
+"Birthing person's education","edu_grp","Doctorate or Professional degree","Yes",NA,2023-10-02
+"Birthing person's education","edu_grp","High school graduate or GED","Yes",NA,2023-10-02
+"Birthing person's education","edu_grp","Master's degree","Yes",NA,2023-10-02
+"Birthing person's education","edu_grp","Some college, no degree","Yes",NA,2023-10-02
+"Children in household","hhwchild","Households with children","Yes",NA,2023-10-02
+"Children in household","hhwchild","Households without children","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Auburn - North","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Auburn - South","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Bear Creek and Greater Sammamish","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Bellevue - Central","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Bellevue - Northeast","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Bellevue - South","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Bellevue - West","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Bothell and Woodinville","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Burien","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Covington","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Des Moines and Normandy Park","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Duvall, Carnation, Skykomish, and Northeast King County","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","East Highlands, Hobart, and Greater Maple Valley","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Enumclaw, Black Diamond, and Southeast King County","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Fairwood","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Federal Way - Central","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Federal Way - Dash Point and Southern Rim","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Federal Way - North Corridor","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Issaquah","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Kenmore and Lake Forest Park","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Kent - Central","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Kent - East","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Kent - South","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Kent - West","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Kirkland - North","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Kirkland - South","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Lakeland, Algona, Pacific, and Milton","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Maple Valley","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Mercer Island and Point Cities","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Newcastle and Four Creeks","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","North Highline and White Center","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Redmond - North","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Redmond - South","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Renton - North","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Renton - South","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Sammamish","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Seatac","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Seattle - Ballard","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Seattle - Broadview, Haller Lake, and Licton Springs","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Seattle - Capitol Hill","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Seattle - Central District, Chinatown-International District, Judkins, and North Beacon Hill","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Seattle - Delridge","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Seattle - Downtown, Belltown, and First Hill","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Seattle - Fremont and Wallingford","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Seattle - Green Lake and Phinney Ridge","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Seattle - Laurelhurst, Sand Point, and Wedgwood","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Seattle - Magnolia and Interbay","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Seattle - Montlake, Madison Park, and Madrona","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Seattle - Northgate and Lake City","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Seattle - Queen Anne","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Seattle - Rainier Valley and Rainier Beach","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Seattle - Ravenna and Bryant","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Seattle - South Beacon Hill, Georgetown, and South Park","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Seattle - South Lake Union, Cascade, and Eastlake","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Seattle - University District","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Seattle - West Seattle","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Shoreline","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Skyway","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Snoqualmie and North Bend","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Tukwila","Yes",NA,2023-10-02
+"Cities/neighborhoods","hra20_name","Vashon","Yes",NA,2023-10-02
+"Cities/neighborhoods","places","Auburn","Yes","ACS uninsured, from tables, 'places' with pop > 65K",2023-10-02
+"Cities/neighborhoods","places","Bellevue","Yes","ACS uninsured, from tables, 'places' with pop > 65K",2023-10-02
+"Cities/neighborhoods","places","Bothell","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
+"Cities/neighborhoods","places","Burien","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
+"Cities/neighborhoods","places","Cottage Lake","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
+"Cities/neighborhoods","places","Covington","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
+"Cities/neighborhoods","places","Des Moines","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
+"Cities/neighborhoods","places","Federal Way","Yes","ACS uninsured, from tables, 'places' with pop > 65K",2023-10-02
+"Cities/neighborhoods","places","Issaquah","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
+"Cities/neighborhoods","places","Kenmore","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
+"Cities/neighborhoods","places","Kent","Yes","ACS uninsured, from tables, 'places' with pop > 65K",2023-10-02
+"Cities/neighborhoods","places","Kirkland","Yes","ACS uninsured, from tables, 'places' with pop > 65K",2023-10-02
+"Cities/neighborhoods","places","Maple Valley","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
+"Cities/neighborhoods","places","Mercer Island","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
+"Cities/neighborhoods","places","Redmond","Yes","ACS uninsured, from tables, 'places' with pop > 65K",2023-10-02
+"Cities/neighborhoods","places","Renton","Yes","ACS uninsured, from tables, 'places' with pop > 65K",2023-10-02
+"Cities/neighborhoods","places","Sammamish","Yes","ACS uninsured, from tables, 'places' with pop > 65K",2023-10-02
+"Cities/neighborhoods","places","SeaTac","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
+"Cities/neighborhoods","places","Seattle","Yes","ACS uninsured, from tables, 'places' with pop > 65K",2023-10-02
+"Cities/neighborhoods","places","Shoreline","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
+"Cities/neighborhoods","places","Tukwila","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
+"Cities/neighborhoods","places","Union Hill-Novelty Hill","Yes","ACS uninsured, from tables, 'places' with pop[25K, 65K)",2023-10-02
+"Detailed Asian race/ethnicity","chi_race_aic_asianother","Asian - other","Yes",NA,2023-10-02
+"Detailed Asian race/ethnicity","chi_race_aic_asianother","Not Asian - other","No",NA,2023-10-02
+"Detailed Asian race/ethnicity","chi_race_aic_cambodian","Cambodian/Khmer","Yes",NA,2023-10-02
+"Detailed Asian race/ethnicity","chi_race_aic_cambodian","Not Cambodian/Khmer","No",NA,2023-10-02
+"Detailed Asian race/ethnicity","chi_race_aic_chinese","Chinese","Yes",NA,2023-10-02
+"Detailed Asian race/ethnicity","chi_race_aic_chinese","Not Chinese","No",NA,2023-10-02
+"Detailed Asian race/ethnicity","chi_race_aic_filipino","Filipino","Yes",NA,2023-10-02
+"Detailed Asian race/ethnicity","chi_race_aic_filipino","Not Filipino","No",NA,2023-10-02
+"Detailed Asian race/ethnicity","chi_race_aic_indian","Asian Indian","Yes",NA,2023-10-02
+"Detailed Asian race/ethnicity","chi_race_aic_indian","Not Asian Indian","No",NA,2023-10-02
+"Detailed Asian race/ethnicity","chi_race_aic_japanese","Japanese","Yes",NA,2023-10-02
+"Detailed Asian race/ethnicity","chi_race_aic_japanese","Not Japanese","No",NA,2023-10-02
+"Detailed Asian race/ethnicity","chi_race_aic_korean","Korean","Yes",NA,2023-10-02
+"Detailed Asian race/ethnicity","chi_race_aic_korean","Not Korean","No",NA,2023-10-02
+"Detailed Asian race/ethnicity","chi_race_aic_vietnamese","Not Vietnamese","No",NA,2023-10-02
+"Detailed Asian race/ethnicity","chi_race_aic_vietnamese","Vietnamese","Yes",NA,2023-10-02
+"Disability","disability","With a disability","Yes",NA,2023-10-02
+"Disability","disability","Without a disability","Yes",NA,2023-10-02
+"Employment","employ","Employed","Yes","ACS uninsured, from tables",2023-10-02
+"Employment","employ","Not in labor force","Yes","ACS uninsured, from tables",2023-10-02
+"Employment","employ","Unemployed","Yes","ACS uninsured, from tables",2023-10-02
+"English learner","english_learner","English learners","Yes",NA,2023-10-02
+"English learner","english_learner","Not English learners","Yes",NA,2023-10-02
+"Foster care","foster_care","Foster care","Yes",NA,2023-10-02
+"Foster care","foster_care","Not foster care","Yes",NA,2023-10-02
+"Free lunch","frlunch","Not receiving FRPL","Yes",NA,2023-10-02
+"Free lunch","frlunch","Receiving FRPL","Yes",NA,2023-10-02
+"Gender","chi_sex","Female","Yes",NA,2023-10-02
+"Gender","chi_sex","Male","Yes",NA,2023-10-02
+"Gender","gender","Female","Yes",NA,2023-10-02
+"Gender","gender","Gender X","Yes",NA,2023-10-02
+"Gender","gender","Male","Yes",NA,2023-10-02
+"Gender","gender","Multiple","Yes",NA,2023-10-02
+"Grade","grade","1","Yes",NA,2023-10-02
+"Grade","grade","10","Yes",NA,2023-10-02
+"Grade","grade","11","Yes",NA,2023-10-02
+"Grade","grade","12","Yes",NA,2023-10-02
+"Grade","grade","2","Yes",NA,2023-10-02
+"Grade","grade","3","Yes",NA,2023-10-02
+"Grade","grade","4","Yes",NA,2023-10-02
+"Grade","grade","5","Yes",NA,2023-10-02
+"Grade","grade","6","Yes",NA,2023-10-02
+"Grade","grade","7","Yes",NA,2023-10-02
+"Grade","grade","8","Yes",NA,2023-10-02
+"Grade","grade","9","Yes",NA,2023-10-02
+"Grade","grade","Kindergarten (full-day)","Yes",NA,2023-10-02
+"Grade","grade","Kindergarten (half-day)","Yes",NA,2023-10-02
+"Grade","grade","Preschool","Yes",NA,2023-10-02
+"Grade level","chi_grade_orig","Grade 10","Yes",NA,2023-10-02
+"Grade level","chi_grade_orig","Grade 12","Yes",NA,2023-10-02
+"Grade level","chi_grade_orig","Grade 8","Yes",NA,2023-10-02
+"Homeless","homeless","Homeless","Yes",NA,2023-10-02
+"Homeless","homeless","Not homeless","Yes",NA,2023-10-02
+"Household income","income6","$15-24,999","Yes",NA,2023-10-02
+"Household income","income6","$25-34,999","Yes",NA,2023-10-02
+"Household income","income6","$35-49,999","Yes",NA,2023-10-02
+"Household income","income6","$50-74,999","Yes",NA,2023-10-02
+"Household income","income6","$75,000+","Yes",NA,2023-10-02
+"Household income","income6","<$15,000","Yes",NA,2023-10-02
+"Household income","income6b","$100,000+","Yes",NA,2023-10-02
+"Household income","income6b","$20-34,999","Yes",NA,2023-10-02
+"Household income","income6b","$35-49,999","Yes",NA,2023-10-02
+"Household income","income6b","$50-74,999","Yes",NA,2023-10-02
+"Household income","income6b","$75-99,999","Yes",NA,2023-10-02
+"Household income","income6b","<$20,000","Yes",NA,2023-10-02
+"Household income","income7","$100-149,999","Yes",NA,2023-10-02
+"Household income","income7","$150,000+","Yes",NA,2023-10-02
+"Household income","income7","$20-34,999","Yes",NA,2023-10-02
+"Household income","income7","$35-49,999","Yes",NA,2023-10-02
+"Household income","income7","$50-74,999","Yes",NA,2023-10-02
+"Household income","income7","$75-99,999","Yes",NA,2023-10-02
+"Household income","income7","<$20,000","Yes",NA,2023-10-02
+"Migrant","migrant","Migrant","Yes",NA,2023-10-02
+"Migrant","migrant","Not Migrant","Yes",NA,2023-10-02
+"Military Service","veteran","Non-Veteran","Yes",NA,2023-10-02
+"Military Service","veteran","Veteran","Yes",NA,2023-10-02
+"Nativity","nativity","Born in US","Yes",NA,2023-10-02
+"Nativity","nativity","Foreign born","Yes",NA,2023-10-02
+"Nativity","nativity","Non-citizen","Yes",NA,2023-10-02
+"Neighborhood poverty","pov200grp","High poverty areas","Yes","Neighborhood level poverty 2023. Areas where 15 ≤ 25% of the population lives below 200% FPL",2023-10-02
+"Neighborhood poverty","pov200grp","Low poverty areas","Yes","Neighborhood level poverty 2023. Areas where <10% of the population lives below 200% FPL",2023-10-02
+"Neighborhood poverty","pov200grp","Medium poverty areas","Yes","Neighborhood level poverty 2023. Areas where 10 ≤ 15% of the population lives below 200% FPL",2023-10-02
+"Neighborhood poverty","pov200grp","Very high poverty areas","Yes","Neighborhood level poverty 2023. Areas where 25%+ of the population lives below 200% FPL",2023-10-02
+"NonSeattle","nonseattle","NonSeattle","Yes",NA,2023-10-02
+"NonSeattle","nonseattle","Seattle","Yes",NA,2023-10-02
+"Overall","overall","Overall","Yes","Only used for cat2 in crosstabs for demographic's overall KC estimate (e.g., gender x KC)",2023-10-02
+"Poverty","poverty","High","Yes","old defintions based on 2012",2023-10-02
+"Poverty","poverty","Low","Yes","old defintions based on 2012",2023-10-02
+"Poverty","poverty","Meduim","Yes","old defintions based on 2012",2023-10-02
+"Poverty","poverty3","200-399%","Yes",NA,2023-10-02
+"Poverty","poverty3","400%+","Yes",NA,2023-10-02
+"Poverty","poverty3","<200%","Yes",NA,2023-10-02
+"Poverty","poverty4","100-199%","Yes",NA,2023-10-02
+"Poverty","poverty4","200-399%","Yes",NA,2023-10-02
+"Poverty","poverty4","400%+","Yes",NA,2023-10-02
+"Poverty","poverty4","<100%","Yes",NA,2023-10-02
+"Primary language","language","Amharic","Yes","Include as available",2023-10-02
+"Primary language","language","Arabic","Yes","Include as available",2023-10-02
+"Primary language","language","Chinese","Yes",NA,2023-10-02
+"Primary language","language","English","Yes",NA,2023-10-02
+"Primary language","language","Korean","Yes",NA,2023-10-02
+"Primary language","language","Punjabi","Yes",NA,2023-10-02
+"Primary language","language","Russian","Yes",NA,2023-10-02
+"Primary language","language","Somali","Yes",NA,2023-10-02
+"Primary language","language","Spanish","Yes",NA,2023-10-02
+"Primary language","language","Tagalog","Yes",NA,2023-10-02
+"Primary language","language","Ukranian","Yes",NA,2023-10-02
+"Primary language","language","Vietnamese","Yes",NA,2023-10-02
+"Race/ethnicity","chi_race_7","AIAN","Yes","Alone/in combination race groups",2023-10-02
+"Race/ethnicity","chi_race_7","Asian","Yes","Alone/in combination race groups",2023-10-02
+"Race/ethnicity","chi_race_7","Black","Yes","Alone/in combination race groups",2023-10-02
+"Race/ethnicity","chi_race_7","Hispanic","Yes","Alone/in combination race groups",2023-10-02
+"Race/ethnicity","chi_race_7","Multiple","No","Alone/in combination race groups",2023-10-02
+"Race/ethnicity","chi_race_7","NHPI","Yes","Alone/in combination race groups",2023-10-02
+"Race/ethnicity","chi_race_7","Other","Yes","Alone/in combination race groups",2023-10-02
+"Race/ethnicity","chi_race_7","White","Yes","Alone/in combination race groups",2023-10-02
+"Race/ethnicity","chi_race_aic_aian","AIAN","Yes",NA,2023-10-02
+"Race/ethnicity","chi_race_aic_aian","Not AIAN","No",NA,2023-10-02
+"Race/ethnicity","chi_race_aic_asian","Asian","Yes",NA,2023-10-02
+"Race/ethnicity","chi_race_aic_asian","Not Asian","No",NA,2023-10-02
+"Race/ethnicity","chi_race_aic_black","Black","Yes",NA,2023-10-02
+"Race/ethnicity","chi_race_aic_black","Not Black","No",NA,2023-10-02
+"Race/ethnicity","chi_race_aic_his","Hispanic","Yes",NA,2023-10-02
+"Race/ethnicity","chi_race_aic_his","Not Hispanic","No",NA,2023-10-02
+"Race/ethnicity","chi_race_aic_nhpi","NHPI","Yes",NA,2023-10-02
+"Race/ethnicity","chi_race_aic_nhpi","Not NHPI","No",NA,2023-10-02
+"Race/ethnicity","chi_race_aic_oth","Not Other","No",NA,2023-10-02
+"Race/ethnicity","chi_race_aic_oth","Other","Yes",NA,2023-10-02
+"Race/ethnicity","chi_race_aic_wht","Not White","No",NA,2023-10-02
+"Race/ethnicity","chi_race_aic_wht","White","Yes",NA,2023-10-02
+"Race/ethnicity","chi_race_eth8","AIAN","Yes","Mutually exclusive race groups",2023-10-02
+"Race/ethnicity","chi_race_eth8","Asian","Yes","Mutually exclusive race groups",2023-10-02
+"Race/ethnicity","chi_race_eth8","Black","Yes","Mutually exclusive race groups",2023-10-02
+"Race/ethnicity","chi_race_eth8","Hispanic","Yes","Mutually exclusive race groups",2023-10-02
+"Race/ethnicity","chi_race_eth8","Multiple","Yes","Mutually exclusive race groups",2023-10-02
+"Race/ethnicity","chi_race_eth8","NHPI","Yes","Mutually exclusive race groups",2023-10-02
+"Race/ethnicity","chi_race_eth8","Other","Yes","Mutually exclusive race groups",2023-10-02
+"Race/ethnicity","chi_race_eth8","White","Yes","Mutually exclusive race groups",2023-10-02
+"Regions","chi_geo_region","East","Yes","Used for both the 2010 and 2020 vintages",2023-10-02
+"Regions","chi_geo_region","North","Yes","Used for both the 2010 and 2020 vintages",2023-10-02
+"Regions","chi_geo_region","Seattle","Yes","Used for both the 2010 and 2020 vintages",2023-10-02
+"Regions","chi_geo_region","South","Yes","Used for both the 2010 and 2020 vintages",2023-10-02
+"School district","district","Auburn School District","Yes",NA,2023-10-02
+"School district","district","Bellevue School District","Yes",NA,2023-10-02
+"School district","district","Enumclaw School District","Yes",NA,2023-10-02
+"School district","district","Federal Way School District","Yes",NA,2023-10-02
+"School district","district","Highline School District","Yes",NA,2023-10-02
+"School district","district","Issaquah School District","Yes",NA,2023-10-02
+"School district","district","Kent School District","Yes",NA,2023-10-02
+"School district","district","Lake Washington School District","Yes",NA,2023-10-02
+"School district","district","Mercer Island School District","Yes",NA,2023-10-02
+"School district","district","Northshore School District","Yes",NA,2023-10-02
+"School district","district","Renton School District","Yes",NA,2023-10-02
+"School district","district","Riverview School District","Yes",NA,2023-10-02
+"School district","district","Seattle School District","Yes",NA,2023-10-02
+"School district","district","Shoreline School District","Yes",NA,2023-10-02
+"School district","district","Skykomish School District","Yes",NA,2023-10-02
+"School district","district","Snoqualmie Valley School District","Yes",NA,2023-10-02
+"School district","district","Tahoma School District","Yes",NA,2023-10-02
+"School district","district","Tukwila School District","Yes",NA,2023-10-02
+"School district","district","Vashon Island School District","Yes",NA,2023-10-02
+"Sexual orientation","chi_sexorien_2","Heterosexual","Yes",NA,2023-10-02
+"Sexual orientation","chi_sexorien_2","LGB","Yes",NA,2023-10-02
+"Sexual orientation","chi_sexorien_3","Heterosexual","Yes",NA,2023-10-02
+"Sexual orientation","chi_sexorien_3","LGB+","Yes",NA,2023-10-02
+"Sexual orientation","chi_sexorien_3","Not Sure","Yes",NA,2023-10-02
+"Special education","spec_ed","Not special education","Yes",NA,2023-10-02
+"Special education","spec_ed","Special education","Yes",NA,2023-10-02
+"Transgender","transgender","Cisgender","Yes",NA,2023-10-02
+"Transgender","transgender","Transgender","Yes",NA,2023-10-02
+"[Birthing person's] Ethnicity","race3","Hispanic","Yes","OMB 97 categories (Hispanic as ethnicity). Add `Birthing person's` in front of `ethnicity` for birth data source.",2023-10-02
+"[Birthing person's] Ethnicity","race3","Non-Hispanic","No","OMB 97 categories (Hispanic as ethnicity). Add `Birthing person's` in front of `ethnicity` for birth data source.",2023-10-02
+"[Birthing person's] Race","race3","AIAN","Yes","OMB 97 categories (Hispanic as ethnicity). Add `Birthing person's` in front of `race` for birth data source.",2023-10-02
+"[Birthing person's] Race","race3","Asian","Yes","OMB 97 categories (Hispanic as ethnicity). Add `Birthing person's` in front of `race` for birth data source.",2023-10-02
+"[Birthing person's] Race","race3","Black","Yes","OMB 97 categories (Hispanic as ethnicity). Add `Birthing person's` in front of `race` for birth data source.",2023-10-02
+"[Birthing person's] Race","race3","Multiple","Yes","OMB 97 categories (Hispanic as ethnicity). Add `Birthing person's` in front of `race` for birth data source.",2023-10-02
+"[Birthing person's] Race","race3","NHPI","Yes","OMB 97 categories (Hispanic as ethnicity). Add `Birthing person's` in front of `race` for birth data source.",2023-10-02
+"[Birthing person's] Race","race3","White","Yes","OMB 97 categories (Hispanic as ethnicity). Add `Birthing person's` in front of `race` for birth data source.",2023-10-02
+"[Birthing person's] Race","race4","AIAN","Yes","Hispanic as race. Add `Birthing person's` in front of `race` for birth data source.",2023-10-02
+"[Birthing person's] Race","race4","Asian","Yes","Hispanic as race. Add `Birthing person's` in front of `race` for birth data source.",2023-10-02
+"[Birthing person's] Race","race4","Black","Yes","Hispanic as race. Add `Birthing person's` in front of `race` for birth data source.",2023-10-02
+"[Birthing person's] Race","race4","Hispanic","Yes","Hispanic as race. Add `Birthing person's` in front of `race` for birth data source.",2023-10-02
+"[Birthing person's] Race","race4","Multiple","Yes","Hispanic as race. Add `Birthing person's` in front of `race` for birth data source.",2023-10-02
+"[Birthing person's] Race","race4","NHPI","Yes","Hispanic as race. Add `Birthing person's` in front of `race` for birth data source.",2023-10-02
+"[Birthing person's] Race","race4","White","Yes","Hispanic as race. Add `Birthing person's` in front of `race` for birth data source.",2023-10-02
