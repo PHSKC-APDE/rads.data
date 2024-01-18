@@ -1,7 +1,7 @@
 Package: rads.data
 Type: Package
 Title: Data for rads package and other public health uses
-Version: 1.0.7.3
+Version: 1.0.7.4
 Author: PHSKC-APDE
 Maintainer: Danny Colombara <Data.Request@kingcounty.gov>
 Description: Provides reference datasets that are intelligently formatted and ready for analysis.  
