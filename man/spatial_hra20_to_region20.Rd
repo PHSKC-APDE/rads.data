@@ -6,15 +6,20 @@
 \title{Spatial crosswalk between 2020 HRAs and 2020 regions.}
 \format{
 A data.table with 61 rows and 4 variables:
+
   \code{hra20_id}: Numeric id for the HRA,
+
   \code{hra20_name}: Name of the HRA,
+
   \code{region_id}: numeric id for the region,
+
   \code{region_name}: Name of the region
 }
 \usage{
 spatial_hra20_to_region20
 }
 \description{
-Spatial crosswalk between 2020 HRAs and 2020 regions.
+A simple 1:1 crosswalk of which individual 2020 HRAs map to
+specific COO areas.
 }
 \keyword{datasets}

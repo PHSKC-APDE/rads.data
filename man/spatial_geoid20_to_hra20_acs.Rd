@@ -6,11 +6,17 @@
 \title{Spatial crosswalk for ACS Census 2020 geographies to 2020 HRAs ----}
 \format{
 A data.table with 547 rows and 6 variables:
+
   \code{hra20_id}: Numeric id for the 2020 HRA,
+
   \code{hra20_name}: Official name for the 2020 HRA,
+
   \code{place20}: place 2020 GEOID,
+
   \code{tract20}: tract 2020 GEOID,
+
   \code{bg20}: bg 2020 GEOID,
+
   \code{creation}: Date the file was created
 }
 \usage{

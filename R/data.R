@@ -380,18 +380,6 @@
 #' @name spatial_acs_hra_region_place_etc
 "spatial_acs_hra_region_place_etc"
 
-# spatial_blocks00_to_hra ----
-#' Census 2000 crosswalk Block > Block Group > Tract > HRA.
-#'
-#' Census 2000 crosswalk Block > Block Group > Tract > HRA.
-#'
-#' @format A data.table with 24,475 rows and 4 variables: \code{btfid = block}, \code{gtfid = block group},
-#'   \code{stfid = tract}, \code{hra}.
-#'
-#' @source \url{https://www.mysterydata.com}
-#' @name spatial_blocks00_to_hra
-"spatial_blocks00_to_hra"
-
 # spatial_blocks10_to_city_council_dist ----
 #' Census 2010 crosswalk blocks > city council districts
 #'
@@ -457,48 +445,6 @@
 #' @source kcitazrhpasqlprp16.azds.kingcounty.gov [ref].[pop_cou_crosswalk]
 #' @name spatial_county_codes_to_names
 "spatial_county_codes_to_names"
-
-# spatial_geoid20_to_kccd20_acs ----
-#' Spatial crosswalk for ACS Census 2020 geographies to 2013 King County Council Districts
-#'
-#' @description Different American Community Survey (ACS) estimates are released
-#' at a variety of geographic levels: block groups, tracts, places (cities,
-#' towns, and Census Designated Places (CDPs)), etc. This
-#' crosswalk represents a best attempt to create a crosswalk using the largest
-#' possible sub-district geographies so as to prevent unnecessary inflation in the
-#' standard error during calculation of ACS King County Council level estimates.
-#'
-#' @format A data.table with 506 rows and 6 variables:
-#'   \code{kccd20_id}: King County Council district number,
-#'   \code{kccd20_name}: King County Council district name,
-#'   \code{place20}: place 2020 GEOID,
-#'   \code{tract20}: tract 2020 GEOID,
-#'   \code{bg20}: bg 2020 GEOID,
-#'   \code{creation}: Date the file was created
-#'
-#' @name spatial_geoid20_to_kccd20_acs
-"spatial_geoid20_to_kccd20_acs"
-
-# spatial_geoid20_to_sccd13_acs ----
-#' Spatial crosswalk for ACS Census 2020 geographies to 2013 Seattle City Council Districts
-#'
-#' @description Different American Community Survey (ACS) estimates are released
-#' at a variety of geographic levels: block groups, tracts, places (cities,
-#' towns, and Census Designated Places (CDPs)), etc. This
-#' crosswalk represents a best attempt to create a crosswalk using the largest
-#' possible sub-district geographies so as to prevent unnecessary inflation in the
-#' standard error during calculation of ACS Seattle City Council level estimates.
-#'
-#' @format A data.table with 177 rows and 6 variables:
-#'   \code{sccd13_id}: Seattle City Council district number,
-#'   \code{sccd13_name}: Seattle City Council district name,
-#'   \code{place20}: place 2020 GEOID,
-#'   \code{tract20}: tract 2020 GEOID,
-#'   \code{bg20}: bg 2020 GEOID,
-#'   \code{creation}: Date the file was created
-#'
-#' @name spatial_geoid20_to_sccd13_acs
-"spatial_geoid20_to_sccd13_acs"
 
 
 # spatial_geocomp_blk10_kps ----

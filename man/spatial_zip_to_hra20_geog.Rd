@@ -7,16 +7,27 @@
 one row between each ZIP and HRA that intersects geographically}
 \format{
 A data.table with 409 rows and 11 variables:
+
   \code{ZIP}: ZIP code,
+
   \code{hra20_id}: HRA numeric id,
+
   \code{s2t_fraction}: Percent of the area in ZIP that is also in hra20_id,
+
   \code{isect_amount}: # of square survey feet in the intersection of ZIP and hra20_id,
+
   \code{tcoverage_amount}: Area of the hra20_id in any ZIP code,
-  \code{target_amount}: Total area of  the HRA (including areas not covered by ZIPs)
+
+  \code{target_amount}: Total area of  the HRA (including areas not covered by ZIPs),
+
   \code{hra_name}: Name of the HRA,
+
   \code{source_id}: ZIP,
+
   \code{target_id}: hra20_id,
-  \code{method}: method to produce intersections
+
+  \code{method}: method to produce intersections,
+
   \code{creation_date}: Date file created
 }
 \usage{

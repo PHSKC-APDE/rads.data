@@ -6,11 +6,17 @@
 \title{Spatial crosswalk for Census 2010 blocks to 2020 HRAs and 2020 regions}
 \format{
 A data.table with 27686 rows and 6 variables:
+
   \code{hra20_id}: Numeric id for the HRA,
+
   \code{GEOID20}: 2020 Census block id ,
+
   \code{hra20_name}: Name of the HRA,
+
   \code{region_id}: numeric id for the region,
+
   \code{region_name}: Name of the region
+
   \code{creation_date}: Date the file was created
 }
 \usage{

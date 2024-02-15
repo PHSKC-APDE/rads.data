@@ -6,14 +6,18 @@
 \title{Spatial crosswalk between 2020 HRAs and King County's eight 'big cities'.}
 \format{
 A data.table with 34 rows and 3 variables:
+
   \code{hra20_id}: Numeric id for the HRA,
+
   \code{hra20_name}: Name of the HRA,
+
   \code{bigcity}: Name of the big city
 }
 \usage{
 spatial_hra20_to_bigcities
 }
 \description{
-Spatial crosswalk between 2020 HRAs and King County's eight 'big cities'.
+A simple 1:1 crosswalk of which individual 2020 HRAs map to
+King County's 'big cities'.
 }
 \keyword{datasets}

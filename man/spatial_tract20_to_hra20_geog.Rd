@@ -7,16 +7,27 @@
 one row between each tract and HRA that intersects geographically}
 \format{
 A data.table with 1083 rows and 11 variables:
+
   \code{GEOID20}: tract id,
+
   \code{hra20_id}: HRA numeric id,
+
   \code{s2t_fraction}: Percent of the area in ZIP that is also in hra20_id,
+
   \code{isect_amount}: # of square survey feet in the intersection of tract and hra20_id,
+
   \code{tcoverage_amount}: Area of the hra20_id in any tract code,
-  \code{target_amount}: Total area of  the HRA (including areas not covered by tracts)
+
+  \code{target_amount}: Total area of  the HRA (including areas not covered by tracts),
+
   \code{hra_name}: Name of the HRA,
+
   \code{source_id}: tract,
+
   \code{target_id}: hra20_id,
+
   \code{method}: method to produce intersections
+
   \code{creation_date}: Date file created
 }
 \usage{
