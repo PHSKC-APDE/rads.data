@@ -5,7 +5,7 @@
 \alias{spatial_hra20_to_coo20}
 \title{Spatial crosswalk between 2020 HRAs and 2020 Communities of Opportunity areas}
 \format{
-A data.table with 19 rows and 3 variables:
+A data.table with 24 rows and 3 variables:
 
   \code{hra20_id}: Numeric id for the HRA,
 

@@ -1,20 +1,25 @@
-"hra20_id","hra20_name","coo20_name"
-2,"Auburn - South","Southeast King County"
-3,"Federal Way - Dash Point and Southern Rim","Southeast King County"
-5,"Auburn - North","Southeast King County"
-6,"Federal Way - Central","Southeast King County"
-7,"Federal Way - North Corridor","Southeast King County"
-9,"Kent - South","Southeast King County"
-12,"Kent - Central","Southeast King County"
-13,"Kent - West","Southeast King County"
-14,"Kent - East","Southeast King County"
-15,"Des Moines and Normandy Park","Southeast King County"
-18,"Seatac","Southeast King County"
-19,"Renton - South","Southeast King County"
-20,"Burien","Southeast King County"
-21,"Tukwila","Southeast King County"
-23,"Renton - North","Southeast King County"
-27,"Seattle - Delridge","South Seattle"
-29,"Seattle - Rainier Valley and Rainier Beach","South Seattle"
-30,"Seattle - South Beacon Hill, Georgetown, and South Park","South Seattle"
-25,"Snoqualmie and North Bend","Snoqualmie and North Bend"
+hra20_id,hra20_name,coo20_name
+27,Seattle - Delridge,Central/South Seattle
+29,Seattle - Rainier Valley and Rainier Beach,Central/South Seattle
+30,"Seattle - South Beacon Hill, Georgetown, and South Park",Central/South Seattle
+34,"Central District, Chinatown-International District, Judkins, and North Beacon Hill",Central/South Seattle
+25,Snoqualmie and North Bend,Snoqualmie and North Bend
+38,"Duvall, Carnation, Skykomish, and Northeast King County",Snoqualmie and North Bend
+2,Auburn - South,Southeast King County
+3,Federal Way - Dash Point and Southern Rim,Southeast King County
+4,"Lakeland, Algona, Pacific, and Milton ",Southeast King County
+5,Auburn - North,Southeast King County
+6,Federal Way - Central,Southeast King County
+7,Federal Way - North Corridor,Southeast King County
+9,Kent - South,Southeast King County
+12,Kent - Central,Southeast King County
+13,Kent - West,Southeast King County
+14,Kent - East,Southeast King County
+15,Des Moines and Normandy Park,Southeast King County
+16,Vashion,Southeast King County
+18,Seatac,Southeast King County
+19,Renton - South,Southeast King County
+20,Burien,Southeast King County
+21,Tukwila,Southeast King County
+23,Renton - North,Southeast King County
+26,"North Highline, Skyway, White Center ",Southeast King County

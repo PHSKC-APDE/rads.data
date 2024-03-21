@@ -134,7 +134,7 @@
 #' @description A simple crosswalk of which individual 2020 HRAs map to specific
 #' COO areas.
 #'
-#' @format A data.table with 19 rows and 3 variables:
+#' @format A data.table with 24 rows and 3 variables:
 #'
 #'   \code{hra20_id}: Numeric id for the HRA,
 #'
