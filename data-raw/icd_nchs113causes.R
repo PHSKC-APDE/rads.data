@@ -7,8 +7,8 @@
   library(data.table)
   rm(list=ls())
 
-# Function to clean / prep imported data to fix random white spaces (sql_clean) ----
-    source("https://raw.githubusercontent.com/PHSKC-APDE/rads/main/R/utilities.R") # pull in rads utilities, particularly sql_clean()
+# Function to clean / prep imported data to fix random white spaces (string_clean) ----
+    source("https://raw.githubusercontent.com/PHSKC-APDE/rads/main/R/utilities.R") # pull in rads utilities, particularly string_clean()
 
 # Function to enumerator all ICD per 113 causes of death (split.dash) ----
     # E.g., split.dash("X0-X04, X17-X19") >> "X00, X01, X02, X03, X04, X17, X18, X19"
@@ -24,7 +24,7 @@
     icd_nchs113causes_raw[causeid == 95, icd10 := gsub("N15.1, ", "", icd10)] # N15.1 is already accounted for under causeid==87, "Infections fo kidney"
     icd_nchs113causes_raw[causeid == 95, icd10 := gsub("N014, |N01.4, ", "", icd10)] # N014 is already accounted for under causeid==83, "Acute ... nephrotic syndrome"
     dt113 <- copy(icd_nchs113causes_raw)
-    sql_clean(dt113)
+    string_clean(dt113)
 
 # Format 113 cause of death ----
     # keep bare minimum columns

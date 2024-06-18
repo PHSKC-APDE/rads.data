@@ -4,7 +4,7 @@
 # of folder in /inst/extdata. E.g., spatial_zip_hca.rda >>
 # inst/extdata/spatial_data/zip_hca.csv
 
-devtools::source_url("https://raw.githubusercontent.com/PHSKC-APDE/rads/main/R/utilities.R") # get sql_clean
+devtools::source_url("https://raw.githubusercontent.com/PHSKC-APDE/rads/main/R/utilities.R") # get string_clean
 library(data.table)
 
 # convert .rda to .csv and move to /inst/extdata ----
@@ -26,7 +26,7 @@ library(data.table)
   for(i in fn){
     rdaname <- paste0(stem, "_", gsub("\\.csv", "", i, ignore.case = T))
     myrda <- data.table::fread(paste0("inst/extdata/", stem, "_data/", i), integer64 = 'character')
-    sql_clean(myrda)
+    string_clean(myrda)
 
     assign(rdaname, myrda)
     save(list = rdaname, file = paste0("data/", rdaname, ".rda") , compress = "bzip2", version = 3)
