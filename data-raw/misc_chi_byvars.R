@@ -24,7 +24,7 @@ library(stringi)
 
     misc_chi_byvars <- setDT(openxlsx::read.xlsx(tempy, sheet = "Standard-Varname_Groups"))
 
-    rads::sql_clean(misc_chi_byvars) # get rid of misc whitespace
+    rads::string_clean(misc_chi_byvars) # get rid of misc whitespace
 
     setorder(misc_chi_byvars, cat, varname, group)
     misc_chi_byvars <- rbind(misc_chi_byvars[cat == 'King County'], misc_chi_byvars[cat == "Washington State"], misc_chi_byvars[!cat %in% c("King County", "Washington State")])
@@ -33,7 +33,7 @@ library(stringi)
     misc_chi_byvars[, notes := gsub('"', "`", notes)] # Replace all quotation marks with tick marks
 
 # Tidy irregular whitespaces ----
-    rads::sql_clean(misc_chi_byvars)
+    rads::string_clean(misc_chi_byvars)
     string.columns <- names(misc_chi_byvars) # all are strings
     misc_chi_byvars[, (string.columns) := lapply(.SD, function(x){stringi::stri_replace_all_charclass(x, "\\p{WHITE_SPACE}", " ")}), .SDcols = string.columns] # replace irregular whitespaces with true whitespaces (' ')
 

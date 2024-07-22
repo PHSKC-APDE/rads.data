@@ -21,7 +21,7 @@ The definitive reference table for CHI cat/varname/group/group_alias values.
 Used in CHI analyses as the by-variables (cat1 & cat1 in CHI parlance).
 }
 \note{
-This replaces any and all old standard found in documentation or in
+This replaces any and all old standards found in documentation or in
 existing SQL databases.
 }
 \keyword{datasets}

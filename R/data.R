@@ -175,7 +175,7 @@
 #' \code{cat}, \code{varname}, \code{group}, \code{keepme},
 #' \code{notes} & \code{creation_date}.
 #'
-#' @note This replaces any and all old standard found in documentation or in
+#' @note This replaces any and all old standards found in documentation or in
 #' existing SQL databases.
 #'
 #' @source A version controlled copy of the data in SharePoint >>
