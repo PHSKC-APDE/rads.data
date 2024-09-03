@@ -9,7 +9,7 @@ library('DBI')
 newreg = st_read("//dphcifs/APDE-CDIP/Shapefiles/Region/region_hra20.shp")
 newhra = st_read('//dphcifs/APDE-CDIP/Shapefiles/HRA/hra_2020.shp')
 newhra = newhra[, c('id', 'name', 'reg_id', 'reg_nm')]
-zipo = st_read("//dphcifs/APDE-CDIP/Shapefiles/ZIP/zipcode.shp")
+zipo = st_read("//dphcifs/APDE-CDIP/Shapefiles_protected/ZIP/adci_wa_zip_raw.shp") # previously //dphcifs/APDE-CDIP/Shapefiles/ZIP/zipcode.shp
 tract10 = st_read("//dphcifs/APDE-CDIP/Shapefiles/Census_2010/tract/kc_tract.shp")
 tract20 = st_read("//dphcifs/APDE-CDIP/Shapefiles/Census_2020/tract/kc_tract.shp")
 blk10 = st_read("//dphcifs/APDE-CDIP/Shapefiles/Census_2010/block/kc_block.shp")
@@ -22,7 +22,7 @@ which_max_olap = function(x){
 # Note: The existing ZIP to region and School district
 # # generate crosswalks
 # # ZIP to region
-zip =  zipo %>% group_by(ZIP) %>% summarize()
+zip =  zipo %>% group_by(POSTCOD) %>% summarize() %>% rename(ZIP = POSTCOD)
 zip = st_transform(zip, st_crs(newreg))
 zip = reduce_overlaps(zip,snap = .5)
 # z2r_fo = create_xwalk(zip, newreg, source_id = 'ZIP', target_id = 'id', min_overlap = .1)
@@ -51,8 +51,9 @@ zip = reduce_overlaps(zip,snap = .5)
 # write.csv(z2r, file.path(outfol, 'zip_to_region2020.csv'), row.names = FALSE)
 
 # ZIP to HRA
-z2h_fo = create_xwalk(zip, newhra, source_id = 'ZIP', target_id = 'id', min_overlap = .1)
-z2h_fp = create_xwalk(zip, newhra, source_id = 'ZIP', target_id = 'id', min_overlap = .1,method = 'point pop',point_pop = kcparcelpop::parcel_pop, pp_min_overlap = .1)
+z2h_fo = create_xwalk(st_filter(zip, newhra), newhra, source_id = 'ZIP', target_id = 'id', min_overlap = .1)
+z2h_fp = create_xwalk(st_filter(zip, newhra), newhra, source_id = 'ZIP', target_id = 'id', min_overlap = .1,
+                      method = 'point pop',point_pop = kcparcelpop::parcel_pop, pp_min_overlap = .1)
 setDT(z2h_fo); setDT(z2h_fp);
 z2h_fo = merge(z2h_fo, newhra[, c('id', 'name'), drop = T], all.x = T, by.x = 'target_id', by.y = 'id')
 z2h_fp = merge(z2h_fp, newhra[, c('id', 'name'), drop = T], all.x = T, by.x = 'target_id', by.y = 'id')
