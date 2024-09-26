@@ -15,6 +15,8 @@ tract20 = st_read("//dphcifs/APDE-CDIP/Shapefiles/Census_2020/tract/kc_tract.shp
 blk10 = st_read("//dphcifs/APDE-CDIP/Shapefiles/Census_2010/block/kc_block.shp")
 hracombo = st_read("//dphcifs/APDE-CDIP/Shapefiles/HRA_Combo/Custom_HRA_regions.shp")
 
+kc = summarize(newhra, id = n())
+
 which_max_olap = function(x){
   setDT(x)
   x[x[,.I[which.max(s2t_fraction)], by = source_id]$V1]
@@ -25,6 +27,10 @@ which_max_olap = function(x){
 zip =  zipo %>% group_by(ZIP) %>% summarize()
 zip = st_transform(zip, st_crs(newreg))
 zip = reduce_overlaps(zip,snap = .5)
+zip_tokc = create_xwalk(zip, kc, source_id = 'ZIP', target_id = 'id', min_overlap = .1)
+setDT(zip_tokc)
+zip = zip[zip$ZIP %in% zip_tokc[s2t_fraction >.01, source_id],]
+
 # z2r_fo = create_xwalk(zip, newreg, source_id = 'ZIP', target_id = 'id', min_overlap = .1)
 # z2r_fp = create_xwalk(zip, newreg, source_id = 'ZIP', target_id = 'id', min_overlap = .1,method = 'point pop',point_pop = kcparcelpop::parcel_pop, pp_min_overlap = .1)
 #
