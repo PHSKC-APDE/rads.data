@@ -1,35 +1,39 @@
 hra20_id,hra20_name,bigcity
-2,Auburn - South,Auburn city
 5,Auburn - North,Auburn city
-31,Bellevue - South,Bellevue city
-35,Bellevue - West,Bellevue city
+2,Auburn - South,Auburn city
 36,Bellevue - Central,Bellevue city
 40,Bellevue - Northeast,Bellevue city
-3,Federal Way - Dash Point and Southern Rim,Federal Way city
+31,Bellevue - South,Bellevue city
+35,Bellevue - West,Bellevue city
 6,Federal Way - Central,Federal Way city
+3,Federal Way - Dash Point and Southern Rim,Federal Way city
 7,Federal Way - North Corridor,Federal Way city
-9,Kent - South,Kent city
 12,Kent - Central,Kent city
-13,Kent - West,Kent city
 14,Kent - East,Kent city
-51,Kirkland - South,Kirkland city
+9,Kent - South,Kent city
+13,Kent - West,Kent city
 57,Kirkland - North,Kirkland city
-48,Redmond - South,Redmond city
+51,Kirkland - South,Kirkland city
 53,Redmond - North,Redmond city
-19,Renton - South,Renton city
+48,Redmond - South,Redmond city
 23,Renton - North,Renton city
-27,Seattle - Delridge,Seattle city
-29,Seattle - Rainier Valley and Rainier Beach,Seattle city
-30,"Seattle - South Beacon Hill, Georgetown, and South Park",Seattle city
-32,Seattle - West Seattle,Seattle city
-34,"Seattle - Central District, Chinatown-International District, Judkins, and North Beacon Hill",Seattle city
-39,"Seattle - Downtown, Belltown, and First Hill",Seattle city
-42,Seattle - Capitol Hill,Seattle city
-43,"Seattle - South Lake Union, Cascade, and Eastlake",Seattle city
-44,Seattle - Queen Anne,Seattle city
-47,Seattle - University District,Seattle city
-49,"Seattle - Laurelhurst, Sand Point, and Wedgwood",Seattle city
-50,Seattle - Ravenna and Bryant,Seattle city
+19,Renton - South,Renton city
 55,Seattle - Ballard,Seattle city
-56,Seattle - Northgate and Lake City,Seattle city
 58,"Seattle - Broadview, Haller Lake, and Licton Springs",Seattle city
+42,Seattle - Capitol Hill,Seattle city
+34,"Seattle - Central District, Chinatown-International District, Judkins, and North Beacon Hill",Seattle city
+27,Seattle - Delridge,Seattle city
+39,"Seattle - Downtown, Belltown, and First Hill",Seattle city
+46,Seattle - Fremont and Wallingford,Seattle city
+52,Seattle - Green Lake and Phinney Ridge,Seattle city
+49,"Seattle - Laurelhurst, Sand Point, and Wedgwood",Seattle city
+45,Seattle - Magnolia and Interbay,Seattle city
+41,"Seattle - Montlake, Madison Park, and Madrona",Seattle city
+56,Seattle - Northgate and Lake City,Seattle city
+44,Seattle - Queen Anne,Seattle city
+29,Seattle - Rainier Valley and Rainier Beach,Seattle city
+50,Seattle - Ravenna and Bryant,Seattle city
+30,"Seattle - South Beacon Hill, Georgetown, and South Park",Seattle city
+43,"Seattle - South Lake Union, Cascade, and Eastlake",Seattle city
+47,Seattle - University District,Seattle city
+32,Seattle - West Seattle,Seattle city
