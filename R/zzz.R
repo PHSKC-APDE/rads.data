@@ -29,7 +29,7 @@
         packageStartupMessage("-----------------------------------------------------")
         packageStartupMessage("\u26A0\ufe0f A newer version of rads.data is available: ", remote_version)
         packageStartupMessage("Your version: ", local_version)
-        packageStartupMessage("\U0001f504 To update, run: devtools::install_github('PHSKC-APDE/rads.data')")
+        packageStartupMessage('\U0001f504 To update, run: devtools::install_github("PHSKC-APDE/rads.data", auth_token = NULL)')
         packageStartupMessage("-----------------------------------------------------")
       }
     } else {
