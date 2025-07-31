@@ -21,7 +21,7 @@ icd_nchs130causes
 NCHS 130 Selected Causes of Infant Death (long).
 }
 \details{
-Tidied long version of \code{icd_nchs130causes_raw}. Converted by \code{/data-raw/icd_nchs130causes.R}.
+Tidied long version of \code{icd_nchs130causes_raw}. Converted by \verb{/data-raw/icd_nchs130causes.R}.
 }
 \references{
 \url{https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}

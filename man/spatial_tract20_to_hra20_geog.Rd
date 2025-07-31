@@ -6,19 +6,19 @@
 \title{Spatial crosswalk between 2020 census tracts and 2020 HRAs. There is
 one row between each tract and HRA that intersects geographically}
 \format{
-A data.table with 1083 rows and 11 variables:
+A data.table with 1,083 rows and 11 variables:
 
 \code{GEOID20}: tract id,
 
 \code{hra20_id}: HRA numeric id,
 
-\code{s2t_fraction}: Percent of the area in ZIP that is also in hra20_id,
+\code{s2t_fraction}: Percent of the area in tract that is also in hra20_id,
 
-\code{isect_amount}: # of square survey feet in the intersection of tract and hra20_id,
+\code{isect_amount}: Number of square survey feet in the intersection of tract and hra20_id,
 
 \code{tcoverage_amount}: Area of the hra20_id in any tract code,
 
-\code{target_amount}: Total area of  the HRA (including areas not covered by tracts),
+\code{target_amount}: Total area of the HRA (including areas not covered by tracts),
 
 \code{hra_name}: Name of the HRA,
 
@@ -26,7 +26,7 @@ A data.table with 1083 rows and 11 variables:
 
 \code{target_id}: hra20_id,
 
-\code{method}: method to produce intersections
+\code{method}: method to produce intersections,
 
 \code{creation_date}: Date file created
 }
@@ -34,7 +34,7 @@ A data.table with 1083 rows and 11 variables:
 spatial_tract20_to_hra20_geog
 }
 \description{
-The are based on the fractional overlap approach in spatagg::create_xwalk and broadly
+These are based on the fractional overlap approach in \code{\link[spatagg:create_xwalk]{spatagg::create_xwalk()}} and broadly
 follow that file structure.
 }
 \keyword{datasets}

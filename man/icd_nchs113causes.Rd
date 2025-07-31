@@ -19,7 +19,7 @@ icd_nchs113causes
 NCHS 113 Selected Causes of Death (long).
 }
 \details{
-Tidied long version of \code{icd_nchs113causes_raw}. Converted by \code{/data-raw/icd_nchs113causes.R}.
+Tidied long version of \code{icd_nchs113causes_raw}. Converted by \verb{/data-raw/icd_nchs113causes.R}.
 }
 \note{
 Per CDC guidance, our cause list contains COVID-19 (U07.1) in cause id 17 ("Other and unspecified

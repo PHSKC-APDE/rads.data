@@ -3,7 +3,7 @@
 \docType{data}
 \name{spatial_geoid20_to_hra20_acs}
 \alias{spatial_geoid20_to_hra20_acs}
-\title{Spatial crosswalk for ACS Census 2020 geographies to 2020 HRAs ----}
+\title{Spatial crosswalk for ACS Census 2020 geographies to 2020 HRAs}
 \format{
 A data.table with 547 rows and 6 variables:
 

@@ -3,7 +3,7 @@
 \docType{data}
 \name{spatial_zip_to_hra20_pop}
 \alias{spatial_zip_to_hra20_pop}
-\title{Spatial crosswalk between ZIP codes and  2020 HRAs}
+\title{Spatial crosswalk between ZIP codes and 2020 HRAs}
 \format{
 A data.table with 233 rows and 11 variables:
 
@@ -13,7 +13,7 @@ A data.table with 233 rows and 11 variables:
 
 \code{s2t_fraction}: Percent of the population in ZIP that is also in hra20_id,
 
-\code{isect_amount}: # of people who live in the intersection of ZIP and hra20_id,
+\code{isect_amount}: Number of people who live in the intersection of ZIP and hra20_id,
 
 \code{tcoverage_amount}: Population of the hra20_id in any ZIP code,
 
@@ -34,9 +34,8 @@ spatial_zip_to_hra20_pop
 }
 \description{
 There is one row between each ZIP and HRA that shares population.
-}
-\details{
-The are based on the point pop approach in spatagg::create_xwalk and broadly
+
+These are based on the point pop approach in \code{\link[spatagg:create_xwalk]{spatagg::create_xwalk()}} and broadly
 follow that file structure.
 
 Note: ZIP codes are not completely nested within King County. As such, end users

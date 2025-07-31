@@ -20,6 +20,6 @@ spatial_hra20_to_region20
 }
 \description{
 A simple 1:1 crosswalk of which individual 2020 HRAs map to
-specific COO areas.
+specific regions.
 }
 \keyword{datasets}

@@ -14,11 +14,11 @@ A data.table with 409 rows and 11 variables:
 
 \code{s2t_fraction}: Percent of the area in ZIP that is also in hra20_id,
 
-\code{isect_amount}: # of square survey feet in the intersection of ZIP and hra20_id,
+\code{isect_amount}: Number of square survey feet in the intersection of ZIP and hra20_id,
 
 \code{tcoverage_amount}: Area of the hra20_id in any ZIP code,
 
-\code{target_amount}: Total area of  the HRA (including areas not covered by ZIPs),
+\code{target_amount}: Total area of the HRA (including areas not covered by ZIPs),
 
 \code{hra_name}: Name of the HRA,
 
@@ -34,10 +34,9 @@ A data.table with 409 rows and 11 variables:
 spatial_zip_to_hra20_geog
 }
 \description{
-The are based on the fractional overlap approach in spatagg::create_xwalk and broadly
+These are based on the fractional overlap approach in \code{\link[spatagg:create_xwalk]{spatagg::create_xwalk()}} and broadly
 follow that file structure.
-}
-\details{
+
 Note: ZIP codes are not completely nested within King County. As such, end users
 may want to further process this file to handle edge effects
 }

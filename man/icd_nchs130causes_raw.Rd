@@ -5,9 +5,9 @@
 \alias{icd_nchs130causes_raw}
 \title{NCHS 130 Selected Causes of Infant Death (raw)}
 \format{
-A data.table with 130 rows and 11 variables: \code{causeid},\code{cause.of.death},\code{icd10},
-\code{cause.category}, \code{leading.cause.group.num},\code{leading.cause.group},\code{leading.cause.group.alias},\code{level1},
-\code{level2},\code{level3}, & \code{level4}. Each row is for one of the 130 NCHS causes of infant death,
+A data.table with 130 rows and 11 variables: \code{causeid}, \code{cause.of.death}, \code{icd10},
+\code{cause.category}, \code{leading.cause.group.num}, \code{leading.cause.group}, \code{leading.cause.group.alias}, \code{level1},
+\code{level2}, \code{level3}, & \code{level4}. Each row is for one of the 130 NCHS causes of infant death,
 with the \code{icd10} column summarizing all the relevant codes for the given cause of death.
 }
 \source{
@@ -21,7 +21,7 @@ icd_nchs130causes_raw
 }
 \description{
 NCHS 130 Selected Causes of Infant Death (raw). Used to create \code{icd_nchs130causes}
-with \code{/data-raw/icd_nchs130causes.R}
+with \verb{/data-raw/icd_nchs130causes.R}
 }
 \note{
 This table is based on a download from WA DOH (see sources below). The PDF was exported to an Excel file and the Excel

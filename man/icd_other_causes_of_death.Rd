@@ -22,14 +22,14 @@ icd_other_causes_of_death
 \description{
 This table contains ICD 10 definitions of causes of death that are of
 interest for systematic analyses, but are not included in the CDC 113
-Causes of Death (\code{/data/icd_nchs113causes.rda}) or the injury
-matrix (\code{/data/icd10_death_injury_matrix.rda}). It includes causes such
+Causes of Death (\link{icd_nchs113causes}) or the injury
+matrix (\link{icd10_death_injury_matrix}). It includes causes such
 as carbon monoxide deaths, drug related deaths, heat stress deaths, etc.
 }
 \note{
-Tidied long version of \code{/data-raw/icd_other_causes_of_death_raw} PLUS
+Tidied long version of \verb{/data-raw/icd_other_causes_of_death_raw} PLUS
 an Excel workbook downloaded from DOH/CHAT and saved to SharePoint.
-Created by \code{/data-raw/icd_other_causes_of_death.R}.
+Created by \verb{/data-raw/icd_other_causes_of_death.R}.
 }
 \references{
 \url{https://www.cdc.gov/nchs/data/nvsr/nvsr70/nvsr70-08-508.pdf}

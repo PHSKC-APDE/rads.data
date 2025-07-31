@@ -3,7 +3,7 @@
 \docType{data}
 \name{spatial_ids_and_names}
 \alias{spatial_ids_and_names}
-\title{Crosswalk between geo_id and geo_names for an assortment of gegraphies}
+\title{Crosswalk between geo_id and geo_names for an assortment of geographies}
 \format{
 A data.table with 506 rows and 6 variables:
 
@@ -17,6 +17,6 @@ A data.table with 506 rows and 6 variables:
 spatial_ids_and_names
 }
 \description{
-Mostly a helper file for rads::get_population
+Mostly a helper file for \code{\link[rads:get_population]{rads::get_population()}}
 }
 \keyword{datasets}
