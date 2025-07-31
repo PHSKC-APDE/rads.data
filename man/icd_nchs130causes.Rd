@@ -6,7 +6,7 @@
 \title{NCHS 130 Selected Causes of Infant Death (long)}
 \format{
 A data.table with 18,936 rows and four variables: \code{causeid}, \code{cause.of.death}, \code{orig.coding},
-  \code{icd10}. Each row maps one ICD-10 code to one of the 130 causes of death.
+\code{icd10}. Each row maps one ICD-10 code to one of the 130 causes of death.
 }
 \source{
 Downloaded from

@@ -6,7 +6,7 @@
 \title{Crosswalk from Census tracts to political districts.}
 \format{
 A data.table with 397 rows and 6 variables: \code{geo_id}, \code{name},
-  \code{tract}, \code{kccd}, \code{sea_ccd}, , \code{uploaded}.
+\code{tract}, \code{kccd}, \code{sea_ccd}, , \code{uploaded}.
 }
 \source{
 \url{https://www.mysterydata.com}

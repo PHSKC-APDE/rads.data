@@ -23,13 +23,14 @@ with \code{/data-raw/icd_nchs113causes.R}
 }
 \note{
 Per CDC guidance, our cause list contains COVID-19 (U07.1) in cause id 17 ("Other and unspecified
-    infectious and parasitic diseases and their sequelae")
+infectious and parasitic diseases and their sequelae")
 
-    Cause id 95 ("All other diseases (Residual)") uses codings discovered on a PHSKC
-    network drive. They were probably created by Mike Smyser, who has retired. These
-    are being used instead of the CDC codes due to better alignment with WA DOH.
+\if{html}{\out{<div class="sourceCode">}}\preformatted{Cause id 95 ("All other diseases (Residual)") uses codings discovered on a PHSKC
+network drive. They were probably created by Mike Smyser, who has retired. These
+are being used instead of the CDC codes due to better alignment with WA DOH.
 
-    The official CDC coding for Cause id 95 is now saved as cause id 114 "CDC version of cause id 95 (Residual)".
+The official CDC coding for Cause id 95 is now saved as cause id 114 "CDC version of cause id 95 (Residual)".
+}\if{html}{\out{</div>}}
 }
 \references{
 \url{https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}

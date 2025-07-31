@@ -25,9 +25,9 @@ with \code{/data-raw/icd_nchs130causes.R}
 }
 \note{
 This table is based on a download from WA DOH (see sources below). The PDF was exported to an Excel file and the Excel
-file was manually cleaned to make it machine readable. The `Levels` based on the hierarchy shown in the CHAT infant
-mortality module's 'NCHS130 Groupings' code set. The `leading.cause.group` information is from the CHAT infant mortality
-module's 'Leading Infant Causes' code set. The `leading.cause.group.alias` are from Danny's imagination and should not be assumed
+file was manually cleaned to make it machine readable. The \code{Levels} based on the hierarchy shown in the CHAT infant
+mortality module's 'NCHS130 Groupings' code set. The \code{leading.cause.group} information is from the CHAT infant mortality
+module's 'Leading Infant Causes' code set. The \code{leading.cause.group.alias} are from Danny's imagination and should not be assumed
 to match any standard.
 }
 \references{

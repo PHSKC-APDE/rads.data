@@ -7,11 +7,11 @@
 \format{
 A data.table with 34 rows and 3 variables:
 
-  \code{hra20_id}: Numeric id for the HRA,
+\code{hra20_id}: Numeric id for the HRA,
 
-  \code{hra20_name}: Name of the HRA,
+\code{hra20_name}: Name of the HRA,
 
-  \code{bigcity}: Name of the big city
+\code{bigcity}: Name of the big city
 }
 \usage{
 spatial_hra20_to_bigcities

@@ -6,7 +6,7 @@
 \title{Standard population for single ages through 99.}
 \format{
 A data.table with 202 rows and 7 variables: \code{standard}, \code{agecat},
-  \code{age_start}, \code{age_end}, \code{pop}, \code{source}, \code{uploaded}.
+\code{age_start}, \code{age_end}, \code{pop}, \code{source}, \code{uploaded}.
 }
 \source{
 \url{https://seer.cancer.gov/stdpopulations}

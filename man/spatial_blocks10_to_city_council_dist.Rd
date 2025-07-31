@@ -6,8 +6,8 @@
 \title{Census 2010 crosswalk blocks > city council districts}
 \format{
 A data.table with 11,475 rows and 11 variables: \code{council_district}, \code{geoid10},
-  \code{tract_10}, \code{block_10}, \code{trbl_10}, \code{trbg_10}, \code{acres_total}, \code{acres_land},
-  \code{acres_water}, \code{water}, \code{uploaded}.
+\code{tract_10}, \code{block_10}, \code{trbl_10}, \code{trbg_10}, \code{acres_total}, \code{acres_land},
+\code{acres_water}, \code{water}, \code{uploaded}.
 }
 \source{
 \url{https://www.mysterydata.com}

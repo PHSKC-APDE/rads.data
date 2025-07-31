@@ -7,27 +7,27 @@
 \format{
 A data.table with 233 rows and 11 variables:
 
-  \code{ZIP}: ZIP code,
+\code{ZIP}: ZIP code,
 
-  \code{hra20_id}: HRA numeric id,
+\code{hra20_id}: HRA numeric id,
 
-  \code{s2t_fraction}: Percent of the population in ZIP that is also in hra20_id,
+\code{s2t_fraction}: Percent of the population in ZIP that is also in hra20_id,
 
-  \code{isect_amount}: # of people who live in the intersection of ZIP and hra20_id,
+\code{isect_amount}: # of people who live in the intersection of ZIP and hra20_id,
 
-  \code{tcoverage_amount}: Population of the hra20_id in any ZIP code,
+\code{tcoverage_amount}: Population of the hra20_id in any ZIP code,
 
-  \code{target_amount}: Total number of people within the HRA (including areas not covered by ZIPs),
+\code{target_amount}: Total number of people within the HRA (including areas not covered by ZIPs),
 
-  \code{hra_name}: Name of the HRA,
+\code{hra_name}: Name of the HRA,
 
-  \code{source_id}: ZIP,
+\code{source_id}: ZIP,
 
-  \code{target_id}: hra20_id,
+\code{target_id}: hra20_id,
 
-  \code{method}: method to produce intersections,
+\code{method}: method to produce intersections,
 
-  \code{creation_date}: Date file created
+\code{creation_date}: Date file created
 }
 \usage{
 spatial_zip_to_hra20_pop

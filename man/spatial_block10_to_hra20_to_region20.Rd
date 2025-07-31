@@ -7,17 +7,17 @@
 \format{
 A data.table with 35830 rows and 6 variables:
 
-  \code{hra20_id}: Numeric id for the HRA,
+\code{hra20_id}: Numeric id for the HRA,
 
-  \code{GEOID10}: 2010 Census block id ,
+\code{GEOID10}: 2010 Census block id ,
 
-  \code{hra20_name}: Name of the HRA,
+\code{hra20_name}: Name of the HRA,
 
-  \code{region_id}: numeric id for the region,
+\code{region_id}: numeric id for the region,
 
-  \code{region_name}: Name of the region
+\code{region_name}: Name of the region
 
-  \code{creation_date}: Date the file was created
+\code{creation_date}: Date the file was created
 }
 \usage{
 spatial_block10_to_hra20_to_region20

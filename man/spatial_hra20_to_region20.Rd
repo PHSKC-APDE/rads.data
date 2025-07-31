@@ -7,13 +7,13 @@
 \format{
 A data.table with 61 rows and 4 variables:
 
-  \code{hra20_id}: Numeric id for the HRA,
+\code{hra20_id}: Numeric id for the HRA,
 
-  \code{hra20_name}: Name of the HRA,
+\code{hra20_name}: Name of the HRA,
 
-  \code{region_id}: numeric id for the region,
+\code{region_id}: numeric id for the region,
 
-  \code{region_name}: Name of the region
+\code{region_name}: Name of the region
 }
 \usage{
 spatial_hra20_to_region20

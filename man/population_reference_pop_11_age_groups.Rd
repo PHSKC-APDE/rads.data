@@ -6,7 +6,7 @@
 \title{Standard reference populations with 11 age categories.}
 \format{
 A data.table with 11 rows and 6 variables: \code{standard}, \code{agecat},
-  \code{age_start}, \code{age_end}, \code{pop}, \code{source}.
+\code{age_start}, \code{age_end}, \code{pop}, \code{source}.
 }
 \source{
 \url{https://www.cdc.gov/nchs/data/statnt/statnt20.pdf}

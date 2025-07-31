@@ -7,11 +7,11 @@
 \format{
 A data.table with 506 rows and 6 variables:
 
-  \code{geo_id_code}: Numeric code of the geography,
+\code{geo_id_code}: Numeric code of the geography,
 
-  \code{geo_id}: Name of the geography,
+\code{geo_id}: Name of the geography,
 
-  \code{type}: Geography type
+\code{type}: Geography type
 }
 \usage{
 spatial_ids_and_names

@@ -6,10 +6,10 @@
 \title{Crosswalk between 2010 legislative district id, name, county, and url}
 \format{
 A data.table with 49 rows and 5 variables: \code{lgd_id}, \code{geo_year},
-  \code{lgd_name}, \code{lgd_counties}, \code{lgd_url}.
+\code{lgd_name}, \code{lgd_counties}, \code{lgd_url}.
 }
 \source{
-kcitazrhpasqlprp16.azds.kingcounty.gov [ref].[pop_lgd_crosswalk]
+kcitazrhpasqlprp16.azds.kingcounty.gov \link{ref}.\link{pop_lgd_crosswalk}
 }
 \usage{
 spatial_legislative_codes_to_names
