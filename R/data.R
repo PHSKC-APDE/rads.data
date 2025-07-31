@@ -148,6 +148,31 @@
 #' @name icd10_death_injury_matrix
 "icd10_death_injury_matrix"
 
+# icd10_multicause ----
+#' ICD-10 Multicause Death Definitions
+#'
+#' ICD-10 definitions for deaths requiring both underlying and contributing causes.
+#' Used for identifying deaths such as opioid-related mortality where both the
+#' underlying cause (e.g., poisoning) and contributing cause (e.g., specific substance)
+#' must be present.
+#'
+#' @format A data.table with rows mapping cause names to ICD-10 codes with three columns:
+#'   `cause_name`, `underlying_contributing`, and `icd10`.
+#'   Each row maps one ICD-10 code to either an underlying or contributing cause
+#'   for a specific multicause death definition.
+#'
+#' @note Currently includes definitions for opioid-related deaths. Additional
+#'   multicause definitions can be added as needed.
+#'
+#' @source CDC National Vital Statistics System guidance on drug overdose deaths
+#'   and ICD-10 coding standards for mortality data.
+#'
+#' @references
+#' [CDC Provisional Drug Overdose Death Counts](https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm)
+#'
+#' @name icd10_multicause
+"icd10_multicause"
+
 # icd_icd10pcs_codes_2022 ----
 #' CMS 2022 ICD-10-PCS
 #'
