@@ -17,6 +17,6 @@ Translation of OFM population variables into standard demographic terms.
 Most likely to be used with raw data in SQL.
 }
 \references{
-\link{hhs_analytics_workspace}.\link{ref}.\link{pop_labels}
+\verb{[hhs_analytics_workspace].[ref].[pop_labels]}
 }
 \keyword{datasets}

@@ -375,7 +375,7 @@
 #' @format A data.table with 117 rows and 7 variables: \code{varname}, \code{code},
 #'   \code{code_label}, \code{code_label_long}, \code{code_label_long2}.
 #'
-#' @references  [hhs_analytics_workspace].[ref].[pop_labels]
+#' @references  `[hhs_analytics_workspace].[ref].[pop_labels]`
 #' @name population_wapop_codebook_values
 "population_wapop_codebook_values"
 
@@ -467,7 +467,7 @@
 #' @format A data.table with 39 rows and 5 variables: \code{cou_id},
 #' \code{geo_year}, \code{cou_name}, \code{cou_code}, \code{fips_co}.
 #'
-#' @source kcitazrhpasqlprp16.azds.kingcounty.gov [ref].[pop_cou_crosswalk]
+#' @source kcitazrhpasqlprp16.azds.kingcounty.gov `[ref].[pop_cou_crosswalk]`
 #' @name spatial_county_codes_to_names
 "spatial_county_codes_to_names"
 
@@ -534,7 +534,7 @@
 #' @format A data.table with 49 rows and 5 variables: \code{lgd_id}, \code{geo_year},
 #'   \code{lgd_name}, \code{lgd_counties}, \code{lgd_url}.
 #'
-#' @source kcitazrhpasqlprp16.azds.kingcounty.gov [ref].[pop_lgd_crosswalk]
+#' @source kcitazrhpasqlprp16.azds.kingcounty.gov `[ref].[pop_lgd_crosswalk]`
 #' @name spatial_legislative_codes_to_names
 "spatial_legislative_codes_to_names"
 
