@@ -8,33 +8,33 @@ one row between each tract and HRA that shares population.}
 \format{
 A data.table with 559 rows and 11 variables:
 
-  \code{GEOID10}: Census 2010 id,
+\code{GEOID10}: Census 2010 id,
 
-  \code{hra20_id}: HRA numeric id,
+\code{hra20_id}: HRA numeric id,
 
-  \code{s2t_fraction}: Percent of the population in tract that is also in hra20_id,
+\code{s2t_fraction}: Percent of the population in tract that is also in hra20_id,
 
-  \code{isect_amount}: # of people who live in the intersection of tract and hra20_id,
+\code{isect_amount}: Number of people who live in the intersection of tract and hra20_id,
 
-  \code{tcoverage_amount}: Population of the hra20_id in any tract code,
+\code{tcoverage_amount}: Population of the hra20_id in any tract code,
 
-  \code{target_amount}: Total number of people within the HRA (including areas not covered by tracts),
+\code{target_amount}: Total number of people within the HRA (including areas not covered by tracts),
 
-  \code{hra_name}: Name of the HRA,
+\code{hra_name}: Name of the HRA,
 
-  \code{source_id}: tract,
+\code{source_id}: tract,
 
-  \code{target_id}: hra20_id,
+\code{target_id}: hra20_id,
 
-  \code{method}: method to produce intersections
+\code{method}: method to produce intersections,
 
-  \code{creation_date}: Date file created
+\code{creation_date}: Date file created
 }
 \usage{
 spatial_tract10_to_hra20_pop
 }
 \description{
-The are based on the point pop approach in spatagg::create_xwalk and broadly
+These are based on the point pop approach in \code{\link[spatagg:create_xwalk]{spatagg::create_xwalk()}} and broadly
 follow that file structure.
 }
 \keyword{datasets}

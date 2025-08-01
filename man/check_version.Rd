@@ -12,11 +12,11 @@ Default is TRUE.}
 }
 \value{
 Invisibly returns a list with the following components:
-  \item{is_current}{Logical. TRUE if the installed version is the latest, FALSE otherwise.}
-  \item{local_version}{The version of the installed rads.data package.}
-  \item{remote_version}{The version on GitHub, or NULL if it couldn't be determined.}
-  \item{status}{Character string. The status of the check (e.g., "success", "error").}
-  \item{message}{Character string. Detailed message about the check result.}
+\item{is_current}{Logical. TRUE if the installed version is the latest, FALSE otherwise.}
+\item{local_version}{The version of the installed rads.data package.}
+\item{remote_version}{The version on GitHub, or NULL if it couldn't be determined.}
+\item{status}{Character string. The status of the check (e.g., "success", "error").}
+\item{message}{Character string. Detailed message about the check result.}
 }
 \description{
 This function checks if the installed version of the rads.data package is the latest

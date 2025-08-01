@@ -6,17 +6,17 @@
 \title{Codebook for WA OFM population demographics.}
 \format{
 A data.table with 117 rows and 7 variables: \code{varname}, \code{code},
-  \code{code_label}, \code{code_label_long}, \code{code_label_long2}.
+\code{code_label}, \code{code_label_long}, \code{code_label_long2}.
 }
 \usage{
 population_wapop_codebook_values
 }
 \description{
 Codebook for WA OFM population demographics.
-   Translation of OFM population variables into standard demographic terms.
-   Most likely to be used with raw data in SQL.
+Translation of OFM population variables into standard demographic terms.
+Most likely to be used with raw data in SQL.
 }
 \references{
-[hhs_analytics_workspace].[ref].[pop_labels]
+\verb{[hhs_analytics_workspace].[ref].[pop_labels]}
 }
 \keyword{datasets}

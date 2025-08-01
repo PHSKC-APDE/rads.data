@@ -6,8 +6,8 @@
 \title{Census 2010 crosswalk blocks >> hra >> region}
 \format{
 A data.table with 35,837 rows and 8 variables: \code{geo_id_blk}, \code{hra},
-  \code{vid}, \code{region}, \code{region_id}, \code{region_id_old}, \code{svc},
-  \code{svcid}.
+\code{vid}, \code{region}, \code{region_id}, \code{region_id_old}, \code{svc},
+\code{svcid}.
 }
 \source{
 \url{https://www.mysterydata.com}

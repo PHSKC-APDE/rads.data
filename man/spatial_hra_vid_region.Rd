@@ -5,7 +5,7 @@
 \alias{spatial_hra_vid_region}
 \title{Crosswalk HRA's to regions}
 \format{
-A data.table with 48 rows and 4 variables:
+A data.table with 48 rows and 5 variables:
 \code{hra}, \code{vid}, \code{region}, \code{region_id}, \code{region_id_old}.
 }
 \source{

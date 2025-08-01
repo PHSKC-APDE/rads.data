@@ -6,9 +6,9 @@
 \title{Crosswalk between 2010 block groups and HRA names, regions, and other RADS/CHI standard geographies}
 \format{
 A data.table with 35,838 rows and 12 variables: \code{geo_id_blk10}, \code{chi_geo_hra_short},
-  \code{chi_geo_hra_long}, \code{chi_geo_regions_4}, \code{chi_geo_seattle}, \code{chi_geo_big_cities},
-  \code{chi_geo_coo_places}, \code{chi_geo_con_dist}, \code{chi_geo_leg_dist}, \code{chi_geo_scc_dist},
-  \code{chi_geo_sch_dist}, \code{vid}.
+\code{chi_geo_hra_long}, \code{chi_geo_regions_4}, \code{chi_geo_seattle}, \code{chi_geo_big_cities},
+\code{chi_geo_coo_places}, \code{chi_geo_con_dist}, \code{chi_geo_leg_dist}, \code{chi_geo_scc_dist},
+\code{chi_geo_sch_dist}, \code{vid}.
 }
 \source{
 \url{https://www.mysterydata.com}

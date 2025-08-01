@@ -6,7 +6,7 @@
 \title{NCHS 130 Selected Causes of Infant Death (long)}
 \format{
 A data.table with 18,936 rows and four variables: \code{causeid}, \code{cause.of.death}, \code{orig.coding},
-  \code{icd10}. Each row maps one ICD-10 code to one of the 130 causes of death.
+\code{icd10}. Each row maps one ICD-10 code to one of the 130 causes of death.
 }
 \source{
 Downloaded from
@@ -21,7 +21,7 @@ icd_nchs130causes
 NCHS 130 Selected Causes of Infant Death (long).
 }
 \details{
-Tidied long version of \code{icd_nchs130causes_raw}. Converted by \code{/data-raw/icd_nchs130causes.R}.
+Tidied long version of \code{icd_nchs130causes_raw}. Converted by \verb{/data-raw/icd_nchs130causes.R}.
 }
 \references{
 \url{https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}
