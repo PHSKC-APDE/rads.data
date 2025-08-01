@@ -6,7 +6,7 @@
 \title{Crosswalk FOR HCA MEDICAID KC definition ... zip >> city}
 \format{
 A data.table with 133 rows and 5 variables:
-  \code{zip}, \code{zip_type}, \code{city}, \code{primary_city}, \code{two_counties}.
+\code{zip}, \code{zip_type}, \code{city}, \code{primary_city}, \code{two_counties}.
 }
 \source{
 \url{https://www.mysterydata.com}

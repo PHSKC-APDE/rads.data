@@ -6,9 +6,9 @@
 \title{2018 BLS Standard Occupational Classification (SOC) structure.}
 \format{
 A data.table with 1447 rows and twelve variables: \code{group}, \code{code},
-  \code{major}, \code{minor}, \code{broad}, \code{detailed}, \code{title},
-  \code{major.title}, \code{minor.title}, \code{broad.title}, \code{detailed.title},
-  \code{'uploaded'}.
+\code{major}, \code{minor}, \code{broad}, \code{detailed}, \code{title},
+\code{major.title}, \code{minor.title}, \code{broad.title}, \code{detailed.title},
+\code{'uploaded'}.
 }
 \source{
 \url{https://www.bls.gov/soc/2018/2018_major_groups.htm}

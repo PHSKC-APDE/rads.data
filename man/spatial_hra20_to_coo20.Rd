@@ -7,11 +7,11 @@
 \format{
 A data.table with 24 rows and 3 variables:
 
-  \code{hra20_id}: Numeric id for the HRA,
+\code{hra20_id}: Numeric id for the HRA,
 
-  \code{hra20_name}: Name of the HRA,
+\code{hra20_name}: Name of the HRA,
 
-  \code{coo20_name}: numeric id for the COO area
+\code{coo20_name}: numeric id for the COO area
 }
 \usage{
 spatial_hra20_to_coo20

@@ -7,17 +7,17 @@
 \format{
 A data.table with 177 rows and 6 variables:
 
-  \code{sccd13_id}: Seattle City Council district number,
+\code{sccd13_id}: Seattle City Council district number,
 
-  \code{sccd13_name}: Seattle City Council district name,
+\code{sccd13_name}: Seattle City Council district name,
 
-  \code{place20}: place 2020 GEOID,
+\code{place20}: place 2020 GEOID,
 
-  \code{tract20}: tract 2020 GEOID,
+\code{tract20}: tract 2020 GEOID,
 
-  \code{bg20}: bg 2020 GEOID,
+\code{bg20}: bg 2020 GEOID,
 
-  \code{creation}: Date the file was created
+\code{creation}: Date the file was created
 }
 \usage{
 spatial_geoid20_to_sccd13_acs

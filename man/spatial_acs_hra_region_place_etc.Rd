@@ -6,8 +6,8 @@
 \title{Crosswalk hra > region > coo place > geoid > place > tract > block group}
 \format{
 A data.table with 276 rows and 9 variables: \code{hraname}, \code{region},
-  \code{coo.place}, \code{geoid}, \code{name}, \code{place}, \code{tract},
-  \code{blkgrp}, \code{notes}.
+\code{coo.place}, \code{geoid}, \code{name}, \code{place}, \code{tract},
+\code{blkgrp}, \code{notes}.
 }
 \source{
 \url{https://www.mysterydata.com}

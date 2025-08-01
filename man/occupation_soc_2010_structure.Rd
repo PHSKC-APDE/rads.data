@@ -6,9 +6,9 @@
 \title{2010 BLS Standard Occupational Classification (SOC) structure.}
 \format{
 A data.table with 1421 rows and thirteen variables: \code{group}, \code{code},
-  \code{major}, \code{minor}, \code{broad}, \code{detailed}, \code{title},
-  \code{major.title}, \code{minor.title}, \code{broad.title},
-  \code{detailed.title}, \code{notes}, \code{'uploaded'}.
+\code{major}, \code{minor}, \code{broad}, \code{detailed}, \code{title},
+\code{major.title}, \code{minor.title}, \code{broad.title},
+\code{detailed.title}, \code{notes}, \code{'uploaded'}.
 }
 \source{
 \url{https://www.bls.gov/soc/2010/2010_major_groups.htm}
@@ -18,6 +18,6 @@ occupation_soc_2010_structure
 }
 \description{
 2010 BLS Standard Occupational Classification (SOC) structure.
-    SOC codes with hierarchy information.
+SOC codes with hierarchy information.
 }
 \keyword{datasets}
