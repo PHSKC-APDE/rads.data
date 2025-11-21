@@ -1,4 +1,4 @@
-# icd_icd10cm_injurymatrix ----
+# icd10cm_injury_matrix ----
 #' ICD-10-CM Injury Matrix Reference Table
 #'
 #' @description
@@ -39,16 +39,16 @@
 #'
 #' @examples
 #' # Load the injury matrix
-#' data(icd_icd10cm_injurymatrix)
+#' data(icd10cm_injury_matrix)
 #'
 #' # See all available mechanisms
-#' unique(icd_icd10cm_injurymatrix$mechanism)
+#' unique(icd10cm_injury_matrix$mechanism)
 #'
 #' # See all available intents
-#' unique(icd_icd10cm_injurymatrix$intent)
+#' unique(icd10cm_injury_matrix$intent)
 #'
 #' @keywords datasets
-"icd_icd10cm_injurymatrix"
+"icd10cm_injury_matrix"
 
 # icd_nchs113causes_raw ----
 #' NCHS 113 Selected Causes of Death (raw)
