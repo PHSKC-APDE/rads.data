@@ -7,21 +7,22 @@
 \format{
 A data.table with 9 columns and more than 250,000 rows:
 \itemize{
-\item \strong{\code{seq_no}}: (integer) Unique patient-visit level identifier (one per row)
-\item \strong{\code{diag1}}: (character) ICD-10-CM Primary diagnosis code
-\item \strong{\code{injury_nature_broad}}: (logical) searches all available diagnosis fields on the
+\item \strong{\code{seq_no}}: Unique patient-visit level identifier (one per row)
+\item \strong{\code{diag1}}: ICD-10-CM Primary diagnosis code
+\item \strong{\code{injury_nature_broad}}: injuries are defined by searching all available diagnosis fields on the
 hospital discharge record (there can be a maximum of 54 diagnosis fields
 in CHARS data)
-\item \strong{\code{injury_nature_narrow}}: (logical) follows CDC's recommended 'narrow' approach, which
+\item \strong{\code{injury_nature_narrow}}: injuries are defined by following CDC's recommended 'narrow' approach, which
 requires that the principal diagnosis of an injury hospitalization be a
 nature-of-injury ICD10-CM code
-\item \strong{\code{injury_intent}}: (character) Injury intent classification, i.e., 'assault', 'intentional',
+\item \strong{\code{injury_intent}}: Injury intent classification, i.e., 'assault', 'intentional',
 'legal', 'undetermined', 'unintentional'.
-\item \strong{\code{injury_mechanism}}: (character) Injury mechanism classification, e.g., 'bites_stings',
+\item \strong{\code{injury_mechanism}}: Injury mechanism classification, e.g., 'bites_stings',
 'drowning', 'fall', 'firearm', 'overexertion, 'poisoning', etc.
-\item \strong{\code{chi_geo_kc}}: (character) A King County, WA indicator
-\item \strong{\code{temperament}}: (character) A categorical 'demographic' indicator
-\item \strong{\code{creation_date}}: (Date) A simple time stamp of the date the table was updated
+\item \strong{\code{chi_geo_kc}}: A King County, WA specific indicator
+\item \strong{\code{temperament}}: A categorical 'demographic' indicator with three levels:
+'Active', 'Moderate', and 'Calm'.
+\item \strong{\code{creation_date}}: A simple time stamp of the date the table was updated
 }
 }
 \source{
