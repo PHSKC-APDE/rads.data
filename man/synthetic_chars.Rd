@@ -5,69 +5,24 @@
 \alias{synthetic_chars}
 \title{Synthetic CHARS Data for Testing and Development}
 \format{
-A data.table with 42 columns and more than 250,000 rows:
-
-\strong{Diagnosis and Classification:}
+A data.table with 9 columns and more than 250,000 rows:
 \itemize{
-\item \strong{\code{diag1}:} Primary diagnosis code (character)
-\item \strong{\code{injury_intent}:} Injury intent classification (character)
-\item \strong{\code{injury_mechanism}:} Injury mechanism classification (character)
-\item \strong{\code{injury_nature_narrow}:} Narrow injury nature category (character)
-\item \strong{\code{injury_nature_broad}:} Broad injury nature category (character)
-}
-
-\strong{Intent Indicators (logical):}
-\itemize{
-\item \strong{\code{intent_assault}:} Assault-related injury indicator
-\item \strong{\code{intent_intentional}:} Intentional injury indicator
-\item \strong{\code{intent_legal}:} Legal intervention-related injury indicator
-\item \strong{\code{intent_undetermined}:} Undetermined intent indicator
-\item \strong{\code{intent_unintentional}:} Unintentional injury indicator
-\item \strong{\code{intent_any}:} Any intent indicator
-}
-
-\strong{Mechanism Indicators (logical):}
-\itemize{
-\item \strong{\code{mechanism_bites_stings}:} Bites and stings indicator
-\item \strong{\code{mechanism_cut_pierce}:} Cut/pierce injury indicator
-\item \strong{\code{mechanism_drowning}:} Drowning indicator
-\item \strong{\code{mechanism_fall}:} Fall-related injury indicator
-\item \strong{\code{mechanism_fire_burn}:} Fire/burn injury indicator
-\item \strong{\code{mechanism_firearm}:} Firearm-related injury indicator
-\item \strong{\code{mechanism_machinery}:} Machinery-related injury indicator
-\item \strong{\code{mechanism_motor_vehicle_nontraffic}:} Non-traffic motor vehicle indicator
-\item \strong{\code{mechanism_mvt_motorcyclist}:} Motor vehicle traffic - motorcyclist
-\item \strong{\code{mechanism_mvt_occupant}:} Motor vehicle traffic - occupant
-\item \strong{\code{mechanism_mvt_other}:} Motor vehicle traffic - other
-\item \strong{\code{mechanism_mvt_pedal_cyclist}:} Motor vehicle traffic - pedal cyclist
-\item \strong{\code{mechanism_mvt_pedestrian}:} Motor vehicle traffic - pedestrian
-\item \strong{\code{mechanism_mvt_unspecified}:} Motor vehicle traffic - unspecified
-\item \strong{\code{mechanism_natural_environmental}:} Natural/environmental injury indicator
-\item \strong{\code{mechanism_other_land_transport}:} Other land transport indicator
-\item \strong{\code{mechanism_other_specified}:} Other specified mechanism indicator
-\item \strong{\code{mechanism_other_transport}:} Other transport indicator
-\item \strong{\code{mechanism_overexertion}:} Overexertion indicator
-\item \strong{\code{mechanism_pedal_cyclist}:} Pedal cyclist indicator
-\item \strong{\code{mechanism_pedestrian}:} Pedestrian indicator
-\item \strong{\code{mechanism_poisoning}:} Poisoning indicator
-\item \strong{\code{mechanism_poisoning_drug}:} Drug poisoning indicator
-\item \strong{\code{mechanism_poisoning_nondrug}:} Non-drug poisoning indicator
-\item \strong{\code{mechanism_struck_by_against}:} Struck by/against indicator
-\item \strong{\code{mechanism_suffocation}:} Suffocation indicator
-\item \strong{\code{mechanism_unspecified}:} Unspecified mechanism indicator
-\item \strong{\code{mechanism_any}:} Any mechanism indicator
-}
-
-\strong{Synthetic Identifiers:}
-\itemize{
-\item \strong{\code{seq_no}:} Unique sequence number identifier (integer)
-\item \strong{\code{temperament}:} Random categorical indicator with values "Calm",
-"Moderate", or "Active" (character)
-}
-
-\strong{Metadata:}
-\itemize{
-\item \strong{\code{creation_date}:} Date this dataset was last updated (Date)
+\item \strong{\code{seq_no}}: Unique patient-visit level identifier (one per row)
+\item \strong{\code{diag1}}: ICD-10-CM Primary diagnosis code
+\item \strong{\code{injury_nature_broad}}: injuries are defined by searching all available diagnosis fields on the
+hospital discharge record (there can be a maximum of 54 diagnosis fields
+in CHARS data)
+\item \strong{\code{injury_nature_narrow}}: injuries are defined by following CDC's recommended 'narrow' approach, which
+requires that the principal diagnosis of an injury hospitalization be a
+nature-of-injury ICD10-CM code
+\item \strong{\code{injury_intent}}: Injury intent classification, i.e., 'assault', 'intentional',
+'legal', 'undetermined', 'unintentional'.
+\item \strong{\code{injury_mechanism}}: Injury mechanism classification, e.g., 'bites_stings',
+'drowning', 'fall', 'firearm', 'overexertion, 'poisoning', etc.
+\item \strong{\code{chi_geo_kc}}: A King County, WA specific indicator
+\item \strong{\code{temperament}}: A categorical 'demographic' indicator with three levels:
+'Active', 'Moderate', and 'Calm'.
+\item \strong{\code{creation_date}}: A simple time stamp of the date the table was updated
 }
 }
 \source{
@@ -93,10 +48,6 @@ str(synthetic_chars)
 
 # Check the distribution of temperament
 table(synthetic_chars$temperament)
-
-# Examine fall-related injuries
-synthetic_chars[mechanism_fall == 1,
-                list(seq_no, injury_intent, injury_mechanism)]
 
 }
 \keyword{datasets}
