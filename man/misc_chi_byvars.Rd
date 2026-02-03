@@ -5,20 +5,28 @@
 \alias{misc_chi_byvars}
 \title{The definitive reference table for CHI cat/varname/group/group_alias values}
 \format{
-a data.table with a flexible number of rows and six columns:
-\code{cat}, \code{varname}, \code{group}, \code{keepme},
+a data.table with a flexible number of rows and seven columns:
+\verb{__deprecated__}, \code{cat}, \code{varname}, \code{group}, \code{keepme},
 \code{notes} & \code{creation_date}.
 }
 \source{
 A version controlled copy of the data in SharePoint >>
-Community Health Indicators >> CHI-Vizes >> CHI-Standards-TableauReady Output.xlsx
+DPH-CHI >> CHI-Vizes >> CHI-Standards-TableauReady Output.xlsx
 }
 \usage{
 misc_chi_byvars
 }
 \description{
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#deprecated}{\figure{lifecycle-deprecated.svg}{options: alt='[Deprecated]'}}}{\strong{[Deprecated]}}
+
+\code{misc_chi_byvars} was deprecated in rads.data v1.0.14.
+Please use \link[apde.chi.tools:chi_standard_varnames]{apde.chi.tools::chi_standard_varnames} instead.
+
+A column named \verb{__deprecated__} is intentionally included to signal that this dataset is
+deprecated and should not be used for new work.
+
 The definitive reference table for CHI cat/varname/group/group_alias values.
-Used in CHI analyses as the by-variables (cat1 & cat1 in CHI parlance).
+Used in CHI analyses as the by-variables (cat1 & cat2 in CHI parlance).
 }
 \note{
 This replaces any and all old standards found in documentation or in
