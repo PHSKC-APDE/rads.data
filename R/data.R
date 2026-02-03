@@ -396,18 +396,27 @@
 # misc_chi_byvars ----
 #' The definitive reference table for CHI cat/varname/group/group_alias values
 #'
-#' The definitive reference table for CHI cat/varname/group/group_alias values.
-#' Used in CHI analyses as the by-variables (cat1 & cat1 in CHI parlance).
+#' @description
+#' `r lifecycle::badge("deprecated")`
 #'
-#' @format a data.table with a flexible number of rows and six columns:
-#' `cat`, `varname`, `group`, `keepme`,
+#' `misc_chi_byvars` was deprecated in rads.data v1.0.14.
+#' Please use [apde.chi.tools::chi_standard_varnames] instead.
+#'
+#' A column named `__deprecated__` is intentionally included to signal that this dataset is
+#' deprecated and should not be used for new work.
+#'
+#' The definitive reference table for CHI cat/varname/group/group_alias values.
+#' Used in CHI analyses as the by-variables (cat1 & cat2 in CHI parlance).
+#'
+#' @format a data.table with a flexible number of rows and seven columns:
+#' `__deprecated__`, `cat`, `varname`, `group`, `keepme`,
 #' `notes` & `creation_date`.
 #'
 #' @note This replaces any and all old standards found in documentation or in
 #' existing SQL databases.
 #'
 #' @source A version controlled copy of the data in SharePoint >>
-#' Community Health Indicators >> CHI-Vizes >> CHI-Standards-TableauReady Output.xlsx
+#' DPH-CHI >> CHI-Vizes >> CHI-Standards-TableauReady Output.xlsx
 #'
 #' @name misc_chi_byvars
 "misc_chi_byvars"

@@ -3,7 +3,9 @@
 # Date: March 15, 2023
 # Purpose: Refresh standard CHI cat/varname/group/group_alias from SharePoint
 # Source: SharePoint >> Community Health Indicators >> CHI-Vizes >> CHI-Standards-TableauReady Output.xlsx
-# Notes:
+# NOTE: This dataset is deprecated as of rads.data version 1.0.14
+#       New location: apde.chi.tools::chi_standard_varnames
+#       This script is retained for reference but should not be run for new releases
 
 # Set up ----
 rm(list=ls())
@@ -12,7 +14,7 @@ library(Microsoft365R)
 library(stringi)
 
 # Import data from SharePoint ----
-    team <- get_team("Community Health Indicators")
+    team <- get_team("DPH-CHI")
 
     drv <- team$get_drive("CHI-Vizes")
 
