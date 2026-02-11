@@ -1,5 +1,5 @@
 .onAttach <- function(libname, pkgname) {
   if (interactive()) {
-    check_version()
+    getNamespace("rads.data")$check_version()
   }
 }
