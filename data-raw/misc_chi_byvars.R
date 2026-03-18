@@ -47,14 +47,16 @@ library(stringi)
                            misc_chi_byvars[!cat %in% c("King County", "Washington State")]) # to force KC and Wa to be at the top
 
 
-  if(nrow(fsetdiff(misc_chi_byvars[, 1:5], existing[,1:5])) == 0 && nrow(fsetdiff(existing[,1:5], misc_chi_byvars[, 1:5])) == 0){
+  keycols <- c('cat', 'varname', 'group', 'keepme', 'notes')
+  if(nrow(fsetdiff(misc_chi_byvars[, .SD, .SDcols = keycols], existing[, .SD, .SDcols = keycols])) == 0
+     && nrow(fsetdiff(existing[, .SD, .SDcols = keycols], misc_chi_byvars[, .SD, .SDcols = keycols])) == 0){
     message('There reference table has not been updated so rads.data will not be updated.')
   } else {
     message("The following rows are not in the pre-existing data and will be added:")
-    print(fsetdiff(misc_chi_byvars[, 1:5], existing[, 1:5]))
+    print(fsetdiff(misc_chi_byvars[, .SD, .SDcols = keycols], existing[, .SD, .SDcols = keycols]))
 
     message("The following rows are in the pre-existing data but not in the new data ... they will be dropped:")
-    print(fsetdiff(existing[, 1:5], misc_chi_byvars[, 1:5]))
+    print(fsetdiff(existing[, .SD, .SDcols = keycols], misc_chi_byvars[, .SD, .SDcols = keycols]))
 
     answer <- readline(prompt = "Are you ABSOLUTELY POSITIVE you want to continue? (y/n) ")
     if(answer == 'y'){
