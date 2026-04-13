@@ -26,13 +26,13 @@ which_max_olap = function(x){
 # # ZIP to region
 zip =  zipo %>% group_by(ZIP) %>% summarize()
 zip = st_transform(zip, st_crs(newreg))
-zip = reduce_overlaps(zip,snap = .5)
+zip = reduce_overlaps(zip)
 zip_tokc = create_xwalk(zip, kc, source_id = 'ZIP', target_id = 'id', min_overlap = .1)
 setDT(zip_tokc)
 zip = zip[zip$ZIP %in% zip_tokc[s2t_fraction >.01, source_id],]
 
 # z2r_fo = create_xwalk(zip, newreg, source_id = 'ZIP', target_id = 'id', min_overlap = .1)
-# z2r_fp = create_xwalk(zip, newreg, source_id = 'ZIP', target_id = 'id', min_overlap = .1,method = 'point pop',point_pop = kcparcelpop::parcel_pop, pp_min_overlap = .1)
+# z2r_fp = create_xwalk(zip, newreg, source_id = 'ZIP', target_id = 'id', min_overlap = .1,method = 'point pop',point_pop = kcparcelpop::point_pop(year = 2025), pp_min_overlap = .1)
 #
 # z2r_fo = which_max_olap(z2r_fo)
 # z2r_fo = z2r_fo[s2t_fraction >=.05]
@@ -58,7 +58,7 @@ zip = zip[zip$ZIP %in% zip_tokc[s2t_fraction >.01, source_id],]
 
 # ZIP to HRA
 z2h_fo = create_xwalk(zip, newhra, source_id = 'ZIP', target_id = 'id', min_overlap = .1)
-z2h_fp = create_xwalk(zip, newhra, source_id = 'ZIP', target_id = 'id', min_overlap = .1,method = 'point pop',point_pop = kcparcelpop::parcel_pop, pp_min_overlap = .1)
+z2h_fp = create_xwalk(zip, newhra, source_id = 'ZIP', target_id = 'id', min_overlap = .1,method = 'point pop',point_pop = kcparcelpop::point_pop(2025), pp_min_overlap = .1)
 setDT(z2h_fo); setDT(z2h_fp);
 z2h_fo = merge(z2h_fo, newhra[, c('id', 'name'), drop = T], all.x = T, by.x = 'target_id', by.y = 'id')
 z2h_fp = merge(z2h_fp, newhra[, c('id', 'name'), drop = T], all.x = T, by.x = 'target_id', by.y = 'id')
@@ -83,7 +83,7 @@ usethis::use_data(spatial_zip_to_hra20_geog, overwrite = T)
 
 # 2010 tracts to HRAs to region
 t102h_fo = create_xwalk(tract10, newhra, source_id = 'GEOID10', target_id = 'id', min_overlap = .1)
-t102h_fp = create_xwalk(tract10, newhra, source_id = 'GEOID10', target_id = 'id', min_overlap = .1,method = 'point pop',point_pop = kcparcelpop::parcel_pop, pp_min_overlap = .1)
+t102h_fp = create_xwalk(tract10, newhra, source_id = 'GEOID10', target_id = 'id', min_overlap = .1,method = 'point pop',point_pop = kcparcelpop::point_pop(year = 2025), pp_min_overlap = .1)
 setDT(t102h_fo); setDT(t102h_fp);
 t102h_fo = merge(t102h_fo, newhra[, c('id', 'name'), drop = T], all.x = T, by.x = 'target_id', by.y = 'id')
 t102h_fp = merge(t102h_fp, newhra[, c('id', 'name'), drop = T], all.x = T, by.x = 'target_id', by.y = 'id')
@@ -108,7 +108,7 @@ usethis::use_data(spatial_tract10_to_hra20_geog, overwrite = T)
 # Add 2020 tracts to HRAs?
 tract20$GEOID20 = tract20$GEOID
 t202h_fo = create_xwalk(tract20, newhra, source_id = 'GEOID20', target_id = 'id', min_overlap = .1)
-t202h_fp = create_xwalk(tract20, newhra, source_id = 'GEOID20', target_id = 'id', min_overlap = .1,method = 'point pop',point_pop = kcparcelpop::parcel_pop, pp_min_overlap = .1)
+t202h_fp = create_xwalk(tract20, newhra, source_id = 'GEOID20', target_id = 'id', min_overlap = .1,method = 'point pop',point_pop = kcparcelpop::point_pop(year = 2025), pp_min_overlap = .1)
 setDT(t202h_fo); setDT(t202h_fp);
 t202h_fo = merge(t202h_fo, newhra[, c('id', 'name'), drop = T], all.x = T, by.x = 'target_id', by.y = 'id')
 t202h_fp = merge(t202h_fp, newhra[, c('id', 'name'), drop = T], all.x = T, by.x = 'target_id', by.y = 'id')
