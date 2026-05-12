@@ -809,7 +809,7 @@
 #' Crosswalk zip codes >> cities >> regions (& SCC)
 #'
 #' @description
-#' **DEPRECATED** beginning version 1.0.19
+#' `r lifecycle::badge('deprecated')`
 #'
 #' Crosswalk zip codes >> cities >> regions (& SCC)
 #'
@@ -822,6 +822,8 @@
 #' originals
 #'
 #' @details
+#' **DEPRECATED** beginning version 1.0.19
+#'
 #' Version 1.0.19 removed `region`, `region_id`, `region_vid`, & `scc`.
 #'
 #'
