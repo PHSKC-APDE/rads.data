@@ -5,9 +5,8 @@
 \alias{spatial_zip_city_region_scc}
 \title{Crosswalk zip codes >> cities >> regions (& SCC)}
 \format{
-A data.table with 126 rows and 11 variables:
-\code{zip}, \code{zip_type}, \code{city}, \code{city_primary}, \code{region},
-\code{region_id}, \code{region_vid}, \code{scc}, \code{multi_county},
+A data.table with 126 rows and 7 columns:
+\code{zip}, \code{zip_type}, \code{city}, \code{city_primary}, \code{multi_county},
 \code{office_building}, \code{notes}.
 }
 \source{
@@ -19,6 +18,13 @@ originals
 spatial_zip_city_region_scc
 }
 \description{
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#deprecated}{\figure{lifecycle-deprecated.svg}{options: alt='[Deprecated]'}}}{\strong{[Deprecated]}}
+
 Crosswalk zip codes >> cities >> regions (& SCC)
+}
+\details{
+\strong{DEPRECATED} beginning version 1.0.19
+
+Version 1.0.19 removed \code{region}, \code{region_id}, \code{region_vid}, & \code{scc}.
 }
 \keyword{datasets}
