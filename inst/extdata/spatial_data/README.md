@@ -43,7 +43,7 @@ The complete commit history for these files is visible in GitHub Bash and GitHub
 * **[school_dist_to_region.csv](https://github.com/PHSKC-APDE/rads.data/blob/main/inst/extdata/spatial_data/school_dist_to_region.csv)** = Crosswalk between King County school districts and KC regions
 * **[tract_to_county_council_dist.csv](https://github.com/PHSKC-APDE/rads.data/blob/main/inst/extdata/spatial_data/tract_to_county_council_dist.csv)** = Crosswalk between 2010 census tracts and King County Council Districts.
 * **[tract10_to_puma.csv](https://github.com/PHSKC-APDE/rads.data/blob/main/inst/extdata/spatial_data/tract10_to_puma.csv)** = Crosswalk between 2010 census tracts and PUMAs (Public Use Microdata Areas) 
-* **[zip_city_region_scc.csv](https://github.com/PHSKC-APDE/rads.data/blob/main/inst/extdata/spatial_data/zip_city_region_scc.csv)** = Crosswalk between 126 zip codes (with cities) to KC regions 
+* **[zip_city_region_scc.csv](https://github.com/PHSKC-APDE/rads.data/blob/main/inst/extdata/spatial_data/zip_city_region_scc.csv)** = Crosswalk between 126 zip codes (with cities) to KC regions. Deleted 'region', 'region_id', 'region_vid', & `scc` and deprecated the entire dataset with version 1.0.19 in May 2026.
 * **[zip_hca.csv](https://github.com/PHSKC-APDE/rads.data/blob/main/inst/extdata/spatial_data/zip_hca.csv)** = 133 zip codes, with zip type, city, primary_city, used to define King County in HCA Medicaid data extracts. Includes 98354 and 98422, 
 which barely cross into south KC). ZIPs spanning county lines are noted in the two_counties field.
 

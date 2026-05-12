@@ -808,16 +808,24 @@
 # spatial_zip_city_region_scc ----
 #' Crosswalk zip codes >> cities >> regions (& SCC)
 #'
+#' @description
+#' `r lifecycle::badge('deprecated')`
+#'
 #' Crosswalk zip codes >> cities >> regions (& SCC)
 #'
-#' @format A data.table with 126 rows and 11 variables:
-#' `zip`, `zip_type`, `city`, `city_primary`, `region`,
-#' `region_id`, `region_vid`, `scc`, `multi_county`,
+#' @format A data.table with 126 rows and 7 columns:
+#' `zip`, `zip_type`, `city`, `city_primary`, `multi_county`,
 #' `office_building`, `notes`.
 #'
 #' @source combined spatial_zip_admin, spatial_zip_to_city_council_dist,
 #' spatial_zip_to_region, & spatial_zip_city_region_vid & then deleted the
 #' originals
+#'
+#' @details
+#' **DEPRECATED** beginning version 1.0.19
+#'
+#' Version 1.0.19 removed `region`, `region_id`, `region_vid`, & `scc`.
+#'
 #'
 #' @name spatial_zip_city_region_scc
 "spatial_zip_city_region_scc"
