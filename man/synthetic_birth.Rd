@@ -7,24 +7,19 @@
 \format{
 A data.table with 11 columns and more than 70,000 rows:
 \itemize{
-\item \strong{\code{chi_year}}: Birth year, randomly reassigned while preserving the
+\item \strong{\code{age}}: Maternal age, randomly reassigned while preserving the
 empirical distribution
-\item \strong{\code{chi_age}}: Maternal age, randomly reassigned while preserving the
-empirical distribution
-\item \strong{\code{chi_geo_kc}}: A King County, WA specific indicator, randomly assigned
+\item \strong{\code{birth_weight_grams}}: The recorded birth weight in grams.
+\item \strong{\code{geo_kc}}: A King County, WA specific indicator, randomly assigned
 as \code{"King County"} or \code{NA}
-\item \strong{\code{chi_sex}}: Infant sex, randomly reassigned while preserving the
-empirical distribution
-\item \strong{\code{race4}}: OMB race/ethnicity, with Hispanic as a race, randomly
-reassigned while preserving the empirical distribution
-\item \strong{\code{birth_weight_grams}}: The recorded birth weight in grams
+\item \strong{\code{fetal_pres}}: Fetal presentation
+\item \strong{\code{kotelchuck}}: Kotelchuck prenatal care index
+\item \strong{\code{mother_birthplace_state}}: Mother's birthplace state
 \item \strong{\code{preterm}}: Binary flag for preterm delivery
-\item \strong{\code{fetal_pres}}: Fetal presentation (Breech, Cephalic, or Other)
-\item \strong{\code{kotelchuck}}: Binary flag for early and adequate prenatal care, as
-measured by the Kotelchuck index
-\item \strong{\code{mother_birthplace_state}}: Mother's birthplace state, randomly
-reassigned while preserving the empirical distribution
-\item \strong{\code{creation_date}}: A simple time stamp of the date the table was updated
+\item \strong{\code{race}}: OMB race/ethnicity, with Hispanic as a race
+\item \strong{\code{sex}}: Infant sex
+\item \strong{\code{year}}: Birth year
+\item \strong{\code{creation_date}}: Date the synthetic table was created
 }
 }
 \source{
