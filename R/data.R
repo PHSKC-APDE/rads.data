@@ -945,17 +945,21 @@
 #'
 #' @format A data.table with 27 columns and more than 30,000 rows:
 #'
-#' - **`underlying_cod_code`**: ICD-10 underlying cause of death code, cleaned
-#'   via [rads::death_icd10_clean()]
-#' - **`record_axis_code_1`** through **`record_axis_code_20`**: ICD-10
-#'   contributing causes of death codes, cleaned via [rads::death_icd10_clean()]
-#' - **`date_of_birth`**: Date of birth (class Date)
-#' - **`date_of_death`**: Date of death (class Date)
+#' - **`age`**: Age at death in integer years
 #' - **`chi_geo_kc`**: A King County, WA specific indicator, randomly assigned
 #'   as `"King County"` or `NA`
+#' - **`date_of_birth`**: Date of birth (class Date)
+#' - **`date_of_death`**: Date of death (class Date)
+#' - **`race`**: OMB race/ethnicity, with Hispanic as a race
+#' - **`record_axis_code_1`** through **`record_axis_code_20`**: ICD-10
+#'   contributing causes of death codes, cleaned via [rads::death_icd10_clean()]
+#' - **`seattle`**: 'Seattle' or 'NonSeattle', randomly assigned when chi_geo_kc
+#' == 'King County'
 #' - **`temperament`**: A categorical 'demographic' indicator with three levels:
 #'   `'Active'`, `'Moderate'`, and `'Calm'`
-#' - **`chi_age`**: Age at death in integer years
+#' - **`underlying_cod_code`**: ICD-10 underlying cause of death code, cleaned
+#'   via [rads::death_icd10_clean()]
+#' - **`year`**: Year of death
 #' - **`creation_date`**: A simple time stamp of the date the table was updated
 #'
 #' @source
