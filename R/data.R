@@ -854,20 +854,18 @@
 #' testing and development. This privacy-safe dataset preserves the
 #' distributions of key demographic and clinical birth characteristics.
 #'
-#' @format A data.table with 11 columns and more than 70,000 rows:
+#' @format A data.table with 10 columns and more than 70,000 rows:
 #'
+#' - **`year`**: Birth year
+#' - **`sex`**: Infant sex
+#' - **`race`**: Maternal OMB race/ethnicity, with Hispanic as a race
 #' - **`age`**: Maternal age, randomly reassigned while preserving the
 #'   empirical distribution
+#' - **`mother_birthplace_state`**: Mother's birthplace state
 #' - **`birth_weight_grams`**: The recorded birth weight in grams.
-#' - **`geo_kc`**: A King County, WA specific indicator, randomly assigned
-#'   as `"King County"` or `NA`
+#' - **`preterm`**: Binary flag for preterm delivery
 #' - **`fetal_pres`**: Fetal presentation
 #' - **`kotelchuck`**: Kotelchuck prenatal care index
-#' - **`mother_birthplace_state`**: Mother's birthplace state
-#' - **`preterm`**: Binary flag for preterm delivery
-#' - **`race`**: OMB race/ethnicity, with Hispanic as a race
-#' - **`sex`**: Infant sex
-#' - **`year`**: Birth year
 #' - **`creation_date`**: Date the synthetic table was created
 #'
 #' @source
@@ -897,7 +895,7 @@
 #' privacy-safe dataset contains injury-related diagnosis data with an
 #' arbitrary categorical descriptor (temperament).
 #'
-#' @format A data.table with 9 columns and more than 250,000 rows:
+#' @format A data.table with 8 columns and more than 250,000 rows:
 #'
 #' - **`seq_no`**: Unique patient-visit level identifier (one per row)
 #' - **`diag1`**: ICD-10-CM Primary diagnosis code
@@ -911,7 +909,6 @@
 #'    'legal', 'undetermined', 'unintentional'.
 #' - **`injury_mechanism`**: Injury mechanism classification, e.g., 'bites_stings',
 #'    'drowning', 'fall', 'firearm', 'overexertion, 'poisoning', etc.
-#' - **`chi_geo_kc`**: A King County, WA specific indicator
 #' - **`temperament`**: A categorical 'demographic' indicator with three levels:
 #'   'Active', 'Moderate', and 'Calm'.
 #' - **`creation_date`**: A simple time stamp of the date the table was updated
@@ -943,23 +940,19 @@
 #' date of birth, and and date of death data with an arbitrary categorical
 #' descriptor (temperament).
 #'
-#' @format A data.table with 27 columns and more than 30,000 rows:
+#' @format A data.table with 29 columns and more than 30,000 rows:
 #'
-#' - **`age`**: Age at death in integer years
-#' - **`chi_geo_kc`**: A King County, WA specific indicator, randomly assigned
-#'   as `"King County"` or `NA`
+#' - **`year`**: Year of death
+#' - **`sex`**: Decedent's sex
+#' - **`race`**: Decedent's OMB race/ethnicity, with Hispanic as a race
+#' - **`age`**: Decedent's age in years
 #' - **`date_of_birth`**: Date of birth (class Date)
 #' - **`date_of_death`**: Date of death (class Date)
-#' - **`race`**: OMB race/ethnicity, with Hispanic as a race
 #' - **`record_axis_code_1`** through **`record_axis_code_20`**: ICD-10
 #'   contributing causes of death codes, cleaned via [rads::death_icd10_clean()]
-#' - **`seattle`**: 'Seattle' or 'NonSeattle', randomly assigned when chi_geo_kc
-#' == 'King County'
-#' - **`temperament`**: A categorical 'demographic' indicator with three levels:
-#'   `'Active'`, `'Moderate'`, and `'Calm'`
+#' - **`temperament`**: Decedent's temperament: `'Active'`, `'Moderate'`, and `'Calm'`
 #' - **`underlying_cod_code`**: ICD-10 underlying cause of death code, cleaned
 #'   via [rads::death_icd10_clean()]
-#' - **`year`**: Year of death
 #' - **`creation_date`**: A simple time stamp of the date the table was updated
 #'
 #' @source
@@ -987,12 +980,12 @@
 #' A 'synthetic' population dataset derived [WA OFM](https://ofm.wa.gov/) estimates for use in testing
 #' and development. Estimates are current as of the `creation_date` in the dataset.
 #'
-#' @format A data.table with 6 columns and more than 28,000 rows:
+#' @format A data.table with 6 columns and more than 14,000 rows:
 #'
 #' - **`year`**: Calendar year of population estimate
 #' - **`gender`**: 'Female' or 'Male'
 #' - **`race`**: 'AIAN', 'Asian', 'Black', 'Hispanic', 'Multiple race', 'NHPI', or 'White
-#' - **`geo`**: 'Washington State' or 'King County'
+#' - **`age`**: Age
 #' - **`pop`**: Population estimate
 #' - **`creation_date`**: A simple time stamp of the date the table was updated
 #'
@@ -1010,8 +1003,7 @@
 #'
 #' # Population of Females in Washington State in 2022
 #' sum(synthetic_population[gender == 'Female' &
-#'                          year == 2022 &
-#'                          geo == 'Washington State']$pop)
+#'                          year == 2022]$pop)
 #'
 #' @keywords datasets
 "synthetic_population"

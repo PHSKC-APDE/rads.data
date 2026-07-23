@@ -5,12 +5,12 @@
 \alias{synthetic_population}
 \title{Synthetic Population Data for Testing and Development}
 \format{
-A data.table with 6 columns and more than 28,000 rows:
+A data.table with 6 columns and more than 14,000 rows:
 \itemize{
 \item \strong{\code{year}}: Calendar year of population estimate
 \item \strong{\code{gender}}: 'Female' or 'Male'
 \item \strong{\code{race}}: 'AIAN', 'Asian', 'Black', 'Hispanic', 'Multiple race', 'NHPI', or 'White
-\item \strong{\code{geo}}: 'Washington State' or 'King County'
+\item \strong{\code{age}}: Age
 \item \strong{\code{pop}}: Population estimate
 \item \strong{\code{creation_date}}: A simple time stamp of the date the table was updated
 }
@@ -36,8 +36,7 @@ str(synthetic_population)
 
 # Population of Females in Washington State in 2022
 sum(synthetic_population[gender == 'Female' &
-                         year == 2022 &
-                         geo == 'Washington State']$pop)
+                         year == 2022]$pop)
 
 }
 \keyword{datasets}

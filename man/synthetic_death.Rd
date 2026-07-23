@@ -5,23 +5,19 @@
 \alias{synthetic_death}
 \title{Synthetic Death Data for Testing and Development}
 \format{
-A data.table with 27 columns and more than 30,000 rows:
+A data.table with 29 columns and more than 30,000 rows:
 \itemize{
-\item \strong{\code{age}}: Age at death in integer years
-\item \strong{\code{chi_geo_kc}}: A King County, WA specific indicator, randomly assigned
-as \code{"King County"} or \code{NA}
+\item \strong{\code{year}}: Year of death
+\item \strong{\code{sex}}: Decedent's sex
+\item \strong{\code{race}}: Decedent's OMB race/ethnicity, with Hispanic as a race
+\item \strong{\code{age}}: Decedent's age in years
 \item \strong{\code{date_of_birth}}: Date of birth (class Date)
 \item \strong{\code{date_of_death}}: Date of death (class Date)
-\item \strong{\code{race}}: OMB race/ethnicity, with Hispanic as a race
 \item \strong{\code{record_axis_code_1}} through \strong{\code{record_axis_code_20}}: ICD-10
 contributing causes of death codes, cleaned via \code{\link[rads:death_icd10_clean]{rads::death_icd10_clean()}}
-\item \strong{\code{seattle}}: 'Seattle' or 'NonSeattle', randomly assigned when chi_geo_kc
-== 'King County'
-\item \strong{\code{temperament}}: A categorical 'demographic' indicator with three levels:
-\code{'Active'}, \code{'Moderate'}, and \code{'Calm'}
+\item \strong{\code{temperament}}: Decedent's temperament: \code{'Active'}, \code{'Moderate'}, and \code{'Calm'}
 \item \strong{\code{underlying_cod_code}}: ICD-10 underlying cause of death code, cleaned
 via \code{\link[rads:death_icd10_clean]{rads::death_icd10_clean()}}
-\item \strong{\code{year}}: Year of death
 \item \strong{\code{creation_date}}: A simple time stamp of the date the table was updated
 }
 }
