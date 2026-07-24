@@ -29,9 +29,7 @@ synthetic_death
 }
 \description{
 A synthetic dataset derived from real death data for use in testing
-and development. This privacy-safe dataset contains cause of death (ICD-10),
-date of birth, and and date of death data with an arbitrary categorical
-descriptor (temperament).
+and development.
 }
 \examples{
 library(data.table)
