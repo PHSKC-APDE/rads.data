@@ -5,20 +5,18 @@
 \alias{synthetic_birth}
 \title{Synthetic Birth Data for Testing and Development}
 \format{
-A data.table with 11 columns and more than 70,000 rows:
+A data.table with 10 columns and more than 70,000 rows:
 \itemize{
+\item \strong{\code{year}}: Birth year
+\item \strong{\code{sex}}: Infant sex
+\item \strong{\code{race}}: Maternal OMB race/ethnicity, with Hispanic as a race
 \item \strong{\code{age}}: Maternal age, randomly reassigned while preserving the
 empirical distribution
+\item \strong{\code{mother_birthplace_state}}: Mother's birthplace state
 \item \strong{\code{birth_weight_grams}}: The recorded birth weight in grams.
-\item \strong{\code{geo_kc}}: A King County, WA specific indicator, randomly assigned
-as \code{"King County"} or \code{NA}
+\item \strong{\code{preterm}}: Binary flag for preterm delivery
 \item \strong{\code{fetal_pres}}: Fetal presentation
 \item \strong{\code{kotelchuck}}: Kotelchuck prenatal care index
-\item \strong{\code{mother_birthplace_state}}: Mother's birthplace state
-\item \strong{\code{preterm}}: Binary flag for preterm delivery
-\item \strong{\code{race}}: OMB race/ethnicity, with Hispanic as a race
-\item \strong{\code{sex}}: Infant sex
-\item \strong{\code{year}}: Birth year
 \item \strong{\code{creation_date}}: Date the synthetic table was created
 }
 }

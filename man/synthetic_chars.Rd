@@ -5,7 +5,7 @@
 \alias{synthetic_chars}
 \title{Synthetic CHARS Data for Testing and Development}
 \format{
-A data.table with 9 columns and more than 250,000 rows:
+A data.table with 8 columns and more than 250,000 rows:
 \itemize{
 \item \strong{\code{seq_no}}: Unique patient-visit level identifier (one per row)
 \item \strong{\code{diag1}}: ICD-10-CM Primary diagnosis code
@@ -19,7 +19,6 @@ nature-of-injury ICD10-CM code
 'legal', 'undetermined', 'unintentional'.
 \item \strong{\code{injury_mechanism}}: Injury mechanism classification, e.g., 'bites_stings',
 'drowning', 'fall', 'firearm', 'overexertion, 'poisoning', etc.
-\item \strong{\code{chi_geo_kc}}: A King County, WA specific indicator
 \item \strong{\code{temperament}}: A categorical 'demographic' indicator with three levels:
 'Active', 'Moderate', and 'Calm'.
 \item \strong{\code{creation_date}}: A simple time stamp of the date the table was updated

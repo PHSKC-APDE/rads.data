@@ -17,6 +17,6 @@ A data.table with 506 rows and 6 variables:
 spatial_ids_and_names
 }
 \description{
-Mostly a helper file for \code{\link[rads:get_population]{rads::get_population()}}
+Mostly a helper file for \code{\link[apde.data:population]{apde.data::population()}}
 }
 \keyword{datasets}
