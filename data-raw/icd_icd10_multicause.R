@@ -9,6 +9,8 @@
 #        1. Underlying Cause of Death is a poisoning code (X40-X44, X60-X64, X85, Y10-Y14)
 #        2. Contributing Causes include at least one opioid code (T40.0-T40.4, T40.6)
 #
+#        Psychostimulant deaths have same underlying cause of death codes and T40.5 and T43.6
+#        contributing cause codes
 
 # Set up ----
 rm(list=ls())
@@ -16,11 +18,11 @@ library(data.table)
 
 # Function to enumerate all ICD per cause (split.dash) ----
 # E.g., split.dash("X40-X44") >> "X40, X41, X42, X43, X44"
-source("https://raw.githubusercontent.com/PHSKC-APDE/rads.data/main/data-raw/icd_utility_split.dash.R")
+source(here::here('data-raw', 'icd_utility_split.dash.R'))
 
 # Create the opioid death definition ----
 # Underlying causes (poisoning intents)
-underlying_codes <- data.table(
+opioid_underlying_codes <- data.table(
   cause_name = "Opioid",
   underlying_contributing = "underlying",
   orig.coding = c("X40-X44", "X60-X64", "X85", "Y10-Y14"),
@@ -33,7 +35,7 @@ underlying_codes <- data.table(
 )
 
 # Contributing causes (opioid types)
-contributing_codes <- data.table(
+opioid_contributing_codes <- data.table(
   cause_name = "Opioid",
   underlying_contributing = "contributing",
   orig.coding = c("T40.0", "T40.1", "T40.2", "T40.3", "T40.4", "T40.6"),
@@ -47,8 +49,33 @@ contributing_codes <- data.table(
   )
 )
 
-# Combine underlying and contributing
-icd10_multicause_raw <- rbind(underlying_codes, contributing_codes)
+# Create the pyschostimulant death definition ----
+pyschostim_underlying_codes <- data.table(
+  cause_name = "Psychostimulant",
+  underlying_contributing = "underlying",
+  orig.coding = c("X40-X44", "X60-X64", "X85", "Y10-Y14"),
+  description = c(
+    "Unintentional poisoning",
+    "Suicide by poisoning",
+    "Homicide by poisoning",
+    "Undetermined intent poisoning"
+  )
+)
+
+# Contributing causes (opioid types)
+pyschostim_contributing_codes <- data.table(
+  cause_name = "Psychostimulant",
+  underlying_contributing = "contributing",
+  orig.coding = c("T40.5", "T43.6"),
+  description = c(
+    "Cocaine",
+    "Psychostimulants with abuse potential"
+  )
+)
+
+# Combine & tidy underlying and contributing ----
+icd10_multicause_raw <- rbind(opioid_underlying_codes, opioid_contributing_codes,
+                              pyschostim_underlying_codes, pyschostim_contributing_codes)
 
 # Expand ranges to individual codes
 icd10_multicause_raw[, icd := split.dash(orig.coding), by = 1:nrow(icd10_multicause_raw)]

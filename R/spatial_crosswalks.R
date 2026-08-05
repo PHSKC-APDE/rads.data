@@ -2,7 +2,7 @@
 #' Crosswalk between geo_id and geo_names for an assortment of geographies
 #'
 #' @description
-#' Mostly a helper file for [rads::get_population()]
+#' Mostly a helper file for [apde.data::population()]
 #'
 #' @format A data.table with 506 rows and 6 variables:
 #'
