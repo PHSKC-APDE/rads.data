@@ -8,17 +8,24 @@
 
 If you haven’t yet installed [`rads.data`](https://github.com/PHSKC-APDE/rads.data), follow these steps:
 
-1. Make sure devtools is installed … `install.packages("devtools")`.
+1.  Make sure `remotes` is installed:
 
-2. Install [`rads.data`](https://github.com/PHSKC-APDE/rads.data) …
-    `devtools::install_github("PHSKC-APDE/rads.data", auth_token = NULL)`
+    ```r
+    install.packages("remotes")
+    ```
 
-3. Exit RStudio and start it again. 
+2.  Install [`rads.data`](https://github.com/PHSKC-APDE/rads.data):
 
-4. Confirm `rads.data` installed properly by typing `library(rads.data)` in the console.
+    ```r
+    remotes::install_github("PHSKC-APDE/rads.data", auth_token = NULL)
+    ```
+
+3.  Exit RStudio and start it again. 
+
+4.  Confirm `rads.data` installed properly by typing `library(rads.data)` in the console.
 
 ## Getting started
-As of February 3, 2022, this package contains data.tables from the following thematic areas:
+This package contains data.tables from the following thematic areas:
 
 1. **icd** << reference tables of ICD 10 codes for causes of death and hospitalizations.
 
@@ -40,6 +47,7 @@ Finally, if you need a CSV to share the data with non-R users, you can point the
 
 ## A quick reminder regarding Census geographies
 Census GEOIDs have the following structure:
+
 | Area    | GEOID Structure                | Digits     | Example Area                 | Example GEOID        |
 | ------------ | ------------------------------ | ---------- | -----------------------------| -------------------- |
 | State        | STATE                          | 2          | WA                           | 53                   |
@@ -48,9 +56,12 @@ Census GEOIDs have the following structure:
 | Block Group  | STATE+COUNTY+TRACT+BLOCK GROUP | 2+3+6+1=12 | Block Group 2 in Tract 11001 | 53 033 011001 2      |
 | Block        | STATE+COUNTY+TRACT+BLOCK       | 2+3+6+4=15 | Block 2006 in Tract 11001 in | 53 033 011001 2006   |
 
-## Adding files and or thematic areas
-If you want to add files or thematic areas, PLEASE create a new branch and then submit a pull request.
+## License
+`rads.data` is released under the [Apache License 2.0](LICENSE.md).
+
+## Contributing?
+Interested in contributing? See our [contribution guidelines](https://github.com/PHSKC-APDE/rads.data/blob/main/CONTRIBUTING.md).
 
 ## Problems & suggestions?
-If you notice something that is incorrect, know a data source that you'd like to add, or have a suggestion for improvement, please let us know. Click on ["Issues"](https://github.com/PHSKC-APDE/rads.data/issues) at the top of this page and then click ["New Issue"](https://github.com/PHSKC-APDE/rads.data/issues/new/choose) and provide the necessary details. 
+If you notice something that is incorrect, know a data source that you'd like to add, or have a suggestion for improvement, please let us know. Click on ["Issues"](https://github.com/PHSKC-APDE/rads.data/issues) at the top of this page and then click ["New Issue"](https://github.com/PHSKC-APDE/rads.data/issues/new/choose) and provide the necessary details. For guidance on what to include, see our [Issue Guidelines](https://github.com/PHSKC-APDE/rads.data/blob/main/.github/ISSUE_TEMPLATE/ISSUE_GUIDELINES.md).
 

@@ -7,12 +7,11 @@ Maintainer: Danny Colombara <Data.Request@kingcounty.gov>
 Description: Provides reference datasets that are intelligently formatted and ready for analysis.  
     Some data are used within rads functions (e.g., icd_nchs113causes) whereas others are simply
     made available for other public health analyses (e.g., occupation_soc_structure_2018).
-License: GPL-3
+License: Apache License (>= 2)
 Encoding: UTF-8
 LazyData: true
 LazyDataCompression: xz
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.3
 Imports: 
     httr, 
     lifecycle
@@ -24,3 +23,4 @@ Suggests:
     readr
 Depends: 
     R (>= 4.0.0)
+Config/roxygen2/version: 8.1.0
