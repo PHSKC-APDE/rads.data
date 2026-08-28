@@ -3,3 +3,6 @@
 ^data-raw$
 ^\.positai$
 ^\.claude$
+^LICENSE\.md$
+^\.github$
+^CONTRIBUTING\.md$
