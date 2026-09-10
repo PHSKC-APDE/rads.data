@@ -27,14 +27,16 @@ icd10cm_ccs
 }
 \description{
 A complete reference table of ICD-10-CM diagnosis codes with hierarchical
-Clinical Classifications Software Refined (CCSR) categories used by
+\href{https://hcup-us.ahrq.gov/toolssoftware/ccsr/ccs_refined.jsp}{Clinical Classifications Software Refined (CCSR)}
+categories used by
 Public Health – Seattle & King County for analyzing diagnosis patterns in
 Comprehensive Hospital Abstract Reporting System (CHARS) data. This table
 is based on AHRQ's HCUP CCSR standards with additional APDE-developed
 categorizations.
 }
 \details{
-The Clinical Classifications Software Refined (CCSR) is a diagnosis and
+The \href{https://hcup-us.ahrq.gov/toolssoftware/ccsr/ccs_refined.jsp}{Clinical Classifications Software Refined (CCSR)}
+is a diagnosis and
 procedure categorization scheme developed by AHRQ's Healthcare Cost and
 Utilization Project (HCUP). The CCSR aggregates ICD-10-CM codes (used in
 CHARS data 2016+) into clinically meaningful categories for health
@@ -51,7 +53,9 @@ This dataset is used by \code{\link[rads:chars_icd_ccs]{rads::chars_icd_ccs()}} 
 across CHARS analyses.
 
 \strong{Note:} This dataset should be refreshed at minimum on an annual basis to
-reflect any changes in CCSR definitions or APDE categorizations.
+reflect any changes in CCSR definitions or APDE categorizations. This typically
+occurs in September or October and is dependent upon the update of \verb{[ref].[icdcm_codes]}
+in HHSAW.
 }
 \examples{
 \dontrun{
