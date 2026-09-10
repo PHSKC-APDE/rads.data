@@ -38,12 +38,14 @@ This package contains data.tables from the following thematic areas:
     - **Note:** this does not contain shape files.
     - **Note:** please view the [spatial file README](https://github.com/PHSKC-APDE/rads.data/blob/main/inst/extdata/spatial_data/README.md) and or the help files if you are confused as to which files you should use.
 
+5. **synthetic** << synthetic / privacy safe datasets for use in [`rads`](https://github.com/PHSKC-APDE/rads) examples and training. 
 
-All of the data.tables are prefixed by their thematic area, i.e., every table begins with `spatial_`, or `population_`, or `occupation_`, or `icd_`.
 
-Once the package has been loaded, you can import the table of interest into memory by simply typing `data(table.name)`. For example, typing `data(spatial_zip_to_hra20_geog)` will import the 'spatial_zip_to_hra20_geog' data.table. If you want to know which tables are available, it easiest to type `rads.data::` and then the thematic area prefix (e.g., `rads.data::icd_`) into the console and scroll through the available options. If you scroll slowly, descriptions should pop up on in a small window. If you want to see the full documentation for a specific table, type `?table.name`. For example, `?icd_nchs113causes`.
+All of the data.tables are prefixed by their thematic area, i.e., every table begins with `spatial_`, or `population_`, or `occupation_`, `icd_`, or `synthetic_`.
 
-Finally, if you need a CSV to share the data with non-R users, you can point them to [`inst/extdata`](https://github.com/PHSKC-APDE/rads.data/inst/extdata). This folder contains CSV copies of the R data files. When updating this package, all updates should be performed using the [copying code](https://github.com/PHSKC-APDE/rads.data/blob/main/data-raw/copy_rda_to_csv.R) which can properly save .csv versions of .rda files and vice versa.
+Once the package has been loaded, you can import the table of interest into memory by simply typing the table name. For example, typing `synthetic_birth` will import the 'synthetic_birth' data.table. If you want to know which tables are available, it easiest to type `rads.data::` and then the thematic area prefix (e.g., `rads.data::icd_`) into the console and scroll through the available options. If you scroll slowly, descriptions should pop up on in a small window. If you want to see the full documentation for a specific table, type `?table.name`. For example, `?icd_nchs113causes`.
+
+Finally, if you need a CSV version to share the data with non-R users, check out the contents of  [`inst/extdata`](https://github.com/PHSKC-APDE/rads.data/inst/extdata). This folder contains CSV copies of many of the R data files. When updating this package, all updates should be performed using the [copying code](https://github.com/PHSKC-APDE/rads.data/blob/main/data-raw/copy_rda_to_csv.R) which can properly save .csv versions of .rda files and vice versa.
 
 ## A quick reminder regarding Census geographies
 Census GEOIDs have the following structure:
