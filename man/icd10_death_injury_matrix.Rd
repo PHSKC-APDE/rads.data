@@ -8,7 +8,7 @@
 a 'long' data.table with 8,400 rows and four columns: \code{intent}, \code{mechanism}, \code{orig.coding}, & \code{icd10}.
 }
 \source{
-WA DOH CHAT: \url{https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/CodeSetDefinitions/CHATInjury(ICE)codes.pdf}.
+\href{https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/CodeSetDefinitions/CHATInjury(ICE)codes.pdf}{WA DOH CHAT}.
 Converted to XLSX with Adobe Acrobat and then used Excel to convert to CSV.
 }
 \usage{
@@ -21,10 +21,12 @@ ICD10 Death Injury Matrix (ICE: International Collaborative Effort on Injury Sta
 This function uses ICD10 mortality codes and should not be used with ICD10-CM hospitalization data.
 
 Also note that terrorism codes (U01.#, U02.#, & U03.#) are not included
-because they are not included in the coding used by WA DOH. If they are
-needed, they can be obtained from \url{https://www.cdc.gov/nchs/data/ice/icd10_transcode.pdf}.
+because they are not included in the coding used by WA DOH.
 }
 \references{
-\url{https://www.cdc.gov/nchs/data/ice/icd10_transcode.pdf}
+\itemize{
+\item \href{https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10}{A Brief Introduction to ICD-10 Death Codes}
+\item \href{https://www.cdc.gov/nchs/injury/ice/matrix10.htm}{CDC: External Cause of Injury Mortality Matrix}
+}
 }
 \keyword{datasets}

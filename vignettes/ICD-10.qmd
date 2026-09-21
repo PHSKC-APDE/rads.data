@@ -1,0 +1,116 @@
+---
+title: "An Introduction to ICD-10 Death Codes"
+format:
+  html:
+    embed-resources: true
+  gfm:
+    prefer-html: false
+vignette: >
+  %\VignetteIndexEntry{age_standardize()}
+  %\VignetteEngine{quarto::html}
+  %\VignetteEncoding{UTF-8}
+  %\VignetteDepends{knitr}
+editor: source
+---
+
+```{r}
+#| echo: false
+# necessary to allow rendering of date stamp at the bottom
+```
+
+## What are ICD-10 codes?
+
+ICD-10 codes are the alphanumeric labels used to **classify a decedent's cause(s) of death** on a death certificate. They come from the *International Statistical Classification of Diseases and Related Health Problems, 10th Revision (ICD-10)*, developed and published by the **World Health Organization (WHO)**, which endorsed ICD-10 in 1990 for use across its member states starting in 1994. In the U.S., the National Center for Health Statistics (NCHS) replaced ICD-9 with ICD-10 for coding and classifying mortality data from death certificates **beginning with deaths occurring in 1999**. 
+
+## How are ICD-10 and ICD-10-CM codes related?
+ICD-10 is a distinct system from **[ICD-10-CM](https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10-CM)** ("Clinical Modification"), which is a more granular, U.S.-specific version used for clinical diagnosis coding and medical billing. U.S. ICD-10 codes typically top out at 4 characters, unlike ICD-10-CM codes which can have up to 7-characters.
+
+## What about ICD-11?
+
+ICD-11 is a new coding system designed to replace ICD-10. It was adopted by the WHO in 2019 and went into effect January 1, 2022. In contrast with ICD-10, **ICD-11 can also be used for morbidty coding and classification** for health care billing and public health. 
+
+ICD-11 implementation timelines were left up to member states, with the U.S. historically being a laggard. With the U.S. Goverment formally exiting the WHO in January 2026, the date of future implementation is uncertain. As of September 2026, CMS has not announced a mandatory implmentation date, so the U.S. transition is likely years away.
+
+## How are ICD-10 Codes Assigned?
+
+### The Data Pipeline
+
+1. A physician, coroner, or medical examiner certifies the cause of death on a death 
+certificate, while a funeral director, in consultation with the legal next of kin, records 
+demographic information.
+
+2. Local and state vital records offices collect death certificate information, including all literal text describing causes of death.
+
+3. States transmit these literal cause-of-death descriptions to NCHS.
+
+4. NCHS applies automated systems and manual review to assign ICD-10 codes, including the underlying cause and all contributing causes.
+
+5. Coded data is sent back to the states and becomes part of the finalized mortality dataset.
+
+In the data returned to the states by NCHS, ICD-10 codes show up in two key places:
+
+- The **underlying cause of death** represents the disease or injury that initiated the chain of events leading directly to death. In `rads.data::synthetic_death`, this appears as the `underlying_cod_code` column.
+
+- NCHS also encodes up to 20 **contributing causes**. In `rads.data::synthetic_death`, these are the **record-axis code** columns (e.g., `record_axis_code_1` through `record_axis_code_20`). These cover conditions mentioned anywhere on the death certificate that did not directly start the causal chain but contributed to the death.
+
+
+## How are ICD-10 codes structured?
+
+Each code is built left to right, from the broadest classification (chapter) down to the most specific detail. The table below walks through each "place value" and shows two real cause-of-death examples.
+
+| Position | What it represents | Range / notes | Example A: myocardial infarction | Example B: opioid overdose |
+|---|---|---|---|---|
+| **1st character — Letter** | **Chapter.** The broadest classification; groups codes into one of 22 disease/injury chapters. | A–Z, excluding U (U is reserved for provisional/special-purpose codes) | `I` → Chapter IX: *Diseases of the circulatory system* | `T` → Chapter XIX: *Injury, poisoning and certain other consequences of external causes* |
+| **2nd–3rd characters — Digits** | **Category.** Narrows the chapter down to a specific disease or condition group. | 00–99 (meaning depends on chapter) | `I21` → *Acute myocardial infarction* | `T40` → *Poisoning by narcotics and psychodysleptics [hallucinogens]* |
+| **Decimal point** | Separator. | — | `I21.` | `T40.` |
+| **4th character — Digit** | **Subcategory.** Further specification. | 0–9, meaning defined per category | `I21.0` → *anterior wall* MI <br> `I21.1` → *inferior wall* <br> `I21.9` → *unspecified site* | `T40.1` → *Heroin* <br> `T40.2` → *other opioids* <br> `T40.4` → *other synthetic narcotics* |
+| **5th character (rare)** | *Not used by NCHS*. | — | — | — |
+
+***Note!*** The table above is a bit over simplified. Overdose deaths are typically coded with **two kinds of codes**: 
+
+- a Chapter XIX *underlying cause* substance code (like `T40.1`, `T40.2`, `T40.4`) **plus** 
+
+- a Chapter XX *contributing cause* external-cause code describing intent (e.g., `X42` accidental poisoning by narcotics, `X62` intentional self-poisoning by narcotics). 
+
+---
+
+## Complete list of ICD-10 chapters
+
+This is the full chapter list (WHO ICD-10) with letter/code ranges. For reasons mysterious reasons, this table isn't easily found online.
+
+| Chapter | Code range | Title |
+|---|---|---|
+| I | A00–B99 | Certain infectious and parasitic diseases |
+| II | C00–**D**48 | Neoplasms |
+| III | **D**50–**D**89 | Diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism |
+| IV | E00–E90 | Endocrine, nutritional and metabolic diseases |
+| V | F00–F99 | Mental and behavioural disorders |
+| VI | G00–G99 | Diseases of the nervous system |
+| VII | **H**00–**H**59 | Diseases of the eye and adnexa |
+| VIII | **H**60–**H**95 | Diseases of the ear and mastoid process |
+| IX | I00–I99 | Diseases of the circulatory system |
+| X | J00–J99 | Diseases of the respiratory system |
+| XI | K00–K93 | Diseases of the digestive system |
+| XII | L00–L99 | Diseases of the skin and subcutaneous tissue |
+| XIII | M00–M99 | Diseases of the musculoskeletal system and connective tissue |
+| XIV | N00–N99 | Diseases of the genitourinary system |
+| XV | O00–O99 | Pregnancy, childbirth and the puerperium |
+| XVI | P00–P96 | Certain conditions originating in the perinatal period |
+| XVII | Q00–Q99 | Congenital malformations, deformations and chromosomal abnormalities |
+| XVIII | R00–R99 | Symptoms, signs and abnormal clinical/laboratory findings, not elsewhere classified |
+| XIX | S00–T98 | Injury, poisoning and certain other consequences of external causes |
+| XX | V01–Y98 | External causes of morbidity and mortality |
+| XXI | Z00–Z99 | Factors influencing health status and contact with health services |
+| XXII | U00–U99 | Codes for special purposes (e.g., emerging diseases, provisional assignments) |
+
+**A few quirks worth knowing:**
+- The letters **D** and **H** are each shared by two chapters (D: Chapters II & III; H: Chapters VII & VIII) — the meaning depends on the number that follows.
+- Chapters **I, II, XIX, and XX** span more than one letter.
+- **Chapter XX** (external causes, letters V–Y) and **Chapter XXI** (Z-codes) are generally used as *contributing* information rather than as the underlying cause of death.
+- **U-codes (Chapter XXII)** are where WHO/NCHS add new codes between major revisions (e.g., `U07.1` for COVID-19).
+
+## How can I learn more about ICD-10 coding?
+
+The [Instructions for Classifying the Underlying Cause-of-Death, ICD-10, 2025](https://www.cdc.gov/nchs/nvss/manuals/2025/2a-2025.html) provides detailed information regarding the coding process and standards.
+
+-- *`r paste0('Updated ', format(Sys.time(), '%B %d, %Y'), ' (rads.data v', packageVersion('rads.data'), ')')`*

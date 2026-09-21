@@ -1,0 +1,69 @@
+---
+title: "An Introduction to ICD-10-CM Codes"
+format:
+  html:
+    embed-resources: true
+  gfm:
+    prefer-html: false
+vignette: >
+  %\VignetteIndexEntry{calc()}
+  %\VignetteEngine{quarto::html}
+  %\VignetteEncoding{UTF-8}
+  %\VignetteDepends{knitr}
+editor: source
+---
+
+```{r}
+#| echo: false
+# necessary to allow rendering of date stamp at the bottom
+```
+
+## What are ICD-10-CM codes?
+
+ICD-10-CM (International Classification of Diseases, 10th Revision, Clinical Modification) is the diagnosis coding system used throughout the United States for administrative, clinical, and billing purposes. Whereas **[ICD-10](https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10)** is primarily used for mortality statistics and cause-of-death coding, ICD-10-CM is designed to represent diseases, injuries, conditions, and encounters documented in clinical and healthcare settings. They are distinct from procedure codes (ICD-10-PCS), which are used in inpatient settings. The U.S. healthcare industry transitioned from ICD-9-CM to ICD-10-CM on October 1, 2015.
+
+## How are ICD-10-CM Codes Assigned?
+
+### The Data Pipeline
+
+1. **Clinical documentation**: Providers record symptoms, diagnoses, conditions, external causes, and other relevant information in the medical record.
+
+2. **Medical coding (human or assisted)**:
+   - Certified medical coders or clinical documentation specialists review the chart.
+   - Automated coding tools may assist.
+
+3. **Code selection**: Coders choose the ICD-10-CM codes that most accurately reflect the documented conditions.
+
+4. **Data integration**: Codes are stored in billing, claims, EHR, or analytic systems as structured fields.
+
+5. **Submission and use**: ICD-10-CM codes are used for reimbursement, quality measurement, utilization analysis, and epidemiologic surveillance.
+
+Unlike ICD-10 cause-of-death coding, ICD-10-CM is **not centralized** at NCHS. Coding occurs at the healthcare organization level, following federal regulations, CMS guidance, and coding standards.
+
+ICD-10-CM codes typically appear in one or more standardized diagnosis fields. Common patterns include:
+
+- The **primary diagnosis** is the main reason for the encounter or service. In `rads.data::synthetic_chars` this appears as `diag1`.
+
+- **Secondary or additional diagnoses** are coexisting conditions or factors that influence care but are not the main reason for the visit. These do not exist in `rads.data::synthetic_chars`.
+
+Clinical datasets sometimes include dozens of diagnosis code fields per encounter, especially in inpatient records. 
+
+## How are ICD-10-CM Codes Structured?
+
+ICD-10-CM codes are alphanumeric and range from three to seven characters. Each portion of a code carries specific meaning.
+
+- The **first character** is always a letter (A–Z), representing a broad chapter of conditions.
+- The **second and third characters** are numeric and represent the core category of the diagnosis.
+- A **decimal point** follows the first three characters.
+- Characters **four through seven** (when present) provide increasing detail about the condition, such as anatomical site, severity, encounter type, or other clinical distinctions.
+
+Example: `S52.521A`
+
+- `S` = Injury and poisoning chapter
+- `52` = Fracture of forearm
+- `.521` = Torus fracture of lower end of right radius
+- `A` = Initial encounter
+
+The design allows the system to represent clinical diagnoses with high specificity while remaining consistent across providers and settings.
+
+-- *`r paste0('Updated ', format(Sys.time(), '%B %d, %Y'), ' (rads v', packageVersion('rads'), ')')`*

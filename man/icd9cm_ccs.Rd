@@ -72,6 +72,9 @@ icd9cm_ccs[grepl("diabetes", icdcm, ignore.case = TRUE)]
 
 }
 \references{
-\href{https://hcup-us.ahrq.gov/toolssoftware/ccsr/ccs_refined.jsp}{AHRQ HCUP Clinical Classifications Software Refined (CCSR)}
+\itemize{
+\item \href{https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10-CM}{A Brief Introduction to ICD-10-CM Codes}
+\item \href{https://hcup-us.ahrq.gov/toolssoftware/ccsr/ccs_refined.jsp}{AHRQ HCUP Clinical Classifications Software Refined (CCSR)}
+}
 }
 \keyword{datasets}
