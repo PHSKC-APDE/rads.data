@@ -13,6 +13,9 @@ A data.table with 506 rows and 6 variables:
 
 \code{type}: Geography type
 }
+\source{
+\verb{//dphcifs/APDE-CDIP/Population/Xwalks/xw_lab.csv}, built via code in the frankenpop repo.
+}
 \usage{
 spatial_ids_and_names
 }

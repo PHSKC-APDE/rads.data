@@ -19,6 +19,9 @@ A data.table with 27,686 rows and 6 variables:
 
 \code{creation_date}: Date the file was created
 }
+\source{
+HHSAW SQL Server table \code{ref.block2020_hra20}.
+}
 \usage{
 spatial_block20_to_hra20_to_region20
 }
