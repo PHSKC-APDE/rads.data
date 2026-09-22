@@ -2,9 +2,11 @@ Package: rads.data
 Type: Package
 Title: Data for rads package and other public health uses
 Version: 1.0.24
-Author: PHSKC-APDE
-Maintainer: Danny Colombara <Data.Request@kingcounty.gov>
-Description: Provides reference datasets that are intelligently formatted and ready for analysis.  
+Authors@R: c(
+    person("Danny", "Colombara", email = "Data.Request@kingcounty.gov", role = c("aut", "cre")),
+    person("PHSKC-APDE", role = "cph")
+    )
+Description: Provides reference datasets that are intelligently formatted and ready for analysis.
     Some data are used within rads functions (e.g., icd_nchs113causes) whereas others are simply
     made available for other public health analyses (e.g., occupation_soc_structure_2018).
 License: Apache License (>= 2)
@@ -12,15 +14,18 @@ Encoding: UTF-8
 LazyData: true
 LazyDataCompression: xz
 Roxygen: list(markdown = TRUE)
-Imports: 
-    httr, 
+Imports:
+    httr,
     lifecycle
-Suggests: 
+Suggests:
     data.table,
-    openxlsx, 
-    devtools, 
+    openxlsx,
+    devtools,
     usethis,
-    readr
-Depends: 
+    readr,
+    knitr,
+    quarto
+Depends:
     R (>= 4.0.0)
+VignetteBuilder: quarto
 Config/roxygen2/version: 8.1.0
