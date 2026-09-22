@@ -6,7 +6,7 @@ format:
   gfm:
     prefer-html: false
 vignette: >
-  %\VignetteIndexEntry{age_standardize()}
+  %\VignetteIndexEntry{Introduction to ICD-10 Death Codes}
   %\VignetteEngine{quarto::html}
   %\VignetteEncoding{UTF-8}
   %\VignetteDepends{knitr}
@@ -23,15 +23,15 @@ editor: source
 ICD-10 codes are the alphanumeric labels used to **classify a decedent's cause(s) of death** on a death certificate. They come from the *International Statistical Classification of Diseases and Related Health Problems, 10th Revision (ICD-10)*, developed and published by the **World Health Organization (WHO)**, which endorsed ICD-10 in 1990 for use across its member states starting in 1994. In the U.S., the National Center for Health Statistics (NCHS) replaced ICD-9 with ICD-10 for coding and classifying mortality data from death certificates **beginning with deaths occurring in 1999**. 
 
 ## How are ICD-10 and ICD-10-CM codes related?
-ICD-10 is a distinct system from **[ICD-10-CM](https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10-CM)** ("Clinical Modification"), which is a more granular, U.S.-specific version used for clinical diagnosis coding and medical billing. U.S. ICD-10 codes typically top out at 4 characters, unlike ICD-10-CM codes which can have up to 7-characters.
+ICD-10 is a distinct system from **[ICD-10-CM](https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10-CM)** ("Clinical Modification"), which is a more granular, U.S.-specific version used for clinical diagnosis coding and medical billing. U.S. ICD-10 codes typically top out at 4 characters, unlike ICD-10-CM codes which can have up to 7 characters.
 
 ## What about ICD-11?
 
-ICD-11 is a new coding system designed to replace ICD-10. It was adopted by the WHO in 2019 and went into effect January 1, 2022. In contrast with ICD-10, **ICD-11 can also be used for morbidty coding and classification** for health care billing and public health. 
+ICD-11 is a new coding system designed to replace ICD-10. It was adopted by the WHO in 2019 and went into effect January 1, 2022. In contrast with ICD-10, **ICD-11 can also be used for morbidity coding and classification** for health care billing and public health.
 
-ICD-11 implementation timelines were left up to member states, with the U.S. historically being a laggard. With the U.S. Goverment formally exiting the WHO in January 2026, the date of future implementation is uncertain. As of September 2026, CMS has not announced a mandatory implmentation date, so the U.S. transition is likely years away.
+ICD-11 implementation timelines were left up to member states, with the U.S. historically being a laggard. With the U.S. Government having formally exited the WHO in January 2026, the date of future implementation is uncertain. As of September 2026, CMS has not announced a mandatory implementation date, so the U.S. transition is likely years away.
 
-## How are ICD-10 Codes Assigned?
+## How are ICD-10 codes assigned?
 
 ### The Data Pipeline
 
@@ -76,7 +76,7 @@ Each code is built left to right, from the broadest classification (chapter) dow
 
 ## Complete list of ICD-10 chapters
 
-This is the full chapter list (WHO ICD-10) with letter/code ranges. For reasons mysterious reasons, this table isn't easily found online.
+This is the full chapter list (WHO ICD-10) with letter/code ranges. For reasons that are unclear, this table isn't easily found online.
 
 | Chapter | Code range | Title |
 |---|---|---|
@@ -108,6 +108,16 @@ This is the full chapter list (WHO ICD-10) with letter/code ranges. For reasons 
 - Chapters **I, II, XIX, and XX** span more than one letter.
 - **Chapter XX** (external causes, letters V–Y) and **Chapter XXI** (Z-codes) are generally used as *contributing* information rather than as the underlying cause of death.
 - **U-codes (Chapter XXII)** are where WHO/NCHS add new codes between major revisions (e.g., `U07.1` for COVID-19).
+
+## Related reference datasets in `rads.data`
+
+Beyond the raw codes, `rads.data` includes several reference tables for grouping and analyzing ICD-10 mortality data:
+
+- **`icd_nchs113causes`**: NCHS' 113 Selected Causes of Death, mapping ICD-10 codes to standard leading-cause-of-death groupings.
+- **`icd_nchs130causes`**: NCHS' 130 Selected Causes of Infant Death, the infant-mortality analog of the 113 causes list.
+- **`icd_other_causes_of_death`**: ICD-10 definitions for additional causes of death of analytic interest that aren't part of the CDC 113/130 lists.
+- **`icd10_multicause`**: Definitions for causes (like opioid-related mortality) that require looking at both the underlying **and** contributing cause codes together.
+- **`icd10_death_injury_matrix`**: Injury mechanism/intent combinations (ICE: International Collaborative Effort on Injury Statistics) for classifying injury deaths.
 
 ## How can I learn more about ICD-10 coding?
 

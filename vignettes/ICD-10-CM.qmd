@@ -6,7 +6,7 @@ format:
   gfm:
     prefer-html: false
 vignette: >
-  %\VignetteIndexEntry{calc()}
+  %\VignetteIndexEntry{Introduction to ICD-10-CM Codes}
   %\VignetteEngine{quarto::html}
   %\VignetteEncoding{UTF-8}
   %\VignetteDepends{knitr}
@@ -20,9 +20,9 @@ editor: source
 
 ## What are ICD-10-CM codes?
 
-ICD-10-CM (International Classification of Diseases, 10th Revision, Clinical Modification) is the diagnosis coding system used throughout the United States for administrative, clinical, and billing purposes. Whereas **[ICD-10](https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10)** is primarily used for mortality statistics and cause-of-death coding, ICD-10-CM is designed to represent diseases, injuries, conditions, and encounters documented in clinical and healthcare settings. They are distinct from procedure codes (ICD-10-PCS), which are used in inpatient settings. The U.S. healthcare industry transitioned from ICD-9-CM to ICD-10-CM on October 1, 2015.
+ICD-10-CM (International Classification of Diseases, 10th Revision, Clinical Modification) is the diagnosis coding system used throughout the United States **for administrative, clinical, and billing purposes**. Whereas **[ICD-10](https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10)** is primarily used for mortality statistics and cause-of-death coding, ICD-10-CM is designed to represent diseases, injuries, conditions, and encounters documented in clinical and healthcare settings. ICD-10-CM codes are distinct from procedure codes (ICD-10-PCS), which are used in inpatient settings. The U.S. healthcare industry transitioned from ICD-9-CM to ICD-10-CM on October 1, 2015.
 
-## How are ICD-10-CM Codes Assigned?
+## How are ICD-10-CM codes assigned?
 
 ### The Data Pipeline
 
@@ -48,7 +48,7 @@ ICD-10-CM codes typically appear in one or more standardized diagnosis fields. C
 
 Clinical datasets sometimes include dozens of diagnosis code fields per encounter, especially in inpatient records. 
 
-## How are ICD-10-CM Codes Structured?
+## How are ICD-10-CM codes structured?
 
 ICD-10-CM codes are alphanumeric and range from three to seven characters. Each portion of a code carries specific meaning.
 
@@ -66,4 +66,11 @@ Example: `S52.521A`
 
 The design allows the system to represent clinical diagnoses with high specificity while remaining consistent across providers and settings.
 
--- *`r paste0('Updated ', format(Sys.time(), '%B %d, %Y'), ' (rads v', packageVersion('rads'), ')')`*
+## Related reference datasets in `rads.data`
+
+Beyond the raw codes, `rads.data` includes several reference tables for grouping and analyzing ICD-10-CM data:
+
+- **`icd10cm_ccs`**: ICD-10-CM Clinical Classifications Software Refined (CCSR) reference table, mapping diagnosis codes to hierarchical clinical categories for aggregate analysis.
+- **`icd9cm_ccs`**: The ICD-9-CM equivalent CCSR reference table, for analyses spanning the pre-2015 transition.
+
+-- *`r paste0('Updated ', format(Sys.time(), '%B %d, %Y'), ' (rads.data v', packageVersion('rads.data'), ')')`*
