@@ -8,4 +8,18 @@
 \description{
 Provides reference datasets that are intelligently formatted and ready for analysis. Some data are used within rads functions (e.g., icd_nchs113causes) whereas others are simply made available for other public health analyses (e.g., occupation_soc_structure_2018).
 }
+\author{
+\strong{Maintainer}: Danny Colombara \email{Data.Request@kingcounty.gov}
+
+Authors:
+\itemize{
+  \item Danny Colombara \email{Data.Request@kingcounty.gov}
+}
+
+Other contributors:
+\itemize{
+  \item PHSKC-APDE [copyright holder]
+}
+
+}
 \keyword{internal}

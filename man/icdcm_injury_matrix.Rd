@@ -54,6 +54,9 @@ unique(icdcm_injury_matrix$intent)
 
 }
 \references{
-\href{https://www.cdc.gov/nchs/injury/injury_matrices.htm}{CDC Injury Code and Matrices}
+\itemize{
+\item \href{https://www.cdc.gov/nchs/injury/injury_matrices.htm}{CDC Injury Code and Matrices}
+\item \href{https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10-CM}{A Brief Introduction to ICD-10-CM Codes}
+}
 }
 \keyword{datasets}

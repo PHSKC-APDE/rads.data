@@ -15,6 +15,9 @@ A data.table with 61 rows and 4 variables:
 
 \code{region_name}: Name of the region
 }
+\source{
+Derived from the unique HRA/region combinations in \code{spatial_block20_to_hra20_to_region20}.
+}
 \usage{
 spatial_hra20_to_region20
 }

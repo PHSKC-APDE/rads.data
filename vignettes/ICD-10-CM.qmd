@@ -1,0 +1,82 @@
+---
+title: "An Introduction to ICD-10-CM Codes"
+format:
+  html:
+    embed-resources: true
+  gfm:
+    prefer-html: false
+vignette: >
+  %\VignetteIndexEntry{Introduction to ICD-10-CM Codes}
+  %\VignetteEngine{quarto::html}
+  %\VignetteEncoding{UTF-8}
+  %\VignetteDepends{knitr}
+editor: source
+---
+
+```{r}
+#| echo: false
+# necessary to allow rendering of date stamp at the bottom
+```
+
+## What are ICD-10-CM codes?
+
+ICD-10-CM (International Classification of Diseases, 10th Revision, Clinical Modification) is the diagnosis coding system used throughout the United States **for administrative, clinical, and billing purposes**. ICD-10-CM codes are designed to represent diseases, injuries, conditions, and encounters documented in clinical and healthcare settings. They are **NOT interchangeable with  [ICD-10](https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10) codes**, which are used for cause-of-death coding. They are also **distinct from procedure codes (ICD-10-PCS)**, which are used in inpatient settings. 
+
+The U.S. healthcare industry transitioned from ICD-9-CM to ICD-10-CM on October 1, 2015. This transition affected coding patterns differently, with particularly notable effects for injuries. See [CSTE's Injury Toolkit](https://injurytoolkit.cste.org/?page_id=1690) to learn more. Unlike ICD-10 codes used for death data there are no comparability ratios for the ICD-9-CM to ICD-10-CM transition.
+
+New ICD-10-CM codes can be added each federal fiscal year (October 1).
+
+## How are ICD-10-CM codes assigned?
+
+### The Data Pipeline
+
+1. **Clinical documentation**: Providers record symptoms, diagnoses, conditions, external causes, and other relevant information in the medical record.
+
+2. **Medical coding (human or assisted)**:
+   - Certified medical coders or clinical documentation specialists review the chart.
+   - Automated coding tools may assist.
+
+3. **Code selection**: Coders choose the ICD-10-CM codes that most accurately reflect the documented conditions.
+
+4. **Data integration**: Codes are stored in billing, claims, EHR, or analytic systems as structured fields.
+
+5. **Submission and use**: ICD-10-CM codes are used for reimbursement, quality measurement, utilization analysis, and epidemiologic surveillance.
+
+Unlike ICD-10 cause-of-death coding, ICD-10-CM is **not centralized** at NCHS. Coding occurs at the healthcare organization level, following federal regulations, CMS guidance, and coding standards.
+
+ICD-10-CM codes typically appear in one or more standardized diagnosis fields. Common patterns include:
+
+- The **primary diagnosis** is the main reason for the encounter or service. In `rads.data::synthetic_chars` this appears as `diag1`.
+
+- **Secondary or additional diagnoses** are coexisting conditions or factors that influence care but are not the main reason for the visit. These do not exist in `rads.data::synthetic_chars`.
+
+Clinical datasets sometimes include dozens of diagnosis code fields per encounter, especially in inpatient records. 
+
+## How are ICD-10-CM codes structured?
+
+ICD-10-CM codes are alphanumeric and range from three to seven characters. Each portion of a code carries specific meaning.
+
+- The **first character** is always a letter (A–Z), representing a broad chapter of conditions.
+- The **second and third characters** are numeric and represent the core category of the diagnosis.
+- A **decimal point** follows the first three characters.
+- Characters **four through seven** (when present) provide increasing detail about the condition, such as anatomical site, severity, encounter type, or other clinical distinctions.
+
+Example: `S52.521A`
+
+- `S` = Injury and poisoning chapter
+- `52` = Fracture of forearm
+- `.521` = Torus fracture of lower end of right radius
+- `A` = Initial encounter
+
+The design allows the system to represent clinical diagnoses with high specificity while remaining consistent across providers and settings.
+
+## Related reference datasets in `rads.data`
+
+Beyond the raw codes, `rads.data` includes several reference tables for grouping and analyzing ICD-10-CM data:
+
+- **`icd10cm_ccs`**: ICD-10-CM Clinical Classifications Software Refined (CCSR) reference table, mapping diagnosis codes to hierarchical clinical categories for aggregate analysis.
+- **`icd9cm_ccs`**: The ICD-9-CM equivalent CCSR reference table, for analyses spanning the pre-2015 transition.
+
+:warning: Analyses spanning the ICD-9-CM / ICD-10-CM transition that occurred in 2015 must account for the change in the coding system.
+
+-- *`r paste0('Updated ', format(Sys.time(), '%B %d, %Y'), ' (rads.data v', packageVersion('rads.data'), ')')`*

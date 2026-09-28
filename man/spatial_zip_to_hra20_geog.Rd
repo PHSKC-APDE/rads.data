@@ -30,6 +30,10 @@ A data.table with 409 rows and 11 variables:
 
 \code{creation_date}: Date file created
 }
+\source{
+ZIP code shapefile (\verb{//dphcifs/APDE-CDIP/Shapefiles/ZIP/}) intersected with the
+2020 HRA shapefile (geographic overlap method).
+}
 \usage{
 spatial_zip_to_hra20_geog
 }

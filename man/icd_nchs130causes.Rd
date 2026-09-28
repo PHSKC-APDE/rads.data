@@ -12,7 +12,7 @@ A data.table with 18,936 rows and four variables: \code{causeid}, \code{cause.of
 Downloaded from
 \url{https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/TechnicalNotes.pdf}
 on 2/15/2023. It should represent table in
-\url{https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}, on pages 18-20.
+\href{https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}{ICD-10 Cause-of-Death Lists for Tabulating Mortality  Statistics}, on pages 18-20.
 }
 \usage{
 icd_nchs130causes
@@ -24,6 +24,9 @@ NCHS 130 Selected Causes of Infant Death (long).
 Tidied long version of \code{icd_nchs130causes_raw}. Converted by \verb{/data-raw/icd_nchs130causes.R}.
 }
 \references{
-\url{https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}
+\itemize{
+\item \href{https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10}{A Brief Introduction to ICD-10 Death Codes}
+\item \href{https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}{ICD-10 Cause-of-Death Lists for Tabulating Mortality  Statistics}
+}
 }
 \keyword{datasets}

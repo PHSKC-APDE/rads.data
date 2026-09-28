@@ -33,6 +33,9 @@ The official CDC coding for Cause id 95 is now saved as cause id 114 "CDC versio
 }\if{html}{\out{</div>}}
 }
 \references{
-\url{https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}
+\itemize{
+\item \href{https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10}{A Brief Introduction to ICD-10 Death Codes}
+\item \href{https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}{ICD-10 Cause-of-Death Lists for Tabulating Mortality  Statistics}
+}
 }
 \keyword{datasets}
