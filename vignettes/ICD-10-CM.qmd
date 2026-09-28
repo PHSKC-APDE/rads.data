@@ -20,7 +20,11 @@ editor: source
 
 ## What are ICD-10-CM codes?
 
-ICD-10-CM (International Classification of Diseases, 10th Revision, Clinical Modification) is the diagnosis coding system used throughout the United States **for administrative, clinical, and billing purposes**. Whereas **[ICD-10](https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10)** is primarily used for mortality statistics and cause-of-death coding, ICD-10-CM is designed to represent diseases, injuries, conditions, and encounters documented in clinical and healthcare settings. ICD-10-CM codes are distinct from procedure codes (ICD-10-PCS), which are used in inpatient settings. The U.S. healthcare industry transitioned from ICD-9-CM to ICD-10-CM on October 1, 2015.
+ICD-10-CM (International Classification of Diseases, 10th Revision, Clinical Modification) is the diagnosis coding system used throughout the United States **for administrative, clinical, and billing purposes**. ICD-10-CM codes are designed to represent diseases, injuries, conditions, and encounters documented in clinical and healthcare settings. They are **NOT interchangeable with  [ICD-10](https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10) codes**, which are used for cause-of-death coding. They are also **distinct from procedure codes (ICD-10-PCS)**, which are used in inpatient settings. 
+
+The U.S. healthcare industry transitioned from ICD-9-CM to ICD-10-CM on October 1, 2015. This transition affected conditions differently, with particularly notable effects for injuries. See [CSTE's Injury Toolkit](https://injurytoolkit.cste.org/?page_id=1690) to learn more. Unlike ICD-10 codes used for death data there are no comparability ratios for the ICD-9-CM to ICD-10-CM transition
+
+New ICD-10-CM codes can be added each federal fiscal year (October 1).
 
 ## How are ICD-10-CM codes assigned?
 
@@ -72,5 +76,7 @@ Beyond the raw codes, `rads.data` includes several reference tables for grouping
 
 - **`icd10cm_ccs`**: ICD-10-CM Clinical Classifications Software Refined (CCSR) reference table, mapping diagnosis codes to hierarchical clinical categories for aggregate analysis.
 - **`icd9cm_ccs`**: The ICD-9-CM equivalent CCSR reference table, for analyses spanning the pre-2015 transition.
+
+:warning: Analyses spanning the ICD-9-CM / ICD-10-CM transition that occured in 2015 must account for the change in the coding system.
 
 -- *`r paste0('Updated ', format(Sys.time(), '%B %d, %Y'), ' (rads.data v', packageVersion('rads.data'), ')')`*
