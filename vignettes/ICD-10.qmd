@@ -66,7 +66,7 @@ Each code is built left to right, from the broadest classification (chapter) dow
 | **4th character — Digit** | **Subcategory.** Further specification. | 0–9, meaning defined per category | `I21.0` → *anterior wall* <br> `I21.1` → *inferior wall* <br> `I21.9` → *unspecified site* | `T40.1` → *Heroin* <br> `T40.2` → *other opioids* <br> `T40.4` → *other synthetic narcotics* |
 | **5th character (rare)** | *Not used by NCHS*. | — | — | — |
 
-***Note!*** The table above is a bit over simplified. Overdose deaths are typically coded with **two kinds of codes**: 
+***Note!*** The table above is a bit oversimplified. Overdose deaths are typically coded with **two kinds of codes**: 
 
 - a Chapter XIX *underlying cause* substance code (like `T40.1`, `T40.2`, `T40.4`) **plus** 
 
@@ -127,6 +127,6 @@ Beyond the raw codes, `rads.data` includes several reference tables for grouping
 
 The [Instructions for Classifying the Underlying Cause-of-Death, ICD-10, 2025](https://www.cdc.gov/nchs/nvss/manuals/2025/2a-2025.html) provides detailed information regarding the coding process and standards.
 
-[ICD Injury Codes and Matrices](https://www.cdc.gov/nchs/injury/injury_matrices.htm) provides more information about injury diagnosis codes.
+[ICD Injury Codes and Matrices](https://www.cdc.gov/nchs/injury/injury_matrices.htm) provides more information about injury codes.
 
 -- *`r paste0('Updated ', format(Sys.time(), '%B %d, %Y'), ' (rads.data v', packageVersion('rads.data'), ')')`*
