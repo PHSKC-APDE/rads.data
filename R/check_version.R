@@ -38,7 +38,7 @@ check_version <- function(print_message = TRUE) {
     if (!requireNamespace("httr", quietly = TRUE)) {
       result$message <- "httr package is needed to check for updates and is not installed."
       if (print_message) {
-        message(result$message)
+        packageStartupMessage(result$message)
       }
       return(invisible(result))
     }
