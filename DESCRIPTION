@@ -20,7 +20,7 @@ Imports:
 Suggests:
     data.table,
     openxlsx,
-    devtools,
+    pak,
     usethis,
     readr,
     knitr,
