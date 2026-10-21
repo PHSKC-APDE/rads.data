@@ -49,4 +49,9 @@ str(synthetic_chars)
 table(synthetic_chars$temperament)
 
 }
+\references{
+\itemize{
+\item \href{https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10-CM}{A Brief Introduction to ICD-10-CM Codes}
+}
+}
 \keyword{datasets}

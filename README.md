@@ -27,7 +27,9 @@ If you haven’t yet installed [`rads.data`](https://github.com/PHSKC-APDE/rads.
 ## Getting started
 This package contains data.tables from the following thematic areas:
 
-1. **icd** << reference tables of ICD 10 codes for causes of death and hospitalizations.
+1. **icd** << reference tables of ICD-10 codes for causes of death and ICD-10-CM codes for hospitalizations.
+
+    - **Note:** if you are new to these coding systems, please read the [ICD-10](https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10) and [ICD-10-CM](https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10-CM) wikis.
 
 2. **occupation** << [BLS Standard Occupational Classification (SOC) codes](https://www.bls.gov/soc/) for the 2010 and 2018 systems.
 
