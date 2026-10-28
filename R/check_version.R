@@ -65,9 +65,9 @@ check_version <- function(print_message = TRUE) {
         # Compare versions
         if (remote_version > local_version) {
           result$is_current <- FALSE
-          update_msg <- ifelse(requireNamespace("pak", quietly = TRUE),
-                               'To update, run: pak::pak("PHSKC-APDE/rads.data")',
-                               'To update, install pak and then run: pak::pak("PHSKC-APDE/rads.data")'
+          update_msg <- ifelse(requireNamespace("remotes", quietly = TRUE),
+                               'To update, run: remotes::install_github("PHSKC-APDE/rads.data")',
+                               'To update, install remotes and then run: remotes::install_github("PHSKC-APDE/rads.data")'
           )
 
           result$message <- paste0(
@@ -104,7 +104,7 @@ check_version <- function(print_message = TRUE) {
       }
     }
   }, error = function(e) {
-    result$message <- paste0("Version check failed: ", conditionMessage(e))
+    result$message <<- paste0("Version check failed: ", conditionMessage(e))
     if (print_message) {
       message(result$message)
     }

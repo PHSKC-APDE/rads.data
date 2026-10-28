@@ -8,16 +8,16 @@
 
 If you haven’t yet installed [`rads.data`](https://github.com/PHSKC-APDE/rads.data), follow these steps:
 
-1.  Make sure `pak` is installed:
+1.  Make sure `remotes` is installed:
 
     ```r
-    install.packages("pak")
+    install.packages("remotes")
     ```
 
 2.  Install [`rads.data`](https://github.com/PHSKC-APDE/rads.data):
 
     ```r
-    pak::pak("PHSKC-APDE/rads.data")
+    remotes::install_github("PHSKC-APDE/rads.data")
     ```
 
 3.  Exit RStudio and start it again. 
