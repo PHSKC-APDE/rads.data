@@ -28,6 +28,9 @@ Currently includes definitions for opioid-related deaths. Additional
 multicause definitions can be added as needed.
 }
 \references{
-\href{https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm}{CDC Provisional Drug Overdose Death Counts}
+\itemize{
+\item \href{https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10}{A Brief Introduction to ICD-10 Death Codes}
+\item \href{https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm}{CDC Provisional Drug Overdose Death Counts}
+}
 }
 \keyword{datasets}

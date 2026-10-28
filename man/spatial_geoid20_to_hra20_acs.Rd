@@ -19,6 +19,11 @@ A data.table with 547 rows and 6 variables:
 
 \code{creation}: Date the file was created
 }
+\source{
+2020 Census places, tracts, and block groups (\verb{//dphcifs/APDE-CDIP/Shapefiles/Census_2020/})
+intersected with the 2020 HRA shapefile, keeping the largest nesting geography to reduce standard
+error inflation in ACS estimates.
+}
 \usage{
 spatial_geoid20_to_hra20_acs
 }

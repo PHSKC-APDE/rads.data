@@ -19,6 +19,10 @@ A data.table with 177 rows and 6 variables:
 
 \code{creation}: Date the file was created
 }
+\source{
+2020 Census places, tracts, and block groups intersected with the 2013 Seattle City
+Council District shapefile (\verb{//dphcifs/APDE-CDIP/Shapefiles/Seattle/Council_Districts_2013.shp}).
+}
 \usage{
 spatial_geoid20_to_sccd13_acs
 }

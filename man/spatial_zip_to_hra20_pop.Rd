@@ -29,6 +29,10 @@ A data.table with 233 rows and 11 variables:
 
 \code{creation_date}: Date file created
 }
+\source{
+ZIP code shapefile (\verb{//dphcifs/APDE-CDIP/Shapefiles/ZIP/}) intersected with the
+2020 HRA shapefile using \code{kcparcelpop::point_pop()} (point population method).
+}
 \usage{
 spatial_zip_to_hra20_pop
 }

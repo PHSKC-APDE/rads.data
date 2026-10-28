@@ -30,6 +30,10 @@ A data.table with 964 rows and 11 variables:
 
 \code{creation_date}: Date file created
 }
+\source{
+2010 Census tracts (\verb{//dphcifs/APDE-CDIP/Shapefiles/Census_2010/tract/}) intersected
+with the 2020 HRA shapefile (geographic overlap method).
+}
 \usage{
 spatial_tract10_to_hra20_geog
 }

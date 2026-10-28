@@ -15,6 +15,9 @@
 #'
 #'   `creation_date`: Date the file was created
 #'
+#' @source 2010 Census blocks (`//dphcifs/APDE-CDIP/Shapefiles/Census_2010/block/`) intersected
+#' with the 2020 HRA shapefile, with region labels merged in from `spatial_block20_to_hra20_to_region20`.
+#'
 #' @name spatial_block10_to_hra20_to_region20
 "spatial_block10_to_hra20_to_region20"
 
@@ -36,6 +39,8 @@
 #'   `region_name`: Name of the region,
 #'
 #'   `creation_date`: Date the file was created
+#'
+#' @source HHSAW SQL Server table `ref.block2020_hra20`.
 #'
 #' @name spatial_block20_to_hra20_to_region20
 "spatial_block20_to_hra20_to_region20"
@@ -67,6 +72,10 @@
 #'
 #'   `creation`: Date the file was created
 #'
+#' @source 2020 Census places, tracts, and block groups (`//dphcifs/APDE-CDIP/Shapefiles/Census_2020/`)
+#' intersected with the 2020 HRA shapefile, keeping the largest nesting geography to reduce standard
+#' error inflation in ACS estimates.
+#'
 #' @name spatial_geoid20_to_hra20_acs
 "spatial_geoid20_to_hra20_acs"
 
@@ -93,6 +102,9 @@
 #'   `bg20`: bg 2020 GEOID,
 #'
 #'   `creation`: Date the file was created
+#'
+#' @source 2020 Census places, tracts, and block groups intersected with the King County Council
+#' District shapefile (`//dphcifs/APDE-CDIP/Shapefiles/`).
 #'
 #' @name spatial_geoid20_to_kccd20_acs
 "spatial_geoid20_to_kccd20_acs"
@@ -121,6 +133,9 @@
 #'   `bg20`: bg 2020 GEOID,
 #'
 #'   `creation`: Date the file was created
+#'
+#' @source 2020 Census places, tracts, and block groups intersected with the 2013 Seattle City
+#' Council District shapefile (`//dphcifs/APDE-CDIP/Shapefiles/Seattle/Council_Districts_2013.shp`).
 #'
 #' @name spatial_geoid20_to_sccd13_acs
 "spatial_geoid20_to_sccd13_acs"
@@ -175,6 +190,9 @@
 #'   `region_id`: numeric id for the region,
 #'
 #'   `region_name`: Name of the region
+#'
+#' @source Derived from the unique HRA/region combinations in `spatial_block20_to_hra20_to_region20`.
+#'
 #' @name spatial_hra20_to_region20
 "spatial_hra20_to_region20"
 
@@ -212,6 +230,9 @@
 #'
 #'   `creation_date`: Date file created
 #'
+#' @source 2010 Census tracts (`//dphcifs/APDE-CDIP/Shapefiles/Census_2010/tract/`) intersected
+#' with the 2020 HRA shapefile (geographic overlap method).
+#'
 #' @name spatial_tract10_to_hra20_geog
 "spatial_tract10_to_hra20_geog"
 
@@ -246,6 +267,9 @@
 #'   `method`: method to produce intersections,
 #'
 #'   `creation_date`: Date file created
+#'
+#' @source 2010 Census tracts intersected with the 2020 HRA shapefile using
+#' `kcparcelpop::point_pop()` (point population method).
 #'
 #' @name spatial_tract10_to_hra20_pop
 "spatial_tract10_to_hra20_pop"
@@ -283,6 +307,9 @@
 #'
 #'   `creation_date`: Date file created
 #'
+#' @source 2020 Census tracts (`//dphcifs/APDE-CDIP/Shapefiles/Census_2020/tract/`) intersected
+#' with the 2020 HRA shapefile (geographic overlap method).
+#'
 #' @name spatial_tract20_to_hra20_geog
 "spatial_tract20_to_hra20_geog"
 
@@ -317,6 +344,9 @@
 #'   `method`: method to produce intersections,
 #'
 #'   `creation_date`: Date file created
+#'
+#' @source 2020 Census tracts intersected with the 2020 HRA shapefile using
+#' `kcparcelpop::point_pop()` (point population method).
 #'
 #' @name spatial_tract20_to_hra20_pop
 "spatial_tract20_to_hra20_pop"
@@ -357,6 +387,9 @@
 #'
 #'   `creation_date`: Date file created
 #'
+#' @source ZIP code shapefile (`//dphcifs/APDE-CDIP/Shapefiles/ZIP/`) intersected with the
+#' 2020 HRA shapefile using `kcparcelpop::point_pop()` (point population method).
+#'
 #' @name spatial_zip_to_hra20_pop
 "spatial_zip_to_hra20_pop"
 
@@ -394,6 +427,9 @@
 #'   `method`: method to produce intersections,
 #'
 #'   `creation_date`: Date file created
+#'
+#' @source ZIP code shapefile (`//dphcifs/APDE-CDIP/Shapefiles/ZIP/`) intersected with the
+#' 2020 HRA shapefile (geographic overlap method).
 #'
 #' @name spatial_zip_to_hra20_geog
 "spatial_zip_to_hra20_geog"

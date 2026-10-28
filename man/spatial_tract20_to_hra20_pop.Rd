@@ -30,6 +30,10 @@ A data.table with 666 rows and 11 variables:
 
 \code{creation_date}: Date file created
 }
+\source{
+2020 Census tracts intersected with the 2020 HRA shapefile using
+\code{kcparcelpop::point_pop()} (point population method).
+}
 \usage{
 spatial_tract20_to_hra20_pop
 }

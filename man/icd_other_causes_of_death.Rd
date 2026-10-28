@@ -9,13 +9,6 @@ A data.table with 3,063 rows and four variables: \code{cause.of.death},
 \code{orig.coding}, \code{icd10}, and \code{source}. Each row maps one
 specific ICD 10 code to a given cause of death.
 }
-\source{
-CDC PDF:
-\url{https://www.cdc.gov/nchs/data/nvsr/nvsr70/nvsr70-08-508.pdf}.
-
-DOH CHAT (User Guides >> Definition of "Special Code Sets")
-\url{https://secureaccess.wa.gov/doh/chat/Entry.mvc}
-}
 \usage{
 icd_other_causes_of_death
 }
@@ -32,6 +25,10 @@ an Excel workbook downloaded from DOH/CHAT and saved to SharePoint.
 Created by \verb{/data-raw/icd_other_causes_of_death.R}.
 }
 \references{
-\url{https://www.cdc.gov/nchs/data/nvsr/nvsr70/nvsr70-08-508.pdf}
+\itemize{
+\item \href{https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10}{A Brief Introduction to ICD-10 Death Codes}
+\item \href{https://secureaccess.wa.gov/doh/chat/Entry.mvc}{WA DOH CHAT (User Guides >> Definition of "Special Code Sets")}
+\item \href{https://www.cdc.gov/nchs/data/nvsr/nvsr70/nvsr70-08-508.pdf}{National Vital Statistics Reports, Vol 70, No. 8}
+}
 }
 \keyword{datasets}

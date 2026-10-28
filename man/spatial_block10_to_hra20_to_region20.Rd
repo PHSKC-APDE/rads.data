@@ -19,6 +19,10 @@ A data.table with 35,830 rows and 6 variables:
 
 \code{creation_date}: Date the file was created
 }
+\source{
+2010 Census blocks (\verb{//dphcifs/APDE-CDIP/Shapefiles/Census_2010/block/}) intersected
+with the 2020 HRA shapefile, with region labels merged in from \code{spatial_block20_to_hra20_to_region20}.
+}
 \usage{
 spatial_block10_to_hra20_to_region20
 }

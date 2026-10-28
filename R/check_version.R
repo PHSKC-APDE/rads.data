@@ -8,11 +8,11 @@
 #'   Default is TRUE.
 #'
 #' @return Invisibly returns a list with the following components:
-#'   \item{is_current}{Logical. TRUE if the installed version is the latest, FALSE otherwise.}
-#'   \item{local_version}{The version of the installed rads.data package.}
-#'   \item{remote_version}{The version on GitHub, or NULL if it couldn't be determined.}
-#'   \item{status}{Character string. The status of the check (e.g., "success", "error").}
-#'   \item{message}{Character string. Detailed message about the check result.}
+#' - `is_current`: Logical. TRUE if the installed version is the latest, FALSE otherwise.
+#' - `local_version`: The version of the installed rads.data package.
+#' - `remote_version`: The version on GitHub, or NULL if it couldn't be determined.
+#' - `status`: Character string. The status of the check (e.g., "success", "error").
+#' - `message`: Character string. Detailed message about the check result.
 #'
 #' @examples
 #' \dontrun{
@@ -38,7 +38,7 @@ check_version <- function(print_message = TRUE) {
     if (!requireNamespace("httr", quietly = TRUE)) {
       result$message <- "httr package is needed to check for updates and is not installed."
       if (print_message) {
-        message(result$message)
+        packageStartupMessage(result$message)
       }
       return(invisible(result))
     }
@@ -65,9 +65,9 @@ check_version <- function(print_message = TRUE) {
         # Compare versions
         if (remote_version > local_version) {
           result$is_current <- FALSE
-          update_msg <- ifelse(requireNamespace("devtools", quietly = TRUE),
-                               'To update, run: devtools::install_github("PHSKC-APDE/rads.data", auth_token = NULL)',
-                               'To update, install devtools and then run: devtools::install_github("PHSKC-APDE/rads.data", auth_token = NULL)'
+          update_msg <- ifelse(requireNamespace("remotes", quietly = TRUE),
+                               'To update, run: remotes::install_github("PHSKC-APDE/rads.data")',
+                               'To update, install remotes and then run: remotes::install_github("PHSKC-APDE/rads.data")'
           )
 
           result$message <- paste0(
@@ -104,7 +104,7 @@ check_version <- function(print_message = TRUE) {
       }
     }
   }, error = function(e) {
-    result$message <- paste0("Version check failed: ", conditionMessage(e))
+    result$message <<- paste0("Version check failed: ", conditionMessage(e))
     if (print_message) {
       message(result$message)
     }

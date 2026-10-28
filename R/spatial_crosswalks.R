@@ -12,5 +12,7 @@
 #'
 #'   `type`: Geography type
 #'
+#' @source `//dphcifs/APDE-CDIP/Population/Xwalks/xw_lab.csv`, built via code in the frankenpop repo.
+#'
 #' @name spatial_ids_and_names
 "spatial_ids_and_names"

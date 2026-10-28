@@ -44,4 +44,9 @@ str(synthetic_death)
 table(synthetic_death$temperament)
 
 }
+\references{
+\itemize{
+\item \href{https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10}{A Brief Introduction to ICD-10 Death Codes}
+}
+}
 \keyword{datasets}
