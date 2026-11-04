@@ -5,10 +5,19 @@
 \alias{icd10_multicause}
 \title{ICD-10 Multicause Death Definitions}
 \format{
-A data.table with rows mapping cause names to ICD-10 codes with three columns:
-\code{cause_name}, \code{underlying_contributing}, and \code{icd10}.
-Each row maps one ICD-10 code to either an underlying or contributing cause
-for a specific multicause death definition.
+A data.table with one row per ICD-10 code per multicause death
+definition, with five columns:
+\itemize{
+\item \code{cause_name}: name of the multicause death definition (e.g., \code{"Opioid"})
+\item \code{underlying_contributing}: whether the code is an \code{"underlying"} or
+\code{"contributing"} cause
+\item \code{icd10}: the expanded 4-character ICD-10 code (e.g., \code{"X400"}, \code{"T400"})
+\item \code{orig.coding}: the code or code range as originally specified in the
+definition (e.g., \code{"X40-X44"}, \code{"T40.0"}). A 3-character code includes all
+of its 4-character subcodes (e.g., \code{"X40"} includes \code{X400} through \code{X409}).
+\item \code{description}: a plain-language label for \code{orig.coding} (e.g.,
+\code{"Unintentional poisoning"}, \code{"Heroin"})
+}
 }
 \source{
 CDC National Vital Statistics System guidance on drug overdose deaths
@@ -24,8 +33,11 @@ underlying cause (e.g., poisoning) and contributing cause (e.g., specific substa
 must be present.
 }
 \note{
-Currently includes definitions for opioid-related deaths. Additional
-multicause definitions can be added as needed.
+Currently includes definitions for opioid-related and
+psychostimulant-related deaths. Additional multicause definitions can be
+added as needed.
+
+\code{orig.coding} and \code{description} were added in v1.0.25.
 }
 \references{
 \itemize{

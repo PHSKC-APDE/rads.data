@@ -378,13 +378,23 @@
 #' underlying cause (e.g., poisoning) and contributing cause (e.g., specific substance)
 #' must be present.
 #'
-#' @format A data.table with rows mapping cause names to ICD-10 codes with three columns:
-#'   `cause_name`, `underlying_contributing`, and `icd10`.
-#'   Each row maps one ICD-10 code to either an underlying or contributing cause
-#'   for a specific multicause death definition.
+#' @format A data.table with one row per ICD-10 code per multicause death
+#'   definition, with five columns:
+#'   - `cause_name`: name of the multicause death definition (e.g., `"Opioid"`)
+#'   - `underlying_contributing`: whether the code is an `"underlying"` or
+#'     `"contributing"` cause
+#'   - `icd10`: the expanded 4-character ICD-10 code (e.g., `"X400"`, `"T400"`)
+#'   - `orig.coding`: the code or code range as originally specified in the
+#'     definition (e.g., `"X40-X44"`, `"T40.0"`). A 3-character code includes all
+#'     of its 4-character subcodes (e.g., `"X40"` includes `X400` through `X409`).
+#'   - `description`: a plain-language label for `orig.coding` (e.g.,
+#'     `"Unintentional poisoning"`, `"Heroin"`)
 #'
-#' @note Currently includes definitions for opioid-related deaths. Additional
-#'   multicause definitions can be added as needed.
+#' @note Currently includes definitions for opioid-related and
+#'   psychostimulant-related deaths. Additional multicause definitions can be
+#'   added as needed.
+#'
+#'   `orig.coding` and `description` were added in v1.0.25.
 #'
 #' @source CDC National Vital Statistics System guidance on drug overdose deaths
 #'   and ICD-10 coding standards for mortality data.

@@ -11,6 +11,10 @@
 #
 #        Psychostimulant deaths have same underlying cause of death codes and T40.5 and T43.6
 #        contributing cause codes
+#
+#        The final table keeps `orig.coding` (the code or range as originally
+#        entered, e.g., "X40-X44" or "T40.0") and `description` alongside the
+#        expanded 4-character `icd10` codes. Added in rads.data v1.0.25 (rads issue #515).
 
 # Set up ----
 rm(list=ls())
@@ -92,8 +96,10 @@ icd10_multicause <- melt(wide_multicause,
 icd10_multicause[, variable := NULL]
 icd10_multicause <- icd10_multicause[!is.na(icd10)]
 
-# Clean up - remove orig.coding and description as they're not needed in final table
-icd10_multicause[, c("orig.coding", "description") := NULL]
+# Keep orig.coding and description so users can see the source definition
+# (e.g., "X40-X44") rather than only the expanded 4-character codes.
+# Put them after icd10 so the original first three columns keep their positions.
+setcolorder(icd10_multicause, c("cause_name", "underlying_contributing", "icd10", "orig.coding", "description"))
 
 # Ensure proper formatting of ICD codes (add zeros as needed)
 # Underlying codes should be 4 characters (e.g., X400, Y100)
