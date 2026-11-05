@@ -79,6 +79,10 @@
 #' - [A Brief Introduction to ICD-10 Death Codes](https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10)
 #' - [ICD-10 Cause-of-Death Lists for Tabulating Mortality  Statistics](https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf)
 #'
+#' @seealso [icd_nchs52rankable_raw] and [icd_nchs52rankable] for the 52 NCHS
+#' rankable causes of death. They are related to, but **not** a strict subset of,
+#' these 113 causes.
+#'
 #' @name icd_nchs113causes_raw
 "icd_nchs113causes_raw"
 
@@ -109,8 +113,124 @@
 #' - [A Brief Introduction to ICD-10 Death Codes](https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10)
 #' - [ICD-10 Cause-of-Death Lists for Tabulating Mortality  Statistics](https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf)
 #'
+#' @seealso [icd_nchs52rankable_raw] and [icd_nchs52rankable] for the 52 NCHS
+#' rankable causes of death. They are related to, but **not** a strict subset of,
+#' these 113 causes.
+#'
 #' @name icd_nchs113causes
 "icd_nchs113causes"
+
+# icd_nchs52rankable_raw ----
+#' NCHS 52 Rankable Causes of Death (raw)
+#'
+#' The 52 causes of death that NCHS designates as eligible to be ranked as leading
+#' causes of death (those marked with `#` in Table B of the NCHS Instruction Manual).
+#' One row per cause, with the `icd10` column summarizing the relevant codes
+#' exactly as the CDC presents them.
+#'
+#' @details
+#' **The rankable causes are related to, but are not a strict subset of, the 113
+#' causes in [icd_nchs113causes_raw].** They are saved as their own table because:
+#' - Many rankable causes are headings that combine several of the 113 causes. For
+#'   example, "Malignant neoplasms" (C00-C97) combines 113 causes 18-40, and
+#'   "Diseases of heart" combines 113 causes 49-59.
+#' - Two rankable causes are carved out of a 113 cause. "Enterocolitis due to
+#'   Clostridium difficile" (A04.7) is part of 113 cause 3 ("Certain other
+#'   intestinal infections"), and "COVID-19" (U07.1) is part of 113 cause 17
+#'   ("Other and unspecified infectious and parasitic diseases and their sequelae").
+#' - Because they are headings, a rankable cause is defined by the code range printed
+#'   for the heading, not by adding up the 113 causes. The two can differ if a
+#'   code in the range is not listed by any of the 113 sub-causes.
+#'
+#' The 52 rankable causes do not overlap one another, but they also do not cover all
+#' deaths. Causes such as "Other and unspecified infectious and parasitic diseases"
+#' are not rankable.
+#'
+#' **The CDC does not assign numbers to the rankable causes**, so this table
+#' intentionally has no cause id.
+#'
+#' @note The list of rankable causes has changed over time. "Enterocolitis due to
+#' Clostridium difficile" was added in 2006 and "COVID-19" in 2020. The `version` column
+#' identifies the edition of the NCHS manual used to define the list.
+#'
+#' A leading `*` on a code (e.g., `*U03`) is how the CDC flags codes for
+#' terrorism-related causes.
+#'
+#' @format A data.table with 52 rows and four variables:
+#' - `cause.of.death`: name of the rankable cause, as in the NCHS manual
+#' - `icd10`: the ICD-10 codes and ranges for the cause, as in the NCHS manual
+#' - `version`: edition of the NCHS manual that defines the list (`"2020"`)
+#' - `notes`: additional information, when relevant (otherwise `NA`)
+#'
+#' @source Created by `/data-raw/icd_nchs52rankable_raw.R` from Table B of
+#' [ICD-10 Cause-of-Death Lists for Tabulating Mortality Statistics](https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf),
+#' pp. 15-17. See page 3 of the manual for the meaning of `#`.
+#'
+#' @seealso [icd_nchs52rankable] for the long version of this table, and
+#' [icd_nchs113causes_raw] and [icd_nchs113causes] for the NCHS 113 Selected
+#' Causes of Death
+#'
+#' @references
+#' - [A Brief Introduction to ICD-10 Death Codes](https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10)
+#' - [ICD-10 Cause-of-Death Lists for Tabulating Mortality Statistics](https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf)
+#' - [Deaths: Leading Causes for 2023 (NVSR 74-10)](https://www.cdc.gov/nchs/data/nvsr/nvsr74/nvsr74-10.pdf)
+#'
+#' @name icd_nchs52rankable_raw
+"icd_nchs52rankable_raw"
+
+# icd_nchs52rankable ----
+#' NCHS 52 Rankable Causes of Death (long)
+#'
+#' The 52 causes of death that NCHS designates as eligible to be ranked as leading
+#' causes of death (those marked with `#` in Table B of the NCHS Instruction Manual).
+#' One row per ICD-10 code.
+#'
+#' Tidied long version of `icd_nchs52rankable_raw`. Converted by
+#' `/data-raw/icd_nchs52rankable.R`.
+#'
+#' @details
+#' **The rankable causes are related to, but are not a strict subset of, the 113
+#' causes in [icd_nchs113causes].** Many rankable causes combine several of the 113
+#' causes (e.g., "Malignant neoplasms" combines 113 causes 18-40), and two are
+#' carved out of a 113 cause: "Enterocolitis due to Clostridium difficile" (A04.7,
+#' which is also in 113 cause 3) and "COVID-19" (U07.1, which is also in 113 cause
+#' 17). As a result, an ICD-10 code can belong to one rankable cause and one of the
+#' 113 causes at the same time. See [icd_nchs52rankable_raw] for details.
+#'
+#' Within this table, each ICD-10 code belongs to **at most one** rankable cause.
+#' However, the rankable causes do not cover all deaths, so many ICD-10 codes are not
+#' in this table.
+#'
+#' **The CDC does not assign numbers to the rankable causes**, so this table
+#' intentionally has no cause id.
+#'
+#' @note The list of rankable causes has changed over time. "Enterocolitis due to
+#' Clostridium difficile" was added in 2006 and "COVID-19" in 2020. The `version` column
+#' identifies the edition of the NCHS manual used to define the list.
+#'
+#' @format A data.table with 10,280 rows and four variables:
+#' - `cause.of.death`: name of the rankable cause, as in the NCHS manual
+#' - `orig.coding`: the ICD-10 codes and ranges for the whole cause, as in the NCHS
+#'   manual (e.g., `"X60-X84, Y87.0"`). A leading `*` marks codes the CDC flags
+#'   for terrorism-related causes.
+#' - `icd10`: a single 4-character ICD-10 code (e.g., `"X600"`). A 3-character code
+#'   in `orig.coding` includes all of its 4-character subcodes.
+#' - `version`: edition of the NCHS manual that defines the list (`"2020"`)
+#'
+#' @source Created from `icd_nchs52rankable_raw`, which is based on Table B of
+#' [ICD-10 Cause-of-Death Lists for Tabulating Mortality Statistics](https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf),
+#' pp. 15-17.
+#'
+#' @seealso [icd_nchs52rankable_raw] for one row per cause, and [icd_nchs113causes_raw]
+#' and [icd_nchs113causes] for the NCHS 113 Selected Causes of Death
+#'
+#' @references
+#' - [A Brief Introduction to ICD-10 Death Codes](https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10)
+#' - [ICD-10 Cause-of-Death Lists for Tabulating Mortality Statistics](https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf)
+#' - [Deaths: Leading Causes for 2023 (NVSR 74-10)](https://www.cdc.gov/nchs/data/nvsr/nvsr74/nvsr74-10.pdf)
+#'
+#' @name icd_nchs52rankable
+"icd_nchs52rankable"
 
 # icd_nchs130causes_raw ----
 #' NCHS 130 Selected Causes of Infant Death (raw)
