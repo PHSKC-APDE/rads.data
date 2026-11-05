@@ -119,6 +119,7 @@ Beyond the raw codes, `rads.data` includes several reference tables for grouping
 
 - **`icd_nchs113causes`**: NCHS' 113 Selected Causes of Death, mapping ICD-10 codes to standard leading-cause-of-death groupings.
 - **`icd_nchs130causes`**: NCHS' 130 Selected Causes of Infant Death, the infant-mortality analog of the 113 causes list.
+- **`icd_nchs52rankable`**: NCHS' 52 rankable causes of death, i.e., the causes the CDC designates as eligible to be ranked as leading causes of death. They are related to, but **not** a strict subset of, the 113 causes: many combine several of the 113 causes (e.g., malignant neoplasms) and two (*C. difficile* enterocolitis and COVID-19) are carved out of them. The CDC does not assign numbers to these causes, so the table has no cause id. `icd_nchs52rankable_raw` has the same information with one row per cause.
 - **`icd_other_causes_of_death`**: ICD-10 definitions for additional causes of death of analytic interest that aren't part of the CDC 113/130 lists.
 - **`icd10_multicause`**: Definitions for causes (like opioid-related mortality) that require looking at both the underlying **and** contributing cause codes together.
 - **`icd10_death_injury_matrix`**: Injury mechanism/intent combinations (ICE: International Collaborative Effort on Injury Statistics) for classifying injury deaths.
