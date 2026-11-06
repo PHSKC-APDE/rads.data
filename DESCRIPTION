@@ -1,7 +1,7 @@
 Package: rads.data
 Type: Package
 Title: Data for rads package and other public health uses
-Version: 1.0.26
+Version: 1.0.27
 Authors@R: c(
     person("Danny", "Colombara", email = "Data.Request@kingcounty.gov", role = c("aut", "cre")),
     person("PHSKC-APDE", role = "cph")

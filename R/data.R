@@ -499,7 +499,7 @@
 #' must be present.
 #'
 #' @format A data.table with one row per ICD-10 code per multicause death
-#'   definition, with five columns:
+#'   definition, with seven columns:
 #'   - `cause_name`: name of the multicause death definition (e.g., `"Opioid"`)
 #'   - `underlying_contributing`: whether the code is an `"underlying"` or
 #'     `"contributing"` cause
@@ -509,15 +509,27 @@
 #'     of its 4-character subcodes (e.g., `"X40"` includes `X400` through `X409`).
 #'   - `description`: a plain-language label for `orig.coding` (e.g.,
 #'     `"Unintentional poisoning"`, `"Heroin"`)
+#'   - `contributing_logic`: whether `"ANY"` or `"ALL"` of the contributing codes
+#'     must be present. It is `NA` for `"underlying"` rows.
+#'   - `source`: where the definition came from
 #'
-#' @note Currently includes definitions for opioid-related and
-#'   psychostimulant-related deaths. Additional multicause definitions can be
-#'   added as needed.
+#' @note Includes definitions for opioid-related (`Opioid`, `Heroin`,
+#'   `Natural Semisynthetic Opioid`, `Methadone`, `Synthetic Opioid`,
+#'   `Prescription Opioid`), `Cocaine`, `Psychostimulant`, and `Stimulant` deaths.
+#'   `Psychostimulant` matches the WA DOH definition (T43.6 only), whereas
+#'   `Stimulant` combines cocaine (T40.5) and psychostimulants with abuse
+#'   potential (T43.6).
 #'
-#'   `orig.coding` and `description` were added in v1.0.25.
+#'   **To add or change a definition**, edit
+#'   `data-raw/icd_icd10_multicause_raw.csv` (one row per code or range), then
+#'   re-run `data-raw/icd_icd10_multicause.R`. Do not edit the `.rda` directly!
+#'   The column descriptions are in the header of `icd_icd10_multicause.R`.
 #'
-#' @source CDC National Vital Statistics System guidance on drug overdose deaths
+#' @source
+#'   - [WA DOH Death Statistical File Data Dictionary](https://doh.wa.gov/sites/default/files/2024-10/422-162-DeathStatisticalDictionaryAndCrosswalks_0.xlsx)
+#'   - CDC National Vital Statistics System guidance on drug overdose deaths
 #'   and ICD-10 coding standards for mortality data.
+#'   - CDC MMWR stimulant overdose definition (rads issue #488)
 #'
 #' @references
 #' - [A Brief Introduction to ICD-10 Death Codes](https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10)

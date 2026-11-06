@@ -6,7 +6,7 @@
 \title{ICD-10 Multicause Death Definitions}
 \format{
 A data.table with one row per ICD-10 code per multicause death
-definition, with five columns:
+definition, with seven columns:
 \itemize{
 \item \code{cause_name}: name of the multicause death definition (e.g., \code{"Opioid"})
 \item \code{underlying_contributing}: whether the code is an \code{"underlying"} or
@@ -17,11 +17,18 @@ definition (e.g., \code{"X40-X44"}, \code{"T40.0"}). A 3-character code includes
 of its 4-character subcodes (e.g., \code{"X40"} includes \code{X400} through \code{X409}).
 \item \code{description}: a plain-language label for \code{orig.coding} (e.g.,
 \code{"Unintentional poisoning"}, \code{"Heroin"})
+\item \code{contributing_logic}: whether \code{"ANY"} or \code{"ALL"} of the contributing codes
+must be present. It is \code{NA} for \code{"underlying"} rows.
+\item \code{source}: where the definition came from
 }
 }
 \source{
-CDC National Vital Statistics System guidance on drug overdose deaths
+\itemize{
+\item \href{https://doh.wa.gov/sites/default/files/2024-10/422-162-DeathStatisticalDictionaryAndCrosswalks_0.xlsx}{WA DOH Death Statistical File Data Dictionary}
+\item CDC National Vital Statistics System guidance on drug overdose deaths
 and ICD-10 coding standards for mortality data.
+\item CDC MMWR stimulant overdose definition (rads issue #488)
+}
 }
 \usage{
 icd10_multicause
@@ -33,11 +40,17 @@ underlying cause (e.g., poisoning) and contributing cause (e.g., specific substa
 must be present.
 }
 \note{
-Currently includes definitions for opioid-related and
-psychostimulant-related deaths. Additional multicause definitions can be
-added as needed.
+Includes definitions for opioid-related (\code{Opioid}, \code{Heroin},
+\verb{Natural Semisynthetic Opioid}, \code{Methadone}, \verb{Synthetic Opioid},
+\verb{Prescription Opioid}), \code{Cocaine}, \code{Psychostimulant}, and \code{Stimulant} deaths.
+\code{Psychostimulant} matches the WA DOH definition (T43.6 only), whereas
+\code{Stimulant} combines cocaine (T40.5) and psychostimulants with abuse
+potential (T43.6).
 
-\code{orig.coding} and \code{description} were added in v1.0.25.
+\strong{To add or change a definition}, edit
+\code{data-raw/icd_icd10_multicause_raw.csv} (one row per code or range), then
+re-run \code{data-raw/icd_icd10_multicause.R}. Do not edit the \code{.rda} directly!
+The column descriptions are in the header of \code{icd_icd10_multicause.R}.
 }
 \references{
 \itemize{
