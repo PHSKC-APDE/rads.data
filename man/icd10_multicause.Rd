@@ -47,13 +47,9 @@ Includes definitions for opioid-related (\code{Opioid}, \code{Heroin},
 \code{Stimulant} combines cocaine (T40.5) and psychostimulants with abuse
 potential (T43.6).
 
-\code{orig.coding} and \code{description} were added in v1.0.25. \code{contributing_logic}
-and \code{source} were added in v1.0.27, when \code{Psychostimulant} was renamed
-\code{Stimulant} and a new \code{Psychostimulant} definition was added (rads issue #516).
-
 \strong{To add or change a definition}, edit
 \code{data-raw/icd_icd10_multicause_raw.csv} (one row per code or range), then
-re-run \code{data-raw/icd_icd10_multicause.R}. Do not edit the \code{.rda} directly.
+re-run \code{data-raw/icd_icd10_multicause.R}. Do not edit the \code{.rda} directly!
 The column descriptions are in the header of \code{icd_icd10_multicause.R}.
 }
 \references{
