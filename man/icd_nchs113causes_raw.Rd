@@ -38,4 +38,9 @@ The official CDC coding for Cause id 95 is now saved as cause id 114 "CDC versio
 \item \href{https://www.cdc.gov/nchs/data/dvs/Part9InstructionManual2020-508.pdf}{ICD-10 Cause-of-Death Lists for Tabulating Mortality  Statistics}
 }
 }
+\seealso{
+\link{icd_nchs52rankable_raw} and \link{icd_nchs52rankable} for the 52 NCHS
+rankable causes of death. They are related to, but \strong{not} a strict subset of,
+these 113 causes.
+}
 \keyword{datasets}

@@ -5,24 +5,35 @@
 \alias{icd_other_causes_of_death}
 \title{Other Causes of Death (long)}
 \format{
-A data.table with 3,063 rows and four variables: \code{cause.of.death},
-\code{orig.coding}, \code{icd10}, and \code{source}. Each row maps one
-specific ICD 10 code to a given cause of death.
+A data.table with 3,063 rows and four variables:
+\itemize{
+\item \code{cause.of.death}: name of the cause
+\item \code{orig.coding}: the code or code range from \link{icd_other_causes_of_death_display}
+that includes \code{icd10} (e.g., \code{"F11.1-F11.5"}). Since v1.0.28, DOH codes are
+summarized into ranges. Before, they were listed one at a time.
+\item \code{icd10}: a single 4-character ICD-10 code (e.g., \code{"F111"})
+\item \code{source}: where the definition came from (\code{"CDC"}, \code{"DOH"}, or \code{"CDC 113 COD"})
+}
 }
 \usage{
 icd_other_causes_of_death
 }
 \description{
-This table contains ICD 10 definitions of causes of death that are of
-interest for systematic analyses, but are not included in the CDC 113
-Causes of Death (\link{icd_nchs113causes}) or the injury
-matrix (\link{icd10_death_injury_matrix}). It includes causes such
-as carbon monoxide deaths, drug related deaths, heat stress deaths, etc.
+ICD-10 definitions of causes of death that are of interest for systematic
+analyses, but are not included in the CDC 113 Causes of Death
+(\link{icd_nchs113causes}) or the injury matrix (\link{icd10_death_injury_matrix}).
+It includes causes such as carbon monoxide deaths, drug related deaths, heat
+stress deaths, etc.
+
+One row per 4-character ICD-10 code. \link{icd_other_causes_of_death_display} has
+the same information with one row per cause.
 }
 \note{
-Tidied long version of \verb{/data-raw/icd_other_causes_of_death_raw} PLUS
-an Excel workbook downloaded from DOH/CHAT and saved to SharePoint.
-Created by \verb{/data-raw/icd_other_causes_of_death.R}.
+Created by \verb{/data-raw/icd_other_causes_of_death.R} from
+\verb{/data-raw/icd_other_causes_of_death_display.csv}, which is the source of truth.
+To add or change a cause, edit the CSV, not this table. See
+\link{icd_other_causes_of_death_display} for details, including how the DOH codes were
+summarized.
 }
 \references{
 \itemize{
@@ -30,5 +41,8 @@ Created by \verb{/data-raw/icd_other_causes_of_death.R}.
 \item \href{https://secureaccess.wa.gov/doh/chat/Entry.mvc}{WA DOH CHAT (User Guides >> Definition of "Special Code Sets")}
 \item \href{https://www.cdc.gov/nchs/data/nvsr/nvsr70/nvsr70-08-508.pdf}{National Vital Statistics Reports, Vol 70, No. 8}
 }
+}
+\seealso{
+\link{icd_other_causes_of_death_display} for one row per cause
 }
 \keyword{datasets}

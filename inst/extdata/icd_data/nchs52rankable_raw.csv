@@ -1,0 +1,53 @@
+"cause.of.death","icd10","version","notes"
+"Salmonella infections","A01-A02","2020",NA
+"Shigellosis and amebiasis","A03, A06","2020",NA
+"Tuberculosis","A16-A19","2020",NA
+"Whooping cough","A37","2020",NA
+"Scarlet fever and erysipelas","A38, A46","2020",NA
+"Meningococcal infection","A39","2020",NA
+"Septicemia","A40-A41","2020",NA
+"Syphilis","A50-A53","2020",NA
+"Acute poliomyelitis","A80","2020",NA
+"Arthropod-borne viral encephalitis","A83-A84, A85.2","2020",NA
+"Measles","B05","2020",NA
+"Viral hepatitis","B15-B19","2020",NA
+"Human immunodeficiency virus (HIV) disease","B20-B24","2020",NA
+"Malaria","B50-B54","2020",NA
+"Malignant neoplasms","C00-C97","2020",NA
+"In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behavior","D00-D48","2020",NA
+"Anemias","D50-D64","2020",NA
+"Diabetes mellitus","E10-E14","2020",NA
+"Nutritional deficiencies","E40-E64","2020",NA
+"Meningitis","G00, G03","2020",NA
+"Parkinson disease","G20-G21","2020",NA
+"Alzheimer disease","G30","2020",NA
+"Diseases of heart","I00-I09, I11, I13, I20-I51","2020",NA
+"Essential hypertension and hypertensive renal disease","I10, I12, I15","2020",NA
+"Cerebrovascular diseases","I60-I69","2020",NA
+"Atherosclerosis","I70","2020",NA
+"Aortic aneurysm and dissection","I71","2020",NA
+"Influenza and pneumonia","J09-J18","2020",NA
+"Acute bronchitis and bronchiolitis","J20-J21","2020",NA
+"Chronic lower respiratory diseases","J40-J47","2020",NA
+"Pneumoconioses and chemical effects","J60-J66, J68, U07.0","2020",NA
+"Pneumonitis due to solids and liquids","J69","2020",NA
+"Peptic ulcer","K25-K28","2020",NA
+"Diseases of appendix","K35-K38","2020",NA
+"Hernia","K40-K46","2020",NA
+"Chronic liver disease and cirrhosis","K70, K73-K74","2020",NA
+"Cholelithiasis and other disorders of gallbladder","K80-K82","2020",NA
+"Nephritis, nephrotic syndrome and nephrosis","N00-N07, N17-N19, N25-N27","2020",NA
+"Infections of kidney","N10-N12, N13.6, N15.1","2020",NA
+"Hyperplasia of prostate","N40","2020",NA
+"Inflammatory diseases of female pelvic organs","N70-N76","2020",NA
+"Pregnancy, childbirth and the puerperium","O00-O99","2020",NA
+"Certain conditions originating in the perinatal period","P00-P96","2020",NA
+"Congenital malformations, deformations and chromosomal abnormalities","Q00-Q99","2020",NA
+"Accidents (unintentional injuries)","V01-X59, Y85-Y86","2020",NA
+"Intentional self-harm (suicide)","*U03, X60-X84, Y87.0","2020",NA
+"Assault (homicide)","*U01-*U02, X85-Y09, Y87.1","2020",NA
+"Legal intervention","Y35, Y89.0","2020",NA
+"Operations of war and their sequelae","Y36, Y89.1","2020",NA
+"Complications of medical and surgical care","Y40-Y84, Y88","2020",NA
+"Enterocolitis due to Clostridium difficile","A04.7","2020","Added as a rankable cause in 2006. These deaths are also within NCHS 113 cause 3 (A04, A07-A09)"
+"COVID-19","U07.1","2020","Added as a rankable cause in 2020. These deaths are within NCHS 113 cause 17 in icd_nchs113causes"
