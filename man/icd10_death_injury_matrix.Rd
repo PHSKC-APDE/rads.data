@@ -5,28 +5,44 @@
 \alias{icd10_death_injury_matrix}
 \title{ICD10 Death Injury Matrix}
 \format{
-a 'long' data.table with 8,400 rows and four columns: \code{intent}, \code{mechanism}, \code{orig.coding}, & \code{icd10}.
+A data.table with 8,400 rows and four variables:
+\itemize{
+\item \code{mechanism}: mechanism of injury (e.g., \code{"Firearm"})
+\item \code{intent}: intent of injury (e.g., \code{"Suicide"})
+\item \code{orig.coding}: the whole definition for the mechanism and intent, from
+\link{icd10_death_injury_matrix_display} (e.g., \code{"V87[.0-.8], V89.2"})
+\item \code{icd10}: a single 4-character ICD-10 code (e.g., \code{"V870"})
+}
 }
 \source{
 \href{https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/CodeSetDefinitions/CHATInjury(ICE)codes.pdf}{WA DOH CHAT}.
-Converted to XLSX with Adobe Acrobat and then used Excel to convert to CSV.
 }
 \usage{
 icd10_death_injury_matrix
 }
 \description{
-ICD10 Death Injury Matrix (ICE: International Collaborative Effort on Injury Statistics)
+ICD10 Death Injury Matrix (ICE: International Collaborative Effort on Injury Statistics),
+with one row per 4-character ICD-10 code. \link{icd10_death_injury_matrix_display} has
+the same information with one row per mechanism and intent.
 }
 \note{
-This function uses ICD10 mortality codes and should not be used with ICD10-CM hospitalization data.
+This table uses ICD10 mortality codes and should not be used with ICD10-CM hospitalization data.
 
 Also note that terrorism codes (U01.#, U02.#, & U03.#) are not included
 because they are not included in the coding used by WA DOH.
+
+Created by \verb{/data-raw/icd_icd10_death_injury_matrix.R} from
+\verb{/data-raw/icd10_death_injury_matrix_display.csv}, which is the source of truth.
+To add or change a definition, edit the CSV, not this table. See
+\link{icd10_death_injury_matrix_display} for details.
 }
 \references{
 \itemize{
 \item \href{https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10}{A Brief Introduction to ICD-10 Death Codes}
 \item \href{https://www.cdc.gov/nchs/injury/ice/matrix10.htm}{CDC: External Cause of Injury Mortality Matrix}
 }
+}
+\seealso{
+\link{icd10_death_injury_matrix_display} for one row per mechanism and intent
 }
 \keyword{datasets}

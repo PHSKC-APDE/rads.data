@@ -283,24 +283,95 @@
 #' @name icd_nchs130causes
 "icd_nchs130causes"
 
+# icd_other_causes_of_death_display ----
+#' Other Causes of Death (display)
+#'
+#' @description
+#' ICD-10 definitions of causes of death that are of interest for systematic
+#' analyses, but are not included in the CDC 113 Causes of Death
+#' ([icd_nchs113causes]) or the injury matrix ([icd10_death_injury_matrix]).
+#' It includes causes such as carbon monoxide deaths, drug related deaths, heat
+#' stress deaths, etc.
+#'
+#' One row per cause, with the `icd10` column summarizing the codes for each cause.
+#' [icd_other_causes_of_death] has the same information with one row per
+#' 4-character ICD-10 code.
+#'
+#' @details
+#' **This table was reverse engineered.** Unlike the `_raw` tables for the NCHS 113
+#' and 130 causes, there was no published one-row-per-cause list to copy. Instead,
+#' the `icd10` summaries were created in rads.data v1.0.28 from the long
+#' [icd_other_causes_of_death] table in v1.0.27:
+#' - **DOH causes** (`source == "DOH"`): DOH lists most codes one at a time. These
+#'   lists were summarized into ranges. Consecutive codes became a range (e.g.,
+#'   `F11.1, F11.2, F11.3` became `F11.1-F11.3`) and a complete set of subcodes
+#'   became the 3-character code (e.g., `T67.0` to `T67.9` became `T67`). **The
+#'   summaries do not appear in any DOH document.**
+#' - **CDC causes** (`source == "CDC"`): the codes are shown as the CDC wrote them.
+#' - **CDC 113 causes** (`source == "CDC 113 COD"`): combinations of causes in
+#'   [icd_nchs113causes], shown as the CDC wrote them.
+#'
+#' Every summary was checked by expanding it back to 4-character codes. The result
+#' matched the v1.0.27 long table exactly.
+#'
+#' A 3-character code includes all of its 4-character subcodes (e.g., `X40`
+#' includes `X400` to `X409`) and `F11.1` is the same as `F111`.
+#'
+#' **This table is now the source of truth.** To add or change a cause, edit
+#' `/data-raw/icd_other_causes_of_death_display.csv` and rerun
+#' `/data-raw/icd_other_causes_of_death.R`, which rebuilds both tables. The
+#' "CDC 113 COD" causes are not in the CSV because the script builds them from
+#' [icd_nchs113causes].
+#'
+#' @format A data.table with 12 rows and three variables:
+#' - `cause.of.death`: name of the cause
+#' - `icd10`: the ICD-10 codes and code ranges that define the cause (e.g., `"T67, X30"`)
+#' - `source`: where the definition came from (`"CDC"`, `"DOH"`, or `"CDC 113 COD"`)
+#'
+#' @source Created by `/data-raw/icd_other_causes_of_death.R` from
+#' `/data-raw/icd_other_causes_of_death_display.csv`. The original sources were
+#' a CDC list ([NVSR Vol 70, No. 8](https://www.cdc.gov/nchs/data/nvsr/nvsr70/nvsr70-08-508.pdf))
+#' and the WA DOH CHAT "Special Code Sets" workbook (`CHAT_SpecialCodeSets_20221006.xlsx`).
+#'
+#' @seealso [icd_other_causes_of_death] for one row per 4-character ICD-10 code
+#'
+#' @references
+#' - [A Brief Introduction to ICD-10 Death Codes](https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10)
+#' - [WA DOH CHAT (User Guides >> Definition of "Special Code Sets")](https://secureaccess.wa.gov/doh/chat/Entry.mvc)
+#' - [National Vital Statistics Reports, Vol 70, No. 8](https://www.cdc.gov/nchs/data/nvsr/nvsr70/nvsr70-08-508.pdf)
+#'
+#' @name icd_other_causes_of_death_display
+"icd_other_causes_of_death_display"
+
 # icd_other_causes_of_death ----
 #' Other Causes of Death (long)
 #'
 #' @description
-#' This table contains ICD 10 definitions of causes of death that are of
-#' interest for systematic analyses, but are not included in the CDC 113
-#' Causes of Death ([icd_nchs113causes]) or the injury
-#' matrix ([icd10_death_injury_matrix]). It includes causes such
-#' as carbon monoxide deaths, drug related deaths, heat stress deaths, etc.
+#' ICD-10 definitions of causes of death that are of interest for systematic
+#' analyses, but are not included in the CDC 113 Causes of Death
+#' ([icd_nchs113causes]) or the injury matrix ([icd10_death_injury_matrix]).
+#' It includes causes such as carbon monoxide deaths, drug related deaths, heat
+#' stress deaths, etc.
+#'
+#' One row per 4-character ICD-10 code. [icd_other_causes_of_death_display] has
+#' the same information with one row per cause.
 #'
 #' @note
-#' Tidied long version of `/data-raw/icd_other_causes_of_death_raw` PLUS
-#' an Excel workbook downloaded from DOH/CHAT and saved to SharePoint.
-#' Created by `/data-raw/icd_other_causes_of_death.R`.
+#' Created by `/data-raw/icd_other_causes_of_death.R` from
+#' `/data-raw/icd_other_causes_of_death_display.csv`, which is the source of truth.
+#' To add or change a cause, edit the CSV, not this table. See
+#' [icd_other_causes_of_death_display] for details, including how the DOH codes were
+#' summarized.
 #'
-#' @format A data.table with 3,063 rows and four variables: `cause.of.death`,
-#'   `orig.coding`, `icd10`, and `source`. Each row maps one
-#'   specific ICD 10 code to a given cause of death.
+#' @format A data.table with 3,063 rows and four variables:
+#' - `cause.of.death`: name of the cause
+#' - `orig.coding`: the code or code range from [icd_other_causes_of_death_display]
+#'   that includes `icd10` (e.g., `"F11.1-F11.5"`). Since v1.0.28, DOH codes are
+#'   summarized into ranges. Before, they were listed one at a time.
+#' - `icd10`: a single 4-character ICD-10 code (e.g., `"F111"`)
+#' - `source`: where the definition came from (`"CDC"`, `"DOH"`, or `"CDC 113 COD"`)
+#'
+#' @seealso [icd_other_causes_of_death_display] for one row per cause
 #'
 #' @references
 #' - [A Brief Introduction to ICD-10 Death Codes](https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10)
@@ -468,20 +539,87 @@
 #' @keywords datasets
 "icd10cm_ccs"
 
+# icd10_death_injury_matrix_display ----
+#' ICD10 Death Injury Matrix (display)
+#'
+#' ICD10 Death Injury Matrix (ICE: International Collaborative Effort on Injury
+#' Statistics), with one row per mechanism and intent. The `icd10` column
+#' summarizes the codes for each combination. [icd10_death_injury_matrix] has the
+#' same information with one row per 4-character ICD-10 code.
+#'
+#' @details
+#' **This table was reverse engineered.** It was created in rads.data v1.0.28 from
+#' the long [icd10_death_injury_matrix] table in v1.0.27, by keeping one copy of
+#' the `orig.coding` for each mechanism and intent. Leftover text from converting
+#' the WA DOH PDF (backslashes followed by the letter R) was removed. Every row
+#' was checked by expanding it back to 4-character codes. The result matched the
+#' v1.0.27 long table exactly.
+#'
+#' The `icd10` column keeps the CDC's bracket notation: `V20-V28[.0-.2]` means
+#' every 3-character code from `V20` to `V28` combined with every 4th digit from
+#' `.0` to `.2` (i.e., `V20.0`, `V20.1`, `V20.2`, `V21.0`, ..., `V28.2`). A
+#' 3-character code without brackets includes all of its 4-character subcodes.
+#'
+#' "Motor vehicle traffic" combines the six "Motor vehicle traffic: ..." rows.
+#'
+#' **This table is now the source of truth.** To add or change a definition, edit
+#' `/data-raw/icd10_death_injury_matrix_display.csv` and rerun
+#' `/data-raw/icd_icd10_death_injury_matrix.R`, which rebuilds both tables. "Motor
+#' vehicle traffic" is not in the CSV because the script builds it from the
+#' "Motor vehicle traffic: ..." rows.
+#'
+#' @format A data.table with 88 rows and three variables:
+#' - `mechanism`: mechanism of injury (e.g., `"Firearm"`)
+#' - `intent`: intent of injury (e.g., `"Suicide"`)
+#' - `icd10`: the ICD-10 codes that define the mechanism and intent, in CDC bracket
+#'   notation (e.g., `"V87[.0-.8], V89.2"`)
+#'
+#' @note This table uses ICD10 mortality codes and should not be used with ICD10-CM
+#' hospitalization data.
+#'
+#' Terrorism codes (U01.#, U02.#, & U03.#) are not included because they are not
+#' included in the coding used by WA DOH.
+#'
+#' @source Created by `/data-raw/icd_icd10_death_injury_matrix.R` from
+#' `/data-raw/icd10_death_injury_matrix_display.csv`. The original source was
+#' [WA DOH CHAT](https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/CodeSetDefinitions/CHATInjury(ICE)codes.pdf).
+#'
+#' @seealso [icd10_death_injury_matrix] for one row per 4-character ICD-10 code
+#'
+#' @references
+#' - [A Brief Introduction to ICD-10 Death Codes](https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10)
+#' - [CDC: External Cause of Injury Mortality Matrix](https://www.cdc.gov/nchs/injury/ice/matrix10.htm)
+#'
+#' @name icd10_death_injury_matrix_display
+"icd10_death_injury_matrix_display"
+
 # icd10_death_injury_matrix ----
 #' ICD10 Death Injury Matrix
 #'
-#' ICD10 Death Injury Matrix (ICE: International Collaborative Effort on Injury Statistics)
+#' ICD10 Death Injury Matrix (ICE: International Collaborative Effort on Injury Statistics),
+#' with one row per 4-character ICD-10 code. [icd10_death_injury_matrix_display] has
+#' the same information with one row per mechanism and intent.
 #'
-#' @format a 'long' data.table with 8,400 rows and four columns: `intent`, `mechanism`, `orig.coding`, & `icd10`.
+#' @format A data.table with 8,400 rows and four variables:
+#' - `mechanism`: mechanism of injury (e.g., `"Firearm"`)
+#' - `intent`: intent of injury (e.g., `"Suicide"`)
+#' - `orig.coding`: the whole definition for the mechanism and intent, from
+#'   [icd10_death_injury_matrix_display] (e.g., `"V87[.0-.8], V89.2"`)
+#' - `icd10`: a single 4-character ICD-10 code (e.g., `"V870"`)
 #'
-#' @note This function uses ICD10 mortality codes and should not be used with ICD10-CM hospitalization data.
+#' @note This table uses ICD10 mortality codes and should not be used with ICD10-CM hospitalization data.
 #'
 #' Also note that terrorism codes (U01.#, U02.#, & U03.#) are not included
 #' because they are not included in the coding used by WA DOH.
 #'
+#' Created by `/data-raw/icd_icd10_death_injury_matrix.R` from
+#' `/data-raw/icd10_death_injury_matrix_display.csv`, which is the source of truth.
+#' To add or change a definition, edit the CSV, not this table. See
+#' [icd10_death_injury_matrix_display] for details.
+#'
 #' @source [WA DOH CHAT](https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/CodeSetDefinitions/CHATInjury(ICE)codes.pdf).
-#' Converted to XLSX with Adobe Acrobat and then used Excel to convert to CSV.
+#'
+#' @seealso [icd10_death_injury_matrix_display] for one row per mechanism and intent
 #'
 #' @references
 #' - [A Brief Introduction to ICD-10 Death Codes](https://github.com/PHSKC-APDE/rads.data/wiki/ICD-10)
