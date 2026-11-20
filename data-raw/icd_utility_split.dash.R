@@ -24,8 +24,9 @@
   # E.g., split.dash("X0-X04, X17-X19") >> "X00, X01, X02, X03, X04, X17, X18, X19"
     split.dash <- function(myvar){
       myvar <- toupper(myvar)
-      myvar <- gsub("–", "-", myvar) # replace en dash with true hyphen
-      myvar <- gsub("—", "-", myvar) # replace em dash with true hyphen
+      # replace any dash-like character with a true hyphen. Uses \u escapes so this file stays ASCII.
+      # \u2010-\u2015 covers hyphen, non-breaking hyphen, figure dash, en dash, em dash & horizontal bar; \u2212 is the minus sign
+      myvar <- gsub("[\u2010-\u2015\u2212]", "-", myvar)
       myvar <- gsub("^ *|(?<= ) | *$", "", myvar, perl = TRUE) # collapse multiple consecutive white spaces into one
       myvar <- gsub("\\.|\\*|[:blank:]|[:space:]| |\\s", "", myvar) # drop decimal, drop *, try 4 ways to drop spaces!
       myvar <- strsplit(myvar, ",")[[1]] # split at commas & unlist

@@ -20,7 +20,7 @@ misc_chi_byvars
 \ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#deprecated}{\figure{lifecycle-deprecated.svg}{options: alt='[Deprecated]'}}}{\strong{[Deprecated]}}
 
 \code{misc_chi_byvars} was deprecated in rads.data v1.0.14.
-Please use \link[apde.chi.tools:chi_standard_varnames]{apde.chi.tools::chi_standard_varnames} instead.
+Please use \link[apde.etl:chi_standard_varnames]{apde.etl::chi_standard_varnames} instead.
 
 A column named \verb{__deprecated__} is intentionally included to signal that this dataset is
 deprecated and should not be used for new work.

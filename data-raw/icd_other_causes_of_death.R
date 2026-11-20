@@ -1,126 +1,120 @@
 # Header ----
 # Author: Danny Colombara
-# Date: August 29, 2022
-# Purpose: Create machine usable long form of Other Causes of Death ICD 10 codes
-# Notes: This is for causes of death that are not part of the CDC 113 Causes of death
-#        and are not covered by the death injury matrix, but that are still of interest
-#        for systematic analyses. DOH refers to these as "Special Codes"
+# Date: August 29, 2022 (rewritten November 19, 2026 for rads.data issue #115)
+# Purpose: Create the Other Causes of Death tables from the display CSV:
+#          - icd_other_causes_of_death_display: one row per cause
+#          - icd_other_causes_of_death: long, one row per 4 character ICD-10 code
+#
+# Notes:  - These are causes of death that are not part of the CDC 113 Causes of Death
+#           and are not covered by the death injury matrix, but that are still of
+#           interest for systematic analyses. DOH refers to some of these as "Special Codes".
+#
+#         - SOURCE OF TRUTH: data-raw/icd_other_causes_of_death_display.csv
+#           To add or change a cause, edit that CSV and rerun this script.
+#           Never edit the long table directly.
+#
+#         - The CSV was reverse engineered from the long table in rads.data v1.0.27, which
+#           had been built from a CDC list and a WA DOH CHAT "Special Code Sets" workbook
+#           (CHAT_SpecialCodeSets_20221006.xlsx). The DOH codes were summarized into
+#           ranges. To see the script that did this:
+#           git log --all -- data-raw/icd_reverse_engineer_display_csvs.R
+#
+#         - Causes with source "CDC 113 COD" are NOT in the CSV. They are built below
+#           from icd_nchs113causes so that each definition lives in one place.
+#
+#         - Run from the root of the rads.data repo.
 
 # Set up ----
 library(data.table)
-library(Microsoft365R)
+source("data-raw/icd_utility_split.dash.R") # split.dash()
 
-# Function to clean / prep imported data to fix random white spaces (sql_clean) ----
-    source("https://raw.githubusercontent.com/PHSKC-APDE/rads/main/R/utilities.R") # pull in rads utilities, particularly sql_clean()
+allow_changes <- FALSE # set to TRUE only after reviewing the code changes reported below
 
+# Read the display CSV ----
+display <- fread("data-raw/icd_other_causes_of_death_display.csv", encoding = "UTF-8")
 
-# Function to enumerator all ICD per other cause of death (split.dash) ----
-  # E.g., split.dash("X0-X04, X17-X19") >> "X00, X01, X02, X03, X04, X17, X18, X19"
-    source("https://raw.githubusercontent.com/PHSKC-APDE/rads.data/main/data-raw/icd_utility_split.dash.R")
+stopifnot(identical(names(display), c("cause.of.death", "icd10", "source")))
+stopifnot(!anyNA(display))
+stopifnot(!anyDuplicated(display$cause.of.death))
+stopifnot(!any(display$source == "CDC 113 COD")) # these are built below
 
-# Read in raw Other Causes of Death ICD codes ----
-  # Pull in data downloaded from CDC ----
-    icd_other_causes_of_death <- fread("data-raw/icd_other_causes_of_death_raw.csv")
-    icd_other_causes_of_death[, source := NULL]
-    cdc <- copy(icd_other_causes_of_death)
-    sql_clean(cdc)
-    cdc[, source := "CDC"]
+display[, icd10 := gsub("[\u2010-\u2015\u2212]", "-", icd10)] # any dash-like character to a true hyphen
 
-  # Pull in data downloaded from DOH ----
-    # get file from SharePoint ----
-      team <- get_team("Community Health Indicators")
-      drv <- team$get_drive("CHI-Vizes")
-      tempy <- tempfile(fileext = ".xlsx")
-      drv$download_file(src = 'Death/DOH_definitions/CHAT_SpecialCodeSets_20221006.xlsx',
-                        dest = tempy,
-                        overwrite = TRUE)
-    # load & append worksheets from SharePoint ----
-      doh.sheetnames <- grep("Death", openxlsx::getSheetNames(tempy), value = T, ignore.case = T)
-      doh <- rbindlist(lapply(X = as.list(1:length(doh.sheetnames)),
-                              FUN = function(X){
-                                print(doh.sheetnames[X])
-                                # import
-                                doh.temp <- setDT(openxlsx::read.xlsx(tempy, sheet = doh.sheetnames[X]))
-                                # generic tidy
-                                doh.temp <- doh.temp[, grepl("^ICD-10", names(doh.temp)), with = FALSE]
-                                setnames(doh.temp, "raw")
-                                doh.temp[, cod := doh.sheetnames[X]]
-                                sql_clean(doh.temp)
-                                doh.temp[, icd10 := gsub("^(.*?) .*", "\\1", raw)] # string before the first space
-                                doh.temp[, desc := gsub("^[^ ]+ ", "", raw)] # string after the first space
-                                doh.temp[, raw := NULL]
-                                doh.temp <- doh.temp[!is.na(icd10)]
-                                doh.temp <- doh.temp[!grepl("^[a-z][a-z]", icd10, ignore.case = T)] # eliminates some rows where not ICD codes
-                                doh.temp[, source := "DOH"]
-                              }))
-    # tidy specific imported worksheet data ----
-      doh <- doh[!(cod == "Drug_Death" &
-                   icd10 %in% c("E24", "F11.0", "F12.0", "F13.0", "F14.0",
-                           "F15.0", "F16.0", "F17.0", "F18.0", "F19.0"))] # strike through on DOH worksheet
+# Long table for the causes in the CSV ----
+# orig.coding = each code or range as written in the CSV (e.g., "F11.1-F11.5")
+# >> had to think this though vs tstrsplit(), but strsplit() is correct because
+# first item of it's list is a vector of the components, which data.table then
+# uses for expansion. tstringsplit() would have made it wide, then I'd need to reshape
+pieces <- display[, list(orig.coding = trimws(strsplit(icd10, ",")[[1]])),
+                  by = list(cause.of.death, source)]
 
-  # Append DOH codes to CDC codes ----
-      othercod <- rbind(cdc, doh)
+# icd10 = expansion of each orig.coding into 4 character code(s) (e.g., "F111", "F112", ...)
+from.csv <- pieces[, list(icd10 = strsplit(split.dash(orig.coding), ", ")[[1]]),
+                   by = list(cause.of.death, orig.coding, source)]
 
-# Format other causes of death ----
-    # convert dashes to enumerated ICD codes
-    othercod[, icd := split.dash(icd10), by = 1:nrow(othercod)]
-    setnames(othercod, "icd10", "orig.coding")
+# Causes built from the CDC 113 Causes of Death ----
+load("data/icd_nchs113causes.rda") # local copy, so it matches the rest of this repo
 
-    # split icds so there is one per column
-    splits <- max(lengths(strsplit(othercod$icd, ", ")))
-    wide <- copy(othercod)[, paste0("icd", 1:splits) := tstrsplit(icd, ", ", fixed=T)]
-    wide[, icd := NULL]
+combos113 <- list(
+  "Chronic liver disease and cirrhosis" = c("Alcoholic liver disease",
+                                            "Other chronic liver disease and cirrhosis"),
+  "Chronic lower respiratory disease"   = c("Asthma",
+                                            "Bronchitis, chronic and unspecified",
+                                            "Emphysema",
+                                            "Other chronic lower respiratory diseases"),
+  "Influenza/pneumonia"                 = c("Influenza",
+                                            "Pneumonia")
+)
+stopifnot(all(unlist(combos113) %in% icd_nchs113causes$cause.of.death))
 
-    # wide to long
-    icd_other_causes_of_death <- melt(wide, id.vars = c("cod", "orig.coding", "desc", "source"), value.name = "icd10")
-    icd_other_causes_of_death[, variable := NULL]
-    icd_other_causes_of_death <- icd_other_causes_of_death[!is.na(icd10)]
-    icd_other_causes_of_death <- icd_other_causes_of_death[, .(cause.of.death = cod, orig.coding, icd10, source)]
-    setorder(icd_other_causes_of_death, cause.of.death, icd10)
+from.113 <- rbindlist(lapply(names(combos113), function(new.cause) {
+  unique(icd_nchs113causes[cause.of.death %in% combos113[[new.cause]],
+                           list(cause.of.death = new.cause, orig.coding, icd10, source = "CDC 113 COD")])
+}))
 
-    # Make sure didn't loose any orig coding when reshaping and cleaning
-    if(identical(sort(unique(wide$orig.coding)), sort(unique(icd_other_causes_of_death$orig.coding)))){
-      message("Kept all original codings")
-    } else {stop("The original codings do not match those present at the start. Stop and check for errors.")}
+# Combine & check the long table ----
+icd_other_causes_of_death <- rbind(from.csv[, list(cause.of.death, orig.coding, icd10, source)],
+                                   from.113[, list(cause.of.death, orig.coding, icd10, source)])
+icd_other_causes_of_death <- unique(icd_other_causes_of_death)
+setorder(icd_other_causes_of_death, cause.of.death, icd10, -orig.coding)
 
-    # drop rows where a parent (F10) was identified but there are children (e.g., F10.1, F10.3)
-    icd_other_causes_of_death[!grepl("\\.", orig.coding), header := orig.coding] # header does not have a decimal
-    icd_other_causes_of_death[grepl("\\.", orig.coding), stem := gsub("\\..*$", "", orig.coding)] # keep part before period
-    stems.used <- unique(icd_other_causes_of_death[!is.na(stem), .(cause.of.death, header = stem, drop = 1)])
-    icd_other_causes_of_death = merge(icd_other_causes_of_death, stems.used, by = c("cause.of.death", "header"), all.x = T, all.y = F)
-    icd_other_causes_of_death <- icd_other_causes_of_death[is.na(drop)]
-    icd_other_causes_of_death <- icd_other_causes_of_death[, .(cause.of.death, orig.coding, icd10, source)]
+stopifnot(all(grepl("^[A-Z][0-9]{3}$", icd_other_causes_of_death$icd10))) # 4 character codes
+stopifnot(!anyDuplicated(icd_other_causes_of_death[, list(cause.of.death, icd10)])) # each code once per cause
+stopifnot(!any(grepl("[^ -~]", unlist(icd_other_causes_of_death)))) # ASCII only (b/c had encoding problems in imported files)
 
-    # keep unique rows
-    icd_other_causes_of_death <- unique(icd_other_causes_of_death)
+# Display table (one row per cause) ----
+display.113 <- from.113[order(cause.of.death, icd10)]
+display.113 <- display.113[, list(icd10 = paste(unique(orig.coding), collapse = ", ")), by = list(cause.of.death, source)]
 
-    setorder(icd_other_causes_of_death, cause.of.death, icd10, -orig.coding)
+icd_other_causes_of_death_display <- rbind(display,
+                                           display.113[, list(cause.of.death, icd10, source)])
+setorder(icd_other_causes_of_death_display, cause.of.death)
 
-# Add new summary categories from CDC 113 COD ----
-    x113 <- copy(rads.data::icd_nchs113causes)
+# Compare with the version currently saved in data/ ----
+# Lists every code added to or removed from a cause. Stops unless allow_changes is TRUE.
+old <- new.env()
+load("data/icd_other_causes_of_death.rda", envir = old)
+old <- old$icd_other_causes_of_death[, list(cause.of.death, icd10, source)]
+new <- icd_other_causes_of_death[, list(cause.of.death, icd10, source)]
 
-    xliver <- x113[cause.of.death %in% c("Alcoholic liver disease", "Other chronic liver disease and cirrhosis")]
-    xliver <- unique(xliver[, .(cause.of.death = "Chronic liver disease and cirrhosis", orig.coding, icd10, source = "CDC 113 COD")])
+added <- fsetdiff(new, old)
+removed <- fsetdiff(old, new)
 
-    xresp <- x113[cause.of.death %in% c("Asthma", "Bronchitis, chronic and unspecified", "Emphysema", "Other chronic lower respiratory diseases")]
-    xresp <- unique(xresp[, .(cause.of.death = "Chronic lower respiratory disease", orig.coding, icd10, source = "CDC 113 COD")])
-
-    xflu <- x113[cause.of.death %in% c("Influenza", "Pneumonia")]
-    xflu <- unique(xflu[, .(cause.of.death = "Influenza/pneumonia", orig.coding, icd10, source = "CDC 113 COD")])
-
-    xnew <- rbind(xliver, xresp, xflu)
-    xnew[, .N, cause.of.death]
-
-    icd_other_causes_of_death <- icd_other_causes_of_death[!cause.of.death %in% c("Chronic liver disease and cirrhosis", "Chronic lower respiratory disease", "Influenza/pneumonia")] # drop if exists
-    icd_other_causes_of_death <- rbind(icd_other_causes_of_death, xnew)
-
-    setorder(icd_other_causes_of_death, cause.of.death, icd10, -orig.coding)
-    icd_other_causes_of_death[, .N, cause.of.death]
-
-    # Remove Diabetes and Parkinson's because both already exist in the CDC 113 causes of death and Parkinson's definition is slightly different
-    icd_other_causes_of_death <- icd_other_causes_of_death[!grepl('parkinson|diabetes', cause.of.death, ignore.case = T)]
-    icd_other_causes_of_death[, .N, cause.of.death]
+if (nrow(added) == 0 && nrow(removed) == 0) {
+  message("\u2705 No codes were added or removed compared with the version in data/")
+} else {
+  message("\u26A0\ufe0f Codes added: ", nrow(added), " | Codes removed: ", nrow(removed))
+  if (nrow(added) > 0) print(added[, list(codes = paste(icd10, collapse = ", ")), by = list(cause.of.death, source)])
+  if (nrow(removed) > 0) print(removed[, list(codes = paste(icd10, collapse = ", ")), by = list(cause.of.death, source)])
+  if (!isTRUE(allow_changes)) {
+    stop("The codes changed. Review the lists above. If the changes are intended, set allow_changes <- TRUE and rerun.")
+  }
+}
 
 # Write to package ----
-    usethis::use_data(icd_other_causes_of_death, overwrite = TRUE)
-    write.csv(icd_other_causes_of_death, "inst/extdata/icd_data/icd_other_causes_of_death.csv", row.names = F)
+usethis::use_data(icd_other_causes_of_death, overwrite = TRUE)
+usethis::use_data(icd_other_causes_of_death_display, overwrite = TRUE)
+write.csv(icd_other_causes_of_death, "inst/extdata/icd_data/icd_other_causes_of_death.csv", row.names = FALSE, fileEncoding = "UTF-8")
+write.csv(icd_other_causes_of_death_display, "inst/extdata/icd_data/icd_other_causes_of_death_display.csv", row.names = FALSE, fileEncoding = "UTF-8")
+
+# the end ----

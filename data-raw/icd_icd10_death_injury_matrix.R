@@ -1,124 +1,104 @@
 # Header ----
 # Author: Danny Colombara
-# Date: April 26, 2022
-# Purpose: Create machine usable long form of WA DOH Death Injury Matrix
-# Notes: Labeled "ICE", so based on International Collaborative Effort on Injury Statistics
-#        Original is from WA DOH CHAT: https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/CodeSetDefinitions/CHATInjury(ICE)codes.pdf
-#        Converted to XLSX with Adobe Acrobat and then used Excel to convert to a CSV
+# Date: April 26, 2022 (rewritten November 19, 2026 for rads.data issue #115)
+# Purpose: Create the WA DOH Death Injury Matrix tables from the display CSV:
+#          - icd10_death_injury_matrix_display: one row per mechanism & intent
+#          - icd10_death_injury_matrix: long, one row per 4 character ICD-10 code
+#
+# Notes:  - Labeled "ICE", so based on the International Collaborative Effort on Injury Statistics.
+#           Original is from WA DOH CHAT:
+#           https://secureaccess.wa.gov/doh/chat/Content/FilesForDownload/CodeSetDefinitions/CHATInjury(ICE)codes.pdf
+#
+#         - SOURCE OF TRUTH: data-raw/icd10_death_injury_matrix_display.csv
+#           To add or change a definition, edit that CSV and rerun this script.
+#           Never edit the long table directly.
+#
+#         - The CSV keeps the CDC bracket notation. E.g., "V20-V28[.0-.2]" means every
+#           3 character code from V20 to V28 combined with every 4th digit from .0 to .2.
+#           This matches the CDC SAS code for the matrix:
+#           https://ftp.cdc.gov/pub/Health_Statistics/NCHS/injury/sascodes/icd10_external.sas
+#
+#         - The CSV was reverse engineered from the long table in rads.data v1.0.27, which
+#           had been built from a CSV made from the CHAT PDF. To see the script that did this:
+#           git log --all -- data-raw/icd_reverse_engineer_display_csvs.R
+#
+#         - "Motor vehicle traffic" is NOT in the CSV. It is built below from the
+#           "Motor vehicle traffic: ..." rows so that each definition lives in one place.
+#
+#         - Run from the root of the rads.data repo.
 
-# Set-up ----
-rm(list=ls())
+# Set up ----
 library(data.table)
+source("data-raw/icd_utility_split.dash.R")      # split.dash()
+source("data-raw/icd_utility_expand_brackets.R") # expand.brackets()
 
-# Function to clean / prep imported data to fix random white spaces (sql_clean) ----
-  source("https://raw.githubusercontent.com/PHSKC-APDE/rads/main/R/utilities.R") # pull in rads utilities, particularly sql_clean()
+allow_changes <- FALSE # set to TRUE only after reviewing the code changes reported below
 
-# Function to enumerator all ICD per 113 causes of death (split.dash) ----
-  # E.g., split.dash("X0-X04, X17-X19") >> "X00, X01, X02, X03, X04, X17, X18, X19"
-    source("https://raw.githubusercontent.com/PHSKC-APDE/rads.data/main/data-raw/icd_utility_split.dash.R")
+# Read the display CSV ----
+display <- fread("data-raw/icd10_death_injury_matrix_display.csv", encoding = "UTF-8")
 
-# Read & tidy raw ICD10 death injury matrix ----
-    # See notes above for origin details
-    # read ----
-    dt = fread("data-raw/icd_icd10_death_injury_matrix_raw.csv")
+stopifnot(identical(names(display), c("mechanism", "intent", "icd10")))
+stopifnot(!anyNA(display))
+stopifnot(!anyDuplicated(display[, list(mechanism, intent)]))
+stopifnot(!any(display$mechanism == "Motor vehicle traffic")) # built below
 
-    # general text clean ----
-    sql_clean(dt)
+display[, icd10 := gsub("[\u2010-\u2015\u2212]", "-", icd10)] # any dash-like character to a true hyphen
 
-    # tidy columns and rows ----
-    dt[, mechanism := mechanism[nafill(replace(.I, is.na(mechanism), NA), "locf")]] # fill downward, hacky way to get around limitation of nafill only working with numerics
-    dt <- dt[, .(intent, mechanism, codes)]
-    dt <- dt[!is.na(codes)]
-    dt[, original.order := 1:.N]
+# Long table for the rows in the CSV ----
+# orig.coding = the whole definition for the mechanism & intent, as written in the CSV
+# icd10 = expansion of each orig.coding into 4 character code(s) (e.g., "F111", "F112", ...)
+display[, row.order := .I] # keep the CSV's order, which is the CDC's order
+display[, orig.coding := icd10]
 
-    # tidy codes before splitting ----
-    dt[, codes := gsub("\\\\n| ", "", codes)]
-    dt[, codes := gsub("\\)", "\\]", codes)]
-    dt[, codes := gsub("\\(", "\\[", codes)]
-    dt[, codes := gsub("\\R", "", codes, fixed = T)]
-    dt[, codes := toupper(codes)]
-    dt[, codes := gsub("^ *|(?<= ) | *$", "", codes, perl = TRUE)] # remove multiple white spaces even if there is more than one
+long <- display[, list(icd10 = strsplit(split.dash(expand.brackets(orig.coding)), ", ")[[1]]),
+                by = list(row.order, mechanism, intent, orig.coding)]
+setorder(long, row.order, icd10)
 
-    # split each logical set of codes into a new column ----
-    maxsplits <- max(lengths(strsplit(dt$codes, "\\,[A-Z][0-9]")))
-    dt[, codes := gsub("(\\,[A-Z][0-9])", "~\\1", codes)] # added a ~before the commas where I want to split
-    dt[, paste0("part", 1:maxsplits) := tstrsplit(codes, "~\\,", fixed = FALSE)]
+# Motor vehicle traffic = all of the "Motor vehicle traffic: ..." rows ----
+mv <- copy(long[grepl("^Motor vehicle traffic: ", mechanism)])
+stopifnot(identical(unique(mv$intent), "Unintentional"))
+mv[, mechanism := "Motor vehicle traffic"]
 
-    # create function to expand the ICD codes by ascribing the proper decimal to each stem (e.g., Y89 and [.0, .1] to Y89.0, Y89.1) ----
-      expand.icds <- function(mydt = NULL, xcode){ # had a hard time doing this a legit data.table way, so will apply this to each row
-        mydt[, paste0(xcode) := gsub("\\R", "", get(xcode), fixed = T)]
-        for(i in 1:nrow(mydt)){
-          print(paste(xcode, ": ", i))
-          if(!is.na(mydt[i,][[xcode]])){ # if NA, no need for any of the followign code
-            stem =  gsub("\\[.*$", "", mydt[i,][[xcode]]) # get the stem (e.g., V83-V86 from V83-V86[.0-.3] )
-            first.stem = substr(stem, 1, 3) # get the final stem (e.g., V83 from V83-V86[.0-.3])
-            final.stem = gsub("^.*-", "", stem) # get the final stem (e.g., V83 from V83-V86[.0-.3])
-            decimals = gsub("\\[|\\]", "", gsub(stem, "", mydt[i,][[xcode]])) # isolate just the part with decimals (e.g., ".0-.1")
-            decimals = unlist(strsplit(decimals, ",")) # isolate just the part with decimals (e.g., ".0" ".1")
+# Combine & check the long table ----
+icd10_death_injury_matrix <- rbind(long, mv)[, list(mechanism, intent, orig.coding, icd10)]
 
-            if(length(decimals) > 0 ){
-              for(LL in 1:length(decimals)){
-                ll.decimals <- unlist(strsplit(decimals[LL], "-"))
-                ll.decimals <- as.character(seq(min(ll.decimals), max(ll.decimals), 0.1))
-                ll.decimals <- paste0(".", gsub("0.", "", ll.decimals))
-                ll.decimals <- paste(ll.decimals, collapse = ",")
-                decimals[LL] <- ll.decimals
-              }
-              decimals <- paste(decimals, collapse = ",")
+stopifnot(all(grepl("^[A-Z][0-9]{3}$", icd10_death_injury_matrix$icd10))) # 4 character codes
+stopifnot(!anyDuplicated(icd10_death_injury_matrix[, list(mechanism, intent, icd10)])) # each code once per mechanism & intent
+stopifnot(!any(grepl("[^ -~]", unlist(icd10_death_injury_matrix)))) # ASCII only (b/c had encoding problems in imported files)
 
-              if(first.stem == final.stem){
-                expanded = paste(gsub("\\.", paste0(final.stem, "."), decimals), collapse = ",") # collapse with formatting (e.g., Y89.0,Y89.1)
-              } else{
-                if(substr(first.stem, 1, 1) == substr(final.stem, 1, 1)){
-                  alpha = substr(first.stem, 1, 1)
-                  ints = seq(as.integer(substr(first.stem, 2, 3)), as.integer(substr(final.stem, 2, 3)), 1) # full sequence of integers
-                  ints = sprintf("%02i", ints) # make character and add preceding zero if necessary, e.g., 3 >> "03"
-                  alphaints = paste0(alpha, ints)
-                  expanded <- c()
-                  for(ai in alphaints){
-                    expanded <- c(expanded, paste(gsub("\\.", paste0(ai, "."), decimals))) # combined each alphaint (e.g., V30) with each decimal
-                    expanded <- paste(expanded, collapse = ",")
-                  } # close loop for creating combinations of stems and decimals
-                } # close if statement for when the first letter of the first stem is the first letter of the final stem
-              } # close else statement (meaning first.stem != final.stem)
-              mydt[i, paste0(xcode) := expanded] # overwrite value in table
-            } # close loop of things to do if there are decimals
-          } # close if statement to run only if the cell value is not NA
-        } # close loop that goes over each row
-      } # close function
+# Display table (one row per mechanism & intent) ----
+display.mv <- data.table(mechanism = "Motor vehicle traffic",
+                         intent = "Unintentional",
+                         icd10 = paste(display[grepl("^Motor vehicle traffic: ", mechanism)]$icd10, collapse = ", "))
 
-    # apply function to expand icd codes ----
-      for(PP in paste0("part", 1:maxsplits)){
-        expand.icds(mydt = dt, xcode = PP)
-      }
+icd10_death_injury_matrix_display <- rbind(display[, list(mechanism, intent, icd10)],
+                                           display.mv)
 
-    # combine the multiple code 'parts' back into one variable ----
-    dt = dt[, .(original.order, intent, mechanism, orig.coding = gsub("~\\,", ", ", codes), codes = do.call(paste, c(replace(.SD, is.na(.SD), ""), sep = ","))),
-              .SDcols = patterns("^part") ] # collapse without including NAs
-    dt[, codes := gsub("([^0-9]+$)", "", codes)] # drop everything after the last number
+# Compare with the version currently saved in data/ ----
+# Lists every code added to or removed from a mechanism & intent. Stops unless allow_changes is TRUE.
+old <- new.env()
+load("data/icd10_death_injury_matrix.rda", envir = old)
+old <- old$icd10_death_injury_matrix[, list(mechanism, intent, icd10)]
+new <- icd10_death_injury_matrix[, list(mechanism, intent, icd10)]
 
-# Use split_dash() to convert dashed to enumerated ICD codes & drop decimals b/c death icds have decimals removed ----
-    sql_clean(dt)
-    dt[, icd := split.dash(codes), by = 1:nrow(dt)]
-    dt[, codes := NULL]
+added <- fsetdiff(new, old)
+removed <- fsetdiff(old, new)
 
-# split icds so there is one per column, making data.table truly 'wide' ----
-    splits <- max(lengths(strsplit(dt$icd, ", ")))
-    wide <- copy(dt)[, paste0("icd", 1:splits) := tstrsplit(icd, ", ", fixed=T)]
-    wide[, icd := NULL]
-
-# reshape wide to long ----
-    icd10_death_injury_matrix <- melt(wide, id.vars = c("original.order", "intent", "mechanism", "orig.coding"), value.name = "icd10")
-    icd10_death_injury_matrix[, variable := NULL]
-    icd10_death_injury_matrix <- icd10_death_injury_matrix[!is.na(icd10)]
-    setorder(icd10_death_injury_matrix, original.order, intent, mechanism, icd10)
-    icd10_death_injury_matrix <- icd10_death_injury_matrix[, .(mechanism, intent, orig.coding, icd10)]
-
-# Create summary category for all Motor Vehicle ----
-    mv <- copy(icd10_death_injury_matrix)[mechanism %like% 'Moto']
-    mv <- unique(mv[, mechanism:= "Motor vehicle traffic"])
-    icd10_death_injury_matrix <- rbind(icd10_death_injury_matrix, mv)
+if (nrow(added) == 0 && nrow(removed) == 0) {
+  message("\u2705 No codes were added or removed compared with the version in data/")
+} else {
+  message("\u26A0\ufe0f Codes added: ", nrow(added), " | Codes removed: ", nrow(removed))
+  if (nrow(added) > 0) print(added[, list(codes = paste(icd10, collapse = ", ")), by = list(mechanism, intent)])
+  if (nrow(removed) > 0) print(removed[, list(codes = paste(icd10, collapse = ", ")), by = list(mechanism, intent)])
+  if (!isTRUE(allow_changes)) {
+    stop("The codes changed. Review the lists above. If the changes are intended, set allow_changes <- TRUE and rerun.")
+  }
+}
 
 # Write to package ----
-    usethis::use_data(icd10_death_injury_matrix, overwrite = TRUE)
-    write.csv(icd10_death_injury_matrix, "inst/extdata/icd_data/icd10_death_injury_matrix.csv", row.names = F)
+usethis::use_data(icd10_death_injury_matrix, overwrite = TRUE)
+usethis::use_data(icd10_death_injury_matrix_display, overwrite = TRUE)
+write.csv(icd10_death_injury_matrix, "inst/extdata/icd_data/icd10_death_injury_matrix.csv", row.names = FALSE, fileEncoding = "UTF-8")
+write.csv(icd10_death_injury_matrix_display, "inst/extdata/icd_data/icd10_death_injury_matrix_display.csv", row.names = FALSE, fileEncoding = "UTF-8")
+
+# the end ----
