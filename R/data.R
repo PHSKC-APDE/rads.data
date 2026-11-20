@@ -703,7 +703,7 @@
 #' `r lifecycle::badge("deprecated")`
 #'
 #' `misc_chi_byvars` was deprecated in rads.data v1.0.14.
-#' Please use [apde.chi.tools::chi_standard_varnames] instead.
+#' Please use [apde.etl::chi_standard_varnames] instead.
 #'
 #' A column named `__deprecated__` is intentionally included to signal that this dataset is
 #' deprecated and should not be used for new work.
